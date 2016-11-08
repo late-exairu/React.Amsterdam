@@ -1,18 +1,22 @@
 @mixin placeholder {
-	::-webkit-input-placeholder	{@content}
-	:-moz-placeholder					{@content}
-	::-moz-placeholder				{@content}
-	:-ms-input-placeholder			{@content}  
+  ::-webkit-input-placeholder { @content }
+  :-moz-placeholder { @content }
+  ::-moz-placeholder { @content }
+  :-ms-input-placeholder { @content }
 }
 
 @mixin selection {
-	::-moz-selection { @content; }
-	::selection { @content; }
+  ::-moz-selection {
+    @content;
+  }
+  ::selection {
+    @content;
+  }
 }
 
 @mixin clip-path($clip) {
-	-webkit-clip-path: $clip;
-	-moz-clip-path: $clip;
-	-ms-clip-path: $clip;
-	clip-path: $clip;
+  -webkit-clip-path: $clip;
+  -moz-clip-path: $clip;
+  -ms-clip-path: $clip;
+  clip-path: $clip;
 }
