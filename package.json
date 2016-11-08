@@ -1,0 +1,26 @@
+{
+  "name": "FrontendAmsterdam.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Success!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/React-Amsterdam/FrontendAmsterdam.com.git"
+  },
+  "keywords": [],
+  "author": "PixelsCommander <denis.radin@gmail.com> (http://pixelscommander.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/React-Amsterdam/FrontendAmsterdam.com/issues"
+  },
+  "homepage": "https://github.com/React-Amsterdam/FrontendAmsterdam.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0",
+    "vinyl-ftp": "^0.5.0"
+  }
+}
