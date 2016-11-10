@@ -96,6 +96,20 @@ input[type="reset"]:focus {
   height: 100%;
 }
 
+header {
+  position: relative;
+}
+
+.green {
+  background-color: #00dd3b;
+}
+
+.green>a {
+  color: #000000;
+}
+
+
+
 b,
 h1,
 h2,
