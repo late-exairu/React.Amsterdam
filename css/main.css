@@ -459,10 +459,7 @@ header {
   position: relative; }
 
 .green {
-  background-color: #00dd3b; }
-
-.green > a {
-  color: #000000; }
+  background-color: rgba(0, 221, 59, 0.5); }
 
 b,
 h1,
