@@ -412,18 +412,11 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:fo
 textarea:focus,
 select:focus {
   border-color: #52a8ec !important;
-  outline: 0;
-  outline: thin dotted \9;
   -webkit-transition: border-color linear, box-shadow linear;
   -webkit-transition-delay: 0.2s, 0.2s;
   -moz-transition: border-color linear 0.2s, box-shadow linear 0.2s;
   -o-transition: border-color linear 0.2s, box-shadow linear 0.2s;
   transition: border-color linear 0.2s, box-shadow linear 0.2s; }
-
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus {
-  outline: 0; }
 
 .clearfix:after, .shedule-list__item:after {
   clear: both;
@@ -685,6 +678,37 @@ h6 {
     .basic-btn.bordered:hover {
       background: #00dd3b; }
 
+.subscribe-form__email {
+  font: 24px/1 "Lato", sans-serif;
+  display: inline-block;
+  padding: 13px 25px 14px;
+  border: none;
+  vertical-align: top;
+  color: #b5b5b5;
+  background: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s;
+  margin-bottom: 10px; }
+  .subscribe-form__email:focus, .subscribe-form__email:active {
+    outline: 2px #00dd3b;
+    background: #fff;
+    color: #000; }
+  @media only screen and (max-width: 680px) {
+    .subscribe-form__email {
+      font-size: 18px;
+      padding-top: 10px 25px; } }
+
+:root:root .subscribe-form__submit {
+  display: inline-block;
+  border: none;
+  flex: initial;
+  padding: 0 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: transform 0.3s; }
+  :root:root .subscribe-form__submit:hover {
+    transform: scale(1.1); }
+
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
@@ -914,8 +938,11 @@ h6 {
   margin: 35px 0 35px;
   text-align: center; }
   .socials-wrap__title {
-    font: 20px/1.6 "LatoBlack", sans-serif;
+    font: 40px/1.6 "LatoBlack", sans-serif;
     margin: 30px 0 22px; }
+    @media only screen and (max-width: 680px) {
+      .socials-wrap__title {
+        font-size: 30px; } }
   .socials-wrap .socials {
     margin: 22px 0 22px; }
 
@@ -976,7 +1003,8 @@ h6 {
 .event-info {
   text-align: center; }
   .event-info .socials-wrap {
-    margin: 73px 0 86px; }
+    padding-top: 30px;
+    margin: 0 0 86px; }
   .event-info .socials {
     margin: 32px 0 20px; }
 

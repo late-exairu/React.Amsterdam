@@ -34,12 +34,13 @@
       <nav class="main-nav">
         <ul class="main-menu">
           <li class="main-menu__item"><a href="#event" class="main-menu__link">The Event</a></li>
+          <li class="main-menu__item"><a href="#follow-us" class="main-menu__link">Follow Us</a></li>
           <li class="main-menu__item"><a href="#location" class="main-menu__link">Location</a></li>
           <!--<li class="main-menu__item"><a href="#speakers" class="main-menu__link">Speakers</a></li>-->
           <!--<li class="main-menu__item"><a href="#shedule" class="main-menu__link">Shedule</a></li>-->
           <!--<li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>-->
-          <li class="main-menu__item"><a href="#contacts" class="main-menu__link">Contact Us</a></li>
-          <li class="main-menu__item"><a href="2016/index.html" class="main-menu__link">2016</a></li>
+          <li class="main-menu__item"><a href="#contacts" class="main-menu__link">Contacts</a></li>
+          <li class="main-menu__item"><a href="2016/index.html" class="main-menu__link" target="_blank">2016</a></li>
 
           <li class="main-menu__item green"><a href="https://goo.gl/forms/ikuputAsQMj9eK612" class="main-menu__link">Submit Talk Proposal</a></li>
 
@@ -86,7 +87,10 @@
         </div>
 
         <div class="btn-block">
-          <a href="https://twitter.com/ReactAmsterdam" class="basic-btn">Follow us for updates</a>
+          <!--<a href="https://twitter.com/ReactAmsterdam" class="basic-btn">Follow us for updates</a>-->
+          <form action="//amsterdam.us13.list-manage.com/subscribe/post?u=910284f989b81c945f27311af&amp;id=70a763695e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form" target="_blank" novalidate>
+            <input type="email" value="" name="EMAIL" class="subscribe-form__email" id="mce-EMAIL" placeholder="email address" required><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_910284f989b81c945f27311af_70a763695e" tabindex="-1" value=""></div><input type="submit" value="Subscribe For Updates" name="subscribe" id="mc-embedded-subscribe" class="basic-btn subscribe-form__submit">
+          </form>
         </div>
 
       </div>
@@ -107,7 +111,7 @@
               with careful balance of practical and visionary talks. React Amsterdam 2017 will take place in the
               Kromhouthal - former shipbuilding factory at a waterfront of Amsterdam City center.</p>
 
-            <div class="socials-wrap">
+            <div class="socials-wrap"  id="follow-us">
               <p class="socials-wrap__title">Follow us</p>
 
               <ul class="socials">
@@ -266,7 +270,7 @@
       </div>
     </section>
 
-        <section class="section speakers" id="speakers">
+        <section class="section speakers  half-height" id="speakers">
             <div class="container aligner">
 
                 <h2 class="section__title">Want to give a talk?</h2>
