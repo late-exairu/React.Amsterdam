@@ -5,13 +5,15 @@
 .subscribe-form__email {
   font: 24px/1 "Lato", sans-serif;
   display: inline-block;
-  padding: 13px 25px 14px;
+  padding: 0 25px;
   border: none;
   vertical-align: top;
   color: #b5b5b5;
   background: rgba(0, 0, 0, 0.7);
   transition: background-color 0.3s;
   margin-bottom: 10px;
+  height: 60px;
+  line-height: 60px;
 
   &:focus, &:active {
     outline: 2px #00dd3b;
@@ -21,7 +23,8 @@
 
   @media only screen and (max-width: 680px) {
     font-size: 18px;
-    padding-top: 10px 25px;
+    height: 43px;
+    line-height: 43px;
   }
 }
 

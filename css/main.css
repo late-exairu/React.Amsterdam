@@ -681,13 +681,15 @@ h6 {
 .subscribe-form__email {
   font: 24px/1 "Lato", sans-serif;
   display: inline-block;
-  padding: 13px 25px 14px;
+  padding: 0 25px;
   border: none;
   vertical-align: top;
   color: #b5b5b5;
   background: rgba(0, 0, 0, 0.7);
   transition: background-color 0.3s;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  height: 60px;
+  line-height: 60px; }
   .subscribe-form__email:focus, .subscribe-form__email:active {
     outline: 2px #00dd3b;
     background: #fff;
@@ -695,7 +697,8 @@ h6 {
   @media only screen and (max-width: 680px) {
     .subscribe-form__email {
       font-size: 18px;
-      padding-top: 10px 25px; } }
+      height: 43px;
+      line-height: 43px; } }
 
 :root:root .subscribe-form__submit {
   display: inline-block;
