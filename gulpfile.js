@@ -14,7 +14,11 @@ gulp.task('deploy', function () {
     password: args.password,
     log: gutil.log
   });
-  gulp.src(['./**/*.*', '!./node_modules'])
+  gulp.src([
+      './**/*.*',
+      '!./.*',
+      '!./node_modules/**/*.*'
+    ])
     .pipe(conn.newer(remotePath))
     .pipe(conn.dest(remotePath));
 });

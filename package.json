@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Success!\"",
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "gulp": "gulp"
   },
   "devDependencies": {
     "compass-mixins": "^0.12.10",
