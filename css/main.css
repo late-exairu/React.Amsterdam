@@ -1103,6 +1103,8 @@ h6 {
     margin: 24px 0; }
     .participants-list__desc a {
       color: #000; }
+      .participants-list__desc a:hover {
+        text-decoration: underline; }
   .participants-list .socials {
     margin: 28px 0 20px; }
 
@@ -1215,6 +1217,14 @@ h6 {
     color: #3c3c3c; }
     .help__link:hover {
       color: #00dd3b; }
+
+.submit-proposal_text {
+  font: 20px/1.4 "Lato", sans-serif;
+  margin-bottom: 20px; }
+
+.submit-proposal_button {
+  text-align: center;
+  justify-content: center; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
