@@ -178,7 +178,11 @@
   }
 
   .basic-btn {
-    padding: 0 60px;
+    padding: 0 30px;
+
+    @media only screen and (max-width: 320px) {
+      padding: 0 10px;
+    }
 
     &:hover {
       transform: scale(1.1);
