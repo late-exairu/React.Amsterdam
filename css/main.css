@@ -678,9 +678,6 @@ h6 {
     .basic-btn.bordered:hover {
       background: #00dd3b; }
 
-.subscribe-form {
-  margin-top: 35px; }
-
 .subscribe-form__email {
   font: 24px/1 "Lato", sans-serif;
   display: inline-block;
@@ -1007,7 +1004,6 @@ h6 {
 .event-info {
   text-align: center; }
   .event-info .socials-wrap {
-    padding-top: 30px;
     margin: 0 0 86px; }
   .event-info .socials {
     margin: 32px 0 20px; }
@@ -1226,6 +1222,13 @@ h6 {
 .submit-proposal_button {
   text-align: center;
   justify-content: center; }
+
+.next-tickets-batch {
+  color: #3c3c3c;
+  text-decoration: underline;
+  font-size: 25px; }
+  .next-tickets-batch:hover {
+    color: #00dd3b; }
 
 /* Footer
 -----------------------------------------------------------------------------*/

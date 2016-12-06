@@ -326,7 +326,6 @@
   text-align: center;
 
   .socials-wrap {
-    padding-top: 30px;
     margin: 0 0 86px;
   }
 
@@ -635,4 +634,14 @@
 .submit-proposal_button {
   text-align: center;
   justify-content: center;
+}
+
+.next-tickets-batch {
+  color: #3c3c3c;
+  text-decoration: underline;
+  font-size: 25px;
+
+  &:hover {
+    color: #00dd3b;
+  }
 }
