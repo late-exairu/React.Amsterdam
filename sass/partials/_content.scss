@@ -89,6 +89,12 @@
 
   &.shedule {
     color: #000;
+
+    .section__subtitle,
+    .section__desc {
+      color: $clr-black;
+      text-align: center;
+    }
   }
 
   &.greetings {
@@ -472,6 +478,10 @@
   list-style: none;
   font: 24px/1.2 $lato;
 
+  .container + &{
+    margin-top: 0;
+  }
+
   &__container {
     max-width: 870px;
     margin: 0 auto;
@@ -507,6 +517,11 @@
     max-width: 27%;
     width: 100%;
     float: left;
+  }
+
+  &__speaker-company {
+    color: $clr-gray;
+    font: 18px/2 $lato;
   }
 
   &__desc {

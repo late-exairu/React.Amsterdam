@@ -846,6 +846,10 @@ h6 {
     padding: 0; }
   .section.shedule {
     color: #000; }
+    .section.shedule .section__subtitle,
+    .section.shedule .section__desc {
+      color: #3c3c3c;
+      text-align: center; }
   .section.greetings {
     min-height: 50vh; }
   .section.sponsors {
@@ -1110,6 +1114,8 @@ h6 {
   margin: 68px 0 0;
   list-style: none;
   font: 24px/1.2 "Lato", sans-serif; }
+  .container + .shedule-list {
+    margin-top: 0; }
   .shedule-list__container {
     max-width: 870px;
     margin: 0 auto;
@@ -1134,6 +1140,9 @@ h6 {
     max-width: 27%;
     width: 100%;
     float: left; }
+  .shedule-list__speaker-company {
+    color: #929292;
+    font: 18px/2 "Lato", sans-serif; }
   .shedule-list__desc {
     max-width: 60%;
     flex-grow: 1;
