@@ -700,6 +700,7 @@ h6 {
   border: none;
   flex: initial;
   padding: 0 25px;
+  color: #fff;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -829,6 +830,11 @@ h6 {
     font-weight: 300;
     color: #fff;
     margin: 38px 0; }
+    .section__desc a {
+      color: #3c3c3c;
+      text-decoration: underline; }
+      .section__desc a:hover {
+        color: #00dd3b; }
   .section.home {
     text-align: center;
     background: url(../img/dummy_bg.jpg) no-repeat center center;
@@ -1152,6 +1158,8 @@ h6 {
     font-weight: 500;
     margin: 0;
     padding: 0; }
+    .shedule-list__title span {
+      color: #929292; }
     .shedule-list__title.thin {
       font-weight: 300; }
   .shedule-list__p {
@@ -1238,6 +1246,17 @@ h6 {
   font-size: 25px; }
   .next-tickets-batch:hover {
     color: #00dd3b; }
+
+:root .workshops__title {
+  font: 36px/1.2 "Lato", sans-serif;
+  font-weight: 300;
+  margin: 30px 0 22px; }
+  @media only screen and (max-width: 680px) {
+    :root .workshops__title {
+      font-size: 24px; } }
+
+.workshops .shedule-list__time {
+  font-size: 18px; }
 
 /* Footer
 -----------------------------------------------------------------------------*/

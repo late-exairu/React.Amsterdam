@@ -59,6 +59,15 @@
     font-weight: 300;
     color: #fff;
     margin: 38px 0;
+
+    a {
+      color: #3c3c3c;
+      text-decoration: underline;
+
+      &:hover {
+        color: #00dd3b;
+      }
+    }
   }
 
   &.home {
@@ -536,6 +545,10 @@
     margin: 0;
     padding: 0;
 
+    span {
+      color: #929292;
+    }
+
     &.thin {
       font-weight: 300;
     }
@@ -659,4 +672,20 @@
   &:hover {
     color: #00dd3b;
   }
+}
+
+:root .workshops__title {
+  font: 36px/1.2 "Lato", sans-serif;
+  font-weight: 300;
+  margin: 30px 0 22px;
+
+  @media only screen and (max-width: 680px) {
+    font-size: 24px;
+  }
+}
+
+.workshops {
+ .shedule-list__time {
+    font-size: 18px;
+ }
 }
