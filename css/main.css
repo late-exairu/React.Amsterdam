@@ -1311,13 +1311,18 @@ h6 {
     .shedule-list__item {
       margin: 10px 0 0; }
   .sponsors-gold .sponsors-block__img-wrap {
-    width: 40%; }
+    width: 40%;
+    text-align: center; }
   .sponsors-bronze .sponsors-block__img-wrap,
   .sponsors-silver .sponsors-block__img-wrap {
     width: 25%; }
   .sponsors-block__img {
+    display: inline-block;
     width: 100%;
     height: auto; }
+  .sponsors-bronze .vertical .sponsors-block__img,
+  .sponsors-silver .vertical .sponsors-block__img {
+    width: 65%; }
   .sponsors-block__desc, .sponsors-block__subtitle {
     margin: 30px 0 20px; } }
 

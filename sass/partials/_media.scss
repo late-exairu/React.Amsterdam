@@ -81,6 +81,7 @@
 
     .sponsors-gold &__img-wrap {
       width: 40%;
+      text-align: center;
     }
 
     .sponsors-bronze &__img-wrap,
@@ -89,8 +90,14 @@
     }
 
     &__img {
+      display: inline-block;
       width: 100%;
       height: auto;
+    }
+
+    .sponsors-bronze .vertical &__img,
+    .sponsors-silver .vertical &__img {
+      width: 65%;
     }
 
     &__desc,
