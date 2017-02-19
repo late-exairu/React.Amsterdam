@@ -79,21 +79,18 @@
 
   .sponsors-block {
 
-    &__img-wrap {
-      margin: 20px 0;
-      width: 32%;
-      height: 32%;
-      max-height: 122px;
-      text-align: center;
+    .sponsors-gold &__img-wrap {
+      width: 40%;
+    }
+
+    .sponsors-bronze &__img-wrap,
+    .sponsors-silver &__img-wrap {
+      width: 25%;
     }
 
     &__img {
-      display: inline-block;
-      width: auto;
+      width: 100%;
       height: auto;
-      margin: 0 auto;
-      max-width: 80%;
-      max-height: 100%;
     }
 
     &__desc,
