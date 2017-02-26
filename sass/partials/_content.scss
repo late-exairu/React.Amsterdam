@@ -29,6 +29,10 @@
   padding: 34px 0;
   color: #000;
 
+  &.no-min-height {
+    min-height: auto;
+  }
+
   &.half-height {
     min-height: 50vh;
   }
@@ -80,6 +84,10 @@
   &.event {
     text-align: center;
     color: $clr-black;
+
+    .socials-wrap {
+      margin-top: 60px;
+    }
 
     .section__subtitle,
     .section__desc {
@@ -495,6 +503,11 @@
     max-width: 870px;
     margin: 0 auto;
     padding: 0 10px;
+    overflow: hidden;
+  }
+
+  &__container + &__container {
+    margin-top: 15px;
   }
 
   &__item {
@@ -677,7 +690,7 @@
 :root .workshops__title {
   font: 36px/1.2 "Lato", sans-serif;
   font-weight: 300;
-  margin: 30px 0 22px;
+  margin: 50px 0 22px;
 
   @media only screen and (max-width: 680px) {
     font-size: 24px;
@@ -688,4 +701,10 @@
  .shedule-list__time {
     font-size: 18px;
  }
+}
+
+.section__desc {
+  strong {
+    font-family: $latoB;
+  }
 }

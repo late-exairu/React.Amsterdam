@@ -808,6 +808,8 @@ h6 {
   min-height: 100vh;
   padding: 34px 0;
   color: #000; }
+  .section.no-min-height {
+    min-height: auto; }
   .section.half-height {
     min-height: 50vh; }
   .section.no-flex {
@@ -843,6 +845,8 @@ h6 {
   .section.event {
     text-align: center;
     color: #3c3c3c; }
+    .section.event .socials-wrap {
+      margin-top: 60px; }
     .section.event .section__subtitle,
     .section.event .section__desc {
       color: #3c3c3c; }
@@ -1125,7 +1129,10 @@ h6 {
   .shedule-list__container {
     max-width: 870px;
     margin: 0 auto;
-    padding: 0 10px; }
+    padding: 0 10px;
+    overflow: hidden; }
+  .shedule-list__container + .shedule-list__container {
+    margin-top: 15px; }
   .shedule-list__item {
     width: 100%;
     clear: both;
@@ -1250,13 +1257,16 @@ h6 {
 :root .workshops__title {
   font: 36px/1.2 "Lato", sans-serif;
   font-weight: 300;
-  margin: 30px 0 22px; }
+  margin: 50px 0 22px; }
   @media only screen and (max-width: 680px) {
     :root .workshops__title {
       font-size: 24px; } }
 
 .workshops .shedule-list__time {
   font-size: 18px; }
+
+.section__desc strong {
+  font-family: "LatoBlack", sans-serif; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
