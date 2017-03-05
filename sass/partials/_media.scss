@@ -114,6 +114,14 @@
     }
   }
 
+  .guarantee__list {
+    width: auto;
+  }
+
+  .guarantee__benefits li {
+    width: auto;
+    padding: 0;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -304,6 +312,15 @@
     }
   }
 
+  .participants-list_center {
+    justify-content: initial;
+    text-align: left;
+
+    .participants-list__item {
+      margin: 0;
+    }
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -448,7 +465,7 @@
     }
 
     &__desc {
-      padding: 0 0 0 22%;
+      padding: 0 0 0 15%;
     }
 
     &__p {
@@ -489,5 +506,12 @@
 
   .footer {
     padding: 45px 0 35px;
+  }
+
+
+  .guarantee__benefits {
+    &_text {
+      padding: 0 10px;
+    }
   }
 }

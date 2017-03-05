@@ -1119,6 +1119,14 @@ h6 {
   .participants-list .socials {
     margin: 28px 0 20px; }
 
+.participants-list_center {
+  justify-content: center;
+  text-align: center; }
+  .participants-list_center .participants-list__item {
+    margin: 0 50px; }
+  .participants-list_center .socials {
+    text-align: center; }
+
 .shedule-list {
   padding: 0;
   margin: 68px 0 0;
@@ -1277,6 +1285,31 @@ h6 {
 .section__desc strong {
   font-family: "LatoBlack", sans-serif; }
 
+.guarantee__list {
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+  list-style: none; }
+  .guarantee__list li {
+    margin-bottom: 10px; }
+
+.guarantee__list-bullet {
+  display: inline-block;
+  margin-right: 15px; }
+
+.guarantee__benefits {
+  list-style: none;
+  text-align: justify;
+  margin: 0;
+  padding: 0; }
+
+.guarantee__benefits li {
+  width: 49.5%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 0 40px; }
+
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
@@ -1347,7 +1380,12 @@ h6 {
   .sponsors-block .sponsors-partners .vertical {
     width: 20%; }
   .sponsors-block__desc, .sponsors-block__subtitle {
-    margin: 30px 0 20px; } }
+    margin: 30px 0 20px; }
+  .guarantee__list {
+    width: auto; }
+  .guarantee__benefits li {
+    width: auto;
+    padding: 0; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 680px) {
@@ -1459,7 +1497,12 @@ h6 {
     .greatings__title {
       font-size: 24px; }
     .greatings__p {
-      font-size: 18px; } }
+      font-size: 18px; }
+  .participants-list_center {
+    justify-content: initial;
+    text-align: left; }
+    .participants-list_center .participants-list__item {
+      margin: 0; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -1539,7 +1582,7 @@ h6 {
       font-size: 22px;
       font-weight: 600; }
     .shedule-list__desc {
-      padding: 0 0 0 22%; }
+      padding: 0 0 0 15%; }
     .shedule-list__p {
       line-height: 1.4; }
   .socials-wrap {
@@ -1556,4 +1599,6 @@ h6 {
     margin: 10px 0;
     display: block; }
   .footer {
-    padding: 45px 0 35px; } }
+    padding: 45px 0 35px; }
+  .guarantee__benefits_text {
+    padding: 0 10px; } }

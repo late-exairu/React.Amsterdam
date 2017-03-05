@@ -489,6 +489,19 @@
   }
 }
 
+.participants-list_center {
+  justify-content: center;
+  text-align: center;
+
+  .participants-list__item {
+    margin: 0 50px;
+  }
+
+  .socials {
+    text-align: center;
+  }
+}
+
 .shedule-list {
   padding: 0;
   margin: 68px 0 0;
@@ -722,4 +735,35 @@
   strong {
     font-family: $latoB;
   }
+}
+
+.guarantee__list {
+  margin: auto;
+  width: 60%;
+  font-size: 18px;
+  list-style: none;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.guarantee__list-bullet {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.guarantee__benefits {
+  list-style: none;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.guarantee__benefits li {
+  width: 49.5%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 0 40px;
 }
