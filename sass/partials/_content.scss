@@ -554,6 +554,10 @@
     float: left;
   }
 
+  &__speaker.full {
+    max-width: 80%;
+  }
+
   &__speaker-company {
     color: $clr-gray;
     font: 18px/2 $lato;

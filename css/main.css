@@ -1161,6 +1161,8 @@ h6 {
     max-width: 27%;
     width: 100%;
     float: left; }
+  .shedule-list__speaker.full {
+    max-width: 80%; }
   .shedule-list__speaker-company {
     color: #929292;
     font: 18px/2 "Lato", sans-serif; }

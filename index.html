@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://react.amsterdam/pic/og.jpg"/>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@reactamsterdam">
-  <link rel="stylesheet" href="css/main.css?v01042017"/>
+  <link rel="stylesheet" href="css/main.css?v04042017"/>
   <link rel="shortcut icon" href="img/favicon.png"/>
 
   <!--[if lt IE 9]>
@@ -35,8 +35,7 @@
         <ul class="main-menu">
           <li class="main-menu__item"><a href="#location" class="main-menu__link">Location</a></li>
           <li class="main-menu__item"><a href="#speakers" class="main-menu__link">Speakers</a></li>
-          <li class="main-menu__item"><a href="#talks" class="main-menu__link">Talks</a></li>
-          <li class="main-menu__item"><a href="#workshops" class="main-menu__link">Workshops</a></li>
+          <li class="main-menu__item"><a href="#talks" class="main-menu__link">Talks & Schedule</a></li>
           <li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>
           <!--<li class="main-menu__item"><a href="#contacts" class="main-menu__link">Contacts</a></li>-->
 
@@ -112,7 +111,7 @@
             <h3 class="section__subtitle workshops__title">Training day, 20 of April</h3>
 
             <p class="section__desc">
-              For those willing to get up to speed with React & React Native before the main conference day and learn from top industry trainers - we organize <a href="workshops.html">a pre-conference training day</a>. Stand-alone and conference-combo tickets available via <a href="https://www.eventbrite.com/e/react-amsterdam-conference-2017-tickets-29668111119?aff=siteworkshopstext">main order form</a>.
+              For those willing to get up to speed with React & React Native before the main conference day and learn from top industry trainers - we organize <a href="workshops.html">a pre-conference training day</a>.
             </p>
 
             <div class="socials-wrap"  id="follow-us">
@@ -803,6 +802,30 @@
                         </ul>
                     </li>
 
+                    <li class="participants-list__item">
+                        <div class="participants-list__img-wrap">
+                            <img class="participants-list__img" src="pic/speakers/john.jpg" height="194" width="194" alt="">
+                        </div>
+
+                        <h4 class="participants-list__name">John van de Water</h4>
+
+                        <p class="participants-list__info">Awkward, The Netherlands</p>
+
+                        <p class="participants-list__desc">
+                          Developer <a href="https://twitter.com/madeawkward">@madeawkward</a> / Volunteer <a href="https://twitter.com/CoderDojoRdam">@CoderDojoRdam</a> / Likes front-end development and React
+                        </p>
+
+                        <ul class="socials small">
+                            <li class="socials__item">
+                                <a class="socials__link" href="https://twitter.com/JohnvandeWater"><span class="icon-tw"></span></a>
+                            </li>
+
+                            <li class="socials__item">
+                                <a class="socials__link" href="https://github.com/jchn"><span class="icon-gh"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+
                     <li class="participants-list__item"></li>
 
                     <!--<li class="participants-list__item">-->
@@ -844,24 +867,40 @@
 
             <div class="container aligner">
               <p class="section__desc">
-                Full time schedule and final talks for both React (general) and Native tracks will be listed closer to the event dates. Expect additional workshops before the conference day and during the event in our breakout rooms.
+                Check-out the final line-up for two parallel tracks. All talks will be recorded and live streamed, so no need to worry if you will find both parallel track equality entertaining.
               </p>
             </div>
 
             <ul class="shedule-list clearfix">
-                <!--<li class="shedule-list__item">-->
-                    <!--<div class="shedule-list__container">-->
-                        <!--&lt;!&ndash;<div class="shedule-list__time">10.00</div>&ndash;&gt;-->
-                        <!--<div class="shedule-list__speaker">Open up</div>-->
-                        <!--<div class="shedule-list__desc">-->
-                            <!--<h3 class="shedule-list__title thin">Say, HELLO</h3>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">08:00</div>
+                        <div class="shedule-list__speaker full">
+                          Registation
+                        </div>
+                    </div>
+                </li>
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">14.45</div>-->
+                        <div class="shedule-list__time">08:30</div>
+                        <div class="shedule-list__speaker full">
+                          Welcome Breakfast
+                          <div class="shedule-list__speaker-company"> by <a href="https://www.kega.nl/">Kega</a></div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">09:30</div>
+                        <div class="shedule-list__speaker full">Conference opening</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">09:50</div>
                         <div class="shedule-list__speaker">
                           Max Stoiber
                           <div class="shedule-list__speaker-company">KeystoneJS</div>
@@ -882,21 +921,7 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">13.15</div>-->
-                        <div class="shedule-list__speaker">
-                          Ken Wheeler
-                          <div class="shedule-list__speaker-company">Formidable</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Fun With Fiber Custom Renderers</h3>
-                            <p class="shedule-list__p">In this talk I will be detailing how to create custom renderers using the new Fiber architecture, and showing examples exploring some fun things you can do with them.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">10.30</div>-->
+                        <div class="shedule-list__time">10.20</div>
                         <div class="shedule-list__speaker">
                           Jessica Chan
                           <div class="shedule-list__speaker-company">Pinterest</div>
@@ -910,7 +935,61 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">11.45</div>-->
+                        <div class="shedule-list__time">11:00</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">11:30</div>
+                        <div class="shedule-list__speaker">
+                          Stefano Masini
+                          <div class="shedule-list__speaker-company">Balsamiq</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">A real-world Relay application in production</h3>
+                            <p class="shedule-list__p">This is the tale of how we, at Balsamiq, rolled out our new web-app, from greenfield to production. A real-world application with real-time collaboration, built using Relay, Redux, React-rendered html emails, node.js, Redis, etc., running on AWS using Convox. Even at small/medium scale, if you're serious about building a good product you will eventually have to build a complex stack. I will share the details of the services we use, how we make them fit together and what we learned in the process.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">12:00</div>
+                        <div class="shedule-list__speaker">
+                          Lightning Talks
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">TBD</h3>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">12:30</div>
+                        <div class="shedule-list__speaker full">Lunch & Networking</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">14:00</div>
+                        <div class="shedule-list__speaker">
+                          Ken Wheeler
+                          <div class="shedule-list__speaker-company">Formidable</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Fun With Fiber Custom Renderers</h3>
+                            <p class="shedule-list__p">In this talk I will be detailing how to create custom renderers using the new Fiber architecture, and showing examples exploring some fun things you can do with them.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">14:30</div>
                         <div class="shedule-list__speaker">
                           Alex Castillo
                           <div class="shedule-list__speaker-company">Netflix</div>
@@ -924,31 +1003,14 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">12.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Stefano Masini
-                          <div class="shedule-list__speaker-company">Balsamiq</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">A real-world Relay application in production</h3>
-                            <p class="shedule-list__p">This is the tale of how we, at Balsamiq, rolled out our new web-app, from greenfield to production. A real-world application with real-time collaboration, built using Relay, Redux, React-rendered html emails, node.js, Redis, etc., running on AWS using Convox. Even at small/medium scale, if you're serious about building a good product you will eventually have to build a complex stack. I will share the details of the services we use, how we make them fit together and what we learned in the process.</p>
-                        </div>
+                        <div class="shedule-list__time">15:00</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
                     </div>
                 </li>
 
-                <!--<li class="shedule-list__item">-->
-                    <!--<div class="shedule-list__container">-->
-                        <!--&lt;!&ndash;<div class="shedule-list__time">14.00</div>&ndash;&gt;-->
-                        <!--<div class="shedule-list__speaker">Coffee Break!</div>-->
-                        <!--<div class="shedule-list__desc">-->
-                            <!--<h3 class="shedule-list__title thin">Lifes good</h3>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">15:30</div>
                         <div class="shedule-list__speaker">
                           Michele Bertoli
                           <div class="shedule-list__speaker-company">Facebook</div>
@@ -962,35 +1024,7 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Forbes Lindesay
-                          <div class="shedule-list__speaker-company">Facebook</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Flow Typing a React Codebase</h3>
-                            <p class="shedule-list__p">Adding type checking to your code can be a frustrating experience at first.  In this talk, Forbes will help you through that initial stage by identifying some of the problems you're likely to experience and giving you the tools to work through them.  We'll cover adding types to code that initially looks too dynamic to type, adding runtime type checking (and whether that's a good idea) and finally, how you publish your type checked modules to npm.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Michel Weststrate
-                          <div class="shedule-list__speaker-company">Mendix</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Complexity: Divide and Conquer!</h3>
-                            <p class="shedule-list__p">"Reactive programming" still sounds scary to many developers. As if it is an elevated way of thinking, only accessible to the chosen few. Nothing is less true! It is the most natural way to look at programming problems. You just might not realize it yet! In this talk, Michel will demonstrate that many complex UI problems, such as form validation and routing, can all be seen as '*actions* that change *facts* which leads to *reactions*'. And as soon as we start distinguishing those concepts in our applications; our code will become more declarative, more concise and less imperative.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">16:00</div>
                         <div class="shedule-list__speaker">
                           Nik Graf
                           <div class="shedule-list__speaker-company">Serverless</div>
@@ -1006,14 +1040,56 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">16:30</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">17:00</div>
                         <div class="shedule-list__speaker">
-                          Chris Biscardi
-                          <div class="shedule-list__speaker-company">Dropbox</div>
+                          Michel Weststrate
+                          <div class="shedule-list__speaker-company">Mendix</div>
                         </div>
                         <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Demystifying GraphQL Clients</h3>
-                            <p class="shedule-list__p">Find out how choosing a GraphQL client can impact development. From Relay to template strings, we will explore topics such as modularity, schema checking, and static analysis.</p>
+                            <h3 class="shedule-list__title">Complexity: Divide and Conquer!</h3>
+                            <p class="shedule-list__p">"Reactive programming" still sounds scary to many developers. As if it is an elevated way of thinking, only accessible to the chosen few. Nothing is less true! It is the most natural way to look at programming problems. You just might not realize it yet! In this talk, Michel will demonstrate that many complex UI problems, such as form validation and routing, can all be seen as '*actions* that change *facts* which leads to *reactions*'. And as soon as we start distinguishing those concepts in our applications; our code will become more declarative, more concise and less imperative.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">17:30</div>
+                        <div class="shedule-list__speaker">
+                          Forbes Lindesay
+                          <div class="shedule-list__speaker-company">Facebook</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Flow Typing a React Codebase</h3>
+                            <p class="shedule-list__p">Adding type checking to your code can be a frustrating experience at first.  In this talk, Forbes will help you through that initial stage by identifying some of the problems you're likely to experience and giving you the tools to work through them.  We'll cover adding types to code that initially looks too dynamic to type, adding runtime type checking (and whether that's a good idea) and finally, how you publish your type checked modules to npm.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">18:10</div>
+                        <div class="shedule-list__speaker">
+                          Vincent Riemer & Bruce Lane
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Closing & Surprise Talk</h3>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">18:40</div>
+                        <div class="shedule-list__speaker full">
+                          Afterparty
                         </div>
                     </div>
                 </li>
@@ -1025,45 +1101,15 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">09:50</div>
                         <div class="shedule-list__speaker">
-                          Mike Grabowski
-                          <div class="shedule-list__speaker-company">Callstack.io</div>
+                          Gant Laborde
+                          <div class="shedule-list__speaker-company">Infinite Red</div>
                         </div>
                         <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Universal React</h3>
-                            <p class="shedule-list__p">React Native opens up the world of mobile development for many of us, front-end engineers. It not only allows us to use technologies we know already, like React, to provide first-class native experience to our users, but also to support many platforms, like Android and iOS at once, from within the same codebase.<br> This talk will explore various patterns that turned to be useful over the course of few projects I did. It will also demonstrate techniques that can be used to write truly universal apps, ie. ones that share core across web, native and more.</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Tal Kol
-                          <div class="shedule-list__speaker-company">Wix</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Performance Limitations of React Native and How to Overcome Them</h3>
-                            <p class="shedule-list__p">React Native holds great promise in terms of excellent developer experience with JavaScript and code reuse between platforms. The big question is  - do these benefits come at the price of performance? How well can React Native hold its own against purely native implementations?</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Aaron Greenwald
-                          <div class="shedule-list__speaker-company">Wix</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Testing & React Native: Lessons from the Battlefield</h3>
+                            <h3 class="shedule-list__title">Coding Mobile with the Pros</h3>
                             <p class="shedule-list__p">
-                              Wix has been about cutting edge web development for a while, and we're all about TDD. When we started mobile with RN, we struggled to replicate our test-heavy workflow that we'd grown to love. We lacked tooling, best practices, and general know-how.
-                              <br>
-                              In this talk, you'll hear about what works and what doesn't. You'll find out what methods we tried and rejected so you won't have to make the same mistakes, and you'll get pointers toward approaches that we've found work so you can get started on the right foot.
+                              React Native mobile just got easier. Learn how to tap into rapid development by using what the pros are ready to give you!
                             </p>
                         </div>
                     </div>
@@ -1071,7 +1117,30 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">10:20</div>
+                        <div class="shedule-list__speaker">
+                          Parashuram N
+                          <div class="shedule-list__speaker-company">Microsoft</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Web like release agility for React Native apps</h3>
+                            <p class="shedule-list__p">
+                              Code Push for React Native brings web like release agility to mobile apps by enabling developers to update apps instantly. This talk will cover the next iteration of Code Push and how it fits into a complete suite of DevOps services built for called Mobile Center, built for React Native.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">11:00</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">11:30</div>
                         <div class="shedule-list__speaker">
                           Woody Rousseau
                           <div class="shedule-list__speaker-company">Theodo UK</div>
@@ -1091,7 +1160,77 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">12:00</div>
+                        <div class="shedule-list__speaker">
+                          Lightning Talks
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">TBD</h3>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">12:30</div>
+                        <div class="shedule-list__speaker full">Lunch & Networking</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">14:00</div>
+                        <div class="shedule-list__speaker">
+                          Mike Grabowski
+                          <div class="shedule-list__speaker-company">Callstack.io</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Universal React</h3>
+                            <p class="shedule-list__p">React Native opens up the world of mobile development for many of us, front-end engineers. It not only allows us to use technologies we know already, like React, to provide first-class native experience to our users, but also to support many platforms, like Android and iOS at once, from within the same codebase.<br> This talk will explore various patterns that turned to be useful over the course of few projects I did. It will also demonstrate techniques that can be used to write truly universal apps, ie. ones that share core across web, native and more.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">14:30</div>
+                        <div class="shedule-list__speaker">
+                          Tal Kol
+                          <div class="shedule-list__speaker-company">Wix</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">Performance Limitations of React Native and How to Overcome Them</h3>
+                            <p class="shedule-list__p">React Native holds great promise in terms of excellent developer experience with JavaScript and code reuse between platforms. The big question is  - do these benefits come at the price of performance? How well can React Native hold its own against purely native implementations?</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">15:00</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">15:30</div>
+                        <div class="shedule-list__speaker">
+                          Krzysztof Magiera
+                          <div class="shedule-list__speaker-company">Software Mansion</div>
+                        </div>
+                        <div class="shedule-list__desc">
+                            <h3 class="shedule-list__title">React Native Touch & Gesture</h3>
+                            <p class="shedule-list__p">
+                              React Native allows for building great native apps by utilising native mobile components. Apparently handling touch and gestures is quite tricky as it often needs to interact with the application code which runs asynchronously in the javascript VM. This talk is going to be about how the gesture system has been designed and implemented in React Native and how to use it to stay out of trouble.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">16:00</div>
                         <div class="shedule-list__speaker">
                           Kurtis Kemple
                           <div class="shedule-list__speaker-company">Major League Soccer</div>
@@ -1111,15 +1250,24 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">16:30</div>
+                        <div class="shedule-list__speaker full">Coffee Break</div>
+                    </div>
+                </li>
+
+                <li class="shedule-list__item">
+                    <div class="shedule-list__container">
+                        <div class="shedule-list__time">17.00</div>
                         <div class="shedule-list__speaker">
-                          Parashuram N
-                          <div class="shedule-list__speaker-company">Microsoft</div>
+                          Aaron Greenwald
+                          <div class="shedule-list__speaker-company">Wix</div>
                         </div>
                         <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Web like release agility for React Native apps</h3>
+                            <h3 class="shedule-list__title">Testing & React Native: Lessons from the Battlefield</h3>
                             <p class="shedule-list__p">
-                              Code Push for React Native brings web like release agility to mobile apps by enabling developers to update apps instantly. This talk will cover the next iteration of Code Push and how it fits into a complete suite of DevOps services built for called Mobile Center, built for React Native.
+                              Wix has been about cutting edge web development for a while, and we're all about TDD. When we started mobile with RN, we struggled to replicate our test-heavy workflow that we'd grown to love. We lacked tooling, best practices, and general know-how.
+                              <br>
+                              In this talk, you'll hear about what works and what doesn't. You'll find out what methods we tried and rejected so you won't have to make the same mistakes, and you'll get pointers toward approaches that we've found work so you can get started on the right foot.
                             </p>
                         </div>
                     </div>
@@ -1127,60 +1275,17 @@
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
+                        <div class="shedule-list__time">17:30</div>
                         <div class="shedule-list__speaker">
-                          Krzysztof Magiera
-                          <div class="shedule-list__speaker-company">Software Mansion</div>
+                          Chris Biscardi
+                          <div class="shedule-list__speaker-company">Dropbox</div>
                         </div>
                         <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">React Native Touch & Gesture</h3>
-                            <p class="shedule-list__p">
-                              React Native allows for building great native apps by utilising native mobile components. Apparently handling touch and gestures is quite tricky as it often needs to interact with the application code which runs asynchronously in the javascript VM. This talk is going to be about how the gesture system has been designed and implemented in React Native and how to use it to stay out of trouble.
-                            </p>
+                            <h3 class="shedule-list__title">Demystifying GraphQL Clients</h3>
+                            <p class="shedule-list__p">Find out how choosing a GraphQL client can impact development. From Relay to template strings, we will explore topics such as modularity, schema checking, and static analysis.</p>
                         </div>
                     </div>
                 </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Gant Laborde
-                          <div class="shedule-list__speaker-company">Infinite Red</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Coding Mobile with the Pros</h3>
-                            <p class="shedule-list__p">
-                              React Native mobile just got easier. Learn how to tap into rapid development by using what the pros are ready to give you!
-                            </p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <!--<div class="shedule-list__time">15.30</div>-->
-                        <div class="shedule-list__speaker">
-                          Vincent Riemer & Bruce Lane
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Secret Talk ;)</h3>
-                            <p class="shedule-list__p">
-                              A surprise session at the end of the conference day.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-
-                <!--<li class="shedule-list__item">-->
-                    <!--<div class="shedule-list__container">-->
-                        <!--&lt;!&ndash;<div class="shedule-list__time">17.00</div>&ndash;&gt;-->
-                        <!--<div class="shedule-list__speaker">Coffee Break!</div>-->
-                        <!--<div class="shedule-list__desc">-->
-                            <!--<h3 class="shedule-list__title thin">Lifes good</h3>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
             </ul>
 
             <h2 class="section__subtitle">Lightning Talks</h2>
@@ -1234,67 +1339,21 @@
                         </div>
                     </div>
                 </li>
-            </ul>
-        </section>
-
-        <section class="section shedule no-flex" id="workshops">
-
-            <h2 class="section__title">workshops</h2>
-
-            <div class="container aligner">
-              <p class="section__desc">
-                Workshops will be hosted a day before the conference, on 20th of April. Choose one of the full-day programmes you're interested the most and boost your React skills with our best trainers.<br>
-              </p>
-              <p class="section__desc">
-                Read more about the programmes at the dedicated <a href="workshops.html">training day page</a>.
-              </p>
-            </div>
-
-            <ul class="shedule-list workshops clearfix">
-                <li class="shedule-list__item">
-                    <div class="shedule-list__container">
-                        <div class="shedule-list__speaker">
-                          Max Stoiber
-                          <div class="shedule-list__speaker-company">Training day, April 20</div>
-                        </div>
-                        <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">React Workshop with Max Stoiber</h3>
-                            <p class="shedule-list__p">
-                              - Setup and ES6 basics<br>
-                              - React intro (ReactDOM/React, Components, JSX,...)<br>
-                              - Interaction and State Management<br>
-                              - Lifecycles
-                            </p>
-                        </div>
-                    </div>
-                </li>
 
                 <li class="shedule-list__item">
                     <div class="shedule-list__container">
+                        <!--<div class="shedule-list__time">15.30</div>-->
                         <div class="shedule-list__speaker">
-                          Mike Grabowski
-                          <div class="shedule-list__speaker-company">Training day, April 20</div>
+                          John van de Water
+                          <div class="shedule-list__speaker-company">Awkward</div>
                         </div>
                         <div class="shedule-list__desc">
-                            <h3 class="shedule-list__title">Getting started with React Native <span>by Callstack</span></h3>
-                            <p class="shedule-list__p">
-                              - Introduction to React Native (setting up project, tools, debug)<br>
-                              - Core components (layout, styling)<br>
-                              - Lists<br>
-                              - Navigation<br>
-                              - Animations<br>
-                              - Native modules
-                            </p>
+                            <h3 class="shedule-list__title">Creating a pixel-art editor using React and Redux</h3>
+                            <p class="shedule-list__p">As a side project I'm working on a pixel art editor which uses some interesting concepts from both React and Redux which I'd like to share with you.</p>
                         </div>
                     </div>
                 </li>
             </ul>
-
-            <div class="container aligner">
-              <p class="section__desc" style="font-size: 18px">
-                *Trainings will be held at IIRE Conference Center, Lombokstraat 40, 1094 AL Amsterdam.
-              </p>
-            </div>
         </section>
 
     <section class="section sponsors" id="sponsors">
