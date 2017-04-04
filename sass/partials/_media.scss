@@ -197,7 +197,6 @@
     }
 
     &__subtitle {
-      font-size: 20px;
       margin: 20px 0;
     }
 
@@ -452,7 +451,7 @@
     font-size: 22px;
 
     &__time {
-      max-width: 22%;
+      max-width: 20%;
     }
 
     &__speaker {
@@ -465,7 +464,19 @@
     }
 
     &__desc {
-      padding: 0 0 0 15%;
+      padding: 0 3% 0 20%;
+
+      .shedule-list__p {
+        display: none;
+      }
+    }
+
+    &__desc.no-padding {
+      padding-left: 0;
+
+      .shedule-list__p {
+        display: none;
+      }
     }
 
     &__p {

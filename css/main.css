@@ -1162,7 +1162,7 @@ h6 {
     width: 100%;
     float: left; }
   .shedule-list__speaker.full {
-    max-width: 80%; }
+    max-width: 78%; }
   .shedule-list__speaker-company {
     color: #929292;
     font: 18px/2 "Lato", sans-serif; }
@@ -1439,7 +1439,6 @@ h6 {
     font-size: 56px;
     margin: 30px auto; }
   .section__subtitle {
-    font-size: 20px;
     margin: 20px 0; }
   .section__desc {
     font-size: 18px;
@@ -1577,14 +1576,20 @@ h6 {
   .shedule-list {
     font-size: 22px; }
     .shedule-list__time {
-      max-width: 22%; }
+      max-width: 20%; }
     .shedule-list__speaker {
       max-width: 78%; }
     .shedule-list__title {
       font-size: 22px;
       font-weight: 600; }
     .shedule-list__desc {
-      padding: 0 0 0 15%; }
+      padding: 0 3% 0 20%; }
+      .shedule-list__desc .shedule-list__p {
+        display: none; }
+    .shedule-list__desc.no-padding {
+      padding-left: 0; }
+      .shedule-list__desc.no-padding .shedule-list__p {
+        display: none; }
     .shedule-list__p {
       line-height: 1.4; }
   .socials-wrap {
