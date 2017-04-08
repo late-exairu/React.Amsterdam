@@ -569,6 +569,13 @@
     float: left;
   }
 
+  &__desc.lightning {
+    .shedule-list__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+  }
+
   &__title {
     font: 24px/1.2 $lato;
     font-weight: 500;

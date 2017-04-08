@@ -1170,6 +1170,9 @@ h6 {
     max-width: 60%;
     flex-grow: 1;
     float: left; }
+  .shedule-list__desc.lightning .shedule-list__title {
+    margin-bottom: 10px;
+    font-size: 20px; }
   .shedule-list__title {
     font: 24px/1.2 "Lato", sans-serif;
     font-weight: 500;
