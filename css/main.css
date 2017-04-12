@@ -1240,6 +1240,8 @@ h6 {
     display: inline-block;
     vertical-align: middle;
     margin: 25px 3.5%; }
+    .sponsors-block__img-wrap a:first-child {
+      display: block; }
   .sponsors-block__img {
     display: block; }
   .sponsors-block__show-more {
@@ -1314,6 +1316,19 @@ h6 {
   text-align: left;
   vertical-align: top;
   padding: 0 40px; }
+
+.sponsor-hiring {
+  background: #a5a5a5;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  opacity: .7;
+  transition: 0.3s opacity; }
+  .sponsor-hiring:hover {
+    opacity: 1; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
