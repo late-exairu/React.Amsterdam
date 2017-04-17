@@ -625,6 +625,8 @@
   &__title {
     font: 28px/1.38 $lato;
     margin: 0 0 34px;
+    display: inline-block;
+    pointer-events: auto;
 
     span {
       font: 28px/1.38 $latoB;

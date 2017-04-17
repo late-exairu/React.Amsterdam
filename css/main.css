@@ -1208,7 +1208,9 @@ h6 {
     flex-grow: 1; }
   .map__title {
     font: 28px/1.38 "Lato", sans-serif;
-    margin: 0 0 34px; }
+    margin: 0 0 34px;
+    display: inline-block;
+    pointer-events: auto; }
     .map__title span {
       font: 28px/1.38 "LatoBlack", sans-serif; }
   .map .basic-btn {
