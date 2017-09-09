@@ -786,6 +786,10 @@ h6 {
     .main-menu__link:hover {
       text-decoration: underline; }
 
+.header-youtube__iframe {
+  display: inline-block;
+  max-width: 100%; }
+
 /* Content
 -----------------------------------------------------------------------------*/
 .logo {

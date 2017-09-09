@@ -88,3 +88,12 @@
     @include transition (none linear .2s);
   }
 }
+
+.header-youtube {
+
+}
+
+.header-youtube__iframe {
+  display: inline-block;
+  max-width: 100%;
+}
