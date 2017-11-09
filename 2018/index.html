@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>React Amsterdam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<nav class="container">
+
+			<button class="menu-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<nav class="main-nav">
+
+				<ul class="socials">
+					<li class="socials__item">
+						<a href="#" class="socials__link">
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="socials__item">
+						<a href="#" class="socials__link">
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-fb"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="main-menu">
+					<li class="main-menu__item"><a href="#event" class="main-menu__link">The Event</a></li>
+					<li class="main-menu__item"><a href="#location" class="main-menu__link">Location</a></li>
+					<li class="main-menu__item"><a href="#speakers" class="main-menu__link">Speakers</a></li>
+					<li class="main-menu__item"><a href="#schedule" class="main-menu__link">schedule</a></li>
+					<li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>
+					<li class="main-menu__item active"><a href="#contacts" class="main-menu__link">Contact us</a></li>
+					<li class="main-menu__item accent"><a href="#sponsors" class="main-menu__link">Buy Tickets</a></li>
+				</ul>
+			</nav>
+		</nav>
+	</header><!-- .header -->
+
+	<main class="content">
+		<section class="section intro" id="intro">
+			<video class="intro__video" preload="auto" muted autoplay loop poster="img/dummy_bg.jpg" id="bgvid">
+		        <source src="video/video.webm" type="video/webm">
+		        <source src="video/video.mp4" type="video/mp4">
+	      	</video>
+
+	      	<div class="intro__overlay"></div>
+			
+			<div class="container aligner">
+
+				<div class="logo">
+					<a href="/" class="logo__link">React Amsterdam</a>
+				</div>
+
+				<p class="intro__desc">April 13, 2018, Kromhouthal, Amsterdam</p>
+				<p class="intro__title">THE BIGGEST REACT CONFERENCE WORLDWIDE</p>
+
+				<div class="event-stats">
+					<div class="event-stats__item">
+						<div class="event-stats__num">2</div>
+						<p class="event-stats__desc">tracks<span>General + React Native</span></p>
+					</div>
+
+					<div class="event-stats__item">
+						<div class="event-stats__num">25+</div>
+						<p class="event-stats__desc">speakers<span>from all over the globe</span></p>
+					</div>
+
+					<div class="event-stats__item">
+						<div class="event-stats__num">
+							1200<svg class="event-stats__heart" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#heart"></use>
+							</svg>
+						</div>
+						<p class="event-stats__desc">react lovers<span>fans and lovers</span></p>
+					</div>
+				</div>
+
+				<div class="intro__btns"></div>
+
+				<div class="btn-wrap">
+					<a href="#" class="basic-btn red">
+						<svg class="basic-btn__icon" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-yt"></use>
+						</svg>
+						Live Stream
+					</a>
+					<a href="#" class="basic-btn">
+						<svg class="basic-btn__icon" role="img" aria-hidden="true">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-sl"></use>
+						</svg>
+						Join Slack
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section event" id="event">
+			<div class="container">
+				<h2 class="c-title">The Event</h2>
+				<p class="event__subtitle">React Amsterdam is a celebration of good things coming together: </p>
+				<p class="event__title">React that rocks and spring in Amsterdam that blossoms</p>
+				<p class="event__p">A full-day, two-track conference on all things React, gathering Front-end and Full-stack developers across the globe in the tech heart of Europe. After a very successful event in 2017, we're coming back with a new gig on April 13, 2018. Mark your calendars for the biggest React community event.</p>
+				<p class="event__p">Call For Speakers and first ticket announcements will be announced soon.<br/> Stay tuned for updates!</p>
+
+				<h3 class="event__sep-title">Feel The Vibes</h3>
+				<p class="event__p">Check out the the after-movie and mood videos from React Amsterdam 2017 edition:</p>
+
+				<!-- <div class="video-slider">
+					<div class="video-slider__item">
+						<iframe width="1110" height="624" src="https://www.youtube.com/embed/bLgrUrPJdKE?rel=0&amp;controls=0" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+					
+					<div class="video-slider__item">
+						<iframe width="1110" height="624" src="https://www.youtube.com/embed/bLgrUrPJdKE?rel=0&amp;controls=0" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+				</div> -->
+
+				<p class="event__p">Check out our <a href="#">YouTube channel</a> for more talk recordings of previous editions and meetups.</p>
+			</div>
+		</section>
+
+		<section class="section follow" id="follow">
+			<div class="container">
+				<h2 class="c-title">Follow us for updates</h2>
+
+				<ul class="socials med center">
+					<li class="socials__item">
+						<a href="#" class="socials__link">
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="socials__item">
+						<a href="https://twitter.com/ReactAmsterdam" class="socials__link"> 
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-fb"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="socials__item">
+						<a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link">
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-yt"></use>
+							</svg>
+						</a>
+					</li>
+
+					<li class="socials__item">
+						<a href="#" class="socials__link">
+							<svg class="socials__img" role="img" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-sl"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+
+				<p class="follow__desc">Subscribe for conference email updates to hear about the latest news and special deals:</p>
+
+				<form action="//amsterdam.us13.list-manage.com/subscribe/post?u=910284f989b81c945f27311af&amp;id=70a763695e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form" target="_blank" novalidate>
+					<input type="email" value="" name="EMAIL" class="subscribe-form__email" id="mce-EMAIL" placeholder="Email address" required>
+
+					<div style="position: absolute; left: -5000px;" aria-hidden="true">
+						<input type="text" name="b_910284f989b81c945f27311af_70a763695e" tabindex="-1" value="">
+					</div>
+
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="basic-btn subscribe-form__submit">
+				</form>
+			</div>
+		</section>
+
+		<section class="section location" id="location">
+			<div class="container">
+				<h2 class="c-title">Location</h2>
+
+				<div class="location__logo"></div>
+				
+				<div class="map">
+					<div class="map__desc">
+						<p class="map__title">Kromhouthal</p>
+						<p class="map__address">Gedempt Hamerkanaal 231<br/> Amsterdam, 1021 KP</p>
+
+						<a class="map__btn basic-btn" href="#">View on map</a>
+					</div>
+
+					<div id="map"></div>
+					
+					<script>
+						function initMap() {
+							var mapDiv = document.getElementById('map');
+							var map = new google.maps.Map(mapDiv, {
+								center: {lat: 52.383413, lng: 4.916166},
+								zoom: 16,
+								scrollwheel: false,
+								disableDefaultUI: true,
+								draggable: true
+							});
+					
+							var styles = [
+								{
+									"featureType": "all",
+									"elementType": "labels.text.fill",
+									"stylers": [
+										{
+											"saturation": 36
+										},
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 40
+										}
+									]
+								},
+								{
+									"featureType": "all",
+									"elementType": "labels.text.stroke",
+									"stylers": [
+										{
+											"visibility": "on"
+										},
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 16
+										}
+									]
+								},
+								{
+									"featureType": "all",
+									"elementType": "labels.icon",
+									"stylers": [
+										{
+											"visibility": "off"
+										}
+									]
+								},
+								{
+									"featureType": "administrative",
+									"elementType": "geometry.fill",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 20
+										}
+									]
+								},
+								{
+									"featureType": "administrative",
+									"elementType": "geometry.stroke",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 17
+										},
+										{
+											"weight": 1.2
+										}
+									]
+								},
+								{
+									"featureType": "landscape",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 20
+										}
+									]
+								},
+								{
+									"featureType": "poi",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 21
+										}
+									]
+								},
+								{
+									"featureType": "road.highway",
+									"elementType": "geometry.fill",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 17
+										}
+									]
+								},
+								{
+									"featureType": "road.highway",
+									"elementType": "geometry.stroke",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 29
+										},
+										{
+											"weight": 0.2
+										}
+									]
+								},
+								{
+									"featureType": "road.arterial",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 18
+										}
+									]
+								},
+								{
+									"featureType": "road.local",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 16
+										}
+									]
+								},
+								{
+									"featureType": "transit",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 19
+										}
+									]
+								},
+								{
+									"featureType": "water",
+									"elementType": "geometry",
+									"stylers": [
+										{
+											"color": "#000000"
+										},
+										{
+											"lightness": 17
+										}
+									]
+								}
+							];
+					
+							var marker = new google.maps.Marker({
+								position: new google.maps.LatLng(52.383038, 4.920514),
+								map: map,
+								title: 'Your Sky',
+								icon: 'img/marker.svg'
+							});
+					
+							map.setOptions({styles: styles});
+						}
+					</script>
+					
+					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ZEocFpuybFyJZg92LhWsvIJdo56S34s&callback=initMap">
+					</script>
+				</div>
+			</div>
+		</section>
+
+		<section class="section speakers" id="speakers">
+			<div class="container">
+				<h2 class="c-title">Speakers</h2>
+				
+				<ul class="speakers-list">
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_1.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Michel Weststrate</h4>
+						<p class="speakers-list__info">Mendix, Rotterdam</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_2.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Alex Castillo</h4>
+						<p class="speakers-list__info">Netflix, USA</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_3.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Ken Wheeler</h4>
+						<p class="speakers-list__info">Formidable, USA</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_4.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Michele Bertoli</h4>
+						<p class="speakers-list__info">Facebook, United Kingdom</p>
+					</li>
+
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_5.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Forbes Lindesay</h4>
+						<p class="speakers-list__info">Facebook, United Kingdom</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_6.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Jessica Chan</h4>
+						<p class="speakers-list__info">Pinterest, USA</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_7.png" height="194" width="194" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Stefano Masini</h4>
+						<p class="speakers-list__info">Balsamiq, The Netherlands</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_8.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Kurtis Kemple</h4>
+						<p class="speakers-list__info">Major League Soccer, USA</p>
+					</li>
+
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_9.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Nik Graf</h4>
+						<p class="speakers-list__info">Serverless, Austria</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_10.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Andrey Okonetchnikov</h4>
+						<p class="speakers-list__info">Feedly, Austria</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_11.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Robert Haritonov</h4>
+						<p class="speakers-list__info">Zoover, The Netherlands</p>
+					</li>
+					
+					<li class="speakers-list__item">
+						<div class="speakers-list__img-wrap">
+							<img class="speakers-list__img" src="pic/speaker_12.png" height="243" width="243" alt="">
+						</div>
+
+						<h4 class="speakers-list__name">Ronald van der  Kooy</h4>
+						<p class="speakers-list__info">Evision, The Netherlands</p>
+					</li>
+				</ul>
+
+				<div class="btn-wrap">
+					<a href="#" class="basic-btn">
+						Call for speakers
+					</a>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section schedule" id="schedule">
+			<div class="container">
+				<h2 class="c-title">Schedule</h2>
+				
+				<div class="content-tab">
+					<button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button>
+					<button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button>
+				</div>
+
+				<ul class="schedule-list js-tabs__panel active" id="general-panel">
+					<li class="schedule-list__item autoheight">
+						<div class="schedule-list__time">09.40</div>
+						<div class="schedule-list__speaker">Open up</div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Say, HELLO!</h3>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item active">
+						<div class="schedule-list__time">10.00</div>
+						<div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>
+							<p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third party libraries that make it easy to test your components. We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">10.30</div>
+						<div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>
+							<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">11.45</div>
+						<div class="schedule-list__speaker">Mark Peck <p class="schedule-list__p">Mendix</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">The React Native Playground</h3>
+							<p class="schedule-list__p">The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser, and test them across platforms and devices.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">12.00</div>
+						<div class="schedule-list__speaker">Forbes Lindesay <p class="schedule-list__p">Facebook</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">State Management is Easy</h3>
+							<p class="schedule-list__p">GraphQL queries when the underlying data changes. You will see how to make the collaborative parts of your app update in real time with little extra code, how to integrate with a SQL database or REST API, and how this works in concert with GraphQL’s best features to simplify your app’s data management while being predictable.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item autoheight">
+						<div class="schedule-list__time">12.30</div>
+						<div class="schedule-list__speaker">Coffee Break!</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">13.30</div>
+						<div class="schedule-list__speaker">Steve Boshmann <p class="schedule-list__p">Infinite Red</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>
+							<p class="schedule-list__p">Queries when the underlying data changes. You will see how to make the collaborative parts of your app update in real time with little extra code, how to integrate with a SQL database or REST API, and how this works in concert with GraphQL’s best features to simplify your app’s data.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">14.00</div>
+						<div class="schedule-list__speaker">Woody Rousseau <p class="schedule-list__p">Infinite Red</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>
+							<p class="schedule-list__p">We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">14.30</div>
+						<div class="schedule-list__speaker">Krzysztof Magiera <p class="schedule-list__p">Callstack.io</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>
+							<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">15.45</div>
+						<div class="schedule-list__speaker">Aaron Greenwald <p class="schedule-list__p">Wix</p></div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">The React Native Playground</h3>
+							<p class="schedule-list__p">The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser.</p>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item autoheight">
+						<div class="schedule-list__time">16.30</div>
+						<div class="schedule-list__speaker">Coffee Break</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">17.45</div>
+						<div class="schedule-list__speaker red">Horror stories</div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Talks from people who runned into a problem with React but 
+knows how to avoid it and is eager to share</h3>
+
+							<div class="schedule-list__p">
+								<p class="schedule-list__shift-title">Feather Knee</p>
+								The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser.
+							</div>
+
+							<div class="schedule-list__p">
+								<p class="schedule-list__shift-title">Narendra Shetty</p>
+								No other topic in software development probably has so much controversy as linting. With a wrong workflow linting can be really a pain and will slow you and your team down. With a proper setup though, it can save you hours of manual work reformatting the code and reducing the code-review overhead.
+							</div>
+						</div>
+					</li>
+			
+					<li class="schedule-list__item">
+						<div class="schedule-list__time">19.30</div>
+						<div class="schedule-list__speaker">Afterparty </div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">This is for all the devs who care about performance and who 
+think twice before adding any external library</h3>
+							<p class="schedule-list__p">
+								<img class="schedule-list__pic" src="pic/party.png" height="163" width="241">
+								React Native allows for building great native apps by utilising native mobile components. Apparently handling touch and gestures is quite tricky as it often needs to interact with the application code which runs asynchronously in the javascript VM.
+							</p>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="schedule-list js-tabs__panel" id="react-panel">
+					<li class="schedule-list__item autoheight">
+						<div class="schedule-list__time">09.40</div>
+						<div class="schedule-list__speaker">Open up</div>
+						<div class="schedule-list__desc">
+							<h3 class="schedule-list__title">Say, HELLO!</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section sponsors" id="sponsors">
+			<div class="container">
+				<h2 class="c-title">Sponsors</h2>
+
+				<div class="sponsors-block">
+					<p class="sponsors-block__desc">Gold</p>
+
+					<div class="sponsors-gold">
+						<div class="sponsors-block__img-wrap">
+							<a href="http://zoover.nl/jobs"><img src="pic/sponsors/zoover.png" height="59" width="280" alt="Zoover" class="sponsors-block__img"></a>
+						</div>
+						<div class="sponsors-block__img-wrap">
+							<a href="http://www.onior.com"><img src="pic/sponsors/orion.png" height="76" width="290" alt="Onior" class="sponsors-block__img"></a>
+						</div>
+						<div class="sponsors-block__img-wrap">
+							<a href="https://www.evision-software.com"><img src="pic/sponsors/envision.png" height="77" width="280" alt="eVision" class="sponsors-block__img"></a>
+						</div>
+						<a class="sponsors-block__img-wrap" href="https://www.jetbrains.com">
+							<img src="pic/sponsors/jetbrains.png" height="173" width="159" alt="Jetbrains" class="sponsors-block__img">
+						</a>
+						<div class="sponsors-block__img-wrap">
+							<a href="https://www.linkedin.com/company-beta/6444396"><img src="pic/sponsors/shopco.png" height="87" width="317" alt="Shop.com" class="sponsors-block__img"></a>
+						</div>
+					</div>
+
+					<p class="sponsors-block__desc">Silver</p>
+
+					<div class="sponsors-silver">
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_1.png" height="51" width="220" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_2.png" height="39" width="142" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_3.png" height="40" width="223" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_4.png" height="58" width="108" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_5.png" height="29" width="231" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_6.png" height="78" width="180" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_7.png" height="69" width="219" alt="Facebook">
+						</a>
+					</div>
+
+					<p class="sponsors-block__desc">Bronze</p>
+
+					<div class="sponsors-bronze">
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_8.png" height="35" width="143" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_9.png" height="100" width="118" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_10.png" height="47" width="162" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_11.png" height="43" width="109" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_12.png" height="61" width="108" alt="Facebook">
+						</a>
+						<a class="sponsors-block__img-wrap" href="https://facebook.com">
+							<img class="sponsors-block__img" src="pic/sponsors/partners/partner_13.png" height="35" width="171" alt="Facebook">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section contacts half-height" id="contacts">
+			<div class="container">
+
+				<div class="socials-wrap">
+					<h2 class="c-title">Contact Us</h2>
+
+					<ul class="socials med">
+						<li class="socials__item">
+							<a href="#" class="socials__link">
+								<svg class="socials__img" role="img" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="https://twitter.com/ReactAmsterdam" class="socials__link"> 
+								<svg class="socials__img" role="img" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-fb"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link">
+								<svg class="socials__img" role="img" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-yt"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<p class="help">
+					<a class="help__link" href="mailto:hi@frontendamsterdam.com">Sponsorship Opportunities</a>
+					<a class="help__link" href="http://confcodeofconduct.com" target="_blank">Code Of Conduct</a>
+					<a class="help__link" href="/2017/index.html" target="_blank">Last year's event (2017)</a>
+					<a class="help__link" href="mailto:hi@react.amsterdam">Email Us!</a>
+				</p>
+
+			</div>
+		</section>
+
+	</main><!-- .content -->
+
+	<footer class="footer">
+		<div class="f-logo">
+			Event by <a class="f-logo__link" href="#">Frontend<br/> Nation</a>
+		</div>
+
+	</footer><!-- .footer -->
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
