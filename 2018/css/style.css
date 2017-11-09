@@ -643,7 +643,8 @@ h6 {
 .main-nav {
   display: flex;
   background: transparent;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex: 1 1; }
   .main-nav.closed {
     display: block; }
   .main-nav .socials {
@@ -659,7 +660,7 @@ h6 {
       visibility: hidden;
       padding: 0;
       margin: auto;
-      width: 320px;
+      max-width: 320px;
       opacity: 0;
       transition: all 0.2s; }
       .main-nav .socials {
@@ -772,9 +773,10 @@ h6 {
 
 /* Content
 -----------------------------------------------------------------------------*/
-.content.fade {
-  filter: blur(10px) grayscale(0.6);
-  transition: all .3s; }
+@media only screen and (max-width: 800px) {
+  .content.fade {
+    filter: blur(10px) grayscale(0.6);
+    transition: all .3s; } }
 
 .c-title {
   font: 48px/1.2 "LatoLight", sans-serif;
@@ -897,6 +899,21 @@ h6 {
   text-align: center;
   min-height: 100vh;
   padding: 20px 0 60px; }
+  .intro__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    /*@media all and (max-width: 1024px) {
+			display: none;
+		}*/ }
   .intro__overlay {
     position: absolute;
     left: 0;
@@ -919,7 +936,8 @@ h6 {
     .intro__title span {
       font-size: 42px; }
   .intro .container {
-    max-width: 1480px; }
+    max-width: 1480px;
+    z-index: 10; }
   @media only screen and (max-width: 1480px) {
     .intro__desc {
       margin: 32px 0 10px;

@@ -3,9 +3,12 @@
 
 .content {
 	
-	&.fade{
-		filter: blur(10px) grayscale(.6);
-		transition: all .3s;
+
+	@media only screen and (max-width : 800px) {
+		&.fade{
+			filter: blur(10px) grayscale(.6);
+			transition: all .3s;
+		}
 	}
 }
 
@@ -180,6 +183,24 @@
 	min-height: 100vh;
 	padding: 20px 0 60px;
 
+	&__video {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: 1;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background-size: cover;
+
+		/*@media all and (max-width: 1024px) {
+			display: none;
+		}*/
+	}
+
 	&__overlay {
 		position: absolute;
 		left: 0;
@@ -211,6 +232,7 @@
 
 	.container{
 		max-width: 1480px;
+		z-index: 10;
 	}
 
 	@media only screen and (max-width : 1480px) {
