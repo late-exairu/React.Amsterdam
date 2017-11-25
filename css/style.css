@@ -1561,7 +1561,7 @@ h6 {
 .footer {
   height: 356px;
   padding: 20px 0 20px;
-  background: url(../img/f-bg.jpg) center top repeat-x; }
+  background: url(../img/f-bg.jpg?dark) center top repeat-x; }
   @media only screen and (max-width: 480px) {
     .footer {
       height: 290px; } }
