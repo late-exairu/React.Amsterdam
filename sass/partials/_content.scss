@@ -208,7 +208,7 @@
 		right: 0;
 		bottom: 0;
 		z-index: 1;
-		background: url(../img/overlay_bg.png) center center rgba(0, 0, 0, 0.15);
+		background: url(../img/overlay_bg.png) center center rgba(0, 0, 0, 0.4);
 	}
 
 	&__desc {
@@ -746,16 +746,16 @@
 	&__info{
 		font: 15px/1.64 $lato;
 		margin: 2px 0 16px;
-		color: #5f5f5f;
+		color: #969696;
 	}
 
 	&__desc{
 		font: 16px/1.68 $latoL;
-		color: #5a5959;
+		color: #969696;
 		margin: 16px 0;
 
-		a{
-			color: #000;
+		a {
+			color: #bdbdbd;
 		}
 	}
 
@@ -1003,7 +1003,7 @@
 		font: 16px/1.66 $lato;
 		margin: 14px 0 0;
 		padding: 0;
-		color: #5f5f5f;
+		color: #969696;
 	}
 
 	&__shift-title{
@@ -1083,7 +1083,7 @@
 		margin: 62px 0 42px;
 		flex-grow: 1;
 		width: 100%;
-		color: #5f5f5f;
+		color: #969696;
 	}
 
 	&__subtitle{
@@ -1157,7 +1157,7 @@
 	justify-content: center;
 
 	&__link{
-		margin: 0 18px;
+		margin: 10px 18px;
 		color: #fff;
 
 		&:hover{
