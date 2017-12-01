@@ -1,15 +1,34 @@
 /* Content
 -----------------------------------------------------------------------------*/
+@media only screen and (max-width : 800px) {
+	.fade{
+		filter: blur(10px) grayscale(.6);
+		transition: all .3s;
+	}
+}
 
-.content {
-
+.tint{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s;
 
 	@media only screen and (max-width : 800px) {
-		&.fade{
-			filter: blur(10px) grayscale(.6);
-			transition: all .3s;
+
+		&.visible{
+			visibility: visible;
+			opacity: 1;
 		}
 	}
+}
+
+.content {
+	
 }
 
 .c-title{
@@ -136,13 +155,18 @@
 			margin: 0 10px;
 		}
 
+		.socials__link{
+
+			&:hover{
+				.socials__img{
+					fill: $clr-black;
+				}
+			}
+		}
+
 		.socials__img{
 			width: 40px;
 			height: 34px;
-
-			&:hover{
-				fill: $clr-black;
-			}
 		}
 	}
 
@@ -168,6 +192,7 @@
 		width: 22px;
 		height: 20px;
 		fill: #fff;
+		transition: all linear .1s;
 	}
 }
 
@@ -208,7 +233,7 @@
 		right: 0;
 		bottom: 0;
 		z-index: 1;
-		background: url(../img/overlay_bg.png) center center rgba(0, 0, 0, 0.4);
+		background: url(../img/overlay_bg.svg) center center rgba(0, 0, 0, 0.4);
 	}
 
 	&__desc {
@@ -388,8 +413,10 @@
 }
 
 .follow{
-	background: linear-gradient(135deg, #99ff00 0%,#00dd3b 100%);
+	background: linear-gradient(135deg, #99ff00,#00dd3b);
 	color: $clr-black;
+	animation: gradient 10s ease infinite;
+	background-size: 200% 200%;
 }
 
 .event-stats{
@@ -614,6 +641,7 @@
 		appearance: none;
 		transition: transform 0.3s;
 		background: $clr-black;
+		cursor: pointer;
 	}
 }
 
@@ -678,15 +706,24 @@
 	}
 
 	@media only screen and (max-width : 480px) {
-		height: 300px;
+		height: 320px;
 
 		&__desc{
 			left: 20px;
 			bottom: 20px;
 		}
 
+		&__address{
+			font: 18px/1.36 $latoL;
+			margin: 0;
+		}
+
+		&__btn{
+			margin: 150px 0 0;
+		}
+
 		#map{
-			height: 300px;
+			height: 320px;
 		}
 	}
 }
@@ -759,6 +796,11 @@
 		}
 	}
 
+	&__p{
+		font: 16px/1.68 $latoL;
+		margin: 16px 0;
+	}
+
 	&__propose-new{
 		font: 26px/1.32 $latoL;
 		margin: 11px 0px;
@@ -774,12 +816,25 @@
 	.socials{
 		margin: 16px 0 20px;
 
-		&__link{
+		/*&__link{
 			opacity: 0.5;
 
 			&:hover{
 				opacity: 1;
 			}
+		}*/
+
+		&__link{
+			&:hover{
+
+				.socials__img{
+					fill: $clr-green;
+				}
+			}
+		}
+
+		&__img{
+			fill: #969696;
 		}
 	}
 
@@ -1174,7 +1229,16 @@
 
 .contacts{
 
-	.socials.med{
+	.socials{
+		.socials__link{
+
+			&:hover{
+				.socials__img{
+					fill: #7af80c;
+				}
+			}
+		}
+
 		.socials__img{
 			fill: $clr-green;
 

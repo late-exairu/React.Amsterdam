@@ -6,10 +6,16 @@
 	height: 356px;
 	padding: 20px 0 20px;
 	background: url(../img/f-bg.jpg?dark) center top repeat-x;
+	animation: slide 50s linear infinite;
 
 	@media only screen and (max-width : 480px) {
 		height: 290px;
 	}
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -1594px 0; }
 }
 
 .f-logo {
