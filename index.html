@@ -92,8 +92,8 @@
           <a href="/" class="logo__link">React Amsterdam</a>
         </div>
 
-        <p class="intro__desc">April 13, 2018, Kromhouthal, Amsterdam</p>
-        <p class="intro__title">THE BIGGEST REACT CONFERENCE WORLDWIDE</p>
+        <p class="intro__desc"><span class="scratch">April 13,</span> 2018, Kromhouthal, Amsterdam</p>
+        <p class="intro__title">THE BIGGEST REACT<br/> CONFERENCE WORLDWIDE</p>
 
         <div class="event-stats">
           <div class="event-stats__item">
@@ -141,7 +141,7 @@
       <div class="container">
         <h2 class="c-title">The Event</h2>
         <p class="event__subtitle">React Amsterdam is a celebration of good things coming together: </p>
-        <p class="event__title">React that rocks and spring in Amsterdam that blossoms</p>
+        <p class="event__title">React that rocks and spring in Amsterdam that bl<span class="leaf">o</span>ssoms</p>
         <p class="event__p">A full-day, two-track conference on all things React, gathering Front-end and Full-stack
           developers across the globe in the tech heart of Europe. We're coming
           back with a new gig on <strong>April 13, 2018.</strong><br> Mark your calendars for the biggest React
@@ -242,7 +242,7 @@
             function initMap() {
               var mapDiv = document.getElementById('map');
               var map = new google.maps.Map(mapDiv, {
-                center: {lat: 52.383413, lng: 4.916166},
+                center: {lat: 52.383413, lng: 4.913000},
                 zoom: 14,
                 scrollwheel: false,
                 disableDefaultUI: true,
@@ -774,41 +774,47 @@
       </div>
     </section>
 
-    <!--<section class="section schedule" id="schedule">-->
-    <!--<div class="container">-->
-    <!--<h2 class="c-title">Schedule</h2>-->
+    <section class="section schedule" id="schedule">
+    <div class="container">
+    <h2 class="c-title">Schedule</h2>
 
-    <!--<div class="content-tab">-->
-    <!--<button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button>-->
-    <!--<button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button>-->
-    <!--</div>-->
+    <!-- <div class="content-tab"> -->
+    <!-- <button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button> -->
+    <!-- <button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button> -->
+    <!-- </div> -->
 
-    <!--<ul class="schedule-list js-tabs__panel active" id="general-panel">-->
-    <!--<li class="schedule-list__item autoheight">-->
-    <!--<div class="schedule-list__time">09.40</div>-->
-    <!--<div class="schedule-list__speaker">Open up</div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Say, HELLO!</h3>-->
-    <!--</div>-->
-    <!--</li>-->
+    <ul class="schedule-list js-tabs__panel active" id="general-panel">
+    <li class="schedule-list__item autoheight">
+    <div class="schedule-list__time">09.40</div>
+    <div class="schedule-list__speaker">Open up</div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Say, HELLO!</h3>
+    </div>
+    </li>
 
-    <!--<li class="schedule-list__item active">-->
-    <!--<div class="schedule-list__time">10.00</div>-->
-    <!--<div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>-->
-    <!--<p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third party libraries that make it easy to test your components. We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>-->
-    <!--</div>-->
-    <!--</li>-->
+    <li class="schedule-list__item active">
+    <div class="schedule-list__time">10.00</div>
+    <div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>
+    <p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third party libraries that make it easy to test your components. We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>
+    </div>
+    </li>
 
-    <!--<li class="schedule-list__item">-->
-    <!--<div class="schedule-list__time">10.30</div>-->
-    <!--<div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>-->
-    <!--<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>-->
-    <!--</div>-->
-    <!--</li>-->
+    <li class="schedule-list__item">
+    <div class="schedule-list__time">10.30</div>
+    <div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>
+    <p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+    <div class="basic-roller">
+        <div class="basic-roller__toggle js-roller__toggle"></div>
+        <div class="basic-roller__content js-roller__content">
+            <p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+        </div>
+    </div>
+    </div>
+    </li>
 
     <!--<li class="schedule-list__item">-->
     <!--<div class="schedule-list__time">11.45</div>-->
@@ -916,8 +922,8 @@
     <!--</div>-->
     <!--</li>-->
     <!--</ul>-->
-    <!--</div>-->
-    <!--</section>-->
+    </div>
+    </section>
 
     <section class="section sponsors" id="sponsors">
       <div class="container">

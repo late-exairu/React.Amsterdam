@@ -19,6 +19,11 @@ $(function() {
 	// 	}      
 	// })
 
+	$('.js-roller__toggle').click(function(){
+		$(this).toggleClass('open');
+		$(this).siblings('.js-roller__content').slideToggle();
+	});
+
 	// Anchor navigation
 
 	$('a[href*="#"]:not([href="#"])').click(function () {

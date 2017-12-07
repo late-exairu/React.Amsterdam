@@ -8,6 +8,10 @@
 	.basic-btn{
 		margin: 0 30px 0;
 	}
+
+	@media only screen and (max-width : 1148px) {
+		margin: 46px 0 0;
+	}
 }
 
 .basic-btn{
@@ -38,10 +42,10 @@
 		fill: #fff;
 	}
 
-	@media only screen and (max-width : 1180px) {
-		height: 48px;
-		font-size: 20px;
-		line-height: 48px;
+	@media only screen and (max-width : 1148px) {
+		height: 44px;
+		font-size: 18px;
+		line-height: 44px;
 		padding: 0 20px;
 	}
 }
