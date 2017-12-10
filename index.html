@@ -23,6 +23,7 @@
 <body>
 
 <div class="wrapper">
+  <div class="tint"></div>
 
   <header class="header">
     <nav class="container">
@@ -91,8 +92,8 @@
           <a href="/" class="logo__link">React Amsterdam</a>
         </div>
 
-        <p class="intro__desc">April 13, 2018, Kromhouthal, Amsterdam</p>
-        <p class="intro__title">THE BIGGEST REACT CONFERENCE WORLDWIDE</p>
+        <p class="intro__desc"><span class="scratch">April 13,</span> 2018, Kromhouthal, Amsterdam</p>
+        <p class="intro__title">THE BIGGEST REACT<br/> CONFERENCE WORLDWIDE</p>
 
         <div class="event-stats">
           <div class="event-stats__item">
@@ -141,7 +142,7 @@
         <h2 class="c-title">The Event</h2>
 
         <p class="event__subtitle">React Amsterdam is a celebration of good things coming together: </p>
-        <p class="event__title">React that rocks and spring in Amsterdam that blossoms</p>
+        <p class="event__title">React that rocks and spring in Amsterdam that bl<span class="leaf">o</span>ssoms</p>
         <p class="event__p">A full-day, two-track conference on all things React, gathering Front-end and Full-stack
           developers across the globe in the tech heart of Europe. We're coming
           back with a new gig on <strong>April 13, 2018.</strong><br> Mark your calendars for the biggest React
@@ -242,7 +243,7 @@
             function initMap() {
               var mapDiv = document.getElementById('map');
               var map = new google.maps.Map(mapDiv, {
-                center: {lat: 52.383413, lng: 4.916166},
+                center: {lat: 52.383413, lng: 4.913000},
                 zoom: 14,
                 scrollwheel: false,
                 disableDefaultUI: true,
@@ -447,7 +448,35 @@
 
             <h4 class="speakers-list__name">Michele Bertoli</h4>
             <p class="speakers-list__info">Facebook, United Kingdom</p>
-            <p class="speakers-list__desc">Front End Engineer with a passion for beautiful UIs.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Front End Engineer with a passion for beautiful UIs.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/MicheleBertoli" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/MicheleBertoli" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/MicheleBertoli-->
             <!--https://github.com/MicheleBertoli-->
           </li>
@@ -459,9 +488,35 @@
 
             <h4 class="speakers-list__name">Tereza Sokol</h4>
             <p class="speakers-list__info">NoRedInk, Denmark</p>
-            <p class="speakers-list__desc">Tereza is an engineer at NoRedInk working on the Elm frontend as well as the
-              developer of <a href="https://github.com/terezka/elm-plot" target="_blank">elm-plot</a>, a plotting
-              library written purely in Elm.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of <a href="https://github.com/terezka/elm-plot" target="_blank">elm-plot</a>, a plotting library written purely in Elm.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/terezka" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/terezk_a" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/terezk_a-->
             <!--https://github.com/terezka-->
           </li>
@@ -473,9 +528,35 @@
 
             <h4 class="speakers-list__name">Brent Vatne</h4>
             <p class="speakers-list__info">Expo, USA</p>
-            <p class="speakers-list__desc">Front-end web/mobile developer working on <a href="https://t.co/60eijYrvFv"
-                                                                                        target="_blank">Expo</a> and
-              React Native.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Front-end web/mobile developer working on <a href="https://t.co/60eijYrvFv" target="_blank">Expo</a> and React Native.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/brentvatne" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/notbrent" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://github.com/brentvatne-->
             <!--https://twitter.com/notbrent-->
           </li>
@@ -487,12 +568,42 @@
 
             <h4 class="speakers-list__name">Ken Wheeler</h4>
             <p class="speakers-list__info">Formidable, USA</p>
-            <p class="speakers-list__desc">Director of Open Source at Formidable and the author of libraries like <a
-              href="https://github.com/kenwheeler/slick" target="_blank">Slick Carousel</a>, <a
-              href="https://github.com/kenwheeler/mcfly" target="_blank">McFly</a>, <a
-              href="https://github.com/FormidableLabs/react-music" target="_blank">react-music</a>, <a
-              href="https://github.com/FormidableLabs/webpack-dashboard" target="_blank">webpack-dashboard</a>, <a
-              href="https://github.com/FormidableLabs/spectacle" target="_blank">Spectacle</a>.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">
+                    Director of Open Source at Formidable and the author of libraries like
+                    <a href="https://github.com/kenwheeler/slick" target="_blank">Slick Carousel</a>,
+                    <a href="https://github.com/kenwheeler/mcfly" target="_blank">McFly</a>,
+                    <a href="https://github.com/FormidableLabs/react-music" target="_blank">react-music</a>,
+                    <a href="https://github.com/FormidableLabs/webpack-dashboard" target="_blank">webpack-dashboard</a>,
+                    <a href="https://github.com/FormidableLabs/spectacle" target="_blank">Spectacle</a>.
+                </p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/kenwheeler" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/ken_wheeler" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/ken_wheeler-->
             <!--https://github.com/kenwheeler-->
           </li>
@@ -504,9 +615,35 @@
 
             <h4 class="speakers-list__name">Shirley Wu</h4>
             <p class="speakers-list__info">Freelance, USA</p>
-            <p class="speakers-list__desc">Shirley Wu is a software engineer specializing in data visualization who put
-              emoji on Obama’s face and showed the world how the final presidential debate in the US played on the minds
-              of voters. Loves tinkering with React and D3 and giving fantastic talks about them.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Shirley Wu is a software engineer specializing in data visualization who put emoji on Obama’s face and showed the world how the final presidential debate in the US played on the minds of voters. Loves tinkering with React and D3 and giving fantastic talks about them.</p>
+            </div>
+
+            <ul class="socials">
+              <!-- <li class="socials__item">
+                <a href="https://github.com/MicheleBertoli" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li> -->
+
+              <li class="socials__item">
+                <a href="https://twitter.com/sxywu" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+             <!--  <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/sxywu-->
           </li>
 
@@ -517,7 +654,35 @@
 
             <h4 class="speakers-list__name">Mike Grabowski</h4>
             <p class="speakers-list__info">Callstack.io, Poland</p>
-            <p class="speakers-list__desc">Head of Open Source, React Native Core Contributor.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Head of Open Source, React Native Core Contributor.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/grabbou" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/grabbou" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/grabbou-->
             <!--https://github.com/grabbou-->
           </li>
@@ -529,9 +694,35 @@
 
             <h4 class="speakers-list__name">Tracy Lee</h4>
             <p class="speakers-list__info">This Dot, USA</p>
-            <p class="speakers-list__desc">Tracy is a speaker, writer, and serial entrepreneur passionate about
-              JavaScript and new technologies. Loves open source projects, pairing with friends, and empowering people
-              to do awesome things. Tracy is also an organizer of ng-cruise and track chair for QCon.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Tracy is a speaker, writer, and serial entrepreneur passionate about JavaScript and new technologies. Loves open source projects, pairing with friends, and empowering people to do awesome things. Tracy is also an organizer of ng-cruise and track chair for QCon.</p>
+            </div>
+
+            <ul class="socials">
+              <!-- <li class="socials__item">
+                <a href="https://github.com/MicheleBertoli" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li> -->
+
+              <li class="socials__item">
+                <a href="https://twitter.com/ladyleet" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/ladyleet-->
           </li>
 
@@ -542,8 +733,35 @@
 
             <h4 class="speakers-list__name">Michel Weststrate</h4>
             <p class="speakers-list__info">Mendix, The Netherlands</p>
-            <p class="speakers-list__desc">Full-stack lead developer and an author of <a
-              href="https://github.com/mobxjs/mobx" target="_blank">MobX</a>.</p>
+            <div class="speakers-list__desc">
+                <p class="speakers-list__p">Full-stack lead developer and an author of <a href="https://github.com/mobxjs/mobx" target="_blank">MobX</a>.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://github.com/mweststrate" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socials__item">
+                <a href="https://twitter.com/mweststrate" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <!-- <li class="socials__item">
+                <a href="#" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                  </svg>
+                </a>
+              </li> -->
+            </ul>
             <!--https://twitter.com/mweststrate-->
             <!--https://github.com/mweststrate-->
           </li>
@@ -557,41 +775,47 @@
       </div>
     </section>
 
-    <!--<section class="section schedule" id="schedule">-->
-    <!--<div class="container">-->
-    <!--<h2 class="c-title">Schedule</h2>-->
+    <section class="section schedule" id="schedule">
+    <div class="container">
+    <h2 class="c-title">Schedule</h2>
 
-    <!--<div class="content-tab">-->
-    <!--<button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button>-->
-    <!--<button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button>-->
-    <!--</div>-->
+    <!-- <div class="content-tab"> -->
+    <!-- <button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button> -->
+    <!-- <button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button> -->
+    <!-- </div> -->
 
-    <!--<ul class="schedule-list js-tabs__panel active" id="general-panel">-->
-    <!--<li class="schedule-list__item autoheight">-->
-    <!--<div class="schedule-list__time">09.40</div>-->
-    <!--<div class="schedule-list__speaker">Open up</div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Say, HELLO!</h3>-->
-    <!--</div>-->
-    <!--</li>-->
+    <ul class="schedule-list js-tabs__panel active" id="general-panel">
+    <li class="schedule-list__item autoheight">
+    <div class="schedule-list__time">09.40</div>
+    <div class="schedule-list__speaker">Open up</div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Say, HELLO!</h3>
+    </div>
+    </li>
 
-    <!--<li class="schedule-list__item active">-->
-    <!--<div class="schedule-list__time">10.00</div>-->
-    <!--<div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>-->
-    <!--<p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third party libraries that make it easy to test your components. We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>-->
-    <!--</div>-->
-    <!--</li>-->
+    <li class="schedule-list__item active">
+    <div class="schedule-list__time">10.00</div>
+    <div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>
+    <p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third party libraries that make it easy to test your components. We'll see how to build components in a way that makes them more maintainable, testable and easier to work with.</p>
+    </div>
+    </li>
 
-    <!--<li class="schedule-list__item">-->
-    <!--<div class="schedule-list__time">10.30</div>-->
-    <!--<div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>-->
-    <!--<div class="schedule-list__desc">-->
-    <!--<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>-->
-    <!--<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>-->
-    <!--</div>-->
-    <!--</li>-->
+    <li class="schedule-list__item">
+    <div class="schedule-list__time">10.30</div>
+    <div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>
+    <div class="schedule-list__desc">
+    <h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>
+    <p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+    <div class="basic-roller">
+        <div class="basic-roller__toggle js-roller__toggle"></div>
+        <div class="basic-roller__content js-roller__content">
+            <p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts.</p>
+        </div>
+    </div>
+    </div>
+    </li>
 
     <!--<li class="schedule-list__item">-->
     <!--<div class="schedule-list__time">11.45</div>-->
@@ -699,8 +923,8 @@
     <!--</div>-->
     <!--</li>-->
     <!--</ul>-->
-    <!--</div>-->
-    <!--</section>-->
+    </div>
+    </section>
 
     <section class="section sponsors" id="sponsors">
       <div class="container">

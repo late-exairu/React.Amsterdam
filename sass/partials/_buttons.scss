@@ -8,6 +8,10 @@
 	.basic-btn{
 		margin: 0 30px 0;
 	}
+
+	@media only screen and (max-width : 1148px) {
+		margin: 46px 0 0;
+	}
 }
 
 .basic-btn{
@@ -18,7 +22,10 @@
 	color: $clr-black;
 	fill: $clr-black;
 	padding: 0 40px;
-	background: linear-gradient(135deg, #99ff00 0%,#00dd3b 100%);
+	/*background: linear-gradient(135deg, #99ff00,#00dd3b);*/
+	background: linear-gradient(135deg, #99ff00,#00dd3b);
+	background-size: 200% 200%;
+	animation: gradient 3s ease infinite;
 
 	&__icon{
 		position: relative;
@@ -35,10 +42,22 @@
 		fill: #fff;
 	}
 
-	@media only screen and (max-width : 1180px) {
-		height: 48px;
-		font-size: 20px;
-		line-height: 48px;
+	@media only screen and (max-width : 1148px) {
+		height: 44px;
+		font-size: 18px;
+		line-height: 44px;
 		padding: 0 20px;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
 	}
 }
