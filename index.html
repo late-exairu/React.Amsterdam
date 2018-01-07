@@ -195,6 +195,14 @@
             </a>
           </li>
 
+          <li class="socials__item">
+            <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link" target="_blank">
+              <svg class="socials__img" role="img" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-med"></use>
+              </svg>
+            </a>
+          </li>
+
           <!--<li class="socials__item">-->
           <!--<a href="#" class="socials__link">-->
           <!--<svg class="socials__img" role="img" aria-hidden="true">-->
@@ -224,12 +232,21 @@
     </section>
 
     <section class="section location" id="location">
+      <ul class="slider">
+        <li class="slider__item" style="background: url(pic/place1.jpg) center center no-repeat; background-size: cover;"></li>
+        <li class="slider__item" style="background: url(pic/place2.jpg) center center no-repeat; background-size: cover;"></li>
+        <li class="slider__item" style="background: url(pic/place3.jpg) center center no-repeat; background-size: cover;"></li>
+      </ul>
+
       <div class="container">
         <h2 class="c-title">Location</h2>
+
+        <div class="slider-nav"></div>
 
         <div class="location__logo"></div>
 
         <div class="map">
+
           <div class="map__desc">
             <p class="map__title">Kromhouthal</p>
             <p class="map__address">Gedempt Hamerkanaal 231<br/> Amsterdam, 1021 KP</p>
@@ -441,388 +458,482 @@
         <h2 class="c-title">First Speakers</h2>
 
         <ul class="speakers-list">
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/micheleb.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Michele Bertoli</h4>
             <p class="speakers-list__info">Facebook, United Kingdom</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Front End Engineer with a passion for beautiful UIs.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Front End Engineer with a passion for beautiful UIs.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/MicheleBertoli" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/MicheleBertoli" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <!-- <li class="socials__item">
+                    <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                      </svg>
+                    </a>
+                  </li> -->
+                </ul>
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/MicheleBertoli" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/MicheleBertoli" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <!-- <li class="socials__item">
-                <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
-                  </svg>
-                </a>
-              </li> -->
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/terezka.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Tereza Sokol</h4>
             <p class="speakers-list__info">NoRedInk, Denmark</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of <a href="https://github.com/terezka/elm-plot" target="_blank">elm-plot</a>, a plotting library written purely in Elm.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Tereza is an engineer at NoRedInk working on the Elm frontend as well as the developer of <a href="https://github.com/terezka/elm-plot" target="_blank">elm-plot</a>, a plotting library written purely in Elm.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/terezka" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/terezk_a" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <!-- <li class="socials__item">
+                    <a href="#" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                      </svg>
+                    </a>
+                  </li> -->
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/terezka" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/terezk_a" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <!-- <li class="socials__item">
-                <a href="#" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
-                  </svg>
-                </a>
-              </li> -->
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/brent.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Brent Vatne</h4>
             <p class="speakers-list__info">Expo, USA</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Front-end web/mobile developer working on <a href="https://t.co/60eijYrvFv" target="_blank">Expo</a> and React Native.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Front-end web/mobile developer working on <a href="https://t.co/60eijYrvFv" target="_blank">Expo</a> and React Native.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/brentvatne" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/notbrent" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <!-- <li class="socials__item">
+                    <a href="#" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                      </svg>
+                    </a>
+                  </li> -->
+                </ul>
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/brentvatne" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/notbrent" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <!-- <li class="socials__item">
-                <a href="#" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
-                  </svg>
-                </a>
-              </li> -->
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/ken.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Ken Wheeler</h4>
             <p class="speakers-list__info">Formidable, USA</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">
-                    Director of Open Source at Formidable and the author of libraries like
-                    <a href="https://github.com/kenwheeler/slick" target="_blank">Slick Carousel</a>,
-                    <a href="https://github.com/kenwheeler/mcfly" target="_blank">McFly</a>,
-                    <a href="https://github.com/FormidableLabs/react-music" target="_blank">react-music</a>,
-                    <a href="https://github.com/FormidableLabs/webpack-dashboard" target="_blank">webpack-dashboard</a>,
-                    <a href="https://github.com/FormidableLabs/spectacle" target="_blank">Spectacle</a>.
-                </p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">
+                        Director of Open Source at Formidable and the author of libraries like
+                        <a href="https://github.com/kenwheeler/slick" target="_blank">Slick Carousel</a>,
+                        <a href="https://github.com/kenwheeler/mcfly" target="_blank">McFly</a>,
+                        <a href="https://github.com/FormidableLabs/react-music" target="_blank">react-music</a>,
+                        <a href="https://github.com/FormidableLabs/webpack-dashboard" target="_blank">webpack-dashboard</a>,
+                        <a href="https://github.com/FormidableLabs/spectacle" target="_blank">Spectacle</a>.
+                    </p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/kenwheeler" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/ken_wheeler" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <!-- <li class="socials__item">
+                    <a href="#" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
+                      </svg>
+                    </a>
+                  </li> -->
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/kenwheeler" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/ken_wheeler" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <!-- <li class="socials__item">
-                <a href="#" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-ws"></use>
-                  </svg>
-                </a>
-              </li> -->
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/shirley.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Shirley Wu</h4>
             <p class="speakers-list__info">Freelance, USA</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Shirley Wu is a software engineer specializing in data visualization who put emoji on Obama’s face and showed the world how the final presidential debate in the US played on the minds of voters. Loves tinkering with React and D3 and giving fantastic talks about them.</p>
-            </div>
 
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://twitter.com/sxywu" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Shirley Wu is a software engineer specializing in data visualization who put emoji on Obama’s face and showed the world how the final presidential debate in the US played on the minds of voters. Loves tinkering with React and D3 and giving fantastic talks about them.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://twitter.com/sxywu" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/mike.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Mike Grabowski</h4>
             <p class="speakers-list__info">Callstack.io, Poland</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Head of Open Source, React Native Core Contributor.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Head of Open Source, React Native Core Contributor.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/grabbou" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/grabbou" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/grabbou" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/grabbou" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/tracy.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Tracy Lee</h4>
             <p class="speakers-list__info">This Dot, USA</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Tracy is a speaker, writer, and serial entrepreneur passionate about JavaScript and new technologies. Loves open source projects, pairing with friends, and empowering people to do awesome things. Tracy is also an organizer of ng-cruise and track chair for QCon.</p>
-            </div>
 
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://twitter.com/ladyleet" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Tracy is a speaker, writer, and serial entrepreneur passionate about JavaScript and new technologies. Loves open source projects, pairing with friends, and empowering people to do awesome things. Tracy is also an organizer of ng-cruise and track chair for QCon.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://twitter.com/ladyleet" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/michel.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Michel Weststrate</h4>
             <p class="speakers-list__info">Mendix, The Netherlands</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Full-stack lead developer and an author of <a href="https://github.com/mobxjs/mobx" target="_blank">MobX</a>.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Full-stack lead developer and an author of <a href="https://github.com/mobxjs/mobx" target="_blank">MobX</a>.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/mweststrate" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/mweststrate" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/mweststrate" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/mweststrate" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/leland.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Leland Richardson</h4>
             <p class="speakers-list__info">Airbnb, USA</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Software Engineer at Airbnb. Active Open Source contributor to <a
-                  href="https://github.com/airbnb/enzyme">Enzyme</a> and multiple other projects from Airbnb.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Software Engineer at Airbnb. Active Open Source contributor to <a
+                      href="https://github.com/airbnb/enzyme">Enzyme</a> and multiple other projects from Airbnb.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/lelandrichardson" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/intelligibabble" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/lelandrichardson" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/intelligibabble" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/rebecca.jpeg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Rebecca Hill</h4>
             <p class="speakers-list__info">Usabilla, The Netherlands</p>
-            <div class="speakers-list__desc">
-                <p class="speakers-list__p">Full stack JavaScript engineer at Usabilla, building feedback software. Not-so-secretly helping JavaScript take over the world.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                    <p class="speakers-list__p">Full stack JavaScript engineer at Usabilla, building feedback software. Not-so-secretly helping JavaScript take over the world.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/beerecca" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/rebekaka" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/beerecca" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/rebekaka" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/kitze.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Kristijan Ristovski</h4>
             <p class="speakers-list__info">ReactAcademy, Macedonia</p>
-            <div class="speakers-list__desc">
-              <p class="speakers-list__p">Teaching React Javascript at <a href="https://www.reactacademy.io">React Academy</a>. Cares about open source, made and maintains <a href="sizzy.co">sizzy.co</a>, <a href="https://github.com/kitze/custom-react-scripts">custom-react-scripts</a>, and <a href="https://github.com/kitze/mobx-router">mobx-router</a>. He had the chance to work and experiment with a variety of languages and frameworks.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                  <p class="speakers-list__p">Teaching React Javascript at <a href="https://www.reactacademy.io">React Academy</a>. Cares about open source, made and maintains <a href="sizzy.co">sizzy.co</a>, <a href="https://github.com/kitze/custom-react-scripts">custom-react-scripts</a>, and <a href="https://github.com/kitze/mobx-router">mobx-router</a>. He had the chance to work and experiment with a variety of languages and frameworks.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/kitze" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/thekitze" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/kitze" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/thekitze" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
 
-          <li class="speakers-list__item">
+          <li class="speakers-list__item js-roller-wrap">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/alexey.jpg" height="243" width="243" alt="">
             </div>
 
             <h4 class="speakers-list__name">Alexey Kureev</h4>
             <p class="speakers-list__info">Werkspot, The Netherlands</p>
-            <div class="speakers-list__desc">
-              <p class="speakers-list__p">Software engineer passionate about React, React Native and their ecosystem. Co-author of RNPM. Author of "How to create your own native bridge" articles.</p>
+
+            <div class="basic-roller">
+              <div class="basic-roller__toggle js-roller__toggle"></div>
+              <div class="basic-roller__content js-roller__content">
+            
+                <div class="speakers-list__desc">
+                  <p class="speakers-list__p">Software engineer passionate about React, React Native and their ecosystem. Co-author of RNPM. Author of "How to create your own native bridge" articles.</p>
+                </div>
+
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="https://github.com/Kureev" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="socials__item">
+                    <a href="https://twitter.com/kureevalexey" class="socials__link" target="_blank">
+                      <svg class="socials__img" role="img" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-
-            <ul class="socials">
-              <li class="socials__item">
-                <a href="https://github.com/Kureev" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-gh"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="socials__item">
-                <a href="https://twitter.com/kureevalexey" class="socials__link" target="_blank">
-                  <svg class="socials__img" role="img" aria-hidden="true">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg#socials-tw"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
         </ul>
 

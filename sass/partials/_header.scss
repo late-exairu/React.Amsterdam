@@ -11,7 +11,14 @@
 
 	.container{
 		max-width: 1420px;
+		padding: 0;
 		display: flex;
+	}
+
+	@media only screen and (max-width : 1480px) {
+		.container{
+			max-width: none;
+		}
 	}
 
 	@media only screen and (max-width : 800px) {
