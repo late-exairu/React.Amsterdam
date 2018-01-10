@@ -15,9 +15,8 @@
 }
 
 .basic-btn{
-	font-size: 24px;
+	font: 24px/60px $latoSB;
 	display: inline-flex;
-	height: 60px;
 	line-height: 60px;
 	color: $clr-black;
 	fill: $clr-black;

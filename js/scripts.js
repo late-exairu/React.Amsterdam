@@ -27,16 +27,10 @@ $(function() {
 		$(this).closest('.wrapper').find('.content, .footer').toggleClass('fade');
 	});
 
-	// $(document).click(function(event) { 
-	// 	if(!$(event.target).closest('.main-nav.open').length) {
-	// 		if($('.main-nav').is(":visible")) {
-	// 			console.log('aaa');
-				
-	// 			$('.main-nav').removeClass('open');
-	// 			$('.wrapper').find('.content, .footer').removeClass('fade');
-	// 		}
-	// 	}      
-	// })
+	$('.js-action-roll__btn').click(function(){
+		$(this).toggleClass('open');
+		$(this).closest('.action').toggleClass('open');
+	});
 
 	$('.slider').slick({
 		appendArrows: $('.slider-nav'),
