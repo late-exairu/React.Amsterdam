@@ -16,7 +16,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@reactamsterdam">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="css/style.min.css?10122017-1"/>
+  <link rel="stylesheet" href="css/style.min.css?14012018"/>
   <link rel="shortcut icon" href="img/favicon.png"/>
 </head>
 
@@ -65,11 +65,10 @@
         <ul class="main-menu">
           <!--<li class="main-menu__item"><a href="#event" class="main-menu__link">The Event</a></li>-->
           <li class="main-menu__item"><a href="#location" class="main-menu__link">Location</a></li>
-          <li class="main-menu__item"><a href="#speakers" class="main-menu__link">First Speakers</a></li>
-          <!--<li class="main-menu__item"><a href="#schedule" class="main-menu__link">schedule</a></li>-->
+          <li class="main-menu__item"><a href="#speakers" class="main-menu__link">Speakers</a></li>
+          <li class="main-menu__item"><a href="#schedule" class="main-menu__link">Talks</a></li>
           <li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>
           <li class="main-menu__item active"><a href="#contacts" class="main-menu__link">Contact us</a></li>
-          <li class="main-menu__item active"><a href="https://goo.gl/forms/TXVpj5rIdSPP47bd2" class="main-menu__link" target="_blank">Submit your talk</a></li>
           <li class="main-menu__item active"><a href="/2017" class="main-menu__link" target="_blank">2017</a></li>
           <li class="main-menu__item accent"><a href="https://www.eventbrite.com/e/react-amsterdam-conference-2018-tickets-38900910671" class="main-menu__link" target="_blank">Tickets</a></li>
         </ul>
@@ -147,8 +146,6 @@
           developers across the globe in the tech heart of Europe. We're coming
           back with a new gig on <strong>April 13, 2018.</strong><br> Mark your calendars for the biggest React
           community event.</p>
-        <p class="event__p"><a href="https://goo.gl/forms/TXVpj5rIdSPP47bd2">Call For Speakers</a> is open until January
-          15. Soon we'll announce first workshops happening day before the conference.</p>
 
         <h3 class="event__sep-title">Feel The Vibes</h3>
         <p class="event__p">Check out the the after-movie and mood videos from React Amsterdam 2017 edition:</p>
@@ -1005,25 +1002,20 @@
             </ul>
           </li>
         </ul>
-
-        <div class="btn-wrap">
-          <a href="https://goo.gl/forms/TXVpj5rIdSPP47bd2" class="basic-btn" target="_blank">
-            Call for speakers
-          </a>
-        </div>
       </div>
     </section>
 
-    <!--<section class="section schedule" id="schedule">-->
-      <!--<div class="container">-->
+    <section class="section schedule" id="schedule">
+      <div class="container">
         <!--<h2 class="c-title">Schedule</h2>-->
+        <h2 class="c-title">First Talks</h2>
 
         <!--<div class="content-tab">-->
           <!--<button class="content-tab__tab js-tabs__tab active" id="general-tab">General <span>Track</span></button>-->
           <!--<button class="content-tab__tab js-tabs__tab" id="react-tab">React Native <span>Track</span></button>-->
         <!--</div>-->
 
-        <!--<ul class="schedule-list js-tabs__panel active" id="general-panel">-->
+        <ul class="schedule-list js-tabs__panel active" id="general-panel">
           <!--<li class="schedule-list__item autoheight">-->
             <!--<div class="schedule-list__time">09.40</div>-->
             <!--<div class="schedule-list__speaker">Open up</div>-->
@@ -1032,25 +1024,24 @@
             <!--</div>-->
           <!--</li>-->
 
-          <!--<li class="schedule-list__item active">-->
+          <li class="schedule-list__item active">
             <!--<div class="schedule-list__time">10.00</div>-->
-            <!--<div class="schedule-list__speaker">Tadeu Zagallo <p class="schedule-list__p">Balsamiq</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>-->
-              <!--<p class="schedule-list__p">NodeJS environment and in the browser using React TestUtils and other third-->
-                <!--party libraries that make it easy to test your components. We'll see how to build components in a way-->
-                <!--that makes them more maintainable, testable and easier to work with.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Michele Bertoli <p class="schedule-list__p">Facebook</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">setState Machine</h3>
+              <p class="schedule-list__p">
+                What if your components' state was deterministic?<br>
+                Learn about implementation of State Machines to manage React Components' state&nbsp;-&nbsp;from the basics of the Automata theory to autogenerated tests.
+              </p>
+            </div>
+          </li>
 
           <!--<li class="schedule-list__item">-->
             <!--<div class="schedule-list__time">10.30</div>-->
-            <!--<div class="schedule-list__speaker">Michel Weststrate <p class="schedule-list__p">Balsamiq</p></div>-->
+            <!--<div class="schedule-list__speaker">Tereza Sokol <p class="schedule-list__p">NoRedInk</p></div>-->
             <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>-->
-              <!--<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to-->
-                <!--automatically re-run GraphQL queries when the underlying data changes. You will see how to make the-->
-                <!--collaborative parts.</p>-->
+              <!--<h3 class="schedule-list__title">Making Packages for People</h3>-->
+              <!--<p class="schedule-list__p">TDB</p>-->
               <!--<div class="basic-roller">-->
                 <!--<div class="basic-roller__toggle js-roller__toggle"></div>-->
                 <!--<div class="basic-roller__content js-roller__content">-->
@@ -1062,76 +1053,110 @@
             <!--</div>-->
           <!--</li>-->
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">11.45</div>-->
-            <!--<div class="schedule-list__speaker">Mark Peck <p class="schedule-list__p">Mendix</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">The React Native Playground</h3>-->
-              <!--<p class="schedule-list__p">The React Native Playground breaks down barriers to mobile development by-->
-                <!--making it easy to write React Native apps right in the browser, and test them across platforms and-->
-                <!--devices.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Brent Vatne <p class="schedule-list__p">Expo</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">From Create React Native App to the App and Play Stores</h3>
+              <p class="schedule-list__p">Writing React code is similar regardless of the platform - web, native, Sketch, terminal, fridge, etc. But there are a bunch of other things you'll need to know to take your app and get it deployed to the store. I think all of these things can be explained in about 25 minutes, and so I will try.</p>
+            </div>
+          </li>
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">12.00</div>-->
-            <!--<div class="schedule-list__speaker">Forbes Lindesay <p class="schedule-list__p">Facebook</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">State Management is Easy</h3>-->
-              <!--<p class="schedule-list__p">GraphQL queries when the underlying data changes. You will see how to make the-->
-                <!--collaborative parts of your app update in real time with little extra code, how to integrate with a SQL-->
-                <!--database or REST API, and how this works in concert with GraphQL’s best features to simplify your app’s-->
-                <!--data management while being predictable.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Rebecca Hill <p class="schedule-list__p">Usabilla</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Structure Your App's Story With Sagas and Selectors</h3>
+              <p class="schedule-list__p">As apps begin to scale, many developers find themselves asking the question - but where does all the hard stuff go? The complicated data manipulation, the validation, the process flow of our apps. In other words, the business logic. If React is designed for the view layer, and we’re using Redux or something similar for the state, then where does the business logic go? This talk looks at the different options and tries to answer that question.</p>
+            </div>
+          </li>
 
           <!--<li class="schedule-list__item autoheight">-->
             <!--<div class="schedule-list__time">12.30</div>-->
             <!--<div class="schedule-list__speaker">Coffee Break!</div>-->
           <!--</li>-->
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">13.30</div>-->
-            <!--<div class="schedule-list__speaker">Steve Boshmann <p class="schedule-list__p">Infinite Red</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>-->
-              <!--<p class="schedule-list__p">Queries when the underlying data changes. You will see how to make the-->
-                <!--collaborative parts of your app update in real time with little extra code, how to integrate with a SQL-->
-                <!--database or REST API, and how this works in concert with GraphQL’s best features to simplify your app’s-->
-                <!--data.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Kristijan Ristovski <p class="schedule-list__p">ReactAcademy</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">React State Management In a GraphQL Era</h3>
+              <p class="schedule-list__p">Now that GraphQL takes care of managing data in our apps, is an external state-management library even needed?  Let's explore all the possibilities and compare the combinations of React, Apollo, Redux, MobX, and Next.js.</p>
+            </div>
+          </li>
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">14.00</div>-->
-            <!--<div class="schedule-list__speaker">Woody Rousseau <p class="schedule-list__p">Infinite Red</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">Mastering Server-rendered Apps</h3>-->
-              <!--<p class="schedule-list__p">We'll see how to build components in a way that makes them more maintainable,-->
-                <!--testable and easier to work with.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Alexey Kureev <p class="schedule-list__p">Werkspot</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Network Layer in React Native</h3>
+              <p class="schedule-list__p">React Native provides us with a set of primitives for building mobile applications. A few of these can be aggregated into a "networking" layer that manages the transfer of data. This layer was designed to mimic an API we have in the Web, but despite all the similarities, it has its own *qualities* and caveats every good React Native developer should know about. In this talk I'll try to guide you through the networking layer in React Native and share some tips and tricks I've learned along the way.</p>
+            </div>
+          </li>
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">14.30</div>-->
-            <!--<div class="schedule-list__speaker">Krzysztof Magiera <p class="schedule-list__p">Callstack.io</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">Building Reactive GraphQL Apps With Apollo</h3>-->
-              <!--<p class="schedule-list__p">In this talk, I’ll introduce our efforts to design a reactive system to-->
-                <!--automatically re-run GraphQL queries when the underlying data changes. You will see how to make the-->
-                <!--collaborative parts.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Narendra Shetty <p class="schedule-list__p">Booking.com</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Push Notification With React Native</h3>
+              <p class="schedule-list__p">Push notification is a crucial feature for any app. It helps in engagement and retention of the user. Most users will not return to an app after installing it, and that is where push notifications come into play. In my talk I'll be talking about how to achieve this feature with React Native for both iOS and Android.</p>
+            </div>
+          </li>
 
-          <!--<li class="schedule-list__item">-->
+          <li class="schedule-list__item">
             <!--<div class="schedule-list__time">15.45</div>-->
-            <!--<div class="schedule-list__speaker">Aaron Greenwald <p class="schedule-list__p">Wix</p></div>-->
-            <!--<div class="schedule-list__desc">-->
-              <!--<h3 class="schedule-list__title">The React Native Playground</h3>-->
-              <!--<p class="schedule-list__p">The React Native Playground breaks down barriers to mobile development by-->
-                <!--making it easy to write React Native apps right in the browser.</p>-->
-            <!--</div>-->
-          <!--</li>-->
+            <div class="schedule-list__speaker">Vladimir Novick <p class="schedule-list__p">vscaper</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Controlling Smart Homes With React Native</h3>
+              <p class="schedule-list__p">Smart homes become more and more popular. With this  we still use applications that come with smart products to control them. In this talk I will show you an alternative how you can create your own apps with React Native, that control smart home appliances.</p>
+            </div>
+          </li>
+
+          <li class="schedule-list__item">
+            <!--<div class="schedule-list__time">15.45</div>-->
+            <div class="schedule-list__speaker">Nader Dabit <p class="schedule-list__p">React Native Training</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">React Native VR + AR Made Simple</h3>
+              <p class="schedule-list__p">The React ecosystem has given developers the opportunity to target platforms that were once thought out of reach for JavaScript developers. Now, the Viro platform opens the door to developing both AR & VR on both iOS & Android as well as GEAR VR and Google Daydream. In this talk, I will quickly go over how to get up and running with the framework and demo an app that allows user to upload images from the conference into a virtual room, as well as walk around and interact with them in Augmented Reality.</p>
+            </div>
+          </li>
+
+          <li class="schedule-list__item">
+            <!--<div class="schedule-list__time">15.45</div>-->
+            <div class="schedule-list__speaker">Olga Petrova <p class="schedule-list__p">Sencha</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">How to “Reactify” Your Existing UI Components</h3>
+              <p class="schedule-list__p">React is a component-based UI library that doesn’t provide any built-in components. Over the years companies and developers have invested a lot of time and money in development of UI components based on VanillaJS or various frameworks. Building components is time consuming, has integration and maintenance risks, and worst of all, distracts developers from the task at hand - actually building the application. In this presentation, you will learn how to quickly and easily “Reactify” your existing JavaScript components to use them in React applications.</p>
+            </div>
+          </li>
+
+          <li class="schedule-list__item">
+            <!--<div class="schedule-list__time">15.45</div>-->
+            <div class="schedule-list__speaker">Manjula Dube <p class="schedule-list__p">Bookmyshow</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Rethinking With React 16</h3>
+              <p class="schedule-list__p">
+                React v16.0 comes with some major changes and an update to the core algorithm. With React v16.0 Facebook has completely revised the internals of React while keeping the public API essentially the same.<br>
+                Learn about what’s new in React 16 which would include a brief explanation of the new algorithm along with focus on few of the new features like Error Boundaries, Portals, Fragments and SSR with React 16.
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule-list__item">
+            <!--<div class="schedule-list__time">15.45</div>-->
+            <div class="schedule-list__speaker">Rotem Mizrachi-Meidan <p class="schedule-list__p">Wix</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">Continuous Workflow for a Large React Native App: Mobile At Wix</h3>
+              <p class="schedule-list__p">
+                The Wix app is a large operation involving ~40 developers from 6 different product groups and a pretty big amount of features.
+Scaling this project requires code architecture that enables each module to be developed separately, but easily fit the big puzzle.<br>
+
+                We’ll discuss the way we do both unit and E2E testing, the way we scale our CI, the way we deploy and how we fix issues in production when they arise.<br>
+
+                We’ll also share our plans to how we’re going to scale our app and dev process to support 100 developers a year from today.
+              </p>
+            </div>
+          </li>
 
           <!--<li class="schedule-list__item autoheight">-->
             <!--<div class="schedule-list__time">16.30</div>-->
@@ -1161,7 +1186,7 @@
           <!--</li>-->
 
           <!--<li class="schedule-list__item">-->
-            <!--<div class="schedule-list__time">19.30</div>-->
+            <!--&lt;!&ndash;<div class="schedule-list__time">19.30</div>&ndash;&gt;-->
             <!--<div class="schedule-list__speaker">Afterparty</div>-->
             <!--<div class="schedule-list__desc">-->
               <!--<h3 class="schedule-list__title">This is for all the devs who care about performance and who-->
@@ -1174,7 +1199,7 @@
               <!--</p>-->
             <!--</div>-->
           <!--</li>-->
-        <!--</ul>-->
+        </ul>
 
         <!--<ul class="schedule-list js-tabs__panel" id="react-panel">-->
           <!--<li class="schedule-list__item autoheight">-->
@@ -1185,8 +1210,8 @@
             <!--</div>-->
           <!--</li>-->
         <!--</ul>-->
-      <!--</div>-->
-    <!--</section>-->
+      </div>
+    </section>
 
     <section class="section sponsors" id="sponsors">
       <div class="container">

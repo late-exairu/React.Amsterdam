@@ -1507,26 +1507,6 @@ h6 {
     padding: 15px 0;
     min-height: 174px;
     display: flex; }
-    .schedule-list__item:before {
-      content: '';
-      position: absolute;
-      left: 86px;
-      top: 0;
-      bottom: -26px;
-      width: 2px;
-      background: #313432;
-      transform: translateY(30px); }
-    .schedule-list__item:after {
-      width: 8px;
-      height: 8px;
-      border: 2px solid #313432;
-      content: '';
-      position: absolute;
-      left: 87px;
-      top: 25px;
-      transform: translateX(-50%);
-      border-radius: 50px;
-      background: #1a1d1b; }
     .schedule-list__item.autoheight {
       min-height: 0;
       margin: 0 0 26px; }
