@@ -625,6 +625,7 @@ h6 {
     transform: translateY(-50%);
     top: 50%; }
   .basic-btn__more {
+    flex-shrink: 0;
     width: 46px;
     height: 20px;
     fill: #fff;
@@ -641,7 +642,11 @@ h6 {
       height: 44px;
       font-size: 18px;
       line-height: 44px;
-      padding: 0 20px; } }
+      padding: 0 20px; }
+      .basic-btn__more {
+        width: 30px;
+        height: 16px;
+        margin: auto 0 auto 12px; } }
 
 @keyframes gradient {
   0% {
@@ -669,7 +674,7 @@ h6 {
   @media only screen and (max-width: 1480px) {
     .header .container {
       max-width: none; } }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .header {
       visibility: hidden;
       top: 0;
@@ -687,11 +692,11 @@ h6 {
     display: block; }
   .main-nav .socials {
     margin: 12px 0 0 90px; }
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1280px) {
       .main-nav .socials {
-        margin: 12px 0 12px 0;
+        margin: 12px 0 12px 10px;
         justify-content: center; } }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .main-nav {
       background: rgba(0, 0, 0, 0.5);
       flex-direction: column-reverse;
@@ -756,7 +761,7 @@ h6 {
     opacity: 0; }
   .menu-toggle.open span:nth-child(3) {
     transform: translate(0, -12px) rotate(-45deg); }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .menu-toggle {
       display: block; } }
 
@@ -767,7 +772,13 @@ h6 {
   text-transform: uppercase;
   display: flex;
   justify-content: flex-end;
-  font-weight: 300; }
+  font-weight: 300;
+  /*@media only screen and (max-width : 1000px) {
+
+		&__link{
+			padding: 0 10px;
+		}
+	}*/ }
   .main-menu__item {
     position: relative; }
     .main-menu__item:after {
@@ -800,10 +811,7 @@ h6 {
     .main-menu__link:hover {
       background: #000;
       color: #fff; }
-  @media only screen and (max-width: 1000px) {
-    .main-menu__link {
-      padding: 0 10px; } }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .main-menu {
       left: 0;
       right: 0;
@@ -824,10 +832,10 @@ h6 {
 
 /* Content
 -----------------------------------------------------------------------------*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   .fade {
     filter: blur(10px) grayscale(0.6);
-    transition: all .3s; } }
+    /*transition: all .3s;*/ } }
 
 .tint {
   position: absolute;
@@ -839,7 +847,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   transition: all .3s; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1024px) {
     .tint.visible {
       visibility: visible;
       opacity: 1; } }
@@ -1328,9 +1336,9 @@ h6 {
 
 .slider-nav {
   position: absolute;
-  left: -50px;
-  right: -50px;
-  top: 50%;
+  top: 25%;
+  left: 10px;
+  right: 10px;
   z-index: 1; }
   .slider-nav .slick-next,
   .slider-nav .slick-prev {
@@ -1353,11 +1361,6 @@ h6 {
     background-size: cover;
     left: auto;
     right: 0; }
-  @media only screen and (max-width: 1280px) {
-    .slider-nav {
-      top: 25%;
-      left: 10px;
-      right: 10px; } }
   @media only screen and (max-width: 680px) {
     .slider-nav {
       display: none; } }
@@ -1854,7 +1857,7 @@ h6 {
   .workshop-info__p {
     font: 16px/1.64 "LatoLight", sans-serif;
     margin: 0;
-    color: #5f5f5f; }
+    color: #969696; }
   @media only screen and (max-width: 680px) {
     .workshop-info__line {
       flex-direction: column; }
@@ -1941,7 +1944,7 @@ h6 {
   .workshop-leads__desc {
     font: 16px/1.64 "Lato", sans-serif;
     margin: 0;
-    color: #5f5f5f; }
+    color: #969696; }
   @media only screen and (max-width: 1000px) {
     .workshop-leads__lead-info {
       margin: 0 24px 0 0; }
@@ -1981,7 +1984,7 @@ h6 {
   .guarants__p {
     font: 16px/1.64 "LatoLight", sans-serif;
     margin: 25px 0 0;
-    color: #5f5f5f; }
+    color: #969696; }
   .guarants .c-title {
     margin: 62px 0 20px; }
   .guarants .basic-list {
@@ -2309,8 +2312,12 @@ h6 {
   flex-wrap: wrap;
   justify-content: center; }
   .help__link {
-    margin: 10px 18px;
+    padding: 10px 18px;
     color: #fff; }
+  .help:hover .help__link {
+    opacity: 0.5; }
+    .help:hover .help__link:hover {
+      opacity: 1; }
   @media only screen and (max-width: 480px) {
     .help {
       justify-content: center;

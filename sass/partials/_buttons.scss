@@ -38,6 +38,7 @@
 	}
 
 	&__more{
+		flex-shrink: 0;
 		width: 46px;
 		height: 20px;
 		fill: #fff;
@@ -60,6 +61,12 @@
 		font-size: 18px;
 		line-height: 44px;
 		padding: 0 20px;
+
+		&__more{
+			width: 30px;
+			height: 16px;
+			margin: auto 0 auto 12px;
+		}
 	}
 }
 
