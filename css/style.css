@@ -1071,8 +1071,11 @@ h6 {
         transform: translate(-50%, -50%);
         background: url(../img/date-scratch.png);
         z-index: -1;
-        opacity: 0.60;
-        background-size: cover; }
+        opacity: 0.60; }
+      .intro__desc .scratch.green:after {
+        background: url(../img/date-scratch_green.png);
+        background-size: cover;
+        opacity: 0.40; }
   .intro__title {
     font: 100px/1.16 "LatoBlack", sans-serif;
     text-transform: uppercase;
@@ -2086,7 +2089,9 @@ h6 {
     margin-bottom: 28px;
     margin: 0; }
   .action__desc {
-    font: 20px/1.6 "Lato", sans-serif; }
+    font: 20px/1.6 "Lato", sans-serif;
+    position: relative;
+    z-index: 2; }
   .action__p {
     margin: 12px 0; }
   .action__pic {

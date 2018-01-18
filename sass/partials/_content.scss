@@ -287,7 +287,7 @@
 
 		.scratch{
 			position: relative;
-
+			
 			&:after{
 				content: '';
 				/*width: 136px;
@@ -301,7 +301,15 @@
 				background: url(../img/date-scratch.png);
 				z-index: -1;
 				opacity: 0.60;
-				background-size: cover;
+			}
+
+			&.green{
+			
+				&:after{
+					background: url(../img/date-scratch_green.png);
+					background-size: cover;
+					opacity: 0.40;
+				}
 			}
 		}
 	}
@@ -1918,6 +1926,8 @@
 
 	&__desc{
 		font: 20px/1.6 $lato;
+		position: relative;
+		z-index: 2;
 	}
 
 	&__p{
