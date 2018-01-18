@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: center;
 	margin: 50px 0 0;
+	flex-wrap: wrap;
 
 	.basic-btn{
 		margin: 0 30px 0;
@@ -15,13 +16,13 @@
 }
 
 .basic-btn{
-	font-size: 24px;
+	font: 24px/60px $latoSB;
 	display: inline-flex;
-	height: 60px;
 	line-height: 60px;
 	color: $clr-black;
 	fill: $clr-black;
 	padding: 0 40px;
+	white-space: nowrap;
 	/*background: linear-gradient(135deg, #99ff00,#00dd3b);*/
 	background: linear-gradient(135deg, #99ff00,#00dd3b);
 	background-size: 200% 200%;
@@ -35,6 +36,14 @@
 		transform: translateY(-50%);
 		top: 50%;
 	}
+
+	&__more{
+		flex-shrink: 0;
+		width: 46px;
+		height: 20px;
+		fill: #fff;
+		margin: auto 0 auto 20px;
+	}
 	
 	&.red{
 		background: linear-gradient(135deg, #fd3803 0%,#cd0303 100%);
@@ -42,11 +51,22 @@
 		fill: #fff;
 	}
 
+	&.transparent{
+		background: transparent;
+		color: #fff;
+	}
+
 	@media only screen and (max-width : 1148px) {
 		height: 44px;
 		font-size: 18px;
 		line-height: 44px;
 		padding: 0 20px;
+
+		&__more{
+			width: 30px;
+			height: 16px;
+			margin: auto 0 auto 12px;
+		}
 	}
 }
 
