@@ -1129,6 +1129,28 @@
               </li>
             </ul>
           </li>
+
+          <li class="speakers-list__item">
+            <div class="speakers-list__img-wrap">
+              <img class="speakers-list__img" src="pic/speakers/richard.jpg" height="243" width="243" alt="">
+            </div>
+
+            <h4 class="speakers-list__name">Richard Threlkeld</h4>
+            <p class="speakers-list__info">Amazon, USA</p>
+            <div class="speakers-list__desc">
+              <p class="speakers-list__p">Senior Technical Product Manager at AWS Mobile. He helped launch both AWS Amplify and AWS AppSync, and before that worked as the North America mobile development specialist for AWS customers focusing on native and hybrid clients, as well as infrastructure and security designs. Prior to that he worked as a dedicated architect for AWS customers rolling out Big Data solutions for Ad Tech and Gaming.</p>
+            </div>
+
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="https://twitter.com/undef_obj" class="socials__link" target="_blank">
+                  <svg class="socials__img" role="img" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-tw"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </section>
@@ -1217,8 +1239,14 @@
             <!--<div class="schedule-list__time">11.45</div>-->
             <div class="schedule-list__speaker">Brent Vatne <p class="schedule-list__p">Expo</p></div>
             <div class="schedule-list__desc">
-              <h3 class="schedule-list__title">From Create React Native App to the App and Play Stores</h3>
-              <p class="schedule-list__p">Writing React code is similar regardless of the platform - web, native, Sketch, terminal, fridge, etc. But there are a bunch of other things you'll need to know to take your app and get it deployed to the store. I think all of these things can be explained in about 25 minutes, and so I will try.</p>
+              <h3 class="schedule-list__title">React Navigation</h3>
+              <p class="schedule-list__p">
+                You start using React Native. Styling? Got it. Animations? A little different, but sure. Now let's add a navigation bar and another screen that we transition to...<br>
+
+                This is where you hit a fork in the road. You can either use a library that wraps the native navigation APIs for the platform or a re-implementation of those APIs using the same React Native primitives (View, Text, Animated, etc) that you use throughout your app. The former is commonly called “native navigation" because most of the implementation is in "native" and the latter is called "JavaScript-based navigation" because most of the implementation is in JavaScript. React Navigation is a "JavaScript-based" navigation solution and React Native Navigation is a "native" navigation library. The choice you make has a significant impact on your app, and it's something you will live with every day while you continue to work on the project.<br>
+
+                I lead the React Navigation along with the creator of the project, Eric Vicenti. I'll explain why we think that building a JavaScript-based navigation library is important, what the limitations are (why there is room for both categories of solutions), and I'll show you how to take full advantage of it.
+              </p>
             </div>
           </li>
 
@@ -1236,6 +1264,15 @@
                     <!--collaborative parts.</p>-->
                 <!--</div>-->
               <!--</div>-->
+            </div>
+          </li>
+
+          <li class="schedule-list__item">
+            <!--<div class="schedule-list__time">13.30</div>-->
+            <div class="schedule-list__speaker">Richard Threlkeld <p class="schedule-list__p">Amazon</p></div>
+            <div class="schedule-list__desc">
+              <h3 class="schedule-list__title">GraphQL at scale with AWS</h3>
+              <p class="schedule-list__p">As the popularity of GraphQL grows, many hard questions are being asked by companies adopting it as an API standard. What databases or search engines can I use it with? How do you aggregate data from multiple sources globally? Can GraphQL fetched data be available offline, and if clients mutate it how are conflicts resolved? Is there a secure way to control data access based on user authentication? Do subscriptions scale to thousands or millions of users? How do I use it with content like images or video? We’ll learn about AWS AppSync, a managed GraphQL service with offline and realtime features, and see the latest features and functionality that have just been released to market.</p>
             </div>
           </li>
 
