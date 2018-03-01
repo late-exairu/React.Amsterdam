@@ -1966,10 +1966,22 @@
 		margin: 0;
 	}
 
+	&__sub-title{
+		font: 42px/1.2 $lato;
+		font-weight: 300;
+		text-align: center;
+		background: linear-gradient(150deg,#9f0,#00dd3b);
+		-webkit-background-clip: text;
+		color: transparent;
+		margin: 80px 0 20px;
+	}
+
 	&__desc{
 		font: 20px/1.6 $lato;
-		position: relative;
-		z-index: 2;
+
+		&.center{
+			text-align: center;
+		}
 	}
 
 	&__p{
@@ -2065,7 +2077,7 @@
 		}
 
 		.tour-plan__item.head{
-			margin: 14px 0 80px;
+			margin: 14px 0 14px;
 		}
 	}
 
@@ -2111,6 +2123,60 @@
 	}
 }
 
+.own-tour{
+
+	&__title{
+		font: 42px/1.2 $lato;
+		font-weight: 300;
+		text-align: center;
+		background: linear-gradient(150deg,#9f0,#00dd3b);
+		-webkit-background-clip: text;
+		color: transparent;
+		margin: 80px 0 20px;
+	}
+
+	&__desc{
+		font: 28px/1.5 $lato;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	&__p{
+		margin: 12px 0;
+	}
+
+	&__pic{
+		margin: 15px;
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	@media only screen and (max-width : 680px) {
+
+		&__title{
+			font: 32px/1.32 $lato;
+		font-weight: 300;
+		}
+
+		&__p{
+
+		}
+	}
+
+	@media only screen and (max-width : 420px) {
+
+		&__p{
+			font: 20px/1.6 $lato;
+			font-weight: 300;
+		}
+
+		&__pic{
+			margin: 15px 0 0;
+		}
+	}
+}
+
 .tour-plan{
 	padding: 0;
 	margin: 0;
@@ -2119,7 +2185,7 @@
 	&__item{
 		position: relative;
 		display: flex;
-		min-height: 180px;
+		min-height: 160px;
 		margin: 18px 0;
 		justify-content: space-between;
 
@@ -2175,6 +2241,8 @@
 
 	&__right{
 		margin: 0 0 0 100px;
+		font: 30px/1.6 $lato;
+		font-weight: 300;
 	}
 
 	&__mid{
@@ -2202,10 +2270,12 @@
 	}
 
 	&__title{
-		font: 20px/1.54 $lato;
+		font: 38px/1.36 $lato;
+		font-weight: 300;
 		font-weight: normal;
-		margin: 0 0 8px;
+		margin: auto;
 		padding: 0;
+		text-align: center;
 	}
 
 	&__desc{
@@ -2240,7 +2310,7 @@
 		}
 
 		&__title{
-			font: 18px/1.54 $lato;
+			/*font: 18px/1.54 $lato;*/
 			margin: 0 0 4px;
 		}
 
@@ -2267,6 +2337,7 @@
 				top: -25px;
 				bottom: auto;
 				height: 160px;
+				display: none;
 			}
 		}
 
@@ -2275,6 +2346,18 @@
 			margin: 0;
 			align-items: center;
 			text-align: center;
+			z-index: 1;
+			position: relative;
+		}
+
+		&__right{
+			font: 22px/1.54 $lato;
+			font-weight: 300;
+		}
+
+		&__title{
+			font: 22px/1.54 $lato;
+			font-weight: 300;
 		}
 
 		&__marker{
@@ -2294,17 +2377,50 @@
 		&__place-pic{
 			margin: 0 auto;
 		}
+	}
+}
 
-		.time{
-			order: 2;
-			align-items: center;
-			text-align: center;
+.days{
+	display: flex;
+	justify-content: center;
+	margin: 38px 0;
+	flex-wrap: wrap;
+	
+	&__item{
+		display: flex;
+		background: #272a28;
+		width: 269px;
+		padding: 5px 10px;
+		margin: 3px 3px 2px;
+	}
+
+	&__num{
+		text-align: left;
+		color: #717271;
+		font: 10px/1.6 $lato;
+		text-transform: uppercase;
+
+		span{
+			text-transform: none;
+			font: 24px/1.2 $lato;
 		}
+	}
 
-		.info{
-			order: 3;
-			align-items: center;
-			text-align: center;
+	&__title{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font: 22px/1.4 $lato;
+		font-weight: 300;
+		flex: 1 1;
+		margin: 0;
+		padding: 0;
+
+		span{
+			margin: auto;
+			background: linear-gradient(150deg,#9f0,#00dd3b);
+			-webkit-background-clip: text;
+			color: transparent;
 		}
 	}
 }
