@@ -2414,8 +2414,12 @@ h6 {
     display: flex;
     background: #272a28;
     width: 269px;
-    padding: 5px 10px;
-    margin: 3px 3px 2px; }
+    padding: 4px 10px;
+    margin: 3px 3px 2px;
+    text-decoration: none;
+    border: 1px solid #272a28; }
+    .days__item:hover {
+      border-color: #00dd3b; }
   .days__num {
     text-align: left;
     color: #717271;
@@ -2438,6 +2442,8 @@ h6 {
       background: linear-gradient(150deg, #9f0, #00dd3b);
       -webkit-background-clip: text;
       color: transparent; }
+  .days a {
+    text-decoration: none; }
 
 .help {
   font: 16px/1.4 "Lato", sans-serif;

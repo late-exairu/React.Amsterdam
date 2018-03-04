@@ -2402,8 +2402,14 @@
 		display: flex;
 		background: #272a28;
 		width: 269px;
-		padding: 5px 10px;
+		padding: 4px 10px;
 		margin: 3px 3px 2px;
+		text-decoration: none;
+		border: 1px solid #272a28;
+
+		&:hover{
+			border-color: #00dd3b;
+		}
 	}
 
 	&__num{
@@ -2434,6 +2440,10 @@
 			-webkit-background-clip: text;
 			color: transparent;
 		}
+	}
+
+	a{
+		text-decoration: none; 
 	}
 }
 
