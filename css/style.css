@@ -1351,7 +1351,7 @@ h6 {
     cursor: pointer; }
 
 .location {
-  min-height: 1100px; }
+  /*min-height: 1100px;*/ }
   .location__logo {
     width: 478px;
     height: 326px;
@@ -1360,6 +1360,10 @@ h6 {
     background-size: cover;
     margin: 51px auto 66px;
     background-size: contain; }
+    @media only screen and (max-width: 480px) {
+      .location__logo {
+        margin: 30px 0;
+        height: 200px; } }
   .location .container {
     position: relative;
     z-index: 1; }
@@ -1399,6 +1403,9 @@ h6 {
     right: 0; }
   @media only screen and (max-width: 680px) {
     .slider-nav {
+      top: 165px; } }
+  @media only screen and (max-width: 480px) {
+    .slider-nav {
       display: none; } }
 
 .slider {
@@ -1418,14 +1425,18 @@ h6 {
   height: 100%; }
 
 .map {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  /*position: absolute;
+	bottom: 50px;
+	left: 50%;
+	
+	transform: translateX(-50%);
+	height: 492px;
+	width: 100%;
+	max-width: 1110px;
+	z-index: 2;*/
+  position: relative;
   height: 492px;
-  width: 100%;
-  max-width: 1110px;
-  z-index: 2; }
+  max-width: 1110px; }
   .map__desc {
     position: absolute;
     left: 68px;
@@ -2329,7 +2340,6 @@ h6 {
   .tour-plan__title {
     font: 38px/1.36 "Lato", sans-serif;
     font-weight: 300;
-    font-weight: normal;
     margin: auto;
     padding: 0;
     text-align: center; }
