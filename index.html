@@ -69,6 +69,14 @@
               </svg>
             </a>
           </li>
+
+          <li class="socials__item">
+            <a href="http://bit.ly/ra-slack" class="socials__link" target="_blank">
+              <svg class="socials__img" role="img" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-sl"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
 
         <ul class="main-menu">
@@ -76,8 +84,8 @@
           <li class="main-menu__item"><a href="#location" class="main-menu__link">Location</a></li>
           <li class="main-menu__item"><a href="#speakers" class="main-menu__link">Speakers</a></li>
           <li class="main-menu__item"><a href="#schedule" class="main-menu__link">Talks</a></li>
-          <li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>
           <li class="main-menu__item"><a href="#workshops" class="main-menu__link">Workshops</a></li>
+          <li class="main-menu__item"><a href="#sponsors" class="main-menu__link">Sponsors</a></li>
           <li class="main-menu__item active"><a href="#contacts" class="main-menu__link">Contact us</a></li>
           <li class="main-menu__item active"><a href="/2017" class="main-menu__link" target="_blank">2017</a></li>
           <li class="main-menu__item accent"><a href="https://www.eventbrite.com/e/react-amsterdam-conference-2018-tickets-38900910671" class="main-menu__link" target="_blank">Tickets</a></li>
@@ -165,7 +173,7 @@
           community event.</p>
 
         <div class="days">
-          <a class="days__item" href="http://react.amsterdam/workshops/">
+          <a class="days__item" href="/workshops/">
             <div class="days__num">
               Thursday<br/>
               <span>12th</span>
@@ -173,7 +181,7 @@
             <p class="days__title"><span>Workshops day</span></p>
           </a>
 
-          <a class="days__item" href="#speakers">
+          <a class="days__item" href="#schedule">
             <div class="days__num">
               Friday<br/>
               <span>13th</span>
@@ -181,7 +189,7 @@
             <p class="days__title"><span>Conference day</span></p>
           </a>
 
-          <a class="days__item" href="http://react.amsterdam/extended-program.html">
+          <a class="days__item" href="/extended-program.html">
             <div class="days__num">
               Saturday<br/>
               <span>14th</span>
@@ -191,6 +199,7 @@
         </div>
 
         <p class="event__p">Same as last year, days before (and after) the main event, we'll host a <a href="./workshops">training day</a>, with three workshops on advanced React and State Management as well as a crash course on React Native.</p>
+        <p class="event__p">For more fun activities with networking with our community, join our official <svg style="vertical-align: -3px" class="socials__img" role="img" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-sl"></use></svg> <a target="_blank" href="http://bit.ly/ra-slack">Slack channel</a>.</p>
 
         <h3 class="event__sep-title">Feel The Vibes</h3>
         <p class="event__p">Check out the the after-movie and mood videos from React Amsterdam 2017 edition:</p>
@@ -1652,46 +1661,46 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
       </div>
     </section>
 
-    <!--<section class="section parties bordered" id="extended-programme">-->
-      <!--<div class="container">-->
-        <!--<h3 class="c-title">Extended program</h3>-->
+    <section class="section parties bordered" id="extended-programme">
+      <div class="container">
+        <h3 class="c-title">Extended program</h3>
 
-        <!--<div class="actions">-->
-          <!--<div class="actions__item">-->
-            <!--<figure class="actions__pic-wrap">-->
-              <!--<img class="actions__pic" src="pic/actions1.jpg" height="151" width="261" alt="">-->
-            <!--</figure>-->
-            <!--<h3 class="actions__title">Preparty</h3>-->
-            <!--<p class="actions__desc">The day before</p>-->
-          <!--</div>-->
+        <div class="actions">
+          <div class="actions__item">
+            <figure class="actions__pic-wrap">
+              <img class="actions__pic" src="pic/actions1.jpg" height="151" width="261" alt="">
+            </figure>
+            <h3 class="actions__title">Community preparty</h3>
+            <p class="actions__desc">The day before</p>
+          </div>
 
-          <!--<div class="actions__item">-->
-            <!--<figure class="actions__pic-wrap">-->
-              <!--<img class="actions__pic" src="pic/actions2.jpg" height="151" width="261" alt="">-->
-            <!--</figure>-->
-            <!--<h3 class="actions__title">Afterparty</h3>-->
-            <!--<p class="actions__desc">ReactJS meets Friday the 13th</p>-->
-          <!--</div>-->
+          <div class="actions__item">
+            <figure class="actions__pic-wrap">
+              <img class="actions__pic" src="pic/actions2.jpg" height="151" width="261" alt="">
+            </figure>
+            <h3 class="actions__title">Afterparty</h3>
+            <p class="actions__desc">React meets Friday the 13th</p>
+          </div>
 
-          <!--<div class="actions__item">-->
-            <!--<figure class="actions__pic-wrap">-->
-              <!--<img class="actions__pic" src="pic/actions3.jpg" height="151" width="261" alt="">-->
-            <!--</figure>-->
-            <!--<h3 class="actions__title">Amsterdam exploration day</h3>-->
-            <!--<p class="actions__desc">By bike, by feet, by boat<br/> Saturday dinner 18:00</p>-->
-          <!--</div>-->
-        <!--</div>-->
+          <div class="actions__item">
+            <figure class="actions__pic-wrap">
+              <img class="actions__pic" src="pic/actions3.jpg" height="151" width="261" alt="">
+            </figure>
+            <h3 class="actions__title">Amsterdam exploration day</h3>
+            <p class="actions__desc">By bike, by feet, by boat</p>
+          </div>
+        </div>
 
-        <!--<div class="btn-wrap">-->
-          <!--<a href="#" class="basic-btn transparent" target="_blank">-->
-            <!--More details-->
-            <!--<svg class="basic-btn__more" role="img" aria-hidden="true">-->
-              <!--<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#btn-more"></use>-->
-            <!--</svg>-->
-          <!--</a>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</section>-->
+        <div class="btn-wrap">
+          <a href="/extended-program.html" class="basic-btn transparent">
+            More details
+            <svg class="basic-btn__more" role="img" aria-hidden="true">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#btn-more"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <section class="section sponsors" id="sponsors">
       <div class="container">
@@ -1800,7 +1809,7 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
 
           <ul class="socials med">
             <li class="socials__item">
-              <a href="https://twitter.com/reactamsterdam" class="socials__link">
+              <a href="https://twitter.com/reactamsterdam" class="socials__link" target="_blank">
                 <svg class="socials__img" role="img" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-tw"></use>
                 </svg>
@@ -1808,7 +1817,7 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
             </li>
 
             <li class="socials__item">
-              <a href="https://www.facebook.com/reactamsterdam" class="socials__link">
+              <a href="https://www.facebook.com/reactamsterdam" class="socials__link" target="_blank">
                 <svg class="socials__img" role="img" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-fb"></use>
                 </svg>
@@ -1816,7 +1825,7 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
             </li>
 
             <li class="socials__item">
-              <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link">
+              <a href="https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw" class="socials__link" target="_blank">
                 <svg class="socials__img" role="img" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-yt"></use>
                 </svg>
@@ -1824,9 +1833,17 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
             </li>
 
             <li class="socials__item">
-              <a href="https://medium.com/@ReactAmsterdam" class="socials__link">
+              <a href="https://medium.com/@ReactAmsterdam" class="socials__link" target="_blank">
                 <svg class="socials__img" role="img" aria-hidden="true">
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-med"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="socials__item">
+              <a href="http://bit.ly/ra-slack" class="socials__link" target="_blank">
+                <svg class="socials__img" role="img" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#socials-sl"></use>
                 </svg>
               </a>
             </li>
