@@ -1311,7 +1311,7 @@
 
         <h2 class="c-title">Our MC's</h2>
 
-        <ul class="speakers-list" style="justify-content: center">
+        <ul class="speakers-list centered">
           <li class="speakers-list__item">
             <div class="speakers-list__img-wrap">
               <img class="speakers-list__img" src="pic/speakers/gant.jpg" height="243" width="243" alt="">
@@ -1596,7 +1596,7 @@ Learn how to create a more composable application architecture and an arsenal of
 
           <li class="schedule-list__item">
             <!--<div class="schedule-list__time">15.45</div>-->
-            <div class="schedule-list__speaker">Rotem Mizrachi-Meidan and Shalom Yerushalmy <p class="schedule-list__p">Wix</p></div>
+            <div class="schedule-list__speaker">Rotem Mizrachi-Meidan <p class="schedule-list__p">Wix</p></div>
             <div class="schedule-list__desc">
               <h3 class="schedule-list__title">Continuous Workflow for a Large React Native App: Mobile At Wix</h3>
               <p class="schedule-list__p">
@@ -1606,52 +1606,6 @@ Scaling this project requires code architecture that enables each module to be d
                 We’ll discuss the way we do both unit and E2E testing, the way we scale our CI, the way we deploy and how we fix issues in production when they arise.<br>
 
                 We’ll also share our plans to how we’re going to scale our app and dev process to support 100 developers a year from today.
-              </p>
-            </div>
-          </li>
-
-          <li class="schedule-list__item">
-            <!--<div class="schedule-list__time">15.45</div>-->
-            <div class="schedule-list__speaker">Wowa Barsukov <p class="schedule-list__p">Primelephants</p></div>
-            <div class="schedule-list__desc">
-              <h3 class="schedule-list__title">Music of React</h3>
-              <p class="schedule-list__p">
-                I will show you how to use React components approach while creating music with Ableton Live. This talk will inspire you to connect two independents worlds, Music and React.
-              </p>
-            </div>
-          </li>
-
-          <li class="schedule-list__item">
-            <!--<div class="schedule-list__time">15.45</div>-->
-            <div class="schedule-list__speaker">Sara Vieira <p class="schedule-list__p">YLDio</p></div>
-            <div class="schedule-list__desc">
-              <h3 class="schedule-list__title">Public Speaking: How Bad Can It Be</h3>
-              <p class="schedule-list__p">
-                Well, my first conference talk didn't go exactly like planned.
-              </p>
-            </div>
-          </li>
-
-          <li class="schedule-list__item">
-            <!--<div class="schedule-list__time">15.45</div>-->
-            <div class="schedule-list__speaker">David Carter<br> & Simon Dudley <p class="schedule-list__p">Auto Trader</p></div>
-            <div class="schedule-list__desc">
-              <h3 class="schedule-list__title">The Tell-Tale Metric: Replatforming with Edgar Allan Poe</h3>
-              <p class="schedule-list__p">
-                A harrowing tale of tragedy and misfortune: how a year-long attempt to crowbar a React SPA front-end into a monolithic mobile platform serving many millions of users almost plunged over the precipice into failure. Prepare yourself for all the thrills, chills and linting errors anyone could ever hope for. Warning: tale may rhyme.
-              </p>
-            </div>
-          </li>
-
-          <li class="schedule-list__item">
-            <!--<div class="schedule-list__time">15.45</div>-->
-            <div class="schedule-list__speaker">Phil Plückthun <p class="schedule-list__p">Formidable</p></div>
-            <div class="schedule-list__desc">
-              <h3 class="schedule-list__title">Wonky Game Physics in Reason and Lessons Learned</h3>
-              <p class="schedule-list__p">
-                Reprocessing is a new library for Reason, a rather new programming language building on the OCaml + JavaScript ecosystems. It’s a lean wrapper around OpenGL and WebGL and allows truly cross-platform games to be written rather easily.<br>
-
-Reason is great for a whole lot of things, but let me take you through a story of trying to write a 2D physics engine in just under 8 hours (Mistakes were made), what strongly typed languages don’t protect you off, and a vision of what you could build with Reason or Reprocessing. The universal future is coming, and Reason is orienting itself just right with projects like bsb-native.
               </p>
             </div>
           </li>
@@ -1788,7 +1742,7 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
       </div>
     </section>
 
-    <section class="section parties bordered" id="extended-programme">
+    <section class="section parties" id="extended-programme">
       <div class="container">
         <h3 class="c-title">Extended program</h3>
 
@@ -1821,6 +1775,38 @@ In the afternoon we will dive into some more advanced subjects, like modelling a
         <div class="btn-wrap">
           <a href="/extended-program.html" class="basic-btn transparent">
             More details
+            <svg class="basic-btn__more" role="img" aria-hidden="true">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#btn-more"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section awards bordered">
+      <div class="container">
+        <h3 class="c-title">React Open Source Awards</h3>
+
+		<img class="awards__award-pic" src="pic/award.png" height="355" width="242" alt="award image">
+
+        <p class="awards__p">We’re looking specifically at open source projects or initiatives, with or without a code, but following an open and transparent culture, open for collaboration and contributions from any person interested.</p>
+
+        <p class="awards__p">For some cases, projects that are not sharing source code publicly, but are without a doubt considered non-profit, non-commercial, could be also participating in the awards.</p>
+
+        <h3 class="awards__subtitle">Nominations:</h3>
+
+        <ul class="awards-list">
+        	<li class="awards-list__item"><span class="awards-list__text">Breakthrough of the year</span></li>
+        	<li class="awards-list__item"><span class="awards-list__text">Fun side project of the year</span></li>
+        	<li class="awards-list__item"><span class="awards-list__text">Most impactful contribution 
+to the community</span></li>
+        	<li class="awards-list__item"><span class="awards-list__text">Productivity booster</span></li>
+        	<li class="awards-list__item"><span class="awards-list__text">The most exciting use of technology</span></li>
+        </ul>
+
+        <div class="btn-wrap">
+          <a href="/awards.html" class="awards__btn-more basic-btn bordered">
+            More about React Open Source Awards
             <svg class="basic-btn__more" role="img" aria-hidden="true">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v3#btn-more"></use>
             </svg>

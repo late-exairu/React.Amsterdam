@@ -606,6 +606,7 @@ h6 {
   font-weight: 700;
   display: inline-flex;
   line-height: 60px;
+  /*line-height: 1.24;*/
   color: #1a1d1b;
   fill: #1a1d1b;
   padding: 0 40px;
@@ -634,6 +635,10 @@ h6 {
   .basic-btn.transparent {
     background: transparent;
     color: #fff; }
+  .basic-btn.bordered {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff; }
   @media only screen and (max-width: 1148px) {
     .basic-btn {
       height: 44px;
@@ -691,7 +696,7 @@ h6 {
     margin: 12px 0 0 90px; }
     @media only screen and (max-width: 1280px) {
       .main-nav .socials {
-        margin: 12px 0 12px 10px;
+        margin: 12px 0 9px 10px;
         justify-content: center; } }
   @media only screen and (max-width: 1024px) {
     .main-nav {
@@ -1578,6 +1583,9 @@ h6 {
     right: 0;
     z-index: 1;
     background: rgba(26, 29, 27, 0.95); }
+  .speakers-list.centered {
+    justify-content: center;
+    text-align: left; }
   @media only screen and (max-width: 1180px) {
     .speakers-list {
       margin-bottom: 0; }
@@ -2471,6 +2479,204 @@ h6 {
   fill: #00dd3b; }
   .contacts .socials .socials__img:hover {
     fill: #7af80c; }
+
+.awards {
+  background: url(../img/awards-bg.jpg); }
+  .awards__award-pic {
+    display: block;
+    margin: 80px auto 71px; }
+  .awards__subtitle {
+    font: 34px/1.6 "Lato", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 56px 0 36px; }
+  .awards__p {
+    font: 20px/1.6 "Lato", sans-serif;
+    margin: 12px auto;
+    max-width: 960px;
+    text-align: center; }
+  .awards__btn-more {
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    white-space: normal;
+    height: auto;
+    line-height: 1.2;
+    text-align: center;
+    justify-content: center; }
+  @media only screen and (max-width: 680px) {
+    .awards__award-pic {
+      display: block;
+      width: 180px;
+      height: auto;
+      margin: 50px auto 41px; }
+    .awards__p {
+      font: 16px/1.6 "Lato", sans-serif; } }
+
+.awards-list {
+  padding: 0;
+  margin: 0 auto 80px;
+  list-style: none;
+  font: 36px/1.24 "Lato", sans-serif;
+  letter-spacing: 0.035em;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  max-width: 986px; }
+  .awards-list__item {
+    border: 2px solid #313432;
+    background: #1a1d1b;
+    margin: 0 0 -2px 0;
+    padding: 26px 68px 27px;
+    align-self: flex-start;
+    flex-shrink: 1;
+    text-align: center;
+    float: left; }
+    .awards-list__item:nth-child(even) {
+      float: right;
+      align-self: flex-end; }
+  .awards-list__text {
+    background: linear-gradient(150deg, #9f0, #00dd3b);
+    -webkit-background-clip: text;
+    color: transparent; }
+  @media only screen and (max-width: 860px) {
+    .awards-list__item {
+      float: none;
+      display: block;
+      padding: 20px 48px 21px;
+      font: 26px/1.24 "Lato", sans-serif;
+      font-weight: 900; }
+      .awards-list__item:nth-child(even) {
+        float: none; } }
+  @media only screen and (max-width: 480px) {
+    .awards-list {
+      padding: 0;
+      display: block; }
+      .awards-list__item {
+        float: none;
+        display: block;
+        padding: 12px 30px 13px;
+        font: 20px/1.24 "Lato", sans-serif;
+        font-weight: 900; }
+        .awards-list__item:nth-child(even) {
+          float: none; } }
+
+.award {
+  text-align: center; }
+  .award__intro {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 970px;
+    margin: 24px auto 0; }
+  .award__item {
+    margin: 60px 0;
+    padding: 10px 0;
+    border-top: 1px solid #313432; }
+    .award__item:first-child {
+      margin: 0 0 60px;
+      border: none; }
+  .award__title {
+    font: 44px/1.24 "Lato", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin: 60px 0 30px; }
+    .award__title span {
+      background: linear-gradient(150deg, #9f0, #00dd3b);
+      -webkit-background-clip: text;
+      color: transparent; }
+  .award__subtitle {
+    font: 28px/1.62 "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    margin: 38px 0; }
+  .award__desc {
+    font: 20px/1.62 "Lato", sans-serif;
+    margin: 30px 0 0; }
+  @media only screen and (max-width: 860px) {
+    .award__intro {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 20px auto 0; }
+    .award__title {
+      font: 32px/1.24 "Lato", sans-serif;
+      font-weight: 900; }
+    .award__subtitle {
+      font: 28px/1.62 "Lato", sans-serif;
+      font-weight: 300;
+      margin: 28px 0; }
+    .award__desc {
+      font: 20px/1.62 "Lato", sans-serif;
+      margin: 22px 0 0; } }
+  @media only screen and (max-width: 480px) {
+    .award__intro {
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 16px auto 0; }
+    .award__title {
+      font: 24px/1.24 "Lato", sans-serif;
+      font-weight: 900; }
+    .award__subtitle {
+      font: 20px/1.62 "Lato", sans-serif;
+      font-weight: 300;
+      margin: 22px 0; }
+    .award__desc {
+      font: 16px/1.62 "Lato", sans-serif;
+      margin: 18px 0 0; } }
+
+.nominees {
+  text-align: center; }
+  .nominees__item {
+    margin: 46px 0 0; }
+    .nominees__item:first-child {
+      margin: 0; }
+    .nominees__item.winner .nominees__logo:after {
+      display: block; }
+  .nominees__img {
+    border-radius: 50%; }
+  .nominees__logo {
+    position: relative; }
+    .nominees__logo:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      display: none;
+      transform: translate(-50%, -45%);
+      width: 134px;
+      height: 82px;
+      background: url(../../img/winner.png) center center no-repeat; }
+  .nominees__title {
+    font: 24px/1.62 "Lato", sans-serif;
+    letter-spacing: 0.03em;
+    margin: 15px 0 12px; }
+  .nominees__link {
+    font: 20px/1.62 "Lato", sans-serif;
+    margin: 12px 0; }
+    .nominees__link a {
+      color: #5f5f5f; }
+      .nominees__link a:hover {
+        color: #fff; }
+  .nominees__desc {
+    font: 16px/1.62 "Lato", sans-serif;
+    margin: 15px auto;
+    max-width: 670px;
+    color: #5f5f5f;
+    text-align: left; }
+  @media only screen and (max-width: 860px) {
+    .nominees__title {
+      font: 22px/1.36 "Lato", sans-serif;
+      margin: 15px 0 12px; }
+    .nominees__link {
+      font: 18px/1.62 "Lato", sans-serif;
+      margin: 12px 0; } }
+  @media only screen and (max-width: 480px) {
+    .nominees__title {
+      font: 20px/1.36 "Lato", sans-serif; }
+    .nominees__link {
+      font: 16px/1.62 "Lato", sans-serif; } }
 
 /* Footer
 -----------------------------------------------------------------------------*/
