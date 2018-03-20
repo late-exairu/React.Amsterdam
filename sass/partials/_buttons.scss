@@ -20,6 +20,7 @@
 	font-weight: 700;
 	display: inline-flex;
 	line-height: 60px;
+	/*line-height: 1.24;*/
 	color: $clr-black;
 	fill: $clr-black;
 	padding: 0 40px;
@@ -55,6 +56,12 @@
 	&.transparent{
 		background: transparent;
 		color: #fff;
+	}
+
+	&.bordered{
+		background: transparent;
+		color: #fff;
+		border: 2px solid #fff;
 	}
 
 	@media only screen and (max-width : 1148px) {
