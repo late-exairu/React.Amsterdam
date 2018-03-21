@@ -1523,6 +1523,8 @@ h6 {
 		}*/ }
     .speakers-list__item:hover {
       z-index: 2; }
+      .speakers-list__item:hover .speakers-list__mask {
+        opacity: 1; }
     .speakers-list__item.active {
       z-index: 2; }
   .speakers-list__img-wrap {
@@ -1536,6 +1538,21 @@ h6 {
     display: block;
     width: 100%;
     height: auto; }
+  .speakers-list__mask {
+    transition: opacity linear 0.1s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+    box-shadow: 0 0 75px 0 rgba(218, 3, 3, 0.2);
+    display: flex; }
+    .speakers-list__mask img {
+      margin: auto;
+      max-width: 66%;
+      height: auto; }
   .speakers-list__name {
     font: 24px/1.2 "Lato", sans-serif;
     margin: 0 0 2px;
@@ -2524,18 +2541,18 @@ h6 {
   flex-direction: column;
   max-width: 986px; }
   .awards-list__item {
+    display: flex;
     border: 2px solid #313432;
     background: #1a1d1b;
-    margin: 0 0 -2px 0;
+    margin: 0 auto -2px 0;
     padding: 26px 68px 27px;
-    align-self: flex-start;
-    flex-shrink: 1;
-    text-align: center;
-    float: left; }
+    align-items: center;
+    text-align: center; }
     .awards-list__item:nth-child(even) {
-      float: right;
-      align-self: flex-end; }
+      margin: 0 0 -2px auto; }
   .awards-list__text {
+    display: inline;
+    white-space: pre-wrap;
     background: linear-gradient(150deg, #9f0, #00dd3b);
     -webkit-background-clip: text;
     color: transparent; }
@@ -2629,9 +2646,21 @@ h6 {
 .nominees {
   text-align: center; }
   .nominees__item {
+    position: relative;
     margin: 46px 0 0; }
     .nominees__item:first-child {
       margin: 0; }
+    .nominees__item.winner:after {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -48%);
+      content: 'WINNER';
+      font: 260px/1 "Lato", sans-serif;
+      font-weight: 900;
+      color: #313432;
+      z-index: -1;
+      opacity: 0.2; }
     .nominees__item.winner .nominees__logo:after {
       display: block; }
   .nominees__img {
@@ -2647,7 +2676,7 @@ h6 {
       transform: translate(-50%, -45%);
       width: 134px;
       height: 82px;
-      background: url(../../img/winner.png) center center no-repeat; }
+      background: url(../img/winner.png) center center no-repeat; }
   .nominees__title {
     font: 24px/1.62 "Lato", sans-serif;
     letter-spacing: 0.03em;

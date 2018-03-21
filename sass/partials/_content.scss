@@ -969,6 +969,10 @@
 
 		&:hover{
 			z-index: 2;
+
+			.speakers-list__mask{
+				opacity: 1;
+			}
 		}
 
 		&.active{
@@ -1001,6 +1005,25 @@
 		display: block;
 		width: 100%;
 		height: auto;
+	}
+
+	&__mask{
+		transition: opacity linear 0.1s;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.75);
+		opacity: 0;
+		box-shadow: 0 0 75px 0 rgba(218, 3, 3, 0.2);
+		display: flex;
+
+		img{
+			margin: auto;
+			max-width: 66%;
+			height: auto;
+		}
 	}
 
 	&__name{
@@ -2568,22 +2591,23 @@
 	max-width: 986px;
 
 	&__item{
+		display: flex;
 		border: 2px solid #313432;
 		background: #1a1d1b;
-		margin: 0 0 -2px 0;
+		margin: 0 auto -2px 0;
 		padding: 26px 68px 27px;
-		align-self: flex-start;
-		flex-shrink: 1;
+		align-items: center;
 		text-align: center;
-		float: left;
 
 		&:nth-child(even){
-			float: right;
-			align-self: flex-end;
+			margin: 0 0 -2px auto;
 		}
 	}
 
 	&__text{
+		display: inline;
+		white-space: pre-wrap;
+
 		background: linear-gradient(150deg,#9f0,#00dd3b);
 		-webkit-background-clip: text;
 		color: transparent;
@@ -2726,6 +2750,7 @@
 	text-align: center;
 
 	&__item{
+		position: relative;
 		margin: 46px 0 0;
 
 		&:first-child{
@@ -2733,6 +2758,19 @@
 		}
 
 		&.winner{
+
+			&:after{
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -48%);
+				content: 'WINNER';
+				font: 260px/1 $lato;
+				font-weight: 900;
+				color: #313432;
+				z-index: -1;
+				opacity: 0.2;
+			}
 
 			.nominees__logo{
 				&:after{
@@ -2759,7 +2797,7 @@
 			transform: translate(-50%, -45%);
 			width: 134px;
 			height: 82px;
-			background: url(../../img/winner.png) center center no-repeat;
+			background: url(../img/winner.png) center center no-repeat;
 		}
 	}
 
