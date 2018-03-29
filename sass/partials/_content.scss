@@ -1366,7 +1366,7 @@
 	@media only screen and (max-width : 580px) {
 
 		&__item{
-			padding: 15px 0 15px 16px;
+			padding: 15px 0 15px 0;
 			flex-wrap: wrap;
 
 			&:after{
@@ -2606,7 +2606,7 @@
 
 	&__text{
 		display: inline;
-		white-space: pre-wrap;
+		white-space: pre-line;
 
 		background: linear-gradient(150deg,#9f0,#00dd3b);
 		-webkit-background-clip: text;
@@ -2616,15 +2616,9 @@
 	@media only screen and (max-width : 860px) {
 
 		&__item{
-			float: none;
-			display: block;
 			padding: 20px 48px 21px;
 			font: 26px/1.24 $lato;
 			font-weight: 900;
-
-			&:nth-child(even){
-				float: none;
-			}
 		}
 	}
 
@@ -2633,15 +2627,9 @@
 		display: block;
 
 		&__item{
-			float: none;
-			display: block;
 			padding: 12px 30px 13px;
-			font: 20px/1.24 $lato;
+			font: 18px/1.24 $lato;
 			font-weight: 900;
-
-			&:nth-child(even){
-				float: none;
-			}
 		}
 	}
 }

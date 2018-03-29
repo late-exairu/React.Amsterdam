@@ -1754,7 +1754,7 @@ h6 {
       left: 66px; } }
   @media only screen and (max-width: 580px) {
     .schedule-list__item {
-      padding: 15px 0 15px 16px;
+      padding: 15px 0 15px 0;
       flex-wrap: wrap; }
       .schedule-list__item:after {
         left: 3px; }
@@ -2552,31 +2552,23 @@ h6 {
       margin: 0 0 -2px auto; }
   .awards-list__text {
     display: inline;
-    white-space: pre-wrap;
+    white-space: pre-line;
     background: linear-gradient(150deg, #9f0, #00dd3b);
     -webkit-background-clip: text;
     color: transparent; }
   @media only screen and (max-width: 860px) {
     .awards-list__item {
-      float: none;
-      display: block;
       padding: 20px 48px 21px;
       font: 26px/1.24 "Lato", sans-serif;
-      font-weight: 900; }
-      .awards-list__item:nth-child(even) {
-        float: none; } }
+      font-weight: 900; } }
   @media only screen and (max-width: 480px) {
     .awards-list {
       padding: 0;
       display: block; }
       .awards-list__item {
-        float: none;
-        display: block;
         padding: 12px 30px 13px;
-        font: 20px/1.24 "Lato", sans-serif;
-        font-weight: 900; }
-        .awards-list__item:nth-child(even) {
-          float: none; } }
+        font: 18px/1.24 "Lato", sans-serif;
+        font-weight: 900; } }
 
 .award {
   text-align: center; }
