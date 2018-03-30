@@ -108,6 +108,49 @@ gulp.task('sprite', function () {
 		.pipe(gulp.dest('img/'));
 });
 
+
+gulp.task('mask-sprite', function () {
+	return gulp.src('img/svg-masks/*.svg')
+		.pipe( svgSprite({
+			shape: {
+				spacing: {
+					padding: 0
+				}
+			},
+			mode: {
+				css: {
+					dest: "img/",
+					layout: "diagonal",
+					sprite: '../masks-sprite.svg',
+					bust: false,
+					render: {
+						scss: {
+							dest: "../../sass/partials/_masks-sprite-svg.scss",
+							template: "sass/tpl/_sprite-tpl-css.scss"
+						}
+					}
+				},
+
+				symbol: {
+					dest: "img/",
+					layout: "diagonal",
+					sprite: '../masks-sprite-inline.svg',
+					bust: false,
+					render: {
+						scss: {
+							dest: "../../sass/partials/_masks-sprite-svg-inline.scss",
+							template: "sass/tpl/_sprite-tpl-inline.scss"
+						}
+					}
+				}
+			},
+			variables: {
+				mapname: "icons"
+			}
+		}))
+		.pipe(gulp.dest('img/'));
+});
+
 // =============================================================================
 // BrowserSync
 // =============================================================================

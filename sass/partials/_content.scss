@@ -1018,12 +1018,15 @@
 		opacity: 0;
 		box-shadow: 0 0 75px 0 rgba(218, 3, 3, 0.2);
 		display: flex;
+	}
 
-		img{
-			margin: auto;
-			max-width: 66%;
-			height: auto;
-		}
+	&__mask-img{
+		display: inline-block;
+		fill: #d00000;
+		margin: 0 auto;
+		max-width: 66%;
+		/*width: 160px;*/
+		height: auto;
 	}
 
 	&__name{
