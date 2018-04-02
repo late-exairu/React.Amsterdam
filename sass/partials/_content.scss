@@ -2226,6 +2226,18 @@
 	margin: 0;
 	list-style: none;
 
+  &__slack {
+    display: block;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #969696;
+
+    .socials__img {
+      vertical-align: -2px;
+      fill: #969696;
+    }
+  }
+
 	&__item{
 		position: relative;
 		display: flex;
@@ -2311,6 +2323,10 @@
 		border: 8px solid #313432;
 		border-radius: 50%;
 		overflow: hidden;
+
+    img {
+      background-color: #1a1d1b;
+    }
 	}
 
 	&__title{

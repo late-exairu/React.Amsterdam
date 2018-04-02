@@ -2304,6 +2304,14 @@ h6 {
   padding: 0;
   margin: 0;
   list-style: none; }
+  .tour-plan__slack {
+    display: block;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #969696; }
+    .tour-plan__slack .socials__img {
+      vertical-align: -2px;
+      fill: #969696; }
   .tour-plan__item {
     position: relative;
     display: flex;
@@ -2365,6 +2373,8 @@ h6 {
     border: 8px solid #313432;
     border-radius: 50%;
     overflow: hidden; }
+    .tour-plan__place-pic img {
+      background-color: #1a1d1b; }
   .tour-plan__title {
     font: 38px/1.36 "Lato", sans-serif;
     font-weight: 300;
