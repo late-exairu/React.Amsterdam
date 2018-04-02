@@ -2598,7 +2598,8 @@ h6 {
     .award__title span {
       background: linear-gradient(150deg, #9f0, #00dd3b);
       -webkit-background-clip: text;
-      color: transparent; }
+      color: transparent;
+      display: inline-block; }
   .award__subtitle {
     font: 28px/1.62 "Lato", sans-serif;
     font-weight: 300;
