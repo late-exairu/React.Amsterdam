@@ -2739,8 +2739,8 @@ h6 {
   align-content: center;
   align-items: center; }
   .f-logo__link {
-    font: 32px/1.18 "Lato", sans-serif;
-    padding: 10px 0 10px 112px;
+    font: 32px/92px "Lato", sans-serif;
+    padding: 0 0 0 112px;
     margin: 0 0 0 28px;
     color: #fff;
     height: 92px;
