@@ -180,7 +180,9 @@ gulp.task('deploy', function() {
     gulp.src([
         './**/*.*',
         '!./.*',
-        '!./node_modules/**/*.*'
+        '!./node_modules/**/*.*',
+        '!./2016/**/*.*',
+        '!./2017/**/*.*'
     ])
         .pipe(conn.newer(remotePath))
         .pipe(conn.dest(remotePath));

@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "React Amsterdam Conference website.",
   "scripts": {
+    "deploy": "gulp deploy",
     "build": "gulp build",
     "dev": "gulp watch",
     "test": "echo \"Success!\""
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^7.0.1",
     "browser-sync": "^2.18.12",
     "cssnano": "^3.10.0",
