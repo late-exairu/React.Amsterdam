@@ -182,7 +182,8 @@ gulp.task('deploy', function() {
         '!./.*',
         '!./node_modules/**/*.*',
         '!./2016/**/*.*',
-        '!./2017/**/*.*'
+        '!./2017/**/*.*',
+        '!./2018/**/*.*'
     ])
         .pipe(conn.newer(remotePath))
         .pipe(conn.dest(remotePath));
