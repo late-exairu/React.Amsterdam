@@ -8,7 +8,7 @@
 	margin: 0 auto;
 	z-index: 1;
 	position: relative;
-	
+
 	&__link {
 		display: block;
 		height: 100%;
@@ -237,7 +237,7 @@
 				content: '';
 				position: absolute;
 				left: 0;
-				width: 2px; 
+				width: 2px;
 				top: 0;
 				bottom: 0;
 				background: rgba(255, 255, 255, 0.3);
@@ -247,7 +247,7 @@
 				content: '';
 				position: absolute;
 				right: 0;
-				width: 2px; 
+				width: 2px;
 				top: 0;
 				bottom: 0;
 				background: rgba(255, 255, 255, 0.3);
@@ -428,7 +428,7 @@
 	&__item{
 		position: relative;
 		width: 16.66%;
-		
+
 		img{
 			display: block;
 			width: 100%;
@@ -555,7 +555,7 @@
 		td:first-child{
 			border-left: none;
 		}
-		
+
 		&.head{
 
 
@@ -571,7 +571,7 @@
 				color: #333;
 				line-height: 1.2;
 				text-align: center;
-		
+
 				&.desc{
 					width: 40%;
 					text-align: left;
@@ -589,7 +589,7 @@
 		color: #4e4e4e;
 		height: 50px;
 		line-height: 1.5;
-		
+
 		&.desc{
 			width: 48%;
 			text-align: left;
@@ -597,23 +597,23 @@
 			color: #333;
 			font-size: 16px;
 		}
-		
+
 		&.partner{
-			
+
 		}
-		
+
 		&.bronze{
-			
+
 		}
-		
+
 		&.silver{
-			
+
 		}
-		
+
 		&.gold{
-			
+
 		}
-		
+
 		&.general{
 			width: 19%;
 		}
@@ -678,19 +678,32 @@
 }
 
 .goodies-list{
-	display: flex;
 	padding: 0;
 	margin: 0 auto;
 	list-style: none;
-	max-width: 1210px;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	max-width: 740px;
+  display: block;
+
 
 	&__item{
-		text-align: center;
+		@media only screen and (min-width : 680px) {
+      text-align: left;
+    }
+
+    text-align: center;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 	}
 
 	&__img-box{
+    @media only screen and (min-width : 680px) {
+      float: left;
+      margin-right: 20px;
+    }
 
 		img{
 			display: block;
@@ -708,10 +721,13 @@
 		font-size: 16px;
 		margin: 6px 0;
 		line-height: 1.4;
+
+    @media only screen and (min-width : 680px) {
+      margin-left: 205px;
+    }
 	}
 
 	@media only screen and (max-width : 1280px) {
-		justify-content: center;
 		max-width: 660px;
 
 		&__item{
@@ -864,7 +880,7 @@
 			flex-direction: column;
 			padding: 10px;
 		}
-		
+
 		&__left{
 			order: 2;
 			flex: 1 1 100%;
@@ -1005,7 +1021,7 @@
 
 .collaboration{
 	margin: 0 0 78px;
-	
+
 	&__desc{
 		font: 21px/1.92 $lato;
 		letter-spacing: 0.03em;
@@ -1044,7 +1060,7 @@
 	}
 
 	@media only screen and (max-width : 680px) {
-		
+
 		&__desc{
 			font-size: 18px;
 			line-height: 1.6;
@@ -1080,11 +1096,11 @@
 		display: block;
 		height: 46px;
 		width: 50px;
-		
+
 		&.tw{
 			fill: #32cdfd;
 		}
-		
+
 		&.fb{
 			fill: #3b5998;
 		}

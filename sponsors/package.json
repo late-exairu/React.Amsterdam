@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch-no-browser",
     "test": "echo \"Success!\""
   },
   "repository": {
@@ -20,7 +21,7 @@
   "dependencies": {
     "gulp": "^3.9.1"
   },
-  "devDependencies": {
+    "devDependencies": {
     "autoprefixer": "^7.0.1",
     "browser-sync": "^2.18.12",
     "cssnano": "^3.10.0",

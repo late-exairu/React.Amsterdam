@@ -1118,15 +1118,24 @@ table td, table th {
     letter-spacing: 0.03em; }
 
 .goodies-list {
-  display: flex;
   padding: 0;
   margin: 0 auto;
   list-style: none;
-  max-width: 1210px;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  max-width: 740px;
+  display: block; }
   .goodies-list__item {
     text-align: center; }
+    @media only screen and (min-width: 680px) {
+      .goodies-list__item {
+        text-align: left; } }
+    .goodies-list__item:after {
+      content: "";
+      display: table;
+      clear: both; }
+  @media only screen and (min-width: 680px) {
+    .goodies-list__img-box {
+      float: left;
+      margin-right: 20px; } }
   .goodies-list__img-box img {
     display: block;
     margin: 0 auto; }
@@ -1138,9 +1147,11 @@ table td, table th {
     font-size: 16px;
     margin: 6px 0;
     line-height: 1.4; }
+    @media only screen and (min-width: 680px) {
+      .goodies-list__desc {
+        margin-left: 205px; } }
   @media only screen and (max-width: 1280px) {
     .goodies-list {
-      justify-content: center;
       max-width: 660px; }
       .goodies-list__item {
         flex: 0 0 186px;
