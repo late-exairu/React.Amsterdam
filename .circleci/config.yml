@@ -30,3 +30,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn deploy --user $FTP_USER --password $FTP_PASSWORD
+      - run: curl ifconfig.me
