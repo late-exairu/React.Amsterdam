@@ -45,9 +45,9 @@ gulp.task('update-references:js', function() {
 
 gulp.task('hash', ['hash:css', 'hash:js']);
 
-
-
-function build(cb) {
+gulp.task('build', function(cb) {
+  config.setEnv('production');
+  config.logEnv();
   runSequence(
     'clean',
     'sprite:svg',
@@ -62,18 +62,20 @@ function build(cb) {
     'update-references:js',
     cb
   );
-}
-
-
-
-gulp.task('build', function(cb) {
-  config.setEnv('production');
-  config.logEnv();
-  build(cb);
 });
 
 gulp.task('build:dev', function(cb) {
   config.setEnv('development');
   config.logEnv();
-  build(cb);
+  runSequence(
+    'clean',
+    'sprite:svg',
+    'svgo',
+    'sass',
+    'nunjucks',
+    'webpack',
+    'copy',
+    'list-pages',
+    cb
+  );
 });
