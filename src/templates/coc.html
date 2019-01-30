@@ -1,0 +1,72 @@
+---
+title: Code of Conduct of React Amsterdam
+speakersMod: speakers_center
+headerBtn: true
+speakersTitle: Trainers
+headerNav: [
+{
+text: 'Conference page',
+href: '/'
+}
+]
+
+footerNav: [
+{
+text: 'Back to conference website',
+href: '/'
+},
+{
+text: 'Sponsorship Opportunities',
+href: '/sponsors'
+},
+{
+text: 'Email Us!',
+href: 'mailto:hi@react.amsterdam'
+}
+]
+speakers: [
+{
+photo: 'kent.jpg',
+name: 'Kent C. Dodds',
+company: 'PayPal, United States',
+desc: "Kent C. Dodds works at PayPal as a full stack JavaScript engineer. He represents PayPal on the TC39. He's actively involved in the open source community. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+github: 'https://github.com/kentcdodds',
+twitter: 'https://twitter.com/kentcdodds',
+site: 'https://kentcdodds.com/'
+},
+{
+photo: 'kitze.jpg',
+name: 'Kitze',
+company: 'ReactAcademy, Macedonia',
+desc: 'Teaching React & Javascript at <a href="https://www.reactacademy.io/" target="_blank">React Academy</a>. Cares about open source, made and maintains <a href="http://sizzy.co/" target="_blank">sizzy.co</a>, <a href="https://github.com/kitze/custom-react-scripts" target="_blank">custom-react-scripts</a>, and <a href="https://github.com/kitze/mobx-router" target="_blank">mobx-router</a>. He had the chance to work and experiment with a variety of languages and frameworks.',
+github: 'https://github.com/kitze',
+twitter: 'https://twitter.com/thekitze'
+},
+{
+photo: 'max.jpg',
+name: 'Max Stoiber',
+company: 'Spectrum, Austria',
+desc: "Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.",
+github: 'https://github.com/mxstbr',
+twitter: 'https://twitter.com/mxstbr',
+site: 'https://mxstbr.com/'
+}
+]
+
+
+
+
+
+
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+{% include "partials/_header.html" %}
+<div class="main js-main">
+  {% include "partials/_hero-coc.html" %}
+  {% include "partials/_coc-content.html" %}
+  {% include "partials/_footer.html" %}
+</div>
+{% endblock %}

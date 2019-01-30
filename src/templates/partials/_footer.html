@@ -1,0 +1,34 @@
+<footer class="footer section">
+  <div class="container">
+    <div class="footer__main">
+      <h3 class="section__title">{% if footerTitle %} {{footerTitle}} {% else %} Contact Us {% endif %}</h3>
+      <div class="footer__socials">
+        <ul class="social social--theme">
+          <li class="social__item"><a href="https://twitter.com/reactamsterdam" class="social__link" target="_blank">{{mixins.icon('twitter')}}</a></li>
+          <li class="social__item"><a href="https://www.facebook.com/react.amsterdam" class="social__link" target="_blank">{{mixins.icon('facebook')}}</a></li>
+          <li class="social__item"><a href="https://www.youtube.com/ReactAmsterdam" class="social__link" target="_blank">{{mixins.icon('youtube')}}</a></li>
+          <li class="social__item"><a href="https://medium.com/@ReactAmsterdam" class="social__link" target="_blank">{{mixins.icon('medium')}}</a></li>
+          <li class="social__item"><a href="https://bit.ly/ra-slack" class="social__link" target="_blank">{{mixins.icon('slack')}}</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <ul class="f-nav">
+          {% for item in footerNav %}
+            <li class="f-nav__item"><a href="{{item.href}}" class="f-nav__link">{{item.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__basement" style="background-image: url(img/footer-bg.png)">
+    <div class="footer__logo">
+      <div class="f-logo">
+        <span class="f-logo__label">Event by</span>
+        <span class="f-logo__icon">
+          <img src="img/nation.png" alt="Frontend nation">
+        </span>
+        <a href="https://gitnation.org" class="f-logo__author">GitNation</a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,33 @@
+<header class="header {{ headerMod }}">
+  <div class="header__inner js-menu">
+    <div class="header__socials">
+      <ul class="social">
+        <li class="social__item"><a href="https://twitter.com/reactamsterdam" class="social__link" target="_blank">{{mixins.icon('twitter')}}</a></li>
+        <li class="social__item"><a href="https://www.facebook.com/reactamsterdam" class="social__link" target="_blank">{{mixins.icon('facebook')}}</a></li>
+        <li class="social__item"><a href="https://www.youtube.com/ReactAmsterdam" class="social__link" target="_blank">{{mixins.icon('youtube')}}</a></li>
+        <li class="social__item"><a href="https://bit.ly/ra-slack" class="social__link" target="_blank">{{mixins.icon('slack')}}</a></li>
+        <li class="social__item"><a href="https://medium.com/@ReactAmsterdam" class="social__link" target="_blank">{{mixins.icon('medium')}}</a></li>
+      </ul>
+    </div>
+    <div class="header__nav">
+      <ul class="nav">
+        {% for item in headerNav %}
+          <li class="nav__item"><a href="{{item.href}}" class="nav__link {% if item.scroll %}js-scroll-link{% endif %}">{{item.text}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="header__btn">
+      {% if headerBtn %}
+      <a href="https://www.eventbrite.com/e/react-amsterdam-conference-2019-tickets-51631771017" target="_blank" class="btn">Tickets</a>
+      {% endif %}
+    </div>
+
+  </div>
+  <div class="header__burger">
+    <div class="burger js-burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>

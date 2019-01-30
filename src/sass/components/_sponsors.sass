@@ -1,0 +1,112 @@
+.sponsors
+	padding: 100px 0
+	+md
+		padding: 40px 0
+	.container
+		max-width: 1110px
+	.section__title
+		+sm
+			margin-bottom: 28px
+	&__description
+		max-width: 960px
+		margin: 0 auto 62px
+		+r(680)
+			margin-bottom: 42px
+		//+r(480)
+			margin-bottom: 30px
+		p
+			font-size: 20px
+			line-height: 1.6
+			text-align: center
+			+r(1480)
+				font-size: 18px
+			+sm
+				line-height: 1.8
+			+r(680)
+				font-size: 16px
+			&:not(:last-child)
+				margin-bottom: 18px
+				+sm
+					margin-bottom: 5px
+			a
+				color: inherit
+
+.sponsors-block
+	& + &
+		margin-top: 50px
+	&:nth-of-type(3)
+		//.sponsors-block__list
+			margin: 0 -50px
+			+tablet
+				margin: 0 -20px
+			+xs
+				margin: 0 -10px
+		.sponsors-block__item
+			padding: 25px 30px
+			max-width: 50%
+			+tablet
+				padding: 20px
+				//width: 30%
+				img
+					max-width: 100%
+					//width: 100%
+
+			+xs
+				padding: 17px
+				max-width: 217px
+	&:nth-of-type(4)
+		.sponsors-block__list
+			margin: 0 -50px
+			+tablet
+				margin: 0 -20px
+			+xs
+				margin: 0 -10px
+		.sponsors-block__item
+			padding: 25px 30px
+			+tablet
+				padding: 20px
+				//width: 25%
+				width: 50%
+				img
+					max-width: 100%
+			+xs
+				padding: 10px
+				max-width: 193px
+				width: 100%
+	&:nth-of-type(5), &:nth-of-type(6)
+		.sponsors-block__list
+			margin: 0 -25px
+		.sponsors-block__item
+			padding: 20px 25px
+			+tablet
+				padding: 20px
+				width: 50%
+				img
+					max-width: 100%
+	&__list
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-wrap: wrap
+	&__item
+		+tablet
+			display: flex
+			justify-content: center
+		+sm
+			max-width: 230px
+			img
+				max-width: 100%
+		a
+			transition: 0.3s
+			&:hover
+				opacity: 0.7
+
+	&__title
+		text-align: center
+		font-size: 26px
+		+light
+		color: #aaaaaa
+		margin-bottom: 20px
+		+sm
+			font-size: 16px
+			margin-bottom: 32px

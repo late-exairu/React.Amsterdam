@@ -1,0 +1,13 @@
+ProjectTitle: react-amsterdam
+
+PageList:
+- file: index.html
+  ready: 50
+- file: react-jobs.html
+  ready: 50
+- file: workshops.html
+  ready: 50
+- file: extended.html
+  ready: 50
+- file: coc.html
+  ready: 50

@@ -1,0 +1,144 @@
+.schedule
+	padding: 135px 0 0
+	+laptop
+		padding: 70px 0 0
+	+sm
+		padding: 40px 0 0
+	&__item
+		border-top: 1px solid #202421
+		&:last-child
+			border-bottom: 1px solid #202421
+	&__tab-links
+		display: flex
+		margin-bottom: 49px
+		+md
+			margin-bottom: 20px
+	&__tab-link
+		width: 50%
+		font-size: 26px
+		display: block
+		text-align: center
+		color: $white
+		+medium
+		padding: 24px
+		text-decoration: none
+		position: relative
+		+md
+			font-size: 20px
+			padding: 10px
+		+sm
+			font-size: 18px
+		+xs
+			font-size: 14px
+			padding: 10px 5px
+		&:after
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 0
+			transition: 0.3s
+			background-image: linear-gradient(-210deg, #99ff00 0%, #00dd3b 100%)
+		&.is-active
+			&:after
+				height: 4px
+				+sm
+					height: 2px
+		.no-touch &:hover
+			color: $themeColor
+	&__tab
+		display: none
+		&.is-active
+			display: block
+
+.s-item
+	padding: 18px 0 10px
+	+md
+		padding: 16px 0
+	&__row
+		display: flex
+		+sm
+			flex-wrap: wrap
+		& + &
+			margin-top: 20px
+	&__col
+		padding: 0 28px
+		&_d-sm-none
+			+sm
+				display: none
+		+md
+			padding: 0 10px
+		&:nth-child(1)
+			width: 9.7%
+			+sm
+				width: 50px
+				min-width: 50px
+				padding-left: 0
+				padding-right: 0
+		&:nth-child(2)
+			width: 26.3%
+			+sm
+				//width: auto
+				flex-grow: 1
+				padding-right: 0
+		&:nth-child(3)
+			width: 64%
+			+sm
+				width: 100%
+				margin-top: 10px
+				padding-right: 0
+				padding-left: 0
+	&__time
+		font-size: 18px
+		+light
+	&__title
+		letter-spacing: 0.4px
+		font-size: 20px
+		+medium
+		+md
+			font-size: 18px
+		+sm
+			font-size: 16px
+		& + .s-item__text
+			margin-top: 15px
+		& + .s-item__company
+			margin-top: 15px
+			+sm
+				margin-top: 5px
+	&__text
+		letter-spacing: 0.3px
+		color: #aaaaaa
+		line-height: 1.7
+
+		img
+			float: left
+			width: 30%
+			margin-right: 24px
+	&__company
+		font-size: 16px
+		color: #aaaaaa
+
+
+.talks
+	padding: 149px 0 97px
+	border-bottom: 1px solid #2c302d
+	+laptop
+		padding: 55px 0 60px
+	+sm
+		border-bottom: none
+		padding-bottom: 20px
+	.container
+		+sm
+			padding: 0 10px
+	.s-item
+		&__col
+			&:nth-child(3)
+				max-width: calc(100% - 20px)
+				margin: 15px auto 0
+		&__text
+			line-height: 1.6
+			margin-top: 10px
+	.talk__item
+		&:not(:last-child)
+			margin-bottom: 6px

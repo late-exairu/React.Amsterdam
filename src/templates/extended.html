@@ -1,0 +1,274 @@
+---
+title: Workshops page
+speakersMod: speakers_center
+speakersTitle: Trainers
+headerNav: [
+{
+text: 'EVENT',
+href: '#event',
+scroll: true
+},
+{
+text: 'LOCATION',
+href: '#location',
+scroll: true
+},
+{
+text: 'SPEAKERS',
+href: '#speakers',
+scroll: true
+},
+{
+text: 'SCHEDULE',
+href: '#schedule',
+scroll: true
+},
+{
+text: 'OS AWARDS',
+href: '#awards',
+scroll: true
+},
+{
+text: 'JOBS',
+href: '#'
+},
+{
+text: 'SPONSORS',
+href: '#sponsors',
+scroll: true
+},
+{
+text: 'WORKSHOPS',
+href: '#'
+}
+]
+
+footerNav: [
+{
+text: 'Back to conference website',
+href: '/'
+},
+{
+text: 'Sponsorship Opportunities',
+href: '/sponsors'
+},
+{
+text: 'Code Of Conduct',
+href: '/coc'
+},
+{
+text: 'Email Us!',
+href: 'mailto:hi@react.amsterdam'
+}
+]
+speakers: [
+{
+photo: 'alex.jpg',
+name: 'Alex Castillo',
+company: 'Netflix, USA',
+desc: "Director of Open Source at Formidable and the author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.",
+github: '#',
+twitter: '#'
+},
+{
+photo: 'ken.jpg',
+name: 'Ken Wheeler',
+company: 'Formidable, USA',
+desc: "Front-end web/mobile developer working on Expo and React Native.",
+github: '#',
+},
+{
+photo: 'michele.jpg',
+name: 'Michele Bertoli',
+company: 'Facebook, United Kingdom',
+desc: "Chief visioner officer at Primelphants. React Adept. Ableton lover and podcaster. He helps FinTech projects leverage their frontend development.",
+github: '#',
+twitter: '#',
+medium: '#'
+}
+]
+footerTitle: Follow us for updates
+
+
+
+
+
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+{% include "partials/_header.html" %}
+<div class="main js-main">
+  {% include "partials/_hero-extended.html" %}
+  <section class="section program">
+    <div class="container">
+      <div class="program__inner">
+        <div class="program__item program__item_mb-lg">
+          <div class="program__subtitle program__subtitle_mb-lg">Extended program</div>
+          <p >React Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.</p>
+        </div>
+        <div class="program__item">
+          <div class="program__title title-gradient">Community preparty</div>
+          <p>
+            The day before the conference (April 12), the local React community would love to connect with the international attendees in an informal setup. Are you a React developer from Amsterdam? Did you come to the city day prior to the event? Attending workshops and have no plans for an evening?
+            Feel free to join an unofficial preparty organized by the community in the center of Amsterdam.
+          </p>
+        </div>
+      </div>
+      <div class="program-map">
+        <div class="program-map__icon">
+          <img alt="" src="img/map.png"/>
+        </div>
+        <div class="program-map__content">
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                TonTon Club Centrum <br/>
+                <span class="program-map-item__time">20:00</span>
+              </div>
+              <a href="https://reactamsterdam.slack.com/app_redirect?channel=april-12-tonton" target="_blank" class="program-map-item__link">{{mixins.icon('slack')}} <span>#april-12-tonton</span></a>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-1.png" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+              <a href="https://goo.gl/maps/CkX7FnE2dBy" target="_blank">Sint Annendwarsstraat 6, <br/>
+                1012 HC Amsterdam</a>
+            </div>
+          </div>
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                Delirium Amsterdam   <br/>
+                <span class="program-map-item__time">20:30</span>
+              </div>
+              <a href="https://reactamsterdam.slack.com/app_redirect?channel=april-12-delirium" target="_blank" class="program-map-item__link">{{mixins.icon('slack')}} <span>#april-12-delirium</span></a>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-2.png" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+
+              <a href="https://goo.gl/maps/tGPXxc5Hv3Q2" target="_blank">Piet Heinkade 4-6-8, <br/>
+                1019 BR Amsterdam</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="program__inner">
+        <div class="program__item program__item_mb-xl">
+          <a href="#" class="program__title title-gradient">React Party</a>
+          <p>
+            After the main conference program is over we have a 2 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the React Party. This year organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.
+          </p>
+          <p>
+            We are not going to unveil much in advance but just a small bit - the party will run in two completely different tracks and the fact React Amsterdam 2018 is Friday 13th provides us more opportunities to have fun.
+          </p>
+          <p>
+            After-party starts at 19:00, same location as the conference.
+          </p>
+
+          <div class="program__img" style="background-image: url(img/program-img-1.jpg)">
+            <!--<img src="img/program-img-1.jpg" alt=""/>-->
+          </div>
+        </div>
+        <div class="program__item">
+          <a href="#" class="program__title title-gradient">Amsterdam <br/>
+            exploration day</a>
+          <p>
+            Amsterdam is beautiful, picturesque, amazing. This is what we hear sometimes from guests coming to the city. Explore this beauty on your own or together with new friends met at the conference.
+          </p>
+          <div class="program__img-wrap">
+            <!--<img src="img/program-img-2.jpg" alt=""/>-->
+            <div class="program__img" style="background-image: url(img/program-img-2.jpg)"></div>
+            <!--<img src="img/program-img-3.jpg" alt=""/>-->
+            <div class="program__img" style="background-image: url(img/program-img-3.jpg)"></div>
+          </div>
+          <div class="program__subtitle">
+            Meet with the community
+          </div>
+          <p>
+            Join other conference visitors or local community members at one of the meeting points (some required prior registration), or connect with people directly at
+            <a href="https://bit.ly/ra-slack" target="_blank">React Amsterdam Slack</a>, to form your own activity.
+            <br/>
+            Nobody knows when that Saturday ends.
+          </p>
+        </div>
+      </div>
+      <div class="program-map">
+        <div class="program-map__icon">
+          <img alt="" src="img/map.png"/>
+        </div>
+        <div class="program-map__content">
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                BreakfastJS @MOOK Pancakes
+
+                <br/>
+                <span class="program-map-item__time">9:30</span>
+              </div>
+              <a href="https://reactamsterdam.slack.com/app_redirect?channel=april-14-breakfast" target="_blank" class="program-map-item__link">{{mixins.icon('slack')}} <span>#april-14-breakfast</span></a>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-3.jpg" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+              <a href="https://goo.gl/maps/6C2BgW19fjL2" target="_blank">Jodenbreestraat 144, <br/>
+                1011 NS Amsterdam</a>
+            </div>
+          </div>
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                Bike Tour
+                <br/>
+                <span class="program-map-item__time">11:00</span>
+              </div>
+              <a href="https://reactamsterdam.slack.com/app_redirect?channel=april-14-bike-tour" target="_blank" class="program-map-item__link">{{mixins.icon('slack')}} <span>#april-14-bike-tour</span></a>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-4.jpg" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+              <a href="https://goo.gl/maps/6C2BgW19fjL2" target="_blank">Jodenbreestraat 144, <br/>
+                1011 NS Amsterdam</a>
+            </div>
+          </div>
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                Boat Tour
+                <br/>
+                <span class="program-map-item__time">11:00</span>
+              </div>
+              <a href="https://reactamsterdam.slack.com/app_redirect?channel=april-14-boat-tour" target="_blank" class="program-map-item__link">{{mixins.icon('slack')}} <span>#april-14-boat-tour</span></a>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-5.jpg" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+              <a href="https://docs.google.com/forms/d/1sQV4OG7l2XbJuziDjvo8T0DsTvwpQA_DcTc7xwdbgE0/viewform" target="_blank">Info and registration form</a>
+            </div>
+          </div>
+          <div class="program-map-item">
+            <div class="program-map-item__content">
+              <div class="program-map-item__title">
+                GraphQL Day
+              </div>
+            </div>
+            <div class="program-map-item__img">
+              <img src="img/program-6.jpg" alt=""/>
+            </div>
+            <div class="program-map-item__content">
+              <a href="https://www.graphqlday.org/">Miniconf website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include "partials/_footer.html" %}
+</div>
+{% endblock %}

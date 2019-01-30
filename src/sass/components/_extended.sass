@@ -1,0 +1,92 @@
+.extended
+	padding: 148px 0 150px
+	+laptop
+		padding: 70px 0
+	+md
+		padding: 40px 0
+	+sm
+		padding: 13px 0
+		margin-bottom: 34px
+	.container
+		+sm
+			padding: 0
+	&__items
+		display: flex
+		margin-bottom: 70px
+		+sm
+			display: block
+			margin-bottom: 12px
+	&__item
+		width: 33.33%
+		+sm
+			width: 100%
+		&:nth-child(2)
+			margin: 0 -1px
+			+sm
+				margin: 0
+		&:not(:last-child)
+			//+sm
+				margin-bottom: 20px
+		.party-item
+			height: 100%
+	&__link
+		text-align: center
+	&__btn
+		max-width: 260px
+		margin: 0 auto
+		+sm
+			max-width: 280px
+
+.party-item
+	border: 1px solid #2c302d
+	+sm
+		border: none
+	&__header
+		z-index: 1
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+		position: relative
+		padding-top: 109%
+		width: 100%
+		border-bottom: 1px solid #2c302d
+		+sm
+			padding-top: 65.9%
+		&:after
+			z-index: -1
+			content: ''
+			+coverdiv
+			background-color: rgba(0, 0, 0, 0.5)
+	&__header-inner
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		padding: 45px 34px
+		+md
+			padding: 20px 20px 30px
+	&__title
+		+bold
+		font-size: 38px
+		margin-bottom: 25px
+		+md
+			font-size: 26px
+			margin-bottom: 10px
+	&__subtitle
+		font-size: 18px
+		+md
+			font-size: 16px
+	&__content
+		color: #aaaaaa
+		font-size: 16px
+		padding: 43px 40px 70px
+		line-height: 1.8
+		+md
+			padding: 20px 40px
+			font-size: 14px
+		a
+			color: inherit
+			white-space: nowrap
+			+medium
+
+

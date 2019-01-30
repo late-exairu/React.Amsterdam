@@ -1,0 +1,111 @@
+.c-form
+	padding: 77px 0 205px
+	+laptop
+		padding: 40px 0 100px
+	+md
+		padding: 40px 0
+	+xs
+		padding: 34px 0 60px
+		border-width: 13px
+		border-left-width: 3px
+		border-right-width: 3px
+		border-style: solid
+		border-image: linear-gradient(to bottom,#82fa08,#15e233) 1 100%
+		border-image-slice: 2
+	.section__title
+		letter-spacing: 1.3px
+		margin-bottom: 55px
+		+tablet
+			margin-bottom: 37px
+	.container
+		+xs
+			padding: 0 16px
+	&__inner
+		border: 17px solid $themeColor
+		padding: 66px 20px 76px
+		display: flex
+		flex-direction: column
+		align-items: center
+		+tablet
+			padding: 40px 20px
+		+md
+			padding: 0
+			border: none
+	&__socials
+		margin-bottom: 43px
+		+tablet
+			margin-bottom: 30px
+		+sm
+
+			.social__item
+				svg
+					font-size: 25px
+				&:not(:last-child)
+					margin-right: 20px
+	&__text
+		line-height: 1.8
+		letter-spacing: 0.7px
+		max-width: 540px
+		text-align: center
+		font-size: 20px
+		margin-bottom: 30px
+		+tablet
+			font-size: 16px
+			margin-bottom: 38px
+	&__form
+		width: 100%
+		max-width: 762px
+	&__field
+		position: relative
+		width: 100%
+		&:hover
+			input
+				border-bottom-color: #0f0
+		input
+			width: 100%
+			display: block
+			font-size: 28px
+			color: $white
+			background-color: transparent
+			border-bottom: 4px solid $white
+			padding: 29px 120px 24px 29px
+			+placeholder-color($white)
+			transition: border-color .3s ease
+			&:hover, &:active, &:focus
+				border-bottom-color: #0f0
+			&::placeholder
+				transition: color .3s ease
+			+tablet
+				font-size: 24px
+				padding: 20px 120px 20px 20px
+			+xs
+				font-size: 16px
+				padding: 10px 90px 16px 0
+
+
+	&__submit
+		display: flex
+		align-items: center
+		position: absolute
+		right: 22px
+		top: 50%
+		transform: translateY(-50%)
+		background-color: transparent
+		font-size: 14px
+		text-transform: uppercase
+		color: $themeColor
+		+xs
+			right: 0
+			font-size: 12px
+			top: 13px
+			transform: none
+		&:hover
+			.icon
+				transform: translateX(5px)
+		.icon
+			transition: 0.3s
+			margin-left: 13px
+			fill: $themeColor
+			font-size: 20px
+			+xs
+				display: none

@@ -1,0 +1,28 @@
+<section class="section sponsors" id="sponsors">
+
+  <div class="container">
+    <h3 class="section__title">Sponsors</h3>
+    <div class="sponsors__description">
+      <p>
+        We would not be here, if companies like Facebook would not invest into Open Source so heavily, as well as React would not grow that much without support of multiple great companies from across the globe.
+        <br/>
+        We're really grateful for all the trust and support our partners shared with us.
+      </p>
+      <p><b>Would like to join the community and improve your tech brand? Check <a href="https://react.amsterdam/sponsors/">2019 sponsorship offers</a>.</b></p>
+    </div>
+    {% for item in sponsors %}
+      <div class="sponsors-block">
+        <div class="sponsors-block__title">{{item.title}}</div>
+        <ul class="sponsors-block__list">
+          {% for sponsor in item.list %}
+            <li class="sponsors-block__item">
+              <a href="{{sponsor.link}}" target="_blank">
+                <img src="img/sponsors/{{sponsor.logo}}" alt="{{sponsor.name}}" width="{{sponsor.width}}">
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>

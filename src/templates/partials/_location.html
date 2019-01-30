@@ -1,0 +1,38 @@
+<section class="location"  id="location">
+  <div class="container">
+    <div class="location__top">
+      <div class="swiper-button-prev js-slider-prev location__arrow location__arrow_prev">
+        {{mixins.icon('arrow-l')}}
+      </div>
+      <div class="location__logo">
+        <img src="img/place-logo.png" alt="Kromhout">
+      </div>
+      <div class="swiper-button-next js-slider-next location__arrow location__arrow_next">
+        {{mixins.icon('arrow-r')}}
+      </div>
+    </div>
+
+    <div class="location__map" style="background-image: url(img/map.jpg)">
+      <div class="location__info">
+        <div class="location__title">Kromhouthal</div>
+        <div class="location__address">Gedempt Hamerkanaal 231 <br>
+          Amsterdam, 1021 KP
+        </div>
+        <a href="https://www.google.nl/maps/place/the+Kromhouthal/@52.3832816,4.9183379,17z/data=!4m21!1m15!4m14!1m5!1m1!1s0x47c609abb3be496b:0x1a140c53c426f7c7!2m2!1d4.9205266!2d52.3832816!1m6!1m2!1s0x47c609abb3be496b:0x1a140c53c426f7c7!2sthe+Kromhouthal,+Gedempt+Hamerkanaal+231,+1021+KP+Amsterdam!2m2!1d4.9205266!2d52.3832816!3e3!3m4!1s0x47c609abb3be496b:0x1a140c53c426f7c7!8m2!3d52.3832816!4d4.9205266" target="_blank" class="theme-link">View on map</a>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-container js-slider location__slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide location__slide" style="background-image: url(img/place-bg.jpg)"></div>
+      <div class="swiper-slide location__slide" style="background-image: url(img/place2.jpg)"></div>
+      <div class="swiper-slide location__slide" style="background-image: url(img/place3.jpg)"></div>
+    </div>
+    <!--<div class="swiper-button-prev js-slider-prev location__arrow location__arrow_prev">-->
+      <!--{{mixins.icon('arrow-l')}}-->
+    <!--</div>-->
+    <!--<div class="swiper-button-next js-slider-next location__arrow location__arrow_next">-->
+      <!--{{mixins.icon('arrow-r')}}-->
+    <!--</div>-->
+  </div>
+</section>

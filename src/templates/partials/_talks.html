@@ -1,0 +1,23 @@
+<section class="section talks" id="talks">
+  <div class="container">
+    <h3 class="section__title">Talks</h3>
+    {% for talk in talks %}
+    <div class="talk__item">
+        <div class="s-item">
+          <div class="s-item__row">
+            <div class="s-item__col s-item__col_d-sm-none"></div>
+            <div class="s-item__col">
+              <div class="s-item__title">{{talk.author}}</div>
+              <div class="s-item__company">{{talk.company}}</div>
+            </div>
+            <div class="s-item__col">
+              <div class="s-item__title">{{talk.theme}}</div>
+              <div class="s-item__text">{{talk.text | safe}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+</section>

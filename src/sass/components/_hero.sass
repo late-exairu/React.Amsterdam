@@ -1,0 +1,198 @@
+.hero
+	position: relative
+	min-height: 100vh
+	//min-height: calc(var(--vh, 1vh) * 100)
+	padding: 30px 0 80px
+	overflow: hidden
+	display: flex
+	justify-content: center
+	align-items: center
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	//background-image: url(../img/hero-overlay.png)
+	background-color: rgba(0, 0, 0, 0.2)
+	z-index: 1
+	+tablet
+		background-image: url(../img/dummy_bg.jpg)
+	&:after
+		content: ''
+		+coverdiv
+		z-index: 1
+		background-color: #000
+		opacity: 0.4
+	&:before
+		content: ''
+		+coverdiv
+		z-index: 1
+		background-image: url(../img/hero-overlay.png)
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+	+md
+		padding: 40px 0 30px
+	+sm
+		padding: 20px 0 60px
+	&__video
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		min-width: 100%
+		min-height: 100%
+		width: auto
+		height: auto
+		z-index: -1
+		+tablet
+			display: none
+
+	&__inner
+		width: 1488px
+		//margin: 0 auto
+		padding: 0 40px
+		position: relative
+		z-index: 2
+		+sm
+			padding: 0 20px
+		+xs
+			padding: 0 15px
+	&__logo
+		width: 166px
+		height: 101px
+		margin: 0 auto 58px
+		+tablet
+			margin: 0 auto 38px
+			width: 120px
+			height: 80px
+		+xs
+			margin: 0 auto 45px
+			width: 140px
+			height: auto
+	&__suptitle
+		font-size: 20px
+		margin-bottom: 42px
+		text-align: center
+		+tablet
+			margin-bottom: 25px
+		+xs
+			font-size: 14px
+			max-width: calc(100% - 70px)
+			margin: 0 auto 25px
+	&__title
+		letter-spacing: 4px
+		font-size: 100px
+		line-height: 1
+		+black
+		text-align: center
+		margin-bottom: 64px
+		+rh(880)
+			font-size: 72px
+		+laptop
+			font-size: 72px
+		+tablet
+			font-size: 56px
+			margin-bottom: 30px
+		+md
+			font-size: 36px
+		+sm
+			margin-bottom: 20px
+		+xs
+			font-size: 27px
+			letter-spacing: 1.27px
+			margin: 0 auto 24px
+			line-height: 1.1
+	&__btn
+		max-width: 283px
+		margin: 0 auto
+
+.h-list
+	display: flex
+	justify-content: space-between
+	max-width: 890px
+	margin: 0 auto 65px
+	&_min
+		max-width: 411px
+	+tablet
+		margin: 0 auto 45px
+	+xs
+		flex-wrap: wrap
+		justify-content: center
+		padding: 0 35px
+	&__item
+		max-width: 215px
+		display: flex
+		flex-direction: column
+		+sm
+			width: 50%
+		+xs
+			width: calc(50% - 20px)
+			max-width: 100%
+		//+sm
+			//text-align: center
+		&:not(:last-child)
+			margin-right: 20px
+			+sm
+				margin-right: 40px
+				margin-bottom: 15px
+		&:nth-child(2n)
+			+xs
+				margin-right: 0
+			//+xs
+				margin-right: 0
+				//margin-bottom: 20px
+				margin-bottom: 15px
+		//&_sm
+			+xs
+				max-width: 90px
+		&_lg
+			+xs
+				width: auto
+
+	&__value
+		font-size: 70px
+		flex-grow: 1
+		+light
+		margin-bottom: 27px
+		display: flex
+		align-items: center
+		+tablet
+			font-size: 48px
+			margin-bottom: 15px
+		+md
+			margin-bottom: 15px
+		+sm
+			justify-content: flex-start
+		+xs
+			margin-bottom: 0
+	&__text
+		font-size: 20px
+		line-height: 1.4
+		+md
+			font-size: 16px
+		+xs
+			line-height: 1.2
+	&__icon
+		margin-top: 10px
+		margin-left: 13px
+		font-size: 30px
+		&_anim
+			animation: heart 2s infinite
+		.icon
+			fill: $white
+
+@keyframes heart
+	0%
+		transform: scale(1)
+	50%
+		transform: scale(1.2)
+	100%
+		transform: scale(1)
+
+
+.logo
+	display: block
+	height: 100%
+	width: 100%
+	img
+		height: 100%
+		width: 100%

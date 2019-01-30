@@ -1,0 +1,154 @@
+.speakers
+	padding: 145px 0 17px
+	+sm
+		padding-top: 53px
+	&_pt-sm
+		padding-top: 94px
+		+laptop
+			padding: 80px 0 10px
+	&_center
+		.speakers-list
+			justify-content: center
+			+xs
+				//flex-direction: column
+				//align-items: center
+	+laptop
+		padding: 80px 0 10px
+	//&_mb-sm
+		.speakers-list
+			&__item
+				&:last-child
+					+xs
+						margin-bottom: 30px
+	&__btn
+		max-width: 283px
+		margin: 0 auto
+
+.speakers-list
+	display: flex
+	flex-wrap: wrap
+	margin: 0 -19px
+	+xs
+		margin: 0
+	&__item
+		width: 20%
+		padding: 0 19px
+		margin-bottom: 80px
+
+		+tablet
+			width: 25%
+			margin-bottom: 48px
+		+md
+			width: 33.33%
+			//margin-bottom: 30px
+		+sm
+			width: 50%
+			//margin-bottom: 30px
+		+xs
+			padding: 0 10px
+			//width: 100%
+			//max-width: 250px
+			//margin: 0 auto 48px
+.speaker
+	&__photo
+		width: 100%
+		padding-top: 100%
+		position: relative
+		margin-bottom: 35px
+		+xs
+			margin-bottom: 23px
+		img
+			+coverdiv
+			object-fit: cover
+	&__name
+		font-size: 26px
+		+bold
+		margin-bottom: 11px
+		letter-spacing: 0.65px
+	&__company
+		margin-bottom: 30px
+		+xs
+			font-size: 14px
+			margin-bottom: 20px
+	&__desc
+		color: #aaaaaa
+		font-size: 13px
+		line-height: 2
+		letter-spacing: 1.1px
+		+xs
+			font-size: 12px
+			margin-bottom: 21px
+		a
+			color: #bdbdbd
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+		&:not(:last-child)
+			margin-bottom: 22px
+			+xs
+				margin-bottom: 21px
+	&__socials
+		display: flex
+	&__social-link
+		&:not(:last-child)
+			margin-right: 16px
+		.icon
+			transition: 0.3s
+			font-size: 18px
+			fill: #aaaaaa
+		.no-touch &:hover
+			.icon
+				fill: $themeColor
+	&--mc
+		.speaker
+			&__photo
+				width: 179px
+				padding-top: 179px
+				margin: 0 auto 59px
+				&:after
+					pointer-events: none
+					content: ''
+					position: absolute
+					top: 49%
+					left: 50%
+					transform: translate(-50%, -50%)
+					width: 235px
+					height: 235px
+					background-size: contain
+					background-position: center
+					background-repeat: no-repeat
+					background-image: url(../img/mc-decor.png)
+			&__photo-wrap
+				border-radius: 50%
+				+coverdiv
+				overflow: hidden
+
+
+.mc
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	padding: 102px 0 122px
+	+xs
+		padding: 37px 0 55px
+		//margin-top: 20px
+
+.mc-list
+	display: flex
+	max-width: 540px
+	justify-content: center
+	margin: 0 auto
+	+xs
+		padding-top: 20px
+		display: block
+	&__item
+		max-width: 225px
+		+xs
+			margin: 0 auto
+		&:not(:last-child)
+			margin-right: 45px
+			+sm
+				margin-right: auto
+				margin-bottom: 79px
+
+
