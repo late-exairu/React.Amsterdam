@@ -20,6 +20,11 @@ headerNav: [
     scroll: true
   },
   {
+    text: 'TALKS',
+    href: '#talks',
+    scroll: true
+  },
+  {
     text: 'OS AWARDS',
     href: '#awards',
     scroll: true
@@ -422,26 +427,61 @@ Learn how to create a more composable application architecture and an arsenal of
 
 talks: [
   {
-    author: 'Tadeu Zagallo',
-    company: 'Balsamiq',
-    theme: 'Mastering Server-rendered Apps7',
-text: "<p>There will always be a new JavaScript framework to learn. Technology will continue to evolve and change, and developers will continue to rewrite applications. Wouldn't it be amazing if we could just copy paste 90% of our code from framework to framework?</p>
-<p>Well, you can. Reactive programming enables just this AND the ability to future proof your code.</p>
-<p>Not only can reactive programming help with your solutions to JavaScript fatigue, but the concepts and technology remain consistent from framework to framework.</p>
-<p>Learn how to create a more composable application architecture and an arsenal of lego bricks with RxJS, a push based primitive and domain specific language that sits on top of JavaScript.</p>"
+    author: 'Mark Dalgleish',
+    company: 'Seek, Australia',
+    theme: 'Designing with React',
+text: "Thanks to React's component-oriented architecture, the React community has been naturally gravitating towards design systems as a way of standardising our respective design languages into reusable components. When done successfully, it suddenly becomes trivial to translate standard designs into code. In fact, we may even find that this translation step starts to feel somewhat redundant. In a world of components, how should our design processes change? How should our tooling change? How should we, as React developers, better enable this change? In this talk, we'll look at the current state of design and development, and where we could go—if we're willing to push for it."
   },{
-    author: 'Almero Steyn',
-    company: 'Product Hunt',
-    theme: 'Inclusive React: A Survival Guide',
-    text: "<p>Well, you can. Reactive programming enables just this AND the ability to future proof your code.</p>
-<p>Not only can reactive programming help with your solutions to JavaScript fatigue, but the concepts and technology remain consistent from framework to framework.</p>
-<p>Learn how to create a more composable application architecture and an arsenal of lego bricks with RxJS, a push based primitive and domain.</p>"
+    author: 'Kent C. Dodds',
+    company: 'PayPal, United States',
+    theme: 'Requisite React',
+    text: "React is a brilliant JavaScript library for building simple and complex user interfaces. In our eagerness to apply React to our most complex of problems and ship solutions today, we can get lost in the 🌲🌲🌲 forest of abstractions 🌲🌲🌲. When it comes to leveling up our skills in anything, I find the most effective method is to take a step back and understand the foundational fundamentals. To strip away all abstraction until what we're left with is the bare bones. <a href='https://twitter.com/kentcdodds/status/1074724545003581440' target='_blank'>The better you understand an abstraction, the more effective you will be at using it.</a> In this talk, we'll get more effective at using React Hooks, React Suspense, and JSX."
   },{
-    author: 'David Carter & Simon Dudley',
-    company: 'QDelft',
-    theme: 'Inclusive React: A Survival Guide',
-    text: "<p>Reprocessing is a new library for Reason, a rather new programming language building on the OCaml + JavaScript ecosystems. It’s a lean wrapper around OpenGL and WebGL and allows truly cross-platform games to be written rather easily.</p>
-<p>Reason is great for a whole lot of things, but let me take you through a story of trying to write a 2D physics engine in just under 8 hours (Mistakes were made), what strongly typed languages don’t protect you off, and a vision of what you could build with Reason or Reprocessing. The universal future is coming, and Reason is orienting itself just right with projects like bsb-native.</p>"
+    author: 'Ashi Krishnan',
+    company: 'GitHub, United Kingdom',
+    theme: 'Painting Pixels with WebGL with React Hooks',
+    text: "<p>WebGL lets you unlock the power of your GPU. In principle, you can paint almost anything you can dream of. In practice, WebGL is hard, and though projects like three.js make it easier, there are still a lot of hurdles to integrating it into your site in a practical way.</p>
+<p>Let's explore how Hooks can make it easier to integrate powerful GPU-driven visuals into our React apps, giving us the best of both worlds: the power of WebGL with the ease and expressiveness of a React component tree.</p>"
+  },{
+    author: 'Florian Rival',
+    company: 'Facebook, United Kingdom',
+    theme: 'Native Web Apps: React and WebAssembly to rewrite native apps',
+    text: "<p>Can React and web technologies compete with native toolkits when it comes to making super complex, rich desktop apps? Can we go further and create better-than-native applications? 🤔 Sounds like a good challenge! </p>
+<p>This talk introduces how React, JavaScript and WebAssembly can be used to write new ambitious apps, or port existing ones - with real world examples! I'll show how to leverage the React ecosystem to create performant applications: architecture, patterns, typing, useful open-source modules and tooling... and how to go one step further and provide a better user experience as well as a better developer experience.</p>
+<p>These apps are not web apps, they are not native apps, they are hybrid 'Native Web Apps' and can provide the best of both worlds.</p>"
+  },{
+    author: 'Anna Doubková',
+    company: 'Hive, United Kingdom',
+    theme: 'Practical Performance for React (Native)',
+    text: "There are quite a few theoretical concepts of writing good a React application, including popular functional programming approaches. However, few take into consideration the impacts these will have on performance of the application. In this talk you’ll find out how some commonly used patterns have an adverse effect on the speed of your app, and how to avoid using them. We’ll mainly explore UI and state management but we’ll also dive into some native-specific issues and look at how to prevent them."
+  },{
+    author: 'Max Stoiber',
+    company: 'Spectrum, Austria',
+    theme: 'Tech Regrets at Spectrum',
+    text: "Spectrum is an open source chat app for large online communities and was recently acquired by GitHub. We are a team of three with a predominantly frontend and design background and have worked on it for close to two years. With the benefit of hindsight, let's talk about the technology choices I regret and the lessons I have learned."
+  },{
+    author: 'Andrey Okonetchnikov',
+    company: 'Freelance, Austria',
+    theme: 'A Common Design Language. Let Designers and Developers talk to each other.',
+    text: '<p>“Should designers code?” or “Should coders design?”—these two eternal questions are being asked for years with no particular answer given.</p>
+<ul style="margin: 10px 0 10px;">
+<li>- How to let developers know what typography style or button variance they should be using on this particular screen?</li>
+<li>- How to ensure that the whole UI is consistent?</li>
+<li>- How to let designers know that some screen design doesn’t fit the requirements and needs to be updated?</li>
+  </ul>
+<p>In order to answer those questions designers and developers have to speak the same language. But what language should it be? UI components and pattern libraries can provide this intermediate abstraction and be a common language for both designers and developers.</p>'
+  },{
+    author: 'Siddharth Kshetrapal',
+    company: 'Auth0, India',
+    theme: 'Refactoring React',
+    text: "<p>React on it’s own has a very small API surface. Most of the magic happens in user-land.</p>
+<p>But, there's a lot out there: Higher order components, Render props, Compound components? Provider methods? Learn which component pattern will make your codebase better in which use case.</p>"
+  },{
+    author: 'Nader Dabit',
+    company: 'Amazon AWS, USA',
+    theme: 'Full Stack React Native in the Era of Serverless Computing',
+    text: "<p>With the emergence of more & more powerful & sophisticated managed services like Algolia, AWS AppSync, Cloudinary, Auth0, Amazon Rekognition & Firebase it's now completely possible for front-end engineers to build full-stack web & mobile applications while with almost no back-end code, relying on these services to do the heavy lifting for features like data layers, search, authentication, & authorization & using serverless glue functions to handle what’s left.</p>
+<p>In this talk, I'll talk about this philosophy in depth, discuss the options available from different service providers, & then show how (live-code) to build a full-stack React Native application in just a few minutes by using React & AWS Amplify React Native to quickly build a real-world app complete with a GraphQL API, analytics, search, authentication & authorization.</p>"
   }
 ]
 sponsorsDescription: true
@@ -594,7 +634,7 @@ sponsors: [
 	<!--{% include "partials/_evening-programme.html" %}-->
 	<!--{% include "partials/_MCs.html" %}-->
 	<!--{% include "partials/_schedule.html" %}-->
-	<!--{% include "partials/_talks.html" %}-->
+	{% include "partials/_talks.html" %}
 	{% include "partials/_extended-program.html" %}
 	{% include "partials/_awards.html" %}
 	{% include "partials/_back-to-community.html" %}
