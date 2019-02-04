@@ -32,8 +32,15 @@
 				color: inherit
 
 .sponsors-block
+	&__item
+		text-align: center
 	& + &
 		margin-top: 50px
+	&:nth-of-type(2)
+		.sponsors-block__item
+			width: 100%
+			&:not(:first-child)
+				margin-top: 50px
 	&:nth-of-type(3)
 		//.sponsors-block__list
 			margin: 0 -50px
@@ -44,16 +51,17 @@
 		.sponsors-block__item
 			padding: 25px 30px
 			max-width: 50%
+			width: 33.33%
+			img
+				max-width: 100%
 			+tablet
 				padding: 20px
-				//width: 30%
-				img
-					max-width: 100%
-					//width: 100%
+			+md
+				width: 50%
 
 			+xs
 				padding: 17px
-				max-width: 217px
+			//max-width: 217px
 	&:nth-of-type(4)
 		.sponsors-block__list
 			margin: 0 -50px
@@ -63,23 +71,29 @@
 				margin: 0 -10px
 		.sponsors-block__item
 			padding: 25px 30px
+			width: 33.33%
+			img
+				max-width: 100%
 			+tablet
 				padding: 20px
-				//width: 25%
-				width: 50%
-				img
-					max-width: 100%
 			+xs
 				padding: 10px
-				max-width: 193px
-				width: 100%
+			//max-width: 193px
+			//width: 100%
 	&:nth-of-type(5), &:nth-of-type(6)
 		.sponsors-block__list
 			margin: 0 -25px
 		.sponsors-block__item
 			padding: 20px 25px
+			width: 25%
+			img
+				max-width: 100%
 			+tablet
 				padding: 20px
+
+			+md
+				width: 33.33%
+			//+md
 				width: 50%
 				img
 					max-width: 100%
