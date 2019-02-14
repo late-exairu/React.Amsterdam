@@ -19,6 +19,9 @@
 			.btn
 				font-size: 12px
 				padding: 14.5px 40px
+	&__text
+		+md
+			font-size: 18px
 
 .nominations
 	overflow: hidden
@@ -36,6 +39,8 @@
 		display: flex
 		flex-wrap: wrap
 		justify-content: center
+		+laptop
+			flex-direction: column
 	&__item
 		display: flex
 		align-items: center
@@ -50,10 +55,22 @@
 		border: 1px solid #2c302d
 		position: relative
 		+laptop
-			font-size: 2vw
+			font-size: 36px
 			padding: 15px 64px 20px
+			line-height: 1.26
+			&:nth-child(odd)
+				margin-right: auto
+			&:nth-child(even)
+				margin-left: auto
+
+		+md
+			font-size: 26px
 		+sm
 			padding: 22px 15px
+			&:nth-child(odd)
+				margin-right: 0
+			&:nth-child(even)
+				margin-left: 0
 		+xs
 			font-size: 18px
 			width: 100%

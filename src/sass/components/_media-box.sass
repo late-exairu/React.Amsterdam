@@ -8,11 +8,13 @@
 		padding: 10px 0
 		margin-bottom: 44px
 	//+md
-		display: none
+        display: none
 	&__grid
 		padding-top: 39.7%
 		width: 100%
 		position: relative
+		+md
+			padding-top: 52.25%
 		+sm
 			padding-top: 264.75%
 		& + .section__text
@@ -20,6 +22,9 @@
 			+tablet
 				margin-top: 30px
 
+	&__text
+		+xs
+			padding: 0 20px
 .m-grid
 	+coverdiv
 	display: grid
@@ -31,10 +36,26 @@
 		grid-template-rows: 1fr 1fr 1fr 1fr
 		grid-template-areas: "m-grid__1 m-grid__1" "m-grid__2 m-grid__3" "m-grid__6 m-grid__6" "m-grid__7 m-grid__7"
 	&__item
-		img
-			height: 100%
+		position: relative
+		&:after
+			position: absolute
+			content: ''
+			display: block
 			width: 100%
-			object-fit: cover
+			height: 100%
+			background-color: #000000
+			opacity: .5
+			top: 0
+			left: 0
+			pointer-events: none
+			transition: opacity .3s ease
+		&:hover
+			&:after
+				opacity: 0
+	img
+		height: 100%
+		width: 100%
+		object-fit: cover
 
 .m-grid__1
 	-ms-grid-column: 1
