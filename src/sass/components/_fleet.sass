@@ -45,6 +45,7 @@
 	position: relative
 	z-index: 1
 	text-decoration: none
+	cursor: pointer
 	&.is-scroll
 		.fleet-link__scroll
 			display: block
@@ -234,7 +235,9 @@
 .prop
 	display: flex
 	font-size: 12px
-	color: #aaaaaa
+	color: #5f5f5f
+	+sm
+		color: #aaaaaa
 	& + &
 		margin-top: 12px
 	&__option

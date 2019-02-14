@@ -88,16 +88,18 @@
 		align-items: center
 		position: absolute
 		right: 22px
-		top: 50%
-		transform: translateY(-50%)
+		top: 40px
 		background-color: transparent
 		font-size: 14px
 		text-transform: uppercase
 		color: $themeColor
+		+tablet
+			top: 50%
+			transform: translate(0, -50%)
 		+xs
 			right: 0
 			font-size: 12px
-			top: 13px
+			top: 10px
 			transform: none
 		&:hover
 			.icon
@@ -107,5 +109,3 @@
 			margin-left: 13px
 			fill: $themeColor
 			font-size: 20px
-			+xs
-				display: none

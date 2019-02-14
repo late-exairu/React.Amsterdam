@@ -20,6 +20,12 @@
 		width: 214px
 		.btn
 			width: 100%
+			+tablet
+				padding-top: 20px
+				padding-bottom: 20px
+			+rmin(1024)
+				+hover
+					transform: translateZ(0) perspective(1px) scaleX(1.1)
 		+tablet
 			width: auto
 		+md
@@ -36,6 +42,7 @@
 		align-items: center
 		justify-content: space-between
 		min-height: 58px
+		margin: 0 auto
 		+laptop
 			padding-left: 40px
 		+tablet
@@ -84,6 +91,11 @@
 		text-transform: uppercase
 		color: $white
 		transition: 0.3s
+		font-size: 12px
+		+tablet
+			font-size: 14px
+		+sm
+			font-size: 12px
 		+md
 			display: block
 			text-align: center
@@ -92,7 +104,8 @@
 			color: $themeColor
 
 .burger
-	width: 28px
+	width: 30px
+	height: 30px
 	span
 		transition: 0.3s
 		display: block
