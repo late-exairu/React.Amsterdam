@@ -1,4 +1,3 @@
-import sayHello from './lib/sayHello.js';
 import './components/tabs';
 import './components/header';
 import svg4everybody from 'svg4everybody';
@@ -6,7 +5,6 @@ import msieversion from './components/detectIE';
 import slider from './components/_slider';
 import noTouch from './components/noTouch';
 
-sayHello();
 noTouch();
 $(window).resize(function() {
   $('body').css('--vh', `${window.innerHeight * 0.01}px`);
