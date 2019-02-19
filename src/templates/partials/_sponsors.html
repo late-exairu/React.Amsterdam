@@ -11,7 +11,7 @@
       <p><b>Would like to join the community and improve your tech brand? Check <a href="https://react.amsterdam/sponsors/">2019 sponsorship offers</a>.</b></p>
     </div>
     {% for item in sponsors %}
-      <div class="sponsors-block">
+      <div class="sponsors-block {{item.mod}}">
         <div class="sponsors-block__title">{{item.title}}</div>
         <ul class="sponsors-block__list">
           {% for sponsor in item.list %}
