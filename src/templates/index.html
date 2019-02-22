@@ -281,10 +281,6 @@ scheduleList: [
     active: true,
     schedule: [
       {
-        time: '07.00',
-        author: 'Ferry From Central Station',
-        text: "Take a direct ferry from Amsterdam Central Station to React Amsterdam Venue. The boat with green flag, and React Amsterdam logo on it, will cruise from 7 till 10am."
-      },{
         time: '07.30',
         author: 'Registration',
         lastColMod: 's-item__col_d-sm-none',
@@ -293,84 +289,32 @@ scheduleList: [
         author: 'Welcome Breakfast',
         lastColMod: 's-item__col_d-sm-none'
       },{
-        time: '09.40',
+        time: '09.00',
         author: 'Conference Opening',
         lastColMod: 's-item__col_d-sm-none'
       },{
-        time: '10.00',
-        author: 'Tadeu Zagallo',
-        company: 'Balsamiq',
-        theme: 'Mastering Server-rendered Apps1',
-        text: "There will always be a new JavaScript framework to learn. Technology will continue to evolve and change, and developers will continue to rewrite applications. Wouldn't it be amazing if we could just copy paste 90% of our code from framework to framework?
-Well, you can. Reactive programming enables just this AND the ability to future proof your code.
-Not only can reactive programming help with your solutions to JavaScript fatigue, but the concepts and technology remain consistent from framework to framework.
-Learn how to create a more composable application architecture and an arsenal of lego bricks with RxJS, a push based primitive and domain specific language that sits on top of JavaScript. "
-      },{
-        time: '10.30',
-        author: 'Michel Weststrate',
-        company: 'Serverless',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts."
-      },{
-        time: '11.45',
-        author: 'Mark Peck',
-        company: 'Mendix',
-        theme: 'The React Native Playground',
-        text: "The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser, and test them across platforms and devices."
-      },{
-        time: '12.00',
-        author: 'Forbes Lindesay',
-        company: 'Facebook',
-        theme: 'State Management is Easy',
-        text: "Many teams have been discussing on whether to go the immutable or mutable state route. Flux or MVC or MVVM? Redux, MobX or Apollo? Instead of answering the question, in this talk we will look at JavaScript code on a more fundamental level: How do data structures work in JavaScript. What assumptions can be we make if we treat them to be immutable? Or mutable? How can we express concepts like identities, references, collections, mutations, derivations in either case? And can we bent the rules between the two? This talk will provide you a deeper understanding of the difference between state and data. A deeper understanding of JavaScript itself. Which will help you to improve the state you manage, regardless of the library you use to implement that."
+        time: '09.20',
+        author: 'Talks',
+        lastColMod: 's-item__col_d-sm-none',
       },{
         time: '12.30',
         author: 'Lunch Break'
       },{
-        time: '13.30',
-        author: 'Steve Boshmann',
-        company: 'Infinite Red',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "Queries when the underlying data changes. You will see how to make the collaborative parts of your app update in real time with little extra code, how to integrate with a SQL database or REST API, and how this works."
-      },{
         time: '14.00',
-        author: 'Woody Rousseau',
-        company: 'Infinite Red',
-        theme: 'Mastering Server-rendered Apps2',
-        text: "We'll see how to build components in a way that makes them more maintainable, testable and easier to work with."
+        author: 'Talks',
+        lastColMod: 's-item__col_d-sm-none',
       },{
-        time: '14.30',
-        author: 'Krzysztof Magiera',
-        company: 'Callstack.io',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts."
+        time: '17.30',
+        author: 'Closing',
+        lastColMod: 's-item__col_d-sm-none',
       },{
-        time: '15.45',
-        author: 'Aaron Greenwald',
-        company: 'Wix',
-        theme: 'The React Native Playground',
-        text: "The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser."
+        time: '17.40',
+        author: 'Food Truck Break',
+        lastColMod: 's-item__col_d-sm-none',
       },{
-        time: '16.30',
-        author: 'Coffee Break'
-      },{
-        time: '17.45',
-        author: 'Happy stories',
-        theme: 'Talks from people who runned into a problem with React but knows how to avoid it and is eager to share',
-        stories: [
-          {
-            author: 'Feather Knee',
-            text: 'The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser.'
-          },{
-            author: 'Narendra Shetty',
-            text: 'No other topic in software development probably has so much controversy as linting. With a wrong workflow linting can be really a pain and will slow you and your team down. With a proper setup though, it can save you hours of manual work reformatting the code and reducing the code-review overhead.'
-          }
-        ]
-      },{
-        time: '19.30',
-        author: 'Afterparty',
-        theme: 'This is for all the devs who care about performance and who think twice before adding any external library',
-        text: '<img src="img/schedule.jpg" alt="schedule" /> React Native allows for building great native apps by utilising native mobile components. Apparently handling touch and gestures is quite tricky as it often needs to interact with the application code which runs asynchronously in the javascript VM.'
+        time: '19:00',
+        author: 'After-party',
+        lastColMod: 's-item__col_d-sm-none',
       }
     ]
   },
@@ -770,9 +714,9 @@ sponsors: [
   {% include "partials/_fleet.html" %}
 	{% include "partials/_speakers.html" %}
 	<!--{% include "partials/_evening-programme.html" %}-->
-	<!--{% include "partials/_MCs.html" %}-->
-	<!--{% include "partials/_schedule.html" %}-->
+	{% include "partials/_MCs.html" %}
 	{% include "partials/_talks.html" %}
+	{% include "partials/_schedule.html" %}
 	{% include "partials/_extended-program.html" %}
 	{% include "partials/_awards.html" %}
 	{% include "partials/_back-to-community.html" %}
