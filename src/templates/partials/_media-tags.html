@@ -1,19 +1,9 @@
-{# Description no longer than 155 characters #}
-<meta name="description" content="{{ description }}">
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="{{ twitter_summary }}">
-<meta name="twitter:site" content="{{ twitter_publisher }}">
-<meta name="twitter:title" content="{{ twitter_title }}">
-<meta name="twitter:description" content="{{ twitter_description }}">
-<meta name="twitter:creator" content="{{ twitter_author }}">
-{# Twitter Summary card images must be at least 120x120px #}
-<meta name="twitter:image" content="{{ twitter_image }}">
-
-<!-- Open Graph data -->
-<meta property="og:title" content="{{ og_title }}">
-<meta property="og:type" content="article">
-<meta property="og:url" content="{{ og_url }}">
-<meta property="og:image" content="{{ og_image }}">
-<meta property="og:description" content="{{ og_description }}">
-<meta property="og:site_name" content="{{ og_sitename }}">
-<meta property="fb:admins" content="{{ fb_admins }}">
+<meta name="keywords" content="{% if keywords %}{{ keywords }}{% else %}ReactJS, React, React Native, framework, JavaScript, development, Facebook, workshops, conference{% endif %}">
+<meta name="description" content="{% if description %}{{ description }}{% else %}React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.{% endif %}">
+<meta property="og:url" content="{% if ogUrl %}{{ ogUrl }}{% else %}https://react.amsterdam{% endif %}"/>
+<meta property="og:title" content="{% if title %}{{ title }}{% else %}React Amsterdam - The Biggest React Conference Worldwide{% endif %}"/>
+<meta property="og:description"
+      content="{% if description %}{{ description }}{% else %}React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.{% endif %}"/>
+<meta property="og:image" content="{% if ogImage %}{{ ogImage }}{% else %}https://react.amsterdam/img/og2019.jpg{% endif %}"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@reactamsterdam">

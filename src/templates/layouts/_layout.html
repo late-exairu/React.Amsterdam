@@ -5,22 +5,11 @@
     <meta charset="utf-8">
     <title>{% if title %}{{ title }}{% else %}React Amsterdam - The Biggest React Conference Worldwide{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="keywords"
-          content="ReactJS, React, React Native, framework, JavaScript, development, Facebook, workshops, conference"/>
-    <meta name="description"
-          content="React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe."/>
-    <meta property="og:url" content="https://react.amsterdam"/>
-    <meta property="og:title" content="React Amsterdam - The Biggest React Conference Worldwide"/>
-    <meta property="og:description"
-          content="React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe."/>
-    <meta property="og:image" content="https://react.amsterdam/img/og2019.jpg"/>
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@reactamsterdam">
+    {% include "../partials/_media-tags.html" %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" media="all" href="css/app.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900">
     <link rel="shortcut icon" href="img/favicon.png"/>
-    {# {% include "../partials/_media-tags.html" %} #}
   </head>
   <body>
 
