@@ -11,7 +11,7 @@ gulp.task('deploy', function() {
     user: args.user,
     password: args.password,
     log: gutil.log,
-    parallel: 10,
+    parallel: 2,
   });
 
   gulp.src([
