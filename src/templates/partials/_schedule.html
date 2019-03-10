@@ -22,7 +22,7 @@
                       <div class="s-item__time">{{schedule.time}}</div>
                     </div>
                     <div class="s-item__col">
-                      <div class="s-item__title">{{schedule.author}}</div>
+                      <div class="s-item__title">{{schedule.author | safe}}</div>
                       {% if schedule.company %}
                         <div class="s-item__company">{{schedule.company}}</div>
                       {% endif %}
