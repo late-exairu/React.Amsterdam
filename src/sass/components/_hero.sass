@@ -37,7 +37,7 @@
 		padding: 20px 0 60px
 	+r(380)
 		+rhmin(600)
-			padding: 20px 0 120px!important
+			padding: 20px 0 40px!important
 			.hero__logo, .h-list
 				margin-bottom: 25px
 	&__video
@@ -135,6 +135,34 @@
 		//margin: 0 auto
 		display: flex
 		justify-content: center
+
+	&__partner
+		position: absolute
+		right: 10px
+		top: 0
+		font-size: 16px
+		line-height: 1.4
+		+tablet
+			font-size: 14px
+			right: 20px
+
+		+md
+			width: 150px
+			position: relative
+			right: 0
+			margin: 20px auto
+
+	&__partner-img
+		width: 200px
+		display: block
+		margin-top: 10px
+
+		+tablet
+			margin-top: 5px
+			width: 150px
+
+		img
+			width: 100%
 .h-list
 	display: flex
 	justify-content: space-between
