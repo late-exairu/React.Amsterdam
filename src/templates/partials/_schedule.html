@@ -1,15 +1,15 @@
 <section class="section schedule" id="schedule">
   <div class="container">
-    <h3 class="section__title">Initial Schedule</h3>
+    <h3 class="section__title">Schedule</h3>
   </div>
   <div class="schedule__content js-tabs-container">
-    <!--<div class="container">-->
-      <!--<div class="schedule__tab-links">-->
-        <!--{% for item in scheduleList %}-->
-          <!--<a href="#" class="schedule__tab-link js-tab-link {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">{{item.title}}</a>-->
-        <!--{% endfor %}-->
-      <!--</div>-->
-    <!--</div>-->
+    <div class="container">
+      <div class="schedule__tab-links">
+        {% for item in scheduleList %}
+          <a href="#" class="schedule__tab-link js-tab-link {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">{{item.title}}</a>
+        {% endfor %}
+      </div>
+    </div>
     <div class="schedule__tabs">
       {% for item in scheduleList %}
         <div class="schedule__tab js-tab {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">

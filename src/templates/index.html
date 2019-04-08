@@ -15,8 +15,8 @@ headerNav: [
     scroll: true
   },
   {
-    text: 'TALKS',
-    href: '#talks',
+    text: 'Schedule',
+    href: '#schedule',
     scroll: true
   },
   {
@@ -114,8 +114,8 @@ He is the author of GDevelop, an open-source game making software based on React
   }, {
     photo: 'max.jpg',
     name: 'Max Stoiber',
-    company: 'Spectrum, Austria',
-    desc: "Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.",
+    company: '',
+    desc: "",
     github: 'https://github.com/mxstbr',
     twitter: 'https://twitter.com/mxstbr',
     site: 'https://mxstbr.com/'
@@ -364,18 +364,92 @@ scheduleList: [
         lastColMod: 's-item__col_d-sm-none'
       },{
         time: '09.20',
-        author: 'Talks',
+        author: 'Kent C. Dodds',
+        company: 'Trainer, USA',
+        theme: 'Requisite React',
+        text: "React is a brilliant JavaScript library for building simple and complex user interfaces. In our eagerness to apply React to our most complex of problems and ship solutions today, we can get lost in the 🌲🌲🌲 forest of abstractions 🌲🌲🌲. When it comes to leveling up our skills in anything, I find the most effective method is to take a step back and understand the foundational fundamentals. To strip away all abstraction until what we're left with is the bare bones. <a href='https://twitter.com/kentcdodds/status/1074724545003581440' target='_blank'>The better you understand an abstraction, the more effective you will be at using it.</a> In this talk, we'll get more effective at using React Hooks, React Suspense, and JSX."
+      },{
+        time: '09.50',
+        author: 'Siddharth Kshetrapal',
+        company: 'Trainer, India',
+        theme: 'Refactoring React',
+        text: "<p>React on it’s own has a very small API surface. Most of the magic happens in user-land.</p>
+<p>But, there's a lot out there: Higher order components, Render props, Compound components? Provider methods? Learn which component pattern will make your codebase better in which use case.</p>"
+      },{
+        time: '10.20',
+        author: 'Coffee break',
+        lastColMod: 's-item__col_d-sm-none',
+      },{
+        time: '10.50',
+        author: 'Mark Dalgleish',
+        company: 'Seek, Australia',
+        theme: 'Designing with React',
+        text: "Thanks to React's component-oriented architecture, the React community has been naturally gravitating towards design systems as a way of standardising our respective design languages into reusable components. When done successfully, it suddenly becomes trivial to translate standard designs into code. In fact, we may even find that this translation step starts to feel somewhat redundant. In a world of components, how should our design processes change? How should our tooling change? How should we, as React developers, better enable this change? In this talk, we'll look at the current state of design and development, and where we could go—if we're willing to push for it."
+      },{
+        time: '11.20',
+        author: 'Andrey Okonetchnikov',
+        company: 'Freelance, Austria',
+        theme: 'A Common Design Language. Let Designers and Developers talk to each other',
+    text: '<p>“Should designers code?” or “Should coders design?”—these two eternal questions are being asked for years with no particular answer given.</p>
+<ul style="margin: 10px 0 10px;">
+<li>- How to let developers know what typography style or button variance they should be using on this particular screen?</li>
+<li>- How to ensure that the whole UI is consistent?</li>
+<li>- How to let designers know that some screen design doesn’t fit the requirements and needs to be updated?</li>
+  </ul>
+<p>In order to answer those questions designers and developers have to speak the same language. But what language should it be? UI components and pattern libraries can provide this intermediate abstraction and be a common language for both designers and developers.</p>'
+      },{
+        time: '11.50',
+        author: 'Lightning talks',
         lastColMod: 's-item__col_d-sm-none',
       },{
         time: '12.20',
         author: 'Lunch Break'
       },{
+        time: '13.20',
+        author: 'GitNation Open Source Stage'
+      },{
         time: '13.50',
-        author: 'Talks',
+        author: 'Max Stoiber',
+        company: 'GitHub, Austria',
+        theme: 'Tech Regrets at Spectrum',
+        text: "Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains."
+      },{
+        time: '14.20',
+        author: 'Max Galo',
+        company: 'DAZN, UK',
+        theme: 'Scaling Applications with Microfrontends',
+        text: "<p>Once upon a time, you had one Single Page Application using a Monolith Backend that relies on a Database. Then you started getting some users and suddenly you needed multiple instances of your Monolith Backend and more replicas of your Database. Your user base kept growing and also your development team was growing, so you split your Monolith backend into Microservices with their own Databases.</p><p>You’re very happy about the situation until you realize that the same problem you had on the backend it’s now on the frontend. Multiple teams are working on the same codebase, it’s hard to do frequent releases and there’re a lot of cross-team communications that slow things down.</p><p>At DAZN we battle-tested the Microfrontends architecture leveraging feature like blue-green deployments in the frontend, framework agnostic teams and drastically reduced cross-team dependencies.</p>"
+      },{
+        time: '14.50',
+        author: 'Elizabet Oliveira',
+        company: 'Optum, Ireland',
+        theme: "An SVG’s Tale",
+        text: "<p>Developers and designers don’t often use all SVG superpowers in their React applications.</p>
+<p>This way, to drive your inspiration, I am going to tell you the story of an SVG image that one day made a very special friend - ReactJS. Alone and despised by its family, SVG yelled Enough! Now you’ll see what I’m all about!. And with this epic scream, little SVG unveiled all its superpowers. She took her friend React and they showed the world how to come up with creative solutions together. </p>"
+      },{
+        time: '15.20',
+        author: 'Coffee break',
         lastColMod: 's-item__col_d-sm-none',
       },{
+        time: '15.50',
+        author: 'React Open Source Awards',
+        lastColMod: 's-item__col_d-sm-none',
+      },{
+        time: '16.10',
+        author: 'Peggy Rayzis',
+        company: 'Apollo, USA',
+        theme: 'The GraphQL developer experience',
+        text: "Data fetching makes up a large part of our React apps, yet it's also some of the most complex code we write. GraphQL can help us reduce this complexity, especially when it's combined with intelligent tooling. In this talk, we'll explore how to achieve a friction-free state management experience with GraphQL and Apollo right inside your editor."
+      },{
+        time: '16.40',
+        author: 'Ashi Krishnan',
+        company: 'GitHub, UK',
+        theme: 'Painting Pixels with WebGL with React Hooks',
+        text: "<p>WebGL lets you unlock the power of your GPU. In principle, you can paint almost anything you can dream of. In practice, WebGL is hard, and though projects like three.js make it easier, there are still a lot of hurdles to integrating it into your site in a practical way.</p>
+<p>Let's explore how Hooks can make it easier to integrate powerful GPU-driven visuals into our React apps, giving us the best of both worlds: the power of WebGL with the ease and expressiveness of a React component tree.</p>"
+      },{
         time: '17.10',
-        author: 'Closing',
+        author: 'Talks section closing and announcements',
         lastColMod: 's-item__col_d-sm-none',
       },{
         time: '17.30',
@@ -383,7 +457,7 @@ scheduleList: [
         lastColMod: 's-item__col_d-sm-none',
       },{
         time: '19:00',
-        author: '<a href="/extended#party">React Party</a>',
+        author: '<a href="/extended#party">React Party</a>, schedule in goodie bag booklet',
         lastColMod: 's-item__col_d-sm-none',
       }
     ]
@@ -392,213 +466,91 @@ scheduleList: [
     title: 'React Native Track',
     schedule: [
       {
-        time: '06.00',
-        author: 'Test',
-        text: "Take a direct ferry from Amsterdam Central Station to React Amsterdam Venue. The boat with green flag, and React Amsterdam logo on it, will cruise from 7 till 10am."
+        time: '09.20',
+        author: 'Parashuram N',
+        company: 'Facebook, USA',
+        theme: 'Building React Native',
+        text: "<p>React Native is a great way to build native apps for iOS, Android and other mobile platforms. In this talk, we will look at the internals of React Native, and how code written in JavaScript can power a fully native mobile application. We will look at the various parts of the current system like the bridge, the UI manager and the plugins. We will also touch upon the rendering process and compare it to React’s rendering on the web. </p>
+<p>We will look at some of the new and exciting improvements (like Fabric, TurboModules and JSI) and talk about how they significantly improve React Native. This talk stems from my experiences as a web-developer newbie on the React Native team, and is an attempt to document my journey in comprehending the code base. At the end of the talk, the attendees will not only be able to build React Native apps, but also understands how it all works together.</p>"
       },{
-        time: '07.30',
-        author: 'Registration'
+        time: '09.50',
+        author: 'Anna Doubková',
+        company: 'Hive, UK',
+        theme: 'Practical Performance for React (Native)',
+        text: "There are quite a few theoretical concepts of writing good a React application, including popular functional programming approaches. However, few take into consideration the impacts these will have on performance of the application. In this talk you’ll find out how some commonly used patterns have an adverse effect on the speed of your app, and how to avoid using them. We’ll mainly explore UI and state management but we’ll also dive into some native-specific issues and look at how to prevent them."
       },{
-        time: '08.00',
-        author: 'Welcome Breakfast'
+        time: '10.20',
+        author: 'Coffee break',
+        lastColMod: 's-item__col_d-sm-none',
       },{
-        time: '09.40',
-        author: 'Conference Opening'
+        time: '10.50',
+        author: 'Ben Ellerby',
+        company: 'Theodo, UK',
+        theme: 'Sharing Code Between React and React-Native: What Not to Share',
+        text: "<p>React and React-Native allow a learn once write anywhere paradigm. This is great, because one tech team can build both your web app and native mobile experience. The problem is developers hate writing things twice. There have been a couple of efforts to build a unifying technology to write an application once and have it work on both web and native. Yet this is not always the best approach. There is value in only sharing your business and state logic; keeping your render code separate.</p>
+<p>In this talk I will give real examples from my work with MADE.COM, migrating their web and mobile application to React and React-Native with code sharing as a primary objective.</p>"
       },{
-        time: '10.00',
-        author: 'Tadeu Zagallo',
-        company: 'Balsamiq',
-        theme: 'Mastering Server-rendered Apps4',
-        text: "There will always be a new JavaScript framework to learn. Technology will continue to evolve and change, and developers will continue to rewrite applications. Wouldn't it be amazing if we could just copy paste 90% of our code from framework to framework?
-Well, you can. Reactive programming enables just this AND the ability to future proof your code.
-Not only can reactive programming help with your solutions to JavaScript fatigue, but the concepts and technology remain consistent from framework to framework.
-Learn how to create a more composable application architecture and an arsenal of lego bricks with RxJS, a push based primitive and domain specific language that sits on top of JavaScript. "
+        time: '11.20',
+        author: 'Wouter van den Broek',
+        company: 'Freelance, Netherlands',
+        theme: 'Building for a Bigger World Than Mobile',
+        text: "<p>React Native is great for mobile applications on iOS and Android but there is more in the world of native app development. React Native can be used to get your app on the Windows and Mac OS X platform. And why not Elektron or even newer Marzipan to get your app to the other platforms or can you combine these technics to get a good app as result.</p>
+<p>In this talk you wil see how to get React Native to the Windows and Mac OS X platform, what the advantages and disadvantages are with these setups  and what you can do to get the best results for your App</p>"
       },{
-        time: '10.30',
-        author: 'Michel Weststrate',
-        company: 'Serverless',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts."
+        time: '11.50',
+        author: 'Panel discussion with Advice Lounge members'
       },{
-        time: '11.45',
-        author: 'Mark Peck',
-        company: 'Mendix',
-        theme: 'The React Native Playground',
-        text: "The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser, and test them across platforms and devices."
-      },{
-        time: '12.00',
-        author: 'Forbes Lindesay',
-        company: 'Facebook',
-        theme: 'State Management is Easy',
-        text: "Many teams have been discussing on whether to go the immutable or mutable state route. Flux or MVC or MVVM? Redux, MobX or Apollo? Instead of answering the question, in this talk we will look at JavaScript code on a more fundamental level: How do data structures work in JavaScript. What assumptions can be we make if we treat them to be immutable? Or mutable? How can we express concepts like identities, references, collections, mutations, derivations in either case? And can we bent the rules between the two? This talk will provide you a deeper understanding of the difference between state and data. A deeper understanding of JavaScript itself. Which will help you to improve the state you manage, regardless of the library you use to implement that."
-      },{
-        time: '12.30',
+        time: '12.20',
         author: 'Lunch Break'
       },{
-        time: '13.30',
-        author: 'Steve Boshmann',
-        company: 'Infinite Red',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "Queries when the underlying data changes. You will see how to make the collaborative parts of your app update in real time with little extra code, how to integrate with a SQL database or REST API, and how this works."
+        time: '13.50',
+        author: 'Ankita Kulkarni',
+        company: 'Rangle.io, Canada',
+        theme: 'Make Your React Native Apps Accessible',
+        text: "<p>Did you know React Native has accessibility rules?  In this talk, I will show you why accessibility matters, what those rules are, accessibility standards your app falls into, common patterns to follow and how to get over your fear of voice-over.</p>
+<p>By making our apps accessible, we provide a great experience for all our users. This talk is sure to leave you with actionable ways in making your apps accessible. Let’s make this native world a better and inclusive place for everyone.</p>"
       },{
-        time: '14.00',
-        author: 'Woody Rousseau',
-        company: 'Infinite Red',
-        theme: 'Mastering Server-rendered Apps5',
-        text: "We'll see how to build components in a way that makes them more maintainable, testable and easier to work with."
+        time: '14.20',
+        author: 'Florian Rival',
+        company: 'Facebook, UK',
+        theme: 'Native Web Apps: React and WebAssembly to Rewrite Native Apps',
+        text: "<p>Can React and web technologies compete with native toolkits when it comes to making super complex, rich desktop apps? Can we go further and create better-than-native applications? 🤔 Sounds like a good challenge! </p>
+<p>This talk introduces how React, JavaScript and WebAssembly can be used to write new ambitious apps, or port existing ones - with real world examples! I'll show how to leverage the React ecosystem to create performant applications: architecture, patterns, typing, useful open-source modules and tooling... and how to go one step further and provide a better user experience as well as a better developer experience.</p>
+<p>These apps are not web apps, they are not native apps, they are hybrid 'Native Web Apps' and can provide the best of both worlds.</p>"
       },{
-        time: '14.30',
-        author: 'Krzysztof Magiera',
-        company: 'Callstack.io',
-        theme: 'Building Reactive GraphQL Apps With Apollo',
-        text: "In this talk, I’ll introduce our efforts to design a reactive system to automatically re-run GraphQL queries when the underlying data changes. You will see how to make the collaborative parts."
+        time: '14.50',
+        author: 'Nader Dabit',
+        company: 'Amazon AWS, USA',
+        theme: 'Full-stack React Native in the Era of Serverless Computing',
+        text: "<p>With the emergence of more & more powerful & sophisticated managed services like Algolia, AWS AppSync, Cloudinary, Auth0, Amazon Rekognition & Firebase it's now completely possible for front-end engineers to build full-stack web & mobile applications while with almost no back-end code, relying on these services to do the heavy lifting for features like data layers, search, authentication, & authorization & using serverless glue functions to handle what’s left.</p>
+<p>In this talk, I'll talk about this philosophy in depth, discuss the options available from different service providers, & then show how (live-code) to build a full-stack React Native application in just a few minutes by using React & AWS Amplify React Native to quickly build a real-world app complete with a GraphQL API, analytics, search, authentication & authorization.</p>"
       },{
-        time: '15.45',
-        author: 'Aaron Greenwald',
-        company: 'Wix',
-        theme: 'The React Native Playground',
-        text: "The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser."
+        time: '15.20',
+        author: 'Coffee break',
+        lastColMod: 's-item__col_d-sm-none',
       },{
-        time: '16.30',
-        author: 'Coffee Break'
+        time: '16.10',
+        author: 'Vladimir Novick',
+        company: 'Hasura, Israel',
+        theme: 'Demystifying Complex Animations Creation Process in React Native',
+        text: "<p>While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process</p>"
       },{
-        time: '17.45',
-        author: 'Happy stories',
-        theme: 'Talks from people who runned into a problem with React but knows how to avoid it and is eager to share',
-        stories: [
-          {
-            author: 'Feather Knee',
-            text: 'The React Native Playground breaks down barriers to mobile development by making it easy to write React Native apps right in the browser.'
-          },{
-            author: 'Narendra Shetty',
-            text: 'No other topic in software development probably has so much controversy as linting. With a wrong workflow linting can be really a pain and will slow you and your team down. With a proper setup though, it can save you hours of manual work reformatting the code and reducing the code-review overhead.'
-          }
-        ]
-      },{
-        time: '19.30',
-        author: 'Afterparty',
-        theme: 'This is for all the devs who care about performance and who think twice before adding any external library',
-        text: '<img src="img/schedule.jpg" alt="schedule" /> React Native allows for building great native apps by utilising native mobile components. Apparently handling touch and gestures is quite tricky as it often needs to interact with the application code which runs asynchronously in the javascript VM.'
+        time: '16.40',
+        author: 'Adam Terlson',
+        company: 'InterNations, Germany',
+        theme: 'React Native App Rollout—an Alternative Approach',
+        text: "<p>Building an app destined for production is a daunting task, especially to replace existing legacy apps available for download in the App and Play Store.  We could have pursued a typical release strategy—instead, we got creative with React Native.</p>
+<p>We built a strangler-style architecture, a technique commonly reserved for web services, to release our greenfield React Native product user-by-user. The effect was some pretty unique and awesome advantages to how we built and tested our new app—but software is never perfect.</p>"
       }
     ]
   }
 ]
 
-talks: [
-  {
-    author: 'Kent C. Dodds',
-    company: 'Trainer, USA',
-    theme: 'Requisite React',
-    text: "React is a brilliant JavaScript library for building simple and complex user interfaces. In our eagerness to apply React to our most complex of problems and ship solutions today, we can get lost in the 🌲🌲🌲 forest of abstractions 🌲🌲🌲. When it comes to leveling up our skills in anything, I find the most effective method is to take a step back and understand the foundational fundamentals. To strip away all abstraction until what we're left with is the bare bones. <a href='https://twitter.com/kentcdodds/status/1074724545003581440' target='_blank'>The better you understand an abstraction, the more effective you will be at using it.</a> In this talk, we'll get more effective at using React Hooks, React Suspense, and JSX."
-  },
-  {
-    author: 'Peggy Rayzis',
-    company: 'Apollo, USA',
-    theme: 'The GraphQL Developer Experience',
-    text: "Data fetching makes up a large part of our React apps, yet it's also some of the most complex code we write. GraphQL can help us reduce this complexity, especially when it's combined with intelligent tooling. In this talk, we'll explore how to achieve a friction-free state management experience with GraphQL and Apollo right inside your editor."
-  },
-  {
-    author: 'Mark Dalgleish',
-    company: 'Seek, Australia',
-    theme: 'Designing with React',
-text: "Thanks to React's component-oriented architecture, the React community has been naturally gravitating towards design systems as a way of standardising our respective design languages into reusable components. When done successfully, it suddenly becomes trivial to translate standard designs into code. In fact, we may even find that this translation step starts to feel somewhat redundant. In a world of components, how should our design processes change? How should our tooling change? How should we, as React developers, better enable this change? In this talk, we'll look at the current state of design and development, and where we could go—if we're willing to push for it."
-  },{
-    author: 'Max Stoiber',
-    company: 'Spectrum, Austria',
-    theme: 'Tech Regrets at Spectrum',
-    text: "Spectrum is an open source chat app for large online communities and was recently acquired by GitHub. We are a team of three with a predominantly frontend and design background and have worked on it for close to two years. With the benefit of hindsight, let's talk about the technology choices I regret and the lessons I have learned."
-  },{
-    author: 'Parashuram N',
-    company: 'Facebook, USA',
-    theme: 'Building React Native',
-    text: "<p>React Native is a great way to build native apps for iOS, Android and other mobile platforms. In this talk, we will look at the internals of React Native, and how code written in JavaScript can power a fully native mobile application. We will look at the various parts of the current system like the bridge, the UI manager and the plugins. We will also touch upon the rendering process and compare it to React’s rendering on the web. </p>
-<p>We will look at some of the new and exciting improvements (like Fabric, TurboModules and JSI) and talk about how they significantly improve React Native. This talk stems from my experiences as a web-developer newbie on the React Native team, and is an attempt to document my journey in comprehending the code base. At the end of the talk, the attendees will not only be able to build React Native apps, but also understands how it all works together.</p>"
-  },{
-    author: 'Ashi Krishnan',
-    company: 'GitHub, UK',
-    theme: 'Painting Pixels with WebGL with React Hooks',
-    text: "<p>WebGL lets you unlock the power of your GPU. In principle, you can paint almost anything you can dream of. In practice, WebGL is hard, and though projects like three.js make it easier, there are still a lot of hurdles to integrating it into your site in a practical way.</p>
-<p>Let's explore how Hooks can make it easier to integrate powerful GPU-driven visuals into our React apps, giving us the best of both worlds: the power of WebGL with the ease and expressiveness of a React component tree.</p>"
-  },{
-    author: 'Florian Rival',
-    company: 'Facebook, UK',
-    theme: 'Native Web Apps: React and WebAssembly to Rewrite Native Apps',
-    text: "<p>Can React and web technologies compete with native toolkits when it comes to making super complex, rich desktop apps? Can we go further and create better-than-native applications? 🤔 Sounds like a good challenge! </p>
-<p>This talk introduces how React, JavaScript and WebAssembly can be used to write new ambitious apps, or port existing ones - with real world examples! I'll show how to leverage the React ecosystem to create performant applications: architecture, patterns, typing, useful open-source modules and tooling... and how to go one step further and provide a better user experience as well as a better developer experience.</p>
-<p>These apps are not web apps, they are not native apps, they are hybrid 'Native Web Apps' and can provide the best of both worlds.</p>"
-  },{
-    author: 'Anna Doubková',
-    company: 'Hive, UK',
-    theme: 'Practical Performance for React (Native)',
-    text: "There are quite a few theoretical concepts of writing good a React application, including popular functional programming approaches. However, few take into consideration the impacts these will have on performance of the application. In this talk you’ll find out how some commonly used patterns have an adverse effect on the speed of your app, and how to avoid using them. We’ll mainly explore UI and state management but we’ll also dive into some native-specific issues and look at how to prevent them."
-  },{
-    author: 'Andrey Okonetchnikov',
-    company: 'Freelance, Austria',
-    theme: 'A Common Design Language. Let Designers and Developers talk to each other',
-    text: '<p>“Should designers code?” or “Should coders design?”—these two eternal questions are being asked for years with no particular answer given.</p>
-<ul style="margin: 10px 0 10px;">
-<li>- How to let developers know what typography style or button variance they should be using on this particular screen?</li>
-<li>- How to ensure that the whole UI is consistent?</li>
-<li>- How to let designers know that some screen design doesn’t fit the requirements and needs to be updated?</li>
-  </ul>
-<p>In order to answer those questions designers and developers have to speak the same language. But what language should it be? UI components and pattern libraries can provide this intermediate abstraction and be a common language for both designers and developers.</p>'
-  },{
-    author: 'Siddharth Kshetrapal',
-    company: 'Auth0, India',
-    theme: 'Refactoring React',
-    text: "<p>React on it’s own has a very small API surface. Most of the magic happens in user-land.</p>
-<p>But, there's a lot out there: Higher order components, Render props, Compound components? Provider methods? Learn which component pattern will make your codebase better in which use case.</p>"
-  },{
-    author: 'Nader Dabit',
-    company: 'Amazon AWS, USA',
-    theme: 'Full-stack React Native in the Era of Serverless Computing',
-    text: "<p>With the emergence of more & more powerful & sophisticated managed services like Algolia, AWS AppSync, Cloudinary, Auth0, Amazon Rekognition & Firebase it's now completely possible for front-end engineers to build full-stack web & mobile applications while with almost no back-end code, relying on these services to do the heavy lifting for features like data layers, search, authentication, & authorization & using serverless glue functions to handle what’s left.</p>
-<p>In this talk, I'll talk about this philosophy in depth, discuss the options available from different service providers, & then show how (live-code) to build a full-stack React Native application in just a few minutes by using React & AWS Amplify React Native to quickly build a real-world app complete with a GraphQL API, analytics, search, authentication & authorization.</p>"
-  },{
-    author: 'Vladimir Novick',
-    company: 'Hasura, Israel',
-    theme: 'Demystifying Complex Animations Creation Process in React Native',
-    text: "<p>While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process</p>"
-  },{
-    author: 'Max Gallo',
-    company: 'DAZN, UK',
-    theme: 'Scaling Applications with Microfrontends',
-    text: "<p>Once upon a time, you had one Single Page Application using a Monolith Backend that relies on a Database. Then you started getting some users and suddenly you needed multiple instances of your Monolith Backend and more replicas of your Database. Your user base kept growing and also your development team was growing, so you split your Monolith backend into Microservices with their own Databases.</p><p>You’re very happy about the situation until you realize that the same problem you had on the backend it’s now on the frontend. Multiple teams are working on the same codebase, it’s hard to do frequent releases and there’re a lot of cross-team communications that slow things down.</p><p>Microfrontends are a new frontend architecture that can help you scale up a project with tens of developers. Few companies are trying to adopt different flavours of the same idea, but there’s not yet a de-facto standard in the industry.</p><p>At DAZN we battle-tested the Microfrontends architecture leveraging feature like blue-green deployments in the frontend, framework agnostic teams and drastically reduced cross-team dependencies. You’ll understand the benefit and drawbacks of the Microfrontends, so you can live happily ever after.</p>"
-  },{
+talks: [{
     author: 'Tim Neutkens',
     company: 'ZEIT, Netherlands',
     theme: 'Next for Next.js',
 text: "<p>Next.js is one of the most convenient and powerful ways of developing React apps on the web. With powerful features out of the box such as code-splitting, server-side rendering and powerful optimizations, this talk discusses the exciting next steps for Next.js.</p>"
-  },{
-    author: 'Ben Ellerby',
-    company: 'Theodo, UK',
-    theme: 'Sharing Code Between React and React-Native: What Not to Share',
-    text: "<p>React and React-Native allow a learn once write anywhere paradigm. This is great, because one tech team can build both your web app and native mobile experience. The problem is developers hate writing things twice. There have been a couple of efforts to build a unifying technology to write an application once and have it work on both web and native. Yet this is not always the best approach. There is value in only sharing your business and state logic; keeping your render code separate.</p>
-<p>In this talk I will give real examples from my work with MADE.COM, migrating their web and mobile application to React and React-Native with code sharing as a primary objective.</p>"
-  },{
-    author: 'Wouter van den Broek',
-    company: 'Freelance, Netherlands',
-    theme: 'Building for a Bigger World Than Mobile',
-    text: "<p>React Native is great for mobile applications on iOS and Android but there is more in the world of native app development. React Native can be used to get your app on the Windows and Mac OS X platform. And why not Elektron or even newer Marzipan to get your app to the other platforms or can you combine these technics to get a good app as result.</p>
-<p>In this talk you wil see how to get React Native to the Windows and Mac OS X platform, what the advantages and disadvantages are with these setups  and what you can do to get the best results for your App</p>"
-  },{
-    author: 'Ankita Kulkarni',
-    company: 'Rangle.io, Canada',
-    theme: 'Make Your React Native Apps Accessible',
-    text: "<p>Did you know React Native has accessibility rules?  In this talk, I will show you why accessibility matters, what those rules are, accessibility standards your app falls into, common patterns to follow and how to get over your fear of voice-over.</p>
-<p>By making our apps accessible, we provide a great experience for all our users. This talk is sure to leave you with actionable ways in making your apps accessible. Let’s make this native world a better and inclusive place for everyone.</p>"
-  },{
-    author: 'Adam Terlson',
-    company: 'InterNations, Germany',
-    theme: 'React Native App Rollout—an Alternative Approach',
-    text: "<p>Building an app destined for production is a daunting task, especially to replace existing legacy apps available for download in the App and Play Store.  We could have pursued a typical release strategy—instead, we got creative with React Native.</p>
-<p>We built a strangler-style architecture, a technique commonly reserved for web services, to release our greenfield React Native product user-by-user. The effect was some pretty unique and awesome advantages to how we built and tested our new app—but software is never perfect.</p>"
-  },{
-    author: 'Elizabet Oliveira',
-    company: 'Optum, Ireland',
-    theme: 'An SVG’s Tale',
-    text: "<p>Developers and designers don’t often use all SVG superpowers in their React applications.</p>
-<p>This way, to drive your inspiration, I am going to tell you the story of an SVG image that one day made a very special friend - ReactJS. Alone and despised by its family, SVG yelled Enough! Now you’ll see what I’m all about!. And with this epic scream, little SVG unveiled all its superpowers. She took her friend React and they showed the world how to come up with creative solutions together. </p>"
   },{
     author: 'Gert Hengeveld',
     company: 'Xebia, Netherlands',
@@ -880,8 +832,8 @@ sponsors: [
 	{% include "partials/_advicers.html" %}
 	<!--{% include "partials/_evening-programme.html" %}-->
 	{% include "partials/_MCs.html" %}
-	{% include "partials/_talks.html" %}
 	{% include "partials/_schedule.html" %}
+	{% include "partials/_talks.html" %}
 	{% include "partials/_extended-program.html" %}
 	{% include "partials/_awards.html" %}
 	{% include "partials/_back-to-community.html" %}
