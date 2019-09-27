@@ -27,10 +27,10 @@ gulp.task('deploy', function() {
 
   // uncomment to deploy last year versions
 
-  // gulp.src([
-  //   './2019/**/*.*'
-  // ])
-  //   .pipe(conn.dest(`${remotePath}/2019`));
+  gulp.src([
+    './2019/**/*.*'
+  ])
+    .pipe(conn.dest(`${remotePath}/2019`));
 
   // gulp.src([
   //   './2018/**/*.*'
