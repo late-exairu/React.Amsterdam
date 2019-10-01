@@ -13,7 +13,7 @@
       </div>
       <div class="footer__nav">
         <ul class="f-nav">
-          {% for item in footerNav %}
+          {% for item in pages[pageKey].pageNavigation.footerNav %}
             <li class="f-nav__item"><a href="{{item.href}}" class="f-nav__link">{{item.text}}</a></li>
           {% endfor %}
         </ul>
