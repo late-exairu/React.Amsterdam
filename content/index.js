@@ -9,8 +9,6 @@ const sponsorContent = require('./fetch-sponsors');
 const talksContent = require('./fetch-talks');
 const workshopContent = require('./fetch-workshops');
 const mcContent = require('./fetch-mc');
-const { markdownToHtml } = require('./markdown');
-
 
 const createClient = ({ endpoint, token }) => {
   return new GraphQLClient(endpoint, {
@@ -45,8 +43,6 @@ const getContent = async() => {
     (content, piece) => ({ ...content, ...piece }),
     {}
   );
-  console.log('Fetched Data', JSON.stringify(contentMap, null, 2));
-  contentMap.debug = await markdownToHtml(JSON.stringify(contentMap, null, 2));
   return contentMap;
 };
 
