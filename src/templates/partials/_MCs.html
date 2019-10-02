@@ -3,66 +3,29 @@
     <h3 class="section__title">Our MC's</h3>
     <div class="mc-list">
 
-      <div class="mc-list__item">
-        <div class="speaker speaker--mc">
+      {% for item in mcs %}
+        <div class="mc-list__item">
+          <div class="speaker speaker--mc">
 
-          <div class="speaker__photo">
-            <div class="speaker__photo-wrap">
-              <img src="img/speakers/eli.jpg?v2" alt="Eli Schutze">
+            <div class="speaker__photo">
+              <div class="speaker__photo-wrap">
+                <img src="{{ item.avatar.url }}" alt="{{ item.name }}">
+              </div>
             </div>
-          </div>
-          <div class="speaker__name">Eli Schutze</div>
-          <div class="speaker__company">Monzo, UK</div>
-          <div class="speaker__desc">
-            Eli Schutze Ramirez is a web engineer at Monzo in London. Originally from Nicaragua, Eli is also a speaker and community organiser so when she’s not at work you can find her at tech meetups, teaching people to code or tweeting.
-          </div>
-          <div class="speaker__socials">
-            <a href="https://github.com/elischutze" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
-            <a href="https://twitter.com/elibelly" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="mc-list__item">
-        <div class="speaker speaker--mc">
-          <div class="speaker__photo">
-            <div class="speaker__photo-wrap">
-            <img src="img/speakers/mettin.jpg" alt="Mettin Parzinski">
+            <div class="speaker__name">{{ item.name }}</div>
+            <div class="speaker__company">{{ item.company }}, {{ item.country }}</div>
+            <div class="speaker__desc">
+              {{ item.bio }}
             </div>
-          </div>
-          <div class="speaker__name">Mettin Parzinski</div>
-          <div class="speaker__company">Lab Rooms, The Netherlands</div>
-          <div class="speaker__desc">
-            React guy that once did a RN app. Likes to work on high-traffic projects. Father, squash player, bad at chess. Working on a pet project with Draft.js that probably never will be finished.
-          </div>
-          <div class="speaker__socials">
             <div class="speaker__socials">
-              <a href="https://github.com/mettin" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
-              <a href="https://twitter.com/mettinparzinski" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
+              <a href="{{ item.githubUrl }}" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
+              <a href="{{ item.twitterUrl }}" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
             </div>
           </div>
         </div>
-      </div>
+      {% endfor %}
 
-      <div class="mc-list__item">
-        <div class="speaker speaker--mc">
 
-          <div class="speaker__photo">
-            <div class="speaker__photo-wrap">
-              <img src="img/speakers/jani.jpg" alt="Jani Eväkallio">
-            </div>
-          </div>
-          <div class="speaker__name">Jani Eväkallio</div>
-          <div class="speaker__company">Formidable, UK</div>
-          <div class="speaker__desc">
-            Jani, a veteran of the Frontend Framework wars, has earned his battle scars writing JavaScript on the bleeding edge for the last decade. Today, he leads a team building cross-stack React mobile and web apps at Formidable London. In spare time, he performs improvised comedy and speaks at conferences.
-          </div>
-          <div class="speaker__socials">
-            <a href="https://github.com/jevakallio" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
-            <a href="https://twitter.com/jevakallio" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>

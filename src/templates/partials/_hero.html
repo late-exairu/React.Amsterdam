@@ -12,33 +12,33 @@
     <div class="hero__info">
       <ul class="h-list">
         <li class="h-list__item">
-          <div class="h-list__value">2</div>
+          <div class="h-list__value">{{ pages.main.pageStatistics.tracks }}</div>
           <div class="h-list__text">
             <span class="h-list__text-top">Tracks</span>
             <br>
-            General + React Native
+            {{ pages.main.pageStatistics.tracksTitle }}
           </div>
         </li>
         <li class="h-list__item">
-          <div class="h-list__value">25+</div>
+          <div class="h-list__value">{{ pages.main.pageStatistics.speakers }}</div>
           <div class="h-list__text">
             <span class="h-list__text-top">Speakers</span>
             <br>
-            Sharing newest insights
+            {{ pages.main.pageStatistics.speakersTitle }}
           </div>
         </li>
         <li class="h-list__item">
-          <div class="h-list__value">1500 <span class="h-list__icon h-list__icon_anim">{{mixins.icon('heart')}}</span></div>
+          <div class="h-list__value">{{ pages.main.pageStatistics.visitors }} <span class="h-list__icon h-list__icon_anim">{{mixins.icon('heart')}}</span></div>
           <div class="h-list__text">
             <span class="h-list__text-top">React devs</span>
             <br>
-            From all over the globe
+            {{ pages.main.pageStatistics.visitorsTitle }}
           </div>
         </li>
       </ul>
     </div>
     <div class="hero__btn">
-      <a href="https://twitter.com/reactamsterdam" class="btn btn--gradient">Follow for updates</a>
+      <a href="{{ conference.twitterUrl }}" class="btn btn--gradient">Follow for updates</a>
     </div>
     <div class="hero__partner">
       In collaboration with
