@@ -1,6 +1,6 @@
 <section class="section fleet">
   <div class="container">
-    <h3 class="section__title">Our fleet</h3>
+    <h3 class="section__title">{{ pagesPieceOfTexts.amusement__title }}</h3>
   </div>
   <div class="fleet__tabs-container js-tabs-container">
     <div class="fleet__link">
@@ -10,8 +10,8 @@
             {{mixins.icon('vertical-scroll')}}
           </div>
           <div class="fleet-link__content">
-            <span class="fleet-link__title">Speakers ship</span>
-            <span class="fleet-link__desc">Our special React Amsterdam tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a special speakers dinner takes place.</span>
+            <span class="fleet-link__title">{{ pagesPieceOfTexts.amusement__speakers }}</span>
+            <span class="fleet-link__desc">{{ pagesPieceOfTexts.amusement__speakerstext }}</span>
           </div>
           <span class="fleet-link__icon">
           <img src="img/anchor.png" alt="Anchor">
@@ -45,9 +45,9 @@
           </ul>
         </div>
         <div class="fleet-tab__info">
-          <div class="fleet-tab__title">Speakers ship</div>
+          <div class="fleet-tab__title">{{ pagesPieceOfTexts.amusement__boattitle }}</div>
           <div class="fleet-tab__desc">
-            Our special React Amsterdam tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a speacial speakers dinner takes place.
+            {{ pagesPieceOfTexts.amusement__speakersdelivery }}
           </div>
           <!--<div class="fleet-tab__props">-->
             <!--<div class="prop">-->
@@ -73,8 +73,8 @@
             {{mixins.icon('vertical-scroll')}}
           </div>
           <div class="fleet-link__content">
-            <span class="fleet-link__title">React ferry <br>from Central Station</span>
-            <span class="fleet-link__desc">Conference venue is located right at the Ij river, and for attendee convenience we book a ferry ship for a direct commute from Central Station.</span>
+            <span class="fleet-link__title">{{ pagesPieceOfTexts.amusement__deliverytitle | safe }}</span>
+            <span class="fleet-link__desc">{{ pagesPieceOfTexts.amusement__deliverytext }}</span>
           </div>
           <span class="fleet-link__icon">
           <img src="img/anchor.png" alt="Anchor">

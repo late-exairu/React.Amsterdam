@@ -18,11 +18,11 @@ footerTitle: Follow us for updates
     <div class="container">
       <div class="program__inner">
         <div class="program__item program__item_mb-lg">
-          <div class="program__subtitle program__subtitle_mb-lg">Extended program</div>
+          <div class="program__subtitle program__subtitle_mb-lg">{{ pagesPieceOfTexts.extendedprogram__title }}</div>
           <p >{{ pages.extended.description }}</p>
         </div>
         <div class="program__item" id="meetups">
-          <div class="program__title title-gradient">Community pre-parties</div>
+          <div class="program__title title-gradient">{{ pagesPieceOfTexts.preparties__title }}</div>
           <p>
             {{ pages.extended.pageSlogan }}
           </p>
@@ -86,31 +86,23 @@ footerTitle: Follow us for updates
         </div>
         <div class="program__inner" style="margin-top: 30px;">
           <div class="program__item">
-            <p>Listed above meetups are free to attend, but require a pre-registration, follow conference newsletter and social channels for details.</p>
+            <p>{{ pagesPieceOfTexts.preevents__comment }}</p>
           </div>
         </div>
       </div>
       <div class="program__inner" id="party">
         <div class="program__item program__item_mb-xl">
-          <div class="program__title title-gradient">React Party</div>
-          <p>
-            After the main conference program is over we have a 1.5 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the React Party. The line-up of the evening is organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.
-          </p>
-          <p>
-            We are not going to unveil much in advance but just a small bit - the party will run in two completely different tracks and you will definetly remember it as one of the most unique conference after-parties.
-          </p>
-          <p>
-            After-party starts at 19:00, same location as the conference.
-          </p>
+          <div class="program__title title-gradient">{{ pagesPieceOfTexts.party__title }}</div>
+          {{ pagesPieceOfTexts.party__text | safe }}
 
           <div class="program__img" style="background-image: url(img/program-img-1.jpg)">
             <!--<img src="img/program-img-1.jpg" alt=""/>-->
           </div>
         </div>
         <div class="program__item" id="tour-day">
-          <div class="program__title title-gradient">Tour Day</div>
+          <div class="program__title title-gradient">{{ pagesPieceOfTexts.tourday__title }}</div>
           <p>
-            Amsterdam is beautiful, picturesque, amazing. This is what we hear sometimes from guests coming to the city. Explore this beauty on your own or together with new friends met at the conference.
+            {{ pagesPieceOfTexts.tourday__text }}
           </p>
           <div class="program__img-wrap">
             <!--<img src="img/program-img-2.jpg" alt=""/>-->
@@ -118,13 +110,7 @@ footerTitle: Follow us for updates
             <!--<img src="img/program-img-3.jpg" alt=""/>-->
             <div class="program__img" style="background-image: url(img/program-img-3.jpg)"></div>
           </div>
-          <p>
-            We have prepared special walking and boat tours on Saturday for our conference guests and local community members. These are free for conference attendees, but feel free to take your +1's with you to explore the city on weekend after the conference.
-            <br/><br/>
-            For alternative activities and gathering, join our <a href="/slack" target="_blank">React Amsterdam Slack</a> channel to connect with other visitors.
-            <br/>
-            Nobody knows when that Saturday ends.
-          </p>
+          {{ pagesPieceOfTexts.tourday__plan | safe }}
         </div>
       </div>
       <div class="program-map">
@@ -169,7 +155,7 @@ footerTitle: Follow us for updates
         </div>
         <div class="program__inner" style="margin-top: 30px;">
           <div class="program__item">
-            <p>If you would like to organize some community activity like a small bike tour, brunch or do a walking tour of your own - <a href="mailto:hi@react.amsterdam">email us</a> with details and we'll list it here.</p>
+            {{ pagesPieceOfTexts.activities__email | safe }}
           </div>
         </div>
       </div>

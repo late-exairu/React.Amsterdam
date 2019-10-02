@@ -1,24 +1,23 @@
 <section class="section awards" id="awards" style="background-image: url(img/footer-bg.png)">
   <div class="container">
-    <h3 class="section__title">React Open Source Awards</h3>
+    <h3 class="section__title">{{ pagesPieceOfTexts.rosawards__title }}</h3>
     <div class="awards__img">
       <img src="img/award.png" alt="Award">
     </div>
     <div class="awards__text section__text text">
       <p>
-        Repeating the tradition, we'll run React Open Source awards again in 2020 to highlight the most exciting and
-        innovative projects of past year, highlighting lesser known projects form independent authors and maintainers
+        {{ pagesPieceOfTexts.rosawards__text }}
       </p>
     </div>
   </div>
   <div class="awards__nominations nominations">
-    <div class="nominations__title">Nominations:</div>
+    <div class="nominations__title">{{ pagesPieceOfTexts.nominations__title }}</div>
     <div class="nominations__grid">
-      <div class="nominations__item">Breakthrough of the year</div>
-      <div class="nominations__item">Fun side project of the year</div>
-      <div class="nominations__item">Most impactful contribution <br>to the community</div>
-      <div class="nominations__item">Productivity booster</div>
-      <div class="nominations__item">The most exciting use of technology</div>
+      <div class="nominations__item">{{ pagesPieceOfTexts.nominations__titleone | safe }}</div>
+      <div class="nominations__item">{{ pagesPieceOfTexts.nominations__titletwo | safe }}</div>
+      <div class="nominations__item">{{ pagesPieceOfTexts.nominations__titlethree | safe }}</div>
+      <div class="nominations__item">{{ pagesPieceOfTexts.nominations__titlefour | safe }}</div>
+      <div class="nominations__item">{{ pagesPieceOfTexts.nominations__titlefive | safe }}</div>
     </div>
   </div>
   <div class="container">
