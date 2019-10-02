@@ -1,3 +1,5 @@
+const { markdownToHtml } = require('./markdown');
+
 const queryPages = /* GraphQL */ `
   query($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
     conf: conferenceBrand(where: { title: $conferenceTitle }) {
@@ -18,6 +20,7 @@ const queryPages = /* GraphQL */ `
             prerequisites
             content
             additionalInfo
+            level
             speaker {
               name
             }
@@ -40,14 +43,27 @@ const fetchData = async(client, vars) => {
         ...ws,
         trainer: ws.speaker.name,
         speaker: undefined,
-        ...day.additionalEvents && day.additionalEvents.find(({ title }) => title === ws.title),
+        ...(day.additionalEvents &&
+          day.additionalEvents.find(({ title }) => title === ws.title)),
       })),
     ],
     []
   );
 
+  const allWorkshops = await Promise.all(
+    workshops.map(async wrp => ({
+      ...wrp,
+      description: await markdownToHtml(wrp.description),
+      additionalInfo: await markdownToHtml(wrp.additionalInfo),
+    }))
+  );
+
+  console.log(
+    'TCL: fetchData -> workshops',
+    JSON.stringify(workshops, null, 2)
+  );
   return {
-    workshops,
+    workshops: allWorkshops,
   };
 };
 
