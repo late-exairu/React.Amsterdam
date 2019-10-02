@@ -17,6 +17,9 @@ const queryPages = /* GraphQL */ `
             companySite
             githubUrl
             twitterUrl
+            avatar {
+              url
+            }
           }
         }
       }

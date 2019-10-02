@@ -9,6 +9,7 @@ const sponsorContent = require('./fetch-sponsors');
 const talksContent = require('./fetch-talks');
 const workshopContent = require('./fetch-workshops');
 const mcContent = require('./fetch-mc');
+const advisersContent = require('./fetch-advisers');
 
 const createClient = ({ endpoint, token }) => {
   return new GraphQLClient(endpoint, {
@@ -30,6 +31,7 @@ const getContent = async() => {
     talksContent,
     workshopContent,
     mcContent,
+    advisersContent,
   ].map(async content => {
     try {
       return await content.fetchData(client, { conferenceTitle, eventYear });

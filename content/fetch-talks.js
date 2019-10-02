@@ -17,6 +17,7 @@ const queryPages = /* GraphQL */ `
             timeString
             title
             description
+            isLightning
             track {
               id
               status
@@ -53,7 +54,7 @@ const fetchData = async(client, vars) => {
     .then(res => res.conf.year[0].schedule[0]);
 
   const talks = data.talks
-    .map(({ title, description, timeString, track, speaker }) => ({
+    .map(({ title, description, timeString, track, speaker, isLightning }) => ({
       title,
       text: description,
       time: timeString,
@@ -61,13 +62,13 @@ const fetchData = async(client, vars) => {
       name: speaker.name,
       place: `${speaker.company}, ${speaker.country}`,
       pieceOfSpeakerInfoes: speaker.pieceOfSpeakerInfoes[0] || {},
+      isLightning,
     }))
     .map(({ pieceOfSpeakerInfoes, ...talk }) => ({
       ...talk,
-      speaker: talk.name,
-      from: talk.place,
-      label: pieceOfSpeakerInfoes.label,
-      labelColor: (pieceOfSpeakerInfoes.overlayMode || '').toLowerCase(),
+      author: talk.name,
+      company: talk.place,
+      theme: talk.title,
     }));
 
   const tracks = [...new Set(talks.map(({ track }) => track))]
@@ -77,17 +78,22 @@ const fetchData = async(client, vars) => {
     })
     .map(({ name }) => name);
 
-  const schedule = tracks.map(track => ({
-    tab: track,
-    list: [...data.additionalEvents, ...talks]
-      .filter(event => event.track === track)
+  const scheduleList = tracks.map(track => ({
+    title: track,
+    schedule: [...data.additionalEvents, ...talks]
+      .filter(event => event.track === track && !event.isLightning)
       .sort(byTime),
   }));
+  scheduleList[0].active = true;
+
+  const lightningTalks = talks.filter(({ isLightning }) => isLightning);
+
 
   return {
-    schedule,
+    scheduleList,
     tracks,
     talks,
+    lightningTalks
   };
 };
 

@@ -68,7 +68,7 @@ const fetchData = async(client, vars) => {
         github: githubUrl,
         twitter: twitterUrl,
         medium: mediumUrl,
-        site,
+        site: ownSite,
       })
     );
 

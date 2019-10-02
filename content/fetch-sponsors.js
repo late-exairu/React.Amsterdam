@@ -10,6 +10,9 @@ const queryPages = /* GraphQL */ `
           status
           id
           category
+          avatar {
+              url
+            }
           sponsor {
             id
             status
@@ -35,12 +38,12 @@ const fetchData = async(client, vars) => {
     .map(item => ({
       ...item.sponsor,
       ...item,
-      avatar: item.sponsor.avatar || {},
+      avatar: item.avatar || item.sponsor.avatar || {},
     }))
     .map(({ site, avatar, title, width, category }) => ({
       category,
-      alt: title,
-      img: avatar.url,
+      name: title,
+      logo: avatar.url,
       link: site,
       width,
     }));
@@ -60,7 +63,7 @@ const fetchData = async(client, vars) => {
       title: 'Production Partners',
       mod: 'sponsors-block_lg',
       list: sponsorsList.filter(
-        ({ category }) => category === 'Production Partners'
+        ({ category }) => category === 'ProductionPartner'
       ),
     },
     {
