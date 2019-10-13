@@ -1,17 +1,14 @@
 .c-form
-	padding: 77px 0 205px
+	padding: 42px 0 140px
 	+laptop
 		padding: 40px 0 100px
 	+md
-		padding: 40px 0
-	+xs
 		padding: 34px 0 60px
 		border-width: 13px
-		border-left-width: 3px
-		border-right-width: 3px
 		border-style: solid
 		border-image: linear-gradient(to bottom,#82fa08,#15e233) 1 100%
 		border-image-slice: 2
+	+xs
 	.section__title
 		letter-spacing: 1.3px
 		margin-bottom: 55px
@@ -21,8 +18,8 @@
 		+xs
 			padding: 0 16px
 	&__inner
-		border: 17px solid $themeColor
-		padding: 66px 20px 76px
+		border: 15px solid $themeColor
+		padding: 82px 20px 132px
 		display: flex
 		flex-direction: column
 		align-items: center
@@ -32,7 +29,7 @@
 			padding: 0
 			border: none
 	&__socials
-		margin-bottom: 43px
+		margin-bottom: 55px
 		+tablet
 			margin-bottom: 30px
 		+sm
@@ -43,12 +40,12 @@
 				&:not(:last-child)
 					margin-right: 20px
 	&__text
-		line-height: 1.8
-		letter-spacing: 0.7px
+		line-height: 1.6
+		letter-spacing: 0.003em
 		max-width: 540px
 		text-align: center
-		font-size: 20px
-		margin-bottom: 30px
+		font-size: 18px
+		margin-bottom: 42px
 		+tablet
 			font-size: 16px
 			margin-bottom: 38px
@@ -62,13 +59,13 @@
 			input
 				border-bottom-color: #0f0
 		input
+			+regular
 			width: 100%
 			display: block
-			font-size: 28px
+			font-size: 22px
 			color: $white
-			background-color: transparent
-			border-bottom: 4px solid $white
-			padding: 29px 120px 24px 29px
+			background-color: #0e100f
+			padding: 20px 120px 20px 25px
 			+placeholder-color($white)
 			transition: border-color .3s ease
 			&:hover, &:active, &:focus
@@ -80,27 +77,33 @@
 				padding: 20px 120px 20px 20px
 			+xs
 				font-size: 16px
-				padding: 10px 90px 16px 0
+				padding: 12px 90px 14px 10px
 
 
 	&__submit
 		display: flex
 		align-items: center
 		position: absolute
-		right: 22px
-		top: 40px
+		right: 0
+		top: 0
+		bottom: 0
+		padding: 0 20px
+		align-items: center
 		background-color: transparent
 		font-size: 14px
 		text-transform: uppercase
 		color: $themeColor
-		+tablet
-			top: 50%
-			transform: translate(0, -50%)
+		background: $black
 		+xs
-			right: 0
 			font-size: 12px
-			top: 10px
 			transform: none
+
+		+xxs
+			.icon
+				margin: 0
+			span
+				display: none
+			
 		&:hover
 			.icon
 				transform: translateX(5px)

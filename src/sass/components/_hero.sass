@@ -54,7 +54,7 @@
 			display: none
 
 	&__inner
-		width: 1488px
+		width: 1566px
 		//margin: 0 auto
 		padding: 0 40px
 		position: relative
@@ -68,9 +68,9 @@
 		+xs
 			padding: 0 15px
 	&__logo
-		width: 166px
+		width: 184px
 		//height: 101px
-		margin: 0 auto 58px
+		margin: 0 auto 96px
 		+tablet
 			margin: 0 auto 36px
 			width: 154px
@@ -84,8 +84,8 @@
 			width: 140px
 			height: auto
 	&__suptitle
-		font-size: 28px
-		margin-bottom: 42px
+		font-size: 16px
+		margin-bottom: 56px
 		text-align: center
 		+tablet
 			font-size: 18px
@@ -96,14 +96,11 @@
 			font-size: 15px
 			margin: 0 -10px 13px
 	&__title
-		letter-spacing: 4px
-		font-size: 100px
+		font-size: 64px
 		line-height: 1.16
-		+black
 		text-align: center
-		margin-bottom: 64px
-		// +rh(880)
-		// 	font-size: 6.5px
+		margin-bottom: 86px
+		+medium
 		+laptop
 			font-size: 72px
 
@@ -117,7 +114,7 @@
 			margin-left: -30px
 			margin-right: -30px
 		+md
-			font-size: 58px
+			font-size: 7.2vw
 			line-height: 1
 			margin-bottom: 32px
 		+sm
@@ -125,7 +122,7 @@
 			margin-left: 0
 			margin-right: 0
 		+xs
-			font-size: 27px
+			font-size: 30px
 			letter-spacing: 1.27px
 			margin: 0 auto 20px
 			line-height: 1.16
@@ -166,15 +163,18 @@
 .h-list
 	display: flex
 	justify-content: space-between
-	max-width: 890px
-	margin: 0 auto 65px
+	max-width: 1100px
+	margin: 0 auto 96px
+	padding-left: 100px
+
 	&_min
 		max-width: 411px
 	+tablet
 		margin: 0 auto 52px
-		max-width: 650px
 	+md
+		max-width: 600px
 		margin-bottom: 65px
+		padding: 0
 	+xs
 		flex-wrap: wrap
 		justify-content: center
@@ -182,9 +182,12 @@
 		margin-bottom: 45px
 	//max-width: 230px
 	&__item
-		max-width: 215px
 		display: flex
-		flex-direction: column
+
+		+md
+			flex-direction: column
+			text-align: center
+
 		+sm
 			width: 50%
 			align-items: center
@@ -211,15 +214,17 @@
             max-width: unset
 
 	&__value
-		font-size: 84px
-		flex-grow: 1
-		+light
-		margin-bottom: 27px
+		font-size: 50px
+		margin: 0 20px 0 0
+		+regular
 		display: flex
 		align-items: center
 		+tablet
 			font-size: 56px
 			margin-bottom: 5px
+		+md
+			margin: 0
+			justify-content: center
 		+sm
 			justify-content: flex-start
 		+xs
@@ -227,10 +232,12 @@
 			font-size: 48px
 			line-height: 1.1
 	&__text
-		font-size: 16px
+		font-size: 14px
 		line-height: 1.4
+		padding: 5px 0
 		&-top
-			font-size: 22px
+			font-size: 20px
+			+medium
 			text-transform: uppercase
 			+tablet
 				font-size: 16px
@@ -240,7 +247,7 @@
 			font-size: 12px
 	&__icon
 		margin-top: 10px
-		margin-left: 13px
+		margin-left: 8px
 		font-size: 30px
 		&_anim
 			animation: heart 2s infinite

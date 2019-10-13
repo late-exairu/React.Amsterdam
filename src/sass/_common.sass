@@ -1,21 +1,21 @@
 =light
-	font-family: Lato, Arial, sans-serif
+	font-family: GothamPro, Arial, sans-serif
 	font-weight: 300
 
 =regular
-	font-family: Lato, Arial, sans-serif
+	font-family: GothamPro, Arial, sans-serif
 	font-weight: 400
 
 =medium
-	font-family: Lato, Arial, sans-serif
+	font-family: GothamPro, Arial, sans-serif
 	font-weight: 500
 
 =bold
-	font-family: Lato, Arial, sans-serif
+	font-family: GothamPro, Arial, sans-serif
 	font-weight: 700
 
 =black
-	font-family: Lato, Arial, sans-serif
+	font-family: GothamPro, Arial, sans-serif
 	font-weight: 900
 
 .out
@@ -55,16 +55,17 @@ a
 	&.blur
 		filter: blur(10px) grayscale(.6)
 .title-gradient
-	letter-spacing: 3.2px
+	letter-spacing: 0.01em
 	text-align: center
-	font-size: 78px
+	font-size: 92px
 	+black
-	line-height: 1.1
+	line-height: 1.07
 	text-transform: uppercase
-	max-width: 1200px
-	background: linear-gradient(150deg,#9f0,#00dd3b)
+	background: linear-gradient(120deg,#9f0,#00dd3b)
 	-webkit-background-clip: text
-	color: transparent
+	-webkit-text-stroke: 5px transparent
+	color: #161917
+	max-width: 1260px
 	+ie
 		color: #00dd3b
 		background: transparent
@@ -73,27 +74,44 @@ a
 			background: transparent
 	+laptop
 		font-size: 65px
+		font-size: 6.4vw
 	//+tablet
 		font-size: 46px
 	+md
 		font-size: 60px
+		font-size: 6.4vw
 	+sm
 		font-size: 36px
+		font-size: 6vw
 	+xs
 		font-size: 28px
 	.leaf, strong
 		position: relative
-		background: linear-gradient(150deg,#9f0,#00dd3b)
+		background: linear-gradient(120deg,#9f0,#00dd3b)
 		-webkit-background-clip: text
-		color: transparent
+		color: #161917
+		-webkit-text-stroke: 5px transparent
+
+		&:before
+			content: ''
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-50%, -50%)
+			width: 684px
+			height: 700px
+			margin: -7px 0 0 -5px
+			background: url(../img/event-bg.svg) center center no-repeat
+			z-index: -1
+
 		&:after
 			content: ""
 			position: absolute
 			width: 159%
-			height: 64%
+			height: 70%
 			left: 50%
 			top: 50%
-			-webkit-transform: translate(-53%,-49%)
-			transform: translate(-53%,-49%)
+			-webkit-transform: translate(-49%,-55%)
+			transform: translate(-49%,-55%)
 			background: url(../img/leaf.svg) 50% no-repeat
 			background-size: 100% 100%
