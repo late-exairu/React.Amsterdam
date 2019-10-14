@@ -1,32 +1,39 @@
-<section class="section mc" style="background-image: url(img/mc-bg.png)">
-  <div class="container container--l">
-    <h3 class="section__title">Our MC's</h3>
-    <div class="mc-list">
+<section class="section mc">
+	<div class="container container--l">
+		<h3 class="section__title">Our MC's</h3>
+		<div class="mc-list">
 
-      {% for item in mcs %}
-        <div class="mc-list__item">
-          <div class="speaker speaker--mc">
+			{% for item in mcsList %}
+				<div class="speakers-list__item">
+					<div class="speaker">
+						<div class="speaker__photo">
+							<img src="img/speakers/{{item.photo}}" alt="{{item.name}}">
+						</div>
+						<div class="speaker__name">{{item.name}}</div>
+						<div class="speaker__company">{{item.company}}</div>
+						<div class="speaker__desc">{{item.desc | safe}}</div>
+						{% if (item.github) or (item.twitter) or (item.medium) or (item.site) %}
+							<div class="speaker__socials">
+								{% if item.github %}
+									<a href="{{item.github}}" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
+								{% endif %}
+								{% if item.twitter %}
+									<a href="{{item.twitter}}" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
+								{% endif %}
+								{% if item.medium %}
+									<a href="{{item.medium}}" target="_blank" class="speaker__social-link">{{mixins.icon('md')}}</a>
+								{% endif %}
+								{% if item.site %}
+									<a href="{{item.site}}" target="_blank" class="speaker__social-link">{{mixins.icon('site')}}</a>
+								{% endif %}
+							</div>
+						{% endif %}
+					</div>
+				</div>
+			{% endfor %}
 
-            <div class="speaker__photo">
-              <div class="speaker__photo-wrap">
-                <img src="{{ item.avatar.url }}" alt="{{ item.name }}">
-              </div>
-            </div>
-            <div class="speaker__name">{{ item.name }}</div>
-            <div class="speaker__company">{{ item.company }}, {{ item.country }}</div>
-            <div class="speaker__desc">
-              {{ item.bio }}
-            </div>
-            <div class="speaker__socials">
-              <a href="{{ item.githubUrl }}" target="_blank" class="speaker__social-link">{{mixins.icon('gh')}}</a>
-              <a href="{{ item.twitterUrl }}" target="_blank" class="speaker__social-link">{{mixins.icon('tw')}}</a>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
 
 
-
-    </div>
-  </div>
+		</div>
+	</div>
 </section>

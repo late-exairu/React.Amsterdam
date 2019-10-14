@@ -1,6 +1,7 @@
 .footer
+	border-top: 1px solid #2c302d
 	&__socials
-		margin-bottom: 79px
+		margin-bottom: 88px
 		+laptop
 			margin-bottom: 40px
 		+sm
@@ -11,16 +12,20 @@
 					+xs
 						font-size: 25px
 	&__main
-		padding: 40px 0 128px
+		padding: 152px 0 138px
 		display: flex
 		flex-direction: column
 		align-items: center
 		+laptop
-			padding: 20px 0 60px
+			padding: 80px 0 60px
+
+	&__title
+		margin-bottom: 70px
+
 	&__basement
 		background-repeat: repeat-x
 		//background-size: cover
-		background-position: top left
+		background-position: top center
 		animation: translateBG 50s linear infinite
 		//padding: 122px 20px 244px
 		padding: 122px 20px 147px
@@ -84,4 +89,4 @@
 	0%
 		background-position: 0 0
 	100%
-		background-position: -1680px 0
+		background-position: -1594px 0
