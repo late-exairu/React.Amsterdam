@@ -9,6 +9,15 @@
     <div class="event__items">
       {% for event in pages[pageKey].pageStatistics.events %}
       <div class="event__item">
+       {% if event.link %}
+        <a class="e-item" href="{{event.link}}">
+          <div class="e-item__header">{{ event.day }}</div>
+          <div class="e-item__content">
+            <div class="e-item__date">{{ event.date }}</div>
+            <div class="e-item__footer">{{ event.text | safe }}</div>
+          </div>
+        </a>
+        {% else %}
         <div class="e-item">
           <div class="e-item__header">{{ event.day }}</div>
           <div class="e-item__content">
@@ -16,6 +25,7 @@
             <div class="e-item__footer">{{ event.text | safe }}</div>
           </div>
         </div>
+        {% endif %}
       </div>
 			{% endfor %}
     </div>
