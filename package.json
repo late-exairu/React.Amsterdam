@@ -1,8 +1,7 @@
 {
-  "name": "react-amsterdam",
-  "version": "0.1.1",
+  "name": "react-summit",
+  "version": "0.2.0",
   "scripts": {
-    "ghpages": "git subtree push --prefix build origin gh-pages",
     "build": "gulp build --production",
     "start": "gulp",
     "precommit": "lint-staged",
