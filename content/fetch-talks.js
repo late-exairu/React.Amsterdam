@@ -32,7 +32,6 @@ const queryPages = /* GraphQL */ `
                 where: { conferenceEvent: { year: $eventYear } }
               ) {
                 label
-                overlayMode
               }
             }
           }
@@ -59,9 +58,8 @@ const fetchData = async(client, vars) => {
       text: description,
       time: timeString,
       track: track.name,
-      name: speaker.name,
-      place: `${speaker.company}, ${speaker.country}`,
-      pieceOfSpeakerInfoes: speaker.pieceOfSpeakerInfoes[0] || {},
+      name: speaker && speaker.name,
+      place: speaker && `${speaker.company}, ${speaker.country}`,
       isLightning,
     }))
     .map(({ pieceOfSpeakerInfoes, ...talk }) => ({

@@ -58,10 +58,6 @@ const fetchData = async(client, vars) => {
     }))
   );
 
-  console.log(
-    'TCL: fetchData -> workshops',
-    JSON.stringify(workshops, null, 2)
-  );
   return {
     workshops: allWorkshops,
   };

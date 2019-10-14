@@ -11,7 +11,6 @@ const queryPages = /* GraphQL */ `
         speakers: pieceOfSpeakerInfoes {
           status
           id
-          overlayMode
           label
           isNightSpeaker
           speaker {
@@ -34,9 +33,6 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
-const overlay = str =>
-  str && `speaker--${str.toLowerCase().replace('lightgreen', 'light-green')}`;
-
 const fetchData = async(client, vars) => {
   const data = await client
     .request(queryPages, vars)
@@ -46,8 +42,7 @@ const fetchData = async(client, vars) => {
     .map(item => ({
       ...item.speaker,
       ...item,
-      avatar: item.speaker.avatar || {},
-      mod: overlay(item.overlayMode),
+      avatar: (item.speaker && item.speaker.avatar) || {},
     }))
     .map(
       async({
@@ -57,7 +52,6 @@ const fetchData = async(client, vars) => {
         mediumUrl,
         ownSite,
         speaker,
-        overlayMode,
         avatar,
         ...item
       }) => ({
