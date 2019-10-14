@@ -51,6 +51,7 @@
 	z-index: 1
 	text-decoration: none
 	cursor: pointer
+	overflow: hidden
 	&.is-scroll
 		.fleet-link__scroll
 			display: block
@@ -63,6 +64,10 @@
 		padding-top: 60%
 	.no-touch &:hover:after
 		opacity: 0.25
+	&:hover
+		.fleet-link__img
+			transform: scale(1.05)
+
 	&:after
 		transition: 0.3s
 		content: ''
@@ -70,6 +75,17 @@
 		background-color: #000
 		opacity: 0.5
 		z-index: -1
+	&__img
+		position: absolute
+		left: 0
+		top: 0
+		right: 0
+		bottom: 0
+		transform: scale(1)
+		z-index: -2
+		background-position: center center
+		background-size: cover
+		transition: all ease 0.2s
 	&__inner
 		padding: 50px 50px 50px 40px
 		+coverdiv

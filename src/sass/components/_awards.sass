@@ -8,6 +8,8 @@
 	&__img
 		max-width: 498px
 		margin: 0 auto 72px
+		+md
+			width: 75%
 		+sm
 			margin-bottom: 39px
 		img
@@ -75,31 +77,15 @@
 			&:nth-child(5)
 				margin-left: -8vw
 		+sm
-			&:nth-child(1)
-				margin-left: 0
-				.nominations__item
-					justify-content: flex-start
-					text-align: left
-			&:nth-child(2)
-				margin-left: 0
-				.nominations__item
-					justify-content: flex-end
-					text-align: right
-			&:nth-child(3)
+			&:nth-child(1),
+			&:nth-child(2),
+			&:nth-child(3),
+			&:nth-child(4),
+			&:nth-child(5)
 				margin-left: 0
 				.nominations__item
 					justify-content: center
 					text-align: center
-			&:nth-child(4)
-				margin-left: 0
-				.nominations__item
-					justify-content: flex-start
-					text-align: left
-			&:nth-child(5)
-				margin-left: 0
-				.nominations__item
-					justify-content: flex-end
-					text-align: right
 
 	&__item
 		+bold
@@ -133,77 +119,3 @@
 			white-space: normal
 			width: 100vw
 			text-align: center
-		// display: flex
-		// align-items: center
-		// padding: 20px 87px 26px
-		// +light
-		// text-align: center
-		// line-height: 1.5
-		// font-size: 2.4vw
-		// text-transform: uppercase
-		// color: rgba(255, 255, 255, 0.7)
-		// background-color: #161917
-		// border: 1px solid #2c302d
-		// position: relative
-		// +laptop
-		// 	font-size: 36px
-		// 	padding: 15px 64px 20px
-		// 	line-height: 1.26
-		// 	&:nth-child(odd)
-		// 		margin-right: auto
-		// 	&:nth-child(even)
-		// 		margin-left: auto
-
-		// +md
-		// 	font-size: 26px
-		// +sm
-		// 	padding: 22px 15px
-		// 	&:nth-child(odd)
-		// 		margin-right: 0
-		// 	&:nth-child(even)
-		// 		margin-left: 0
-		// +xs
-		// 	font-size: 18px
-		// 	width: 100%
-		// 	justify-content: center
-		// 	//padding: 15px
-		// 	&:before, &:after
-		// 		content: none!important
-		// &:nth-child(5)
-		// 	&:before, &:after
-		// 		content: ''
-		// 		position: absolute
-		// 		top: -1px
-		// 		height: calc(100% + 2px)
-		// 		width: 100vw
-		// 		border: 1px solid #2c302d
-		// 		background-color: #161917
-		// 	&:before
-		// 		left: 0
-		// 		transform: translateX(-100%)
-		// 	&:after
-		// 		right: 0
-		// 		transform: translateX(100%)
-		// &:nth-child(1), &:nth-child(3)
-		// 	&:before
-		// 		content: ''
-		// 		position: absolute
-		// 		top: -1px
-		// 		height: calc(100% + 2px)
-		// 		width: 100vw
-		// 		border: 1px solid #2c302d
-		// 		background-color: #161917
-		// 		left: 0
-		// 		transform: translateX(-100%)
-		// &:nth-child(2), &:nth-child(4)
-		// 	&:after
-		// 		content: ''
-		// 		position: absolute
-		// 		top: -1px
-		// 		height: calc(100% + 2px)
-		// 		width: 100vw
-		// 		border: 1px solid #2c302d
-		// 		background-color: #161917
-		// 		right: 0
-		// 		transform: translateX(100%)
-
