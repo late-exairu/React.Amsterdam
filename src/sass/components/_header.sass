@@ -40,7 +40,10 @@
 		top: 0
 		+md
 			order: 3
-			margin-top: 20px
+			margin-top: 0
+			position: relative
+			left: 0
+			top: 0
 	&__inner
 		position: relative
 		display: flex
@@ -98,20 +101,22 @@
 		display: flex
 		padding: 0 13px
 		align-items: center
-		+tablet
-			font-size: 14px
-		+sm
-			font-size: 12px
 		+md
+			font-size: 14px
 			display: block
 			text-align: center
 			padding: 10px 20px
+			font-weight: 500
+		+sm
+			font-size: 12px
 		.no-touch &:hover
 			color: $themeColor
 
 .burger
 	width: 30px
 	height: 30px
+	cursor: pointer
+
 	span
 		transition: 0.3s
 		display: block
