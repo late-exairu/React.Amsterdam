@@ -1,4 +1,4 @@
-# React Amsterdam Website
+# React Summit Website
 
 ## How to use
 

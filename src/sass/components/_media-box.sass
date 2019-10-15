@@ -18,11 +18,12 @@
 		+sm
 			padding-top: 264.75%
 		& + .section__text
-			margin-top: 57px
+			margin-top: 72px
 			+tablet
 				margin-top: 30px
 
 	&__text
+		font-size: 18px
 		+xs
 			padding: 0 20px
 .m-grid
@@ -36,6 +37,7 @@
 		grid-template-rows: 1fr 1fr 1fr 1fr
 		grid-template-areas: "m-grid__1 m-grid__1" "m-grid__2 m-grid__3" "m-grid__6 m-grid__6" "m-grid__7 m-grid__7"
 	&__item
+		overflow: hidden
 		position: relative
 		&:after
 			position: absolute
@@ -52,10 +54,13 @@
 		+hover
 			&:after
 				opacity: .5
+			img
+				transform: scale(1.05)
 	img
 		height: 100%
 		width: 100%
 		object-fit: cover
+		transition: all ease 0.2s
 
 .m-grid__1
 	-ms-grid-column: 1

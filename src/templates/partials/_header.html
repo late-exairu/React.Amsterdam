@@ -2,23 +2,23 @@
   <div class="header__inner js-menu">
     <div class="header__socials">
       <ul class="social">
-        <li class="social__item"><a href="https://twitter.com/reactamsterdam" class="social__link" target="_blank">{{mixins.icon('tw')}}</a></li>
-        <li class="social__item"><a href="https://www.facebook.com/reactamsterdam" class="social__link" target="_blank">{{mixins.icon('fb')}}</a></li>
-        <li class="social__item"><a href="https://youtube.com/c/ReactConferences" class="social__link" target="_blank">{{mixins.icon('yb')}}</a></li>
-        <li class="social__item"><a href="/slack" class="social__link" target="_blank">{{mixins.icon('sl')}}</a></li>
-        <li class="social__item"><a href="https://medium.com/@ReactAmsterdam" class="social__link" target="_blank">{{mixins.icon('md')}}</a></li>
+        <li class="social__item"><a href="{{ conference.twitterUrl }}" class="social__link" target="_blank">{{mixins.icon('tw')}}</a></li>
+        <li class="social__item"><a href="{{ conference.facebookUrl }}" class="social__link" target="_blank">{{mixins.icon('fb')}}</a></li>
+        <li class="social__item"><a href="{{ conference.youtubeUrl }}" class="social__link" target="_blank">{{mixins.icon('yb')}}</a></li>
+        <li class="social__item"><a href="{{ conference.slackUrl }}" class="social__link" target="_blank">{{mixins.icon('sl')}}</a></li>
+        <li class="social__item"><a href="{{ conference.mediumUrl }}" class="social__link" target="_blank">{{mixins.icon('md')}}</a></li>
       </ul>
     </div>
     <div class="header__nav">
       <ul class="nav">
-        {% for item in headerNav %}
+        {% for item in pages[pageKey].pageNavigation.headerNav %}
           <li class="nav__item"><a href="{{item.href}}" class="nav__link {% if item.scroll %}js-scroll-link{% endif %}">{{item.text}}</a></li>
         {% endfor %}
       </ul>
     </div>
 <!--    <div class="header__btn">-->
 <!--      {% if headerBtn %}-->
-<!--      <a href="https://www.eventbrite.com/e/react-amsterdam-conference-2019-tickets-51631771017" target="_blank" class="btn">Sold Out</a>-->
+<!--      <a href="https://www.eventbrite.com/e/react-summit-amsterdam-2020-tickets-68861704211" class="btn">Tickets</a>-->
 <!--      {% endif %}-->
 <!--    </div>-->
 

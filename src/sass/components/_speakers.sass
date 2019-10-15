@@ -50,11 +50,30 @@
 			//max-width: 250px
 			//margin: 0 auto 48px
 .speaker
+	position: relative
+	padding-bottom: 10px
+
+	&:hover
+		&:after
+			opacity: 0.04
+
+	&:after
+		content: ''
+		position: absolute
+		left: -10px
+		top: -10px
+		right: -10px
+		bottom: -10px
+		background: #fff
+		z-index: -1
+		opacity: 0
+		transition: all ease 0.2s
+
 	&__photo
 		width: 100%
 		padding-top: 100%
 		position: relative
-		margin-bottom: 35px
+		margin-bottom: 22px
 		+xs
 			margin-bottom: 23px
 		img
@@ -62,21 +81,21 @@
 			object-fit: cover
 	&__name
 		font-size: 26px
-		+bold
 		margin-bottom: 11px
 		letter-spacing: 0.65px
 		overflow: hidden
 		text-overflow: ellipsis
+		+xs
+			font-size: 20px
 	&__company
-		margin-bottom: 30px
+		margin-bottom: 22px
 		+xs
 			font-size: 14px
 			margin-bottom: 20px
 	&__desc
 		color: #888
-		font-size: 13px
-		line-height: 2
-		letter-spacing: 1.1px
+		font-size: 12px
+		line-height: 1.68
 		word-wrap: break-word
 		+sm
 			color: #aaaaaa
@@ -90,9 +109,9 @@
 			&:hover
 				text-decoration: underline
 		&:not(:last-child)
-			margin-bottom: 22px
+			margin-bottom: 14px
 			+xs
-				margin-bottom: 21px
+				margin-bottom: 14px
 	&__socials
 		display: flex
 	&__social-link
@@ -131,10 +150,11 @@
 
 
 .mc
-	background-size: cover
-	background-repeat: no-repeat
-	background-position: center
 	padding: 102px 0 122px
+	background-position: center top
+	background-repeat: repeat
+	background-image: url(../img/bg-net.svg)
+	border-bottom: 2px solid #1d201e
 	+xs
 		padding: 37px 0 55px
 		//margin-top: 20px
@@ -142,10 +162,10 @@
 .mc-list
 	display: flex
 	justify-content: center
-	margin: 0 auto
+	flex-wrap: wrap
+	margin: 0 -19px
 	+xs
 		padding-top: 20px
-		display: block
 	&__item
 		max-width: 225px
 		+xs

@@ -32,15 +32,25 @@
 			width: 100%
 
 	&__socials
+		position: absolute
+		display: flex
+		align-items: center
+		left: 20px
+		height: 58px
+		top: 0
 		+md
 			order: 3
-			margin-top: 20px
+			margin-top: 0
+			position: relative
+			left: 0
+			top: 0
 	&__inner
+		position: relative
 		display: flex
-		max-width: 1680px
-		padding-left: 120px
+		max-width: 1480px
+		padding: 0 20px
 		align-items: center
-		justify-content: space-between
+		justify-content: center
 		min-height: 58px
 		margin: 0 auto
 		+laptop
@@ -80,32 +90,33 @@
 	+md
 		display: block
 	&__item
-		&:not(:last-child)
-			margin-right: 20px
-			+tablet
-				margin-right: 15px
-			+md
-				margin-right: 0
+
 	&__link
 		text-decoration: none
 		text-transform: uppercase
 		color: $white
 		transition: 0.3s
 		font-size: 12px
-		+tablet
-			font-size: 14px
-		+sm
-			font-size: 12px
+		height: 58px
+		display: flex
+		padding: 0 13px
+		align-items: center
 		+md
+			font-size: 14px
 			display: block
 			text-align: center
 			padding: 10px 20px
+			font-weight: 500
+		+sm
+			font-size: 12px
 		.no-touch &:hover
 			color: $themeColor
 
 .burger
 	width: 30px
 	height: 30px
+	cursor: pointer
+
 	span
 		transition: 0.3s
 		display: block

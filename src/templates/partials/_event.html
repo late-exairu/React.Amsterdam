@@ -1,59 +1,38 @@
 <section class="section event" id="event">
   <div class="container">
-    <h3 class="section__title event__heading">The event</h3>
-    <div class="event__suptitle">React Amsterdam is a celebration of good things coming together:</div>
-    <div class="event__title title-gradient">React that rocks and spring in Amsterdam that bl<span class="leaf">o</span>ssoms</div>
-    <div class="event__text section__text text">
-      <p>
-        A full-day, two-track conference on all things React, gathering Front-end and Full-stack engineers across the
-        globe in the tech heart of Europe. We're coming back with a new gig on <strong>April 17, 2020.</strong> Mark your calendars for
-        the biggest React community event.
-      </p>
-      <p style="margin-top: 20px;">
-        Next to the main conference day, be prepared for a number of hands-on workshops, pre-party meetups, and mini conferences throughout the week of the event.
-      </p>
+    <h3 class="section__title event__heading">{{ pagesPieceOfTexts.event__title }}</h3>
+    <div class="event__tip">{{ pagesPieceOfTexts.event__subtitle }}</div>
+    <div class="event__title title-gradient">{{ pagesPieceOfTexts.event_boldtitle | safe }}</div>
+    <div class="event__text section__text">
+      {{ pagesPieceOfTexts.event__text | safe }}
     </div>
     <div class="event__items">
+      {% for event in pages[pageKey].pageStatistics.events %}
       <div class="event__item">
+       {% if event.link %}
+        <a class="e-item" href="{{event.link}}">
+          <div class="e-item__header">{{ event.day }}</div>
+          <div class="e-item__content">
+            <div class="e-item__date">{{ event.date }}</div>
+            <div class="e-item__footer">{{ event.text | safe }}</div>
+          </div>
+        </a>
+        {% else %}
         <div class="e-item">
-          <div class="e-item__header">Wednesday</div>
+          <div class="e-item__header">{{ event.day }}</div>
           <div class="e-item__content">
-            <div class="e-item__date">15th</div>
-            <div class="e-item__footer">Workshops &<br> Meetups</div>
+            <div class="e-item__date">{{ event.date }}</div>
+            <div class="e-item__footer">{{ event.text | safe }}</div>
           </div>
         </div>
+        {% endif %}
       </div>
-      <div class="event__item">
-        <div class="e-item">
-          <div class="e-item__header">Thursday</div>
-          <div class="e-item__content">
-            <div class="e-item__date">16th</div>
-            <div class="e-item__footer">Workshops &<br> Meetups</div>
-          </div>
-        </div>
-      </div>
-      <div class="event__item">
-        <div class="e-item js-scroll-link">
-          <div class="e-item__header">Friday</div>
-          <div class="e-item__content">
-            <div class="e-item__date">17th</div>
-            <div class="e-item__footer">Conference day</div>
-          </div>
-        </div>
-      </div>
-      <div class="event__item">
-        <div class="e-item">
-          <div class="e-item__header">Saturday</div>
-          <div class="e-item__content">
-            <div class="e-item__date">18th</div>
-            <div class="e-item__footer">Tour day</div>
-          </div>
-        </div>
-      </div>
+			{% endfor %}
     </div>
-    <div class="event__text section__text text">
+    <div class="event__text section__text">
       <p style="margin-top: 10px;">
-        For more fun activities with networking with our community,<br> join our official <a class="icon-link" href="https://reactamsterdam.slack.com/join/shared_invite/enQtMjk5OTk2Njk2MDUxLTJiYzcwMmVmNzA2M2ViMzQzNjczMmViYTljNmUyZjAxYjNlMWJkNWViOWI5YTEzZDZjNTIxODkxMGZlYWYxYmU" target="_blank">{{mixins.icon('sl')}}Slack channel</a>
+      {# {{ pagesPieceOfTexts.socials__slack | safe }} TODO: insert slack icon #}
+        For more fun activities with networking with our community, join our official <a class="icon-link" href="https://reactsummit.com/slack" target="_blank">{{mixins.icon('sl')}}Slack channel</a>
       </p>
     </div>
   </div>

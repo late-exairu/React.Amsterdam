@@ -3,12 +3,8 @@
   <div class="container">
     <h3 class="section__title">Previous Edition Sponsors</h3>
     <div class="sponsors__description">
-      <p>
-        We would not be here, if companies like Facebook would not invest into Open Source so heavily, as well as React would not grow that much without support of multiple great companies from across the globe.
-        <br/>
-        We're really grateful for all the trust and support our partners shared with us.
-      </p>
-      <p><b>Would like to join the community and improve your tech brand? Check <a href="/sponsors">2020 sponsorship offers</a>.</b></p>
+      {{ pagesPieceOfTexts.sponsors__intro | safe }}
+      {{ pagesPieceOfTexts.sponsors__offer | safe }}
     </div>
     {% for item in sponsors %}
       <div class="sponsors-block {{item.mod}}">
@@ -17,7 +13,7 @@
           {% for sponsor in item.list %}
             <li class="sponsors-block__item">
               <a href="{{sponsor.link}}" target="_blank">
-                <img src="img/sponsors/{{sponsor.logo}}" alt="{{sponsor.name}}" width="{{sponsor.width}}">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" width="{{sponsor.width}}">
               </a>
             </li>
           {% endfor %}

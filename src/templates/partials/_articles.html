@@ -4,7 +4,7 @@
     <div class="articles__subtitle">Check out these React job offers form our partners.</div>
   </div>
   <div class="articles__content">
-    {% for item in articles %}
+    {% for item in pages[pageKey].pageStatistics.articles %}
     <div class="article">
       <div class="article__inner">
         <div class="article__img"><a href="{{item.link}}"><img src="img/jobs/{{item.img}}" alt="{{item.title}}" /></a></div>
