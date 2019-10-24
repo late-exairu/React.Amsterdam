@@ -17,19 +17,18 @@
 			width: 100%
 			margin-bottom: 10px
 	&__btn
+		position: absolute
+		top: 0
+		right: 0
 		width: 214px
 		.btn
 			width: 100%
-			+tablet
-				padding-top: 20px
-				padding-bottom: 20px
-			+rmin(1024)
-				+hover
-					transform: translateZ(0) perspective(1px) scaleX(1.1)
 		+tablet
-			width: auto
+			width: 160px
 		+md
-			width: 100%
+			width: auto
+			position: relative
+			margin: 0 0 20px
 
 	&__socials
 		position: absolute
