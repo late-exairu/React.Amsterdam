@@ -19,12 +19,6 @@ gulp.task('deploy', function() {
   ])
     .pipe(conn.dest(remotePath));
 
-  gulp.src([
-    './sponsors/**/*.*',
-    '!./sponsors/node_modules/**/*.*',
-  ])
-    .pipe(conn.dest(`${remotePath}/sponsors`));
-
   // uncomment to deploy last year versions
 
   // gulp.src([
