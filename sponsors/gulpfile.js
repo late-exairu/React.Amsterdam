@@ -95,7 +95,7 @@ gulp.task('sprite', function () {
 					bust: false,
 					render: {
 						scss: {
-							dest: "../../../sass/partials/_sprite-svg-inline.scss",
+							dest: "../../sass/partials/_sprite-svg-inline.scss",
 							template: "sass/tpl/_sprite-tpl-inline.scss"
 						}
 					}
@@ -115,7 +115,7 @@ gulp.task('sprite', function () {
 gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
-			baseDir: ""
+			baseDir: "."
 		},
 		notify: false
 	});
@@ -129,7 +129,7 @@ gulp.task('browser-sync', function() {
 gulp.task('deploy', function() {
     var remotePath = '/';
     var conn = ftp.create({
-        host: 'gold.elastictech.org',
+        host: 'buff.elastictech.org',
         user: args.user,
         password: args.password,
         log: gutil.log
@@ -156,11 +156,6 @@ gulp.task('watch', ['sass', 'css', 'browser-sync'], function() {
 	gulp.watch('*.html', browserSync.reload);
 });
 
-gulp.task('watch-no-browser', ['sass', 'css'], function() {
-	gulp.watch('img/sprite.svg');
-	gulp.watch('**/*.scss', ['sass']);
-	gulp.watch('css/style.css', ['css']);
-	gulp.watch('img/svg/*.svg', ['sprite']);
-});
+gulp.task('build', ['sass', 'css', 'sprite']);
 
 gulp.task('default', ['watch']);
