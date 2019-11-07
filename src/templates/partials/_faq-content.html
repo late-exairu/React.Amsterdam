@@ -15,8 +15,8 @@
 				<svg class="faq__arrow">
 					{{mixins.icon('arrow-r2')}}
 				</svg>
-				<div class="faq__question">{{itemFaq.question}}</div>
-				<div class="faq__ansver">{{itemFaq.ansver | safe}}</div>
+				<div class="faq__question">{{itemFaq.question | safe}}</div>
+				<div class="faq__ansver">{{itemFaq.answer | safe}}</div>
 			</li>
 			{% endfor %}
 		</ul>
