@@ -24,7 +24,12 @@ const queryPages = /* GraphQL */ `
             mediumUrl
             ownSite
             avatar {
-              url
+              url(
+                transformation: {
+                  image: { resize: { width: 500, height: 500, fit: crop } },
+                  document: { output: { format: jpg } } 
+                }
+              )
             }
           }
         }
