@@ -8,6 +8,7 @@ const queryPages = /* GraphQL */ `
       year: conferenceEvents(where: { year: $eventYear }) {
         id
         status
+        openForTalks
         speakers: pieceOfSpeakerInfoes {
           status
           id
@@ -27,7 +28,7 @@ const queryPages = /* GraphQL */ `
               url(
                 transformation: {
                   image: { resize: { width: 500, height: 500, fit: crop } },
-                  document: { output: { format: jpg } } 
+                  document: { output: { format: jpg } }
                 }
               )
             }
@@ -38,19 +39,20 @@ const queryPages = /* GraphQL */ `
   }
 `;
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
-    .then(res => res.conf.year[0].speakers);
+    .then(res => ({ speakers: res.conf.year[0].speakers, openForTalks: res.conf.year[0].openForTalks }));
 
-  const speakers = data
+  const { openForTalks } = data;
+  const speakers = data.speakers
     .map(item => ({
       ...item.speaker,
       ...item,
       avatar: (item.speaker && item.speaker.avatar) || {},
     }))
     .map(
-      async({
+      async ({
         bio,
         githubUrl,
         twitterUrl,
@@ -83,6 +85,7 @@ const fetchData = async(client, vars) => {
   return {
     speakers: daySpeakers,
     eveningSpeakers,
+    speakersBtn: openForTalks ? 'Submit a talk' : false,
   };
 };
 

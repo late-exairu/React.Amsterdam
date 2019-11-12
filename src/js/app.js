@@ -3,6 +3,7 @@ import './components/header';
 import svg4everybody from 'svg4everybody';
 import msieversion from './components/detectIE';
 import slider from './components/_slider';
+import faq from './components/_faq';
 import noTouch from './components/noTouch';
 
 noTouch();
