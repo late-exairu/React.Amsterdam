@@ -33,10 +33,10 @@ const queryPages = /* GraphQL */ `
 const sortByOrder = (a, b) => {
   const aInd = a.order || 0;
   const bInd = b.order || 0;
-  return bInd - aInd;
-}
+  return aInd - bInd;
+};
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
     .then(res => res.conf.year[0].sponsors);
@@ -47,12 +47,13 @@ const fetchData = async(client, vars) => {
       ...item,
       avatar: item.avatar || item.sponsor.avatar || {},
     }))
-    .map(({ site, avatar, title, width, category }) => ({
+    .map(({ site, avatar, title, width, category, order }) => ({
       category,
       name: title,
       logo: avatar.url,
       link: site,
       width,
+      order,
     }));
 
   const titlesMap = {
