@@ -10,6 +10,7 @@ const queryPages = /* GraphQL */ `
           status
           id
           category
+          order
           avatar {
               url
             }
@@ -28,6 +29,12 @@ const queryPages = /* GraphQL */ `
     }
   }
 `;
+
+const sortByOrder = (a, b) => {
+  const aInd = a.order || 0;
+  const bInd = b.order || 0;
+  return bInd - aInd;
+}
 
 const fetchData = async(client, vars) => {
   const data = await client
@@ -57,19 +64,19 @@ const fetchData = async(client, vars) => {
     {
       title: 'Platinum',
       mod: 'sponsors-block_xl',
-      list: sponsorsList.filter(({ category }) => category === 'Platinum'),
+      list: sponsorsList.filter(({ category }) => category === 'Platinum').sort(sortByOrder),
     },
     {
       title: 'Production Partners',
       mod: 'sponsors-block_lg',
       list: sponsorsList.filter(
         ({ category }) => category === 'ProductionPartner'
-      ),
+      ).sort(sortByOrder),
     },
     {
       title: 'Gold',
       mod: 'sponsors-block_lg',
-      list: sponsorsList.filter(({ category }) => category === 'Gold'),
+      list: sponsorsList.filter(({ category }) => category === 'Gold').sort(sortByOrder),
     },
   ];
 
