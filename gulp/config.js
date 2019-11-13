@@ -35,7 +35,8 @@ var config = {
         js   : destPath + '/js',
         img  : destPath + '/img',
         fonts: destPath + '/fonts',
-        lib  : destPath + '/lib'
+        lib  : destPath + '/lib',
+        log: '/logs'
     },
 
     setEnv: function(env) {

@@ -2,7 +2,7 @@
 	<div class="container">
 		<h3 class="section__title">{{speakersTitle}}</h3>
 		<div class="speakers-list">
-			{% for item in speakers %}
+			{% for item in speakers[pageKey] %}
 				<div class="speakers-list__item">
 					<div class="speaker">
 						<div class="speaker__photo">
@@ -31,10 +31,12 @@
 				</div>
 			{% endfor %}
 		</div>
-		{% if speakersBtn %}
-		<div class="speakers__btn">
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSf1gJZym7y79DcqFyG6sZ6-uoxDBnczD0pI7JGcXySwVZ6MfQ/viewform" target="_blank" class="btn btn--gradient">{{speakersBtn}}</a>
-		</div>
+		{% if pageKey === "main" %}
+      {% if speakersBtn %}
+      <div class="speakers__btn">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1gJZym7y79DcqFyG6sZ6-uoxDBnczD0pI7JGcXySwVZ6MfQ/viewform" target="_blank" class="btn btn--gradient">{{speakersBtn}}</a>
+      </div>
+      {% endif %}
 		{% endif %}
 	</div>
 </section>

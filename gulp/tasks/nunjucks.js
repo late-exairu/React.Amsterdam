@@ -8,6 +8,20 @@ var frontMatter    = require('gulp-front-matter');
 var config         = require('../config');
 var data           = require('gulp-data');
 var { getContent } = require('../../content');
+const fs = require('fs');
+const path = require('path');
+
+let cmsContent;
+
+const fetchContent = async () => {
+  const getAndLogContent = async () => {
+    const content = await getContent();
+    fs.writeFileSync(path.resolve(__dirname, '../../content-log.json'), JSON.stringify(content, null, 2));
+    return content;
+  };
+  cmsContent = cmsContent || await getAndLogContent();
+  return cmsContent;
+}
 
 function renderHtml(onlyChanged) {
     nunjucksRender.nunjucks.configure({
@@ -23,7 +37,7 @@ function renderHtml(onlyChanged) {
         }))
         .pipe(gulpif(onlyChanged, changed(config.dest.html)))
         .pipe(frontMatter({ property: 'data' }))
-        .pipe(data(() => getContent()))
+        .pipe(data(() => fetchContent()))
         .pipe(nunjucksRender({
             PRODUCTION: config.production,
             path: [config.src.templates]
