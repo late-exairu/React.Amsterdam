@@ -14,6 +14,7 @@ const queryTexts = /* GraphQL */ `
         id
         status
         extendeds {
+          key
           title
           subtitle
           description
@@ -37,22 +38,27 @@ const markdownRender = async (text, style) => {
   return await (renders[style] || defaultRender)(text);
 }
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryTexts, vars)
     .then(res => res.conf.year[0].extendeds);
 
-  const extendeds = await Promise.all(
+  const allExtendeds = await Promise.all(
     data.map(async item => ({
       ...item,
       title: await markdownToHtml(item.title),
-      subtitle: await markdownToHtml(item.subtitle),
-      description: await markdownToHtml(item.description),
-      location: await markdownToHtml(item.location),
+      subtitle: item.subtitle && await markdownToHtml(item.subtitle),
+      description: item.description && await markdownToHtml(item.description),
+      location: item.location && await markdownToHtml(item.location),
     }))
   );
 
-  extendeds
+  const keys = new Set(allExtendeds.map(e => e.key));
+  const extendeds = [...keys].reduce((obj, key) => ({
+    ...obj,
+    [key]: allExtendeds.filter(e => e.key === key)
+  }), {});
+
   return {
     extendeds,
   };
