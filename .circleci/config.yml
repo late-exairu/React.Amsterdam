@@ -52,8 +52,8 @@ jobs:
           name: deploy to remote
           command: |
             if [ $CIRCLE_BRANCH = "master" ]; then
-              ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD && \
-              curl -X POST -H 'Content-type: application/json' --data '{"text":"ReactSummit production website is deployed $CIRCLE_BUILD_URL"}' https://hooks.slack.com/services/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
+              ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
+              curl -X POST -H 'Content-type: application/json' --data '{"text":"ReactSummit production website is deployed $CIRCLE_BUILD_URL"}' $SLACK_CMS_UPDATE
             fi
             if [ $CIRCLE_BRANCH = "develop" ]; then
               ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
