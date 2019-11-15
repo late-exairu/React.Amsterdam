@@ -56,11 +56,6 @@ const fetchData = async (client, vars) => {
       order,
     }));
 
-  const titlesMap = {
-    Gold: 'Gold',
-    Silver: 'Silver',
-    Partner: 'Partners',
-  };
   const sponsors = [
     {
       title: 'Platinum',
@@ -79,7 +74,17 @@ const fetchData = async (client, vars) => {
       mod: 'sponsors-block_lg',
       list: sponsorsList.filter(({ category }) => category === 'Gold').sort(sortByOrder),
     },
-  ];
+    {
+      title: 'Silver',
+      mod: 'sponsors-block_lg',
+      list: sponsorsList.filter(({ category }) => category === 'Silver').sort(sortByOrder),
+    },
+    {
+      title: 'Partners',
+      mod: 'sponsors-block_lg',
+      list: sponsorsList.filter(({ category }) => category === 'Partner').sort(sortByOrder),
+    },
+  ].filter(section => section.list.length);
 
   return {
     sponsors,
