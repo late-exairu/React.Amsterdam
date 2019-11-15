@@ -44,11 +44,19 @@
           </div>
         </div>
         {% endif %}
-        {% if workshop.additionalInfo %}
+        {# {% if workshop.additionalInfo %}
+        <div class="workshop-item">
+          <div class="workshop-item__title">More about workshop</div>
+          <div class="workshop-item__content">
+            {{ workshop.additionalInfo | safe }}
+          </div>
+        </div>
+        {% endif %} #}
+        {% if workshop.location %}
         <div class="workshop-item">
           <div class="workshop-item__title">Workshop schedule & location</div>
           <div class="workshop-item__content">
-            {{ workshop.additionalInfo | safe }}
+            {{ workshop.location | safe }}
           </div>
         </div>
         {% endif %}
