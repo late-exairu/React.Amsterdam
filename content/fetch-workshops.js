@@ -61,6 +61,7 @@ const fetchData = async (client, vars) => {
     workshops.map(async wrp => ({
       ...wrp,
       description: await markdownToHtml(wrp.description),
+      prerequisites: await markdownToHtml(wrp.prerequisites),
       additionalInfo: await markdownToHtml(wrp.additionalInfo),
     }))
   );

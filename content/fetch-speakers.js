@@ -27,7 +27,7 @@ const fetchData = async (client, vars) => {
     .then(res => ({ speakers: res.conf.year[0].speakers, openForTalks: res.conf.year[0].openForTalks }));
 
   const { openForTalks } = data;
-  const speakers = prepareSpeakers(data.speakers);
+  const speakers = await prepareSpeakers(data.speakers);
 
 
   const allSpeakers = await Promise.all(speakers);
