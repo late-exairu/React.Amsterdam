@@ -24,24 +24,30 @@
             </ul>
           </div>
         </div>
+        {% if workshop.prerequisites %}
         <div class="workshop-item">
           <div class="workshop-item__title">Prerequisites</div>
           <div class="workshop-item__content">
             <p>{{ workshop.prerequisites | safe }}</p>
           </div>
         </div>
+        {% endif %}
+        {% if workshop.level %}
         <div class="workshop-item">
           <div class="workshop-item__title">Workshop level</div>
           <div class="workshop-item__content">
             <p>{{ workshop.level }}</p>
           </div>
         </div>
+        {% endif %}
+        {% if workshop.additionalInfo %}
         <div class="workshop-item">
           <div class="workshop-item__title">Workshop schedule & location</div>
           <div class="workshop-item__content">
             {{ workshop.additionalInfo | safe }}
           </div>
         </div>
+        {% endif %}
       </div>
       {% endfor %}
 
