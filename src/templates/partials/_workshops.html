@@ -10,7 +10,11 @@
         <div class="workshop-item workshop-item_lg">
           <div class="workshop-item__title">{{ workshop.trainer }}</div>
           <div class="workshop-item__content">
-            <h3>{{ workshop.title }}</h3>
+            <h3>{{ workshop.title }}
+            {% if workshop.date %}
+            ({{ workshop.date | safe }})
+            {% endif %}
+            </h3>
             {% if workshop.description %}
             {{ workshop.description | safe }}
             {% endif %}
