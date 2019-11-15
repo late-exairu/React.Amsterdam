@@ -82,6 +82,7 @@ const fetchData = async (client, vars) => {
   const allWorkshops = await Promise.all(
     workshops.map(async wrp => ({
       ...wrp,
+      location: wrp.location && await markdownToHtml(wrp.location),
       description: wrp.description && await markdownToHtml(wrp.description),
       prerequisites: wrp.prerequisites && await markdownToHtml(wrp.prerequisites),
       additionalInfo: wrp.additionalInfo && await markdownToHtml(wrp.additionalInfo),
