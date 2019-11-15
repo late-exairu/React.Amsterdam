@@ -1,6 +1,8 @@
 const { markdownToHtml } = require('./markdown');
 const { prepareSpeakers } = require('./utils');
 const { imageUrlFragment } = require('./fragments');
+const dayjs = require('dayjs');
+
 
 const queryPages = /* GraphQL */ `
   query ($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
@@ -14,6 +16,7 @@ const queryPages = /* GraphQL */ `
           id
           status
           additionalEvents
+          date
           workshops {
             id
             status
@@ -61,6 +64,7 @@ const fetchData = async (client, vars) => {
                 trainer: ws.speaker && ws.speaker.name,
                 ...(day.additionalEvents &&
                   day.additionalEvents.find(({ title }) => title === ws.title)),
+                date: dayjs(day.date).format('MMMM DD'),
               };
             } catch (err) {
               console.warn('\nError in:', ws);
