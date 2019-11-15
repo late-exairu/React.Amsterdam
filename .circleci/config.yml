@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -53,6 +53,7 @@ jobs:
           command: |
             if [ $CIRCLE_BRANCH = "master" ]; then
               ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
+              curl -X POST -H 'Content-type: application/json' --data '{"text":"ReactSummit production website is deployed $CIRCLE_BUILD_URL"}' https://hooks.slack.com/services/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
             fi
             if [ $CIRCLE_BRANCH = "develop" ]; then
               ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
