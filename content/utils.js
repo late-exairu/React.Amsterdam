@@ -6,7 +6,7 @@ const prepareSpeakers = async speakers => {
     .map(item => ({
       ...item.speaker,
       ...item,
-      avatar: (item.speaker && item.speaker.avatar) || {},
+      avatar: (item.speaker && item.speaker.avatar) || item.avatar || {},
     }))
     .map(
       async ({
