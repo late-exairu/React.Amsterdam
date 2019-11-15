@@ -24,6 +24,7 @@
     "babel-runtime": "^5.0.0",
     "browser-sync": "^2.10.0",
     "css-mqpacker": "^5.0.1",
+    "dayjs": "^1.8.17",
     "del": "^2.2.0",
     "dotenv": "^8.1.0",
     "eslint": "^4.3.0",
@@ -71,7 +72,6 @@
     "webpack-bundle-analyzer": "^1.5.3"
   },
   "dependencies": {
-    "dayjs": "^1.8.17",
     "gulp-hash": "^4.2.2",
     "gulp-hash-references": "^3.0.1",
     "js-yaml": "^3.12.1",

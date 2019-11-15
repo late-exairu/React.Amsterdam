@@ -21,14 +21,14 @@ jobs:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
-          # - v1-dependencies-
+          - v1-dependencies-
 
       - run:
           name: install dependencies
           command: |
-            if [ ! -d "node_modules" ]; then
-              yarn install
-            fi
+            # if [ ! -d "node_modules" ]; then
+            yarn install
+            # fi
 
       - save_cache:
           paths:
