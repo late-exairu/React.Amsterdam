@@ -1,6 +1,6 @@
 const { markdownToHtml } = require('./markdown');
 const { prepareSpeakers } = require('./utils');
-const { speakerFragment } = require('./fragments');
+const { imageUrlFragment } = require('./fragments');
 
 const queryPages = /* GraphQL */ `
   query ($conferenceTitle: ConferenceTitle, $eventYear: EventYear) {
@@ -24,10 +24,16 @@ const queryPages = /* GraphQL */ `
             additionalInfo
             level
             speaker {
+              id
               name
-              info: pieceOfSpeakerInfoes(where: {conferenceEvent: {year: $eventYear, conferenceBrand: {title: $conferenceTitle}}}) {
-                ...speaker
-              }
+              company
+              country
+              bio
+              githubUrl
+              twitterUrl
+              mediumUrl
+              ownSite
+              ...imageUrl
             }
           }
         }
@@ -35,7 +41,7 @@ const queryPages = /* GraphQL */ `
     }
   }
 
-  ${speakerFragment}
+  ${imageUrlFragment}
 `;
 
 const fetchData = async (client, vars) => {
@@ -44,15 +50,31 @@ const fetchData = async (client, vars) => {
     .then(res => res.conf.year[0].schedule);
 
   const workshops = data.reduce(
-    (all, day) => [
-      ...all,
-      ...day.workshops.map(ws => ({
-        ...ws,
-        trainer: ws.speaker.name,
-        ...(day.additionalEvents &&
-          day.additionalEvents.find(({ title }) => title === ws.title)),
-      })),
-    ],
+    (all, day) => {
+      try {
+        return [
+          ...all,
+          ...day.workshops.map(ws => {
+            try {
+              return {
+                ...ws,
+                trainer: ws.speaker && ws.speaker.name,
+                ...(day.additionalEvents &&
+                  day.additionalEvents.find(({ title }) => title === ws.title)),
+              };
+            } catch (err) {
+              console.warn('\nError in:', ws);
+              console.error(err);
+              return null;
+            }
+          }).filter(Boolean),
+        ];
+      } catch (err) {
+        console.warn('\nError in:', day);
+        console.error(err)
+        return all;
+      }
+    },
     []
   );
 
@@ -60,13 +82,13 @@ const fetchData = async (client, vars) => {
   const allWorkshops = await Promise.all(
     workshops.map(async wrp => ({
       ...wrp,
-      description: await markdownToHtml(wrp.description),
-      prerequisites: await markdownToHtml(wrp.prerequisites),
-      additionalInfo: await markdownToHtml(wrp.additionalInfo),
+      description: wrp.description && await markdownToHtml(wrp.description),
+      prerequisites: wrp.prerequisites && await markdownToHtml(wrp.prerequisites),
+      additionalInfo: wrp.additionalInfo && await markdownToHtml(wrp.additionalInfo),
     }))
   );
 
-  const trainers = await Promise.all(await prepareSpeakers(allWorkshops.map(ws => ws.speaker.info[0])));
+  const trainers = await Promise.all(await prepareSpeakers(allWorkshops.map(ws => ws.speaker)));
 
   return {
     trainers,

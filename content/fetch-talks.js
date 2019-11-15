@@ -47,21 +47,31 @@ const byTime = (a, b) => {
   return aTime - bTime;
 };
 
-const fetchData = async(client, vars) => {
+const fetchData = async (client, vars) => {
   const data = await client
     .request(queryPages, vars)
     .then(res => res.conf.year[0].schedule[0]);
 
   const talks = data.talks
-    .map(({ title, description, timeString, track, speaker, isLightning }) => ({
-      title,
-      text: description,
-      time: timeString,
-      track: track.name,
-      name: speaker && speaker.name,
-      place: speaker && `${speaker.company}, ${speaker.country}`,
-      isLightning,
-    }))
+    .map(({ title, description, timeString, track, speaker, isLightning }) => {
+      try {
+        return {
+          title,
+          text: description,
+          time: timeString,
+          track: track.name,
+          name: speaker && speaker.name,
+          place: speaker && `${speaker.company}, ${speaker.country}`,
+          isLightning,
+        };
+      }
+      catch (err) {
+        console.warn('\nError for talk entry', { title, description, timeString, track, speaker, isLightning });
+        console.error(err);
+        return null;
+      }
+    })
+    .filter(Boolean)
     .map(({ pieceOfSpeakerInfoes, ...talk }) => ({
       ...talk,
       author: talk.name,

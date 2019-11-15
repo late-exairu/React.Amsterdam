@@ -11,9 +11,12 @@
           <div class="workshop-item__title">{{ workshop.trainer }}</div>
           <div class="workshop-item__content">
             <h3>{{ workshop.title }}</h3>
+            {% if workshop.description %}
             {{ workshop.description | safe }}
+            {% endif %}
           </div>
         </div>
+        {% if workshop.content.length %}
         <div class="workshop-item">
           <div class="workshop-item__title">Table of contents</div>
           <div class="workshop-item__content">
@@ -24,6 +27,7 @@
             </ul>
           </div>
         </div>
+        {% endif %}
         {% if workshop.prerequisites %}
         <div class="workshop-item">
           <div class="workshop-item__title">Prerequisites</div>

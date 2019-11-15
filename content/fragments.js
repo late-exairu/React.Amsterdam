@@ -1,10 +1,12 @@
-const speakerFragment = /* GraphQL */ `
+const imageUrlFragment = /* GraphQL */ `
   fragment imageUrl on Speaker {
     avatar {
       url(transformation: {image: {resize: {width: 500, height: 500, fit: crop}}, document: {output: {format: jpg}}})
     }
   }
+`;
 
+const speakerFragment = /* GraphQL */ `
   fragment speaker on PieceOfSpeakerInfo {
     status
     id
@@ -23,8 +25,11 @@ const speakerFragment = /* GraphQL */ `
       ...imageUrl
     }
   }
+
+  ${imageUrlFragment}
 `;
 
 module.exports = {
   speakerFragment,
+  imageUrlFragment,
 };
