@@ -97,6 +97,7 @@ const fetchData = async (client, vars) => {
 
   return {
     trainers,
+    workshopDays: data.length,
     workshops: allWorkshops,
     speakers: {
       workshops: trainers

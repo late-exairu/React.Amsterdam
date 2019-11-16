@@ -1,3 +1,61 @@
 {% macro icon(i) %}
 <svg class="icon icon-{{i}}"><use xlink:href="img/sprite.svg#icon-{{i}}"></use></svg>
 {% endmacro %}
+
+{% macro extended(list) %}
+  {% for event in list %}
+  <div class="program-map-item">
+    <div class="program-map-item__content">
+      <div class="program-map-item__title">
+        {{ event.title | safe }}
+        <span class="program-map-item__time">{{ event.subtitle | safe }}</span>
+      </div>
+
+      <a
+        href="https://reactamsterdam.slack.com/app_redirect?channel={{ event.slackChannelName }}"
+        target="_blank"
+        class="program-map-item__link"
+        >{{icon('sl')}} <span>#{{ event.slackChannelName }}</span></a
+      >
+    </div>
+    <div class="program-map-item__img">
+      {% if event.image.url %}
+      <img src="{{ event.image.url }}" alt="{{ event.title }}" />
+      {% endif %}
+    </div>
+    <div class="program-map-item__content">
+      <a href="{{ event.locationLink }}" target="_blank"
+        >{{ event.location | safe }}</a
+      >
+      {% if event.registerLink %}
+      <br /><a href="{{ event.registerLink }}" target="_blank">Register Here</a
+      ><br />
+      {% endif %} {% if event.description %}
+      <br />
+      {{ event.description | safe }} {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endmacro %}
+
+
+{% macro extendedSection(list) %}
+  {% for event in list %}
+    <div class="extended__item">
+      <div class="party-item">
+        <div class="party-item__header">
+          <div class="party-item__img" style="background-image: url({{ event.image.url }})"></div>
+          <div class="party-item__header-inner">
+            <div class="party-item__title">{{ event.title | safe }}</div>
+            <div class="party-item__content">
+              <div class="party-item__subtitle">{{ event.subtitle | safe }}</div>
+              <div class="party-item__desc">
+                {{ event.description | safe }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endmacro %}

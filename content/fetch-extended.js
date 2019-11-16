@@ -19,6 +19,9 @@ const queryTexts = /* GraphQL */ `
           subtitle
           description
           location
+          slackChannelName
+          registerLink
+          locationLink
           image {
             url
           }
