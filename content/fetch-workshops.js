@@ -1,7 +1,7 @@
 const { markdownToHtml } = require('./markdown');
 const { prepareSpeakers } = require('./utils');
 const { imageUrlFragment } = require('./fragments');
-// const dayjs = require('dayjs');
+const dayjs = require('dayjs');
 
 
 const queryPages = /* GraphQL */ `
@@ -64,7 +64,7 @@ const fetchData = async (client, vars) => {
                 trainer: ws.speaker && ws.speaker.name,
                 ...(day.additionalEvents &&
                   day.additionalEvents.find(({ title }) => title === ws.title)),
-                date: `April ${new Date(date).getDate()}` // dayjs(day.date).format('MMMM DD'),
+                date: dayjs(day.date).format('MMMM DD'),
               };
             } catch (err) {
               console.warn('\nError in:', ws);
