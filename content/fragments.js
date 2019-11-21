@@ -12,6 +12,7 @@ const speakerFragment = /* GraphQL */ `
     id
     label
     isNightSpeaker
+    order
     speaker {
       id
       name
