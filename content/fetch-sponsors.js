@@ -12,11 +12,7 @@ const queryPages = /* GraphQL */ `
           category
           order
           avatar {
-              url(
-                transformation: {
-                  image: { resize: { width: 600 } } 
-                }
-              )
+              url
             }
           sponsor {
             id
@@ -24,11 +20,7 @@ const queryPages = /* GraphQL */ `
             title
             site
             avatar {
-              url(
-                transformation: {
-                  image: { resize: { width: 600 } } 
-                }
-              )
+              url
             }
           }
           width
