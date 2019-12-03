@@ -14,8 +14,20 @@ gulp.task('deploy', function() {
     parallel: 2,
   });
 
+  // Always deploy HTML/CSS/JS
   gulp.src([
-    './build/**/*.*'
+    './build/*.*',
+    './build/css/**/*.*',
+    './build/js/**/*.*'
+  ])
+    .pipe(conn.dest(remotePath));
+
+  // Compare size of other files before deploy
+  gulp.src([
+    './build/**/*.*',
+    '!./build/*.*',
+    '!./build/css/**/*.*',
+    '!./build/js/**/*.*'
   ])
     .pipe(conn.differentSize(remotePath))
     .pipe(conn.dest(remotePath));
