@@ -81,7 +81,7 @@ const fetchData = async (client, vars) => {
     },
     {
       title: 'Partners',
-      mod: 'sponsors-block_lg',
+      mod: 'sponsors-block_xs',
       list: sponsorsList.filter(({ category }) => category === 'Partner').sort(sortByOrder),
     },
   ].filter(section => section.list.length);
