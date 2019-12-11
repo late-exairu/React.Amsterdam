@@ -12,6 +12,7 @@ const mcContent = require('./fetch-mc');
 const advisersContent = require('./fetch-advisers');
 const faqContent = require('./fetch-faq');
 const extContent = require('./fetch-extended');
+const jobsContent = require('./fetch-jobs');
 
 const createClient = ({ endpoint, token }) => {
   return new GraphQLClient(endpoint, {
@@ -36,6 +37,7 @@ const getContent = async () => {
     advisersContent,
     faqContent,
     extContent,
+    jobsContent,
   ].map(async content => {
     try {
       return await content.fetchData(client, { conferenceTitle, eventYear });
@@ -45,19 +47,17 @@ const getContent = async () => {
   });
 
   const contentArray = await Promise.all(fetchAll);
-  const contentMap = contentArray.reduce(
-    (content, piece) => {
-      try {
-        const newKeys = Object.keys(piece);
-        const existentKeys = Object.keys(content);
-        const intersectedKeys = newKeys.filter(k => existentKeys.includes(k));
-        intersectedKeys.forEach(k => { piece[k] = { ...content[k], ...piece[k] }; });
-      }
-      catch (err) {}
-      return { ...content, ...piece };
-    },
-    {}
-  );
+  const contentMap = contentArray.reduce((content, piece) => {
+    try {
+      const newKeys = Object.keys(piece);
+      const existentKeys = Object.keys(content);
+      const intersectedKeys = newKeys.filter(k => existentKeys.includes(k));
+      intersectedKeys.forEach(k => {
+        piece[k] = { ...content[k], ...piece[k] };
+      });
+    } catch (err) {}
+    return { ...content, ...piece };
+  }, {});
   return contentMap;
 };
 
