@@ -16,6 +16,18 @@
       </div>
     </div>
     {% endfor %}
+    {% for item in jobs %}
+    <div class="article">
+      <div class="article__inner">
+        <div class="article__img"><a href="{{item.link}}"><img src="{{item.image}}" alt="{{item.title}}" /></a></div>
+        <div class="article__content">
+          <div class="article__title">{{item.title}}</div>
+          <div class="article__description">{{item.description | safe}}</div>
+          <a href="{{item.link}}" class="article__link">learn more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
 </section>
