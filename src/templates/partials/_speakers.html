@@ -5,9 +5,8 @@
 			{% for item in speakers[pageKey] %}
 				<div class="speakers-list__item">
 					<div class="speaker">
-						<div class="speaker__photo">
-							<img src="{{item.photo}}" alt="{{item.name}}">
-						</div>
+
+            {{mixins.avatarWithDetails(item.activities.talks[0], item)}}
 						<div class="speaker__name">{{item.name}}</div>
 						<div class="speaker__company">{{item.company}}</div>
 						<div class="speaker__desc">{{item.desc | safe}}</div>

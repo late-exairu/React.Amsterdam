@@ -59,3 +59,25 @@
     </div>
   {% endfor %}
 {% endmacro %}
+
+{% macro avatarWithDetails(activity, item) %}
+  <div class="speaker__photo">
+    <img src="{{item.photo}}" alt="{{item.name}}">
+    {% if (activity) %}
+      <div class="activity-holder">
+        <div class="popup">
+          <div class="s-item__col ">
+            <div class="popup__title s-item__text">
+              <span>{{activity.timeString}}</span>
+              <span>{{activity.track.name}}</span>
+            </div>
+            <div class="s-item__title">{{activity.title}}</div>
+            <div class="s-item__text">
+              <p>{{activity.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+{% endmacro %}
