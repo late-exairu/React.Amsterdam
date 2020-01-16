@@ -1,0 +1,2540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JsNation should render content 1`] = `
+Object {
+  "conference": Object {
+    "city": "Amsterdam",
+    "codeOfConductIntro": "<p>All attendees, speakers, sponsors and volunteers at React Summit Conference and React Amsterdam Meetups are required to follow this Code of Conduct. Organisers will strictly enforce it throughout the events and community gatherings. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
+<p>In case you have identified a breach of our CoC, please approach our crew (organizers and volunteers in branded t-shirts) immediately or contact our CoC enforcement team - <a href=\\"mailto:coc@gitnation.org\\">coc@gitnation.org</a>, +44 7376 237 299.</p>
+",
+    "codeOfConductMain": "<h2>The Short Version</h2>
+<p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
+<h2>The Long Version</h2>
+<p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+<p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+<p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.</p>
+<p>If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.</p>
+<p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+<p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+<p>Original source and credit: <a href=\\"http://2012.jsconf.us/#/about\\">http://2012.jsconf.us/#/about</a> &#x26; The Ada Initiative</p>
+<p>Please help by translating or improving: <a href=\\"https://github.com/leftlogic/confcodeofconduct.com\\">http://github.com/leftlogic/confcodeofconduct.com</a></p>
+<p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
+",
+    "facebookUrl": "https://www.facebook.com/reactamsterdam",
+    "id": "ck0zi93n8phx10b853erl9psf",
+    "mediumUrl": "https://medium.com/@ReactAmsterdam",
+    "slackUrl": "https://reactsummit.com/slack",
+    "status": "PUBLISHED",
+    "title": "React_Amsterdam",
+    "twitterUrl": "https://twitter.com/reactamsterdam",
+    "url": "https://reactsummit.com",
+    "youtubeUrl": "https://youtube.com/c/ReactConferences",
+  },
+  "eveningSpeakers": Array [],
+  "extendeds": Object {
+    "main": Array [
+      Object {
+        "description": "<p>Visit our pre-party events around GraphQL, Reason, React Native and more!</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M",
+        },
+        "key": "main",
+        "location": null,
+        "locationLink": null,
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>April 15-16</p>
+",
+        "title": "<p>COMMUNITY PREPARTIES</p>
+",
+      },
+      Object {
+        "description": "<p>Get ready for an immersive artistic experiences brought to you by local creative community and FIBER festival</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/drJjONHQRsmkt7yBsdIB",
+        },
+        "key": "main",
+        "location": "<p>Get ready for an immersive artistic experiences brought to you by local creative community and FIBER festival</p>
+",
+        "locationLink": null,
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>React meets Friday</p>
+",
+        "title": "<p>THE BIGGEST REACT PARTY WORLDWIDE</p>
+",
+      },
+      Object {
+        "description": "<p>Boat tours</p>
+<p>Walking tours</p>
+<p>Community brunch &#x26; board games</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/K4yFh1akTDKOfVgrhJ3J",
+        },
+        "key": "main",
+        "location": null,
+        "locationLink": null,
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>By bike, by boat, by foot</p>
+",
+        "title": "<p>AMSTERDAM EXPLORATION DAY</p>
+",
+      },
+    ],
+    "meetup": Array [
+      Object {
+        "description": null,
+        "image": null,
+        "key": "meetup",
+        "location": "<p>WeWork, Weesperstraat 61,</p>
+<p>1018 VN Amsterdam</p>
+",
+        "locationLink": "https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864#map-target",
+        "registerLink": "https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864",
+        "slackChannelName": "ra19-april-9-gql",
+        "subtitle": "<p>April 9, 18:00</p>
+",
+        "title": "<p>Building Realtime GraphQL &#x26; Serverless Apps</p>
+",
+      },
+      Object {
+        "description": null,
+        "image": Object {
+          "url": "https://media.graphcms.com/yxJ6ZvOShCUMk54F8xbA",
+        },
+        "key": "meetup",
+        "location": "<p>Usabilla office, Floor 4,</p>
+<p>Rokin 16, KR Amsterdam</p>
+",
+        "locationLink": "https://goo.gl/maps/A4MawXcdpwE2",
+        "registerLink": "https://www.meetup.com/JavaScript-Amsterdam/events/259670769/",
+        "slackChannelName": "ra19-april-10-gql",
+        "subtitle": "<p>April 10, 19:00</p>
+",
+        "title": "<p>Community GraphQL Meetup</p>
+",
+      },
+      Object {
+        "description": null,
+        "image": Object {
+          "url": "https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M",
+        },
+        "key": "meetup",
+        "location": "<p>TQ, Singel 542,</p>
+<p>AZ Amsterdam</p>
+",
+        "locationLink": "https://goo.gl/maps/aDBHDoUBE5q",
+        "registerLink": "https://www.meetup.com/React-Amsterdam/events/259645795/",
+        "slackChannelName": "ra19-apr-11-pre-party",
+        "subtitle": "<p>April 11, 19:00</p>
+",
+        "title": "<p>Official pre-party meetup</p>
+",
+      },
+    ],
+    "tour": Array [
+      Object {
+        "description": "<p>Starting location TBD</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/kJN8bwuESsqF7SPwTzXR",
+        },
+        "key": "tour",
+        "location": "<p>Route information</p>
+",
+        "locationLink": "https://guidedtoursamsterdam.com/classic-walking-tour-amsterdam/",
+        "registerLink": null,
+        "slackChannelName": "ra19-tour-day",
+        "subtitle": "<p>April 13, 12:00</p>
+",
+        "title": "<p>Walking Tours</p>
+",
+      },
+      Object {
+        "description": "<p>Starting location TBD</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/bK2eLavESpq4AofXOduq",
+        },
+        "key": "tour",
+        "location": "<p>Route information</p>
+",
+        "locationLink": "https://drive.google.com/file/d/1rePAF0uT0OiNIxMtqfHbbaV6yjyHDaXj/view?usp=sharing",
+        "registerLink": null,
+        "slackChannelName": "ra19-tour-day",
+        "subtitle": "<p>April 13, 12:00 and 14:00</p>
+",
+        "title": "<p>Boat Tours</p>
+",
+      },
+    ],
+  },
+  "faqs": Array [
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@react.amsterdam\\">hi@react.amsterdam</a> and we will issue it for you:</p>
+<ul>
+<li>company name</li>
+<li>company address</li>
+<li>VAT number</li>
+</ul>
+<p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>Can you issue an invoice for my order?</p>
+",
+        },
+        Object {
+          "answer": "<p>If your ticket states “Early Bird ticket”/”Regular ticket”/”Late Bird ticket”, it only includes a conference day pass. If your ticket states “Combo: Workshop + Conference Day”, it includes both conference day pass and a workshop.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>Does my ticket to the conference include workshops also?</p>
+",
+        },
+        Object {
+          "answer": "<p>Please, be attentive with the dates!</p>
+<p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (April 15)”. </p>
+<p>The ticket will also state the main date of the conference – April 17, although you might not have bought a ticket to the conference itself – this is how Eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>
+<p>If you have doubts – consult the website or email us <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a>.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>I bought a ticket to workshop, but have another date in my ticket. What is the correct date?</p>
+",
+        },
+        Object {
+          "answer": "<p>You can easily change the name in the ticket in your Eventbrite account. Just log in and edit the attendee information. Pay attention that only the ticket buyer can re-assign tickets.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>How can I change the name in my ticket?</p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, you can. Simply log in to your Eventbrite account and re-assign the ticket to this person. Pay attention that only a ticket buyer can re-assign tickets.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>If I can’t visit the conference, can I give the ticket to my friend/colleague?</p>
+",
+        },
+        Object {
+          "answer": "<p>Go to your Eventbrite account, click “edit”, add the VAT number in the corresponding box, resend the confirmation email. </p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>How can I add VAT to the Eventbrite invoice? </p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, we can make a refund if your visa for travel was not approved. Please send us the declining letter from the embassy or any other confirming documents.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>Do you provide refunds if my visa is not approved?</p>
+",
+        },
+        Object {
+          "answer": "<p>No, we do not provide refunds in this case due to our policies. The reason of such non-refund policy is that we calculate and pre-pay for event facilities and catering in advance.</p>
+",
+          "category": "Tickets, invoices, refunds",
+          "question": "<p>Do you provide refunds if decided not to travel?</p>
+",
+        },
+      ],
+      "sectionTitle": "Tickets, invoices, refunds",
+    },
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>Yes, we can provide a student discount. Student ticket price is 150 EUR (excluding VAT).  Pease, send us a scan or a photo of your relevant students ID and we’ll issue a promocode for you.</p>
+",
+          "category": "Discounts, diversity scholarship, etc.",
+          "question": "<p>Do you have any discount for students?</p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, to get a group discount please choose “Team Ticket” on Eventbrite. And some extra discounts are possible when buying more than 10 tickets.</p>
+",
+          "category": "Discounts, diversity scholarship, etc.",
+          "question": "<p>Do you provide any group discounts?</p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, we do run a diversity scholarship program. Free diversity tickets are distributed via community channels and also via the application form. Follow our <a href=\\"https://medium.com/@ReactAmsterdam\\">medium blog</a> for details.</p>
+",
+          "category": "Discounts, diversity scholarship, etc.",
+          "question": "<p>Do you provide any special tickets or discount for diversity groups?</p>
+",
+        },
+        Object {
+          "answer": "<p>It includes the conference day (not workshops), food at the conference and afterparty. </p>
+",
+          "category": "Discounts, diversity scholarship, etc.",
+          "question": "<p>I was selected for a Diversity scholarship, what does it include?</p>
+",
+        },
+        Object {
+          "answer": "<p>We will publish a React Open Source projects application form, where you can submit your project. Make sure you follow us on social media and subscribe to our newsletter. </p>
+",
+          "category": "Discounts, diversity scholarship, etc.",
+          "question": "<p>How can I apply for React Open Source Awards?</p>
+",
+        },
+      ],
+      "sectionTitle": "Discounts, diversity scholarship, etc.",
+    },
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> the following details according to your travel document, as well as your ticket to the conference:</p>
+<ul>
+<li>First name:</li>
+<li>Last name:</li>
+<li>Date of birth:</li>
+<li>Nationality:</li>
+<li>Passport number:</li>
+<li>Date of issue:</li>
+<li>Expiration date:</li>
+</ul>
+",
+          "category": "Visa",
+          "question": "<p>Can you issue an invitation letter to apply for a visa?</p>
+",
+        },
+      ],
+      "sectionTitle": "Visa",
+    },
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>You will get an email with all the information you’ll need at the conference about a week before the event. We will also add a link to a page with all organisational details to the website.</p>
+",
+          "category": "Organisational questions",
+          "question": "<p>Where can I find all logistics and organisational information?</p>
+",
+        },
+        Object {
+          "answer": "<p>We organise a boat transfer from the Central Station to the conference venue. Please, see the schedule on the website closer to the conference date. </p>
+<p>Please, note that the boat might leave a bit earlier if it fills up with passengers before the time of departure. You can either wait for the next one (about 10 minutes) or take a public ferry to the other side of the river and walk 5 minutes to the Kromhouthal. </p>
+",
+          "category": "Organisational questions",
+          "question": "<p>What is the best way to go to the Kromhouthal? </p>
+",
+        },
+        Object {
+          "answer": "<p>The Kromhouthal has parking area right in front of the door. In addition, there’s ample public parking in the vicinity. There is paid parking in the area. </p>
+",
+          "category": "Organisational questions",
+          "question": "<p>Is there parking area near the venue?</p>
+",
+        },
+        Object {
+          "answer": "<p>Unfortunately, we won't have facilities for kids this time.</p>
+",
+          "category": "Organisational questions",
+          "question": "<p>Do you have a kids corner at the event?</p>
+",
+        },
+        Object {
+          "answer": "<p>There always is a wardrobe/cloakroom, but neither we nor the venue can be held accountable for attendee’s belongings. For big pieces of luggage, we suggest to leave them in a hotel luggage room or special luggage lockers.</p>
+",
+          "category": "Organisational questions",
+          "question": "<p>Is there a place to store my luggage during the event?</p>
+",
+        },
+      ],
+      "sectionTitle": "Organisational questions",
+    },
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>Yes, we serve hot lunch and coffee/pastries/snacks both at the conference and the workshops.</p>
+",
+          "category": "Food for conference attendees",
+          "question": "<p>Do you serve any food at the events?</p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, we have vegetarian, vegan and gluten-free food for lunch at the conference. As for workshops – please let us know in advance if you have any special meal preferences.</p>
+",
+          "category": "Food for conference attendees",
+          "question": "<p>Do you have vegetarian/vegan/gluten free options at the event and workshops?</p>
+",
+        },
+      ],
+      "sectionTitle": "Food for conference attendees",
+    },
+    Object {
+      "items": Array [
+        Object {
+          "answer": "<p>Yes, you can. Please, send us brief information about yourself: your experience in volunteering (optional) at conferences or any event organizing. Also please be sure that you’re going to be available on the day of the event and the day before it.</p>
+",
+          "category": "Other questions",
+          "question": "<p>Can I join the conference as a volunteer?</p>
+",
+        },
+        Object {
+          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> and we’ll get back to you with all the information.</p>
+",
+          "category": "Other questions",
+          "question": "<p>We are a community/also a tech conference. Could we collaborate with your conference?</p>
+",
+        },
+        Object {
+          "answer": "<p>Laptop and charger. </p>
+",
+          "category": "Other questions",
+          "question": "<p>What do I need to bring with me to the workshop?</p>
+",
+        },
+      ],
+      "sectionTitle": "Other questions",
+    },
+  ],
+  "jobs": Array [
+    Object {
+      "description": "<p>Join more than 1000 IT collaborators around Europe.</p><p>From Warsaw to Barcelona, through Lyon, Nantes, Lausanne, Tel Aviv, Brussels, Amsterdam and Paris, all our projects are developed in a functional environment with a wide skills variety where you’ll be sure to find your place, no matter the technology you want to work with. If you love to try things why don’t you jump on this new adventure?</p>
+",
+      "id": "ck41o4zejju4p0b66tr6zz0qw",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/cYRllKLQNOAxsN0J2m2h",
+      "link": "https://careers.vente-privee.com/en/vptech/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers @ <vpTech/>",
+    },
+    Object {
+      "description": "<p>Do you want to have an impact on a product that is used by millions of users across multiple devices on a daily basis?</p>
+<p>DAZN streams over 40 different sports from more than 300 different leagues in 9 markets including Germany, Italy, Japan, Canada, USA, Spain and Brazil (with more to come). Since we launched 2 years ago we have streamed more than 300 million hours of content!</p>
+<p>We are looking for experienced Front End Engineers and Software Engineering Managers who are passionate about building modern, scalable web applications.</p>
+<p>We are using Micro-Frontends architecture and our current tech stack includes React, RxJS, MobX, Webpack and much more.</p>
+",
+      "id": "ck41ol1b9jicr0b3252ndjqy9",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/SAigRPToT5WMHriqouhX",
+      "link": "https://engineering.dazn.com/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers at DAZN",
+    },
+    Object {
+      "description": "<p>Evolution Gaming is looking to hire skilled and highly motivated engineers to work in Amsterdam, Riga and Tallinn offices.</p>
+<p>Our engineers are passionate about innovation and develop the solutions that allow Evolution Gaming to provide its services to licensees.</p>
+<p>Our teams are critical to the successful running of the company, with any code change having a potentially huge financial impact.</p>
+<p>Join us as a</p>
+<ul>
+<li>JavaScript Developer</li>
+<li>Scala Developer</li>
+<li>QA Engineer</li>
+</ul>
+<p>or choose another role that fits your skillset and aspirations best.</p>
+",
+      "id": "ck41os1jg4viw0b73gfv7c1n7",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/sjcbxqmOShKBkBeopuee",
+      "link": "https://www.evolutiongamingcareers.com/engineering-positions/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers at Evolution Gaming",
+    },
+    Object {
+      "description": "<p>GitHub employees live all over the world, and we love helping people work in the places they’re happiest.</p>
+<p>At GitHub we build the tools that make collaborating and writing software easier for everyone. We’ve built a company we truly love working for, and we think you will too.</p>
+<p>-A diverse and inclusive workplace
+-<a href=\\"href=&#x27;https://github.com/about/careers/remote\\">wherever you're happiest</a>
+-Flexible work schedules and unlimited PTO
+-A yearly budget for your individual learning and development goals</p>
+",
+      "id": "ck41ourk74vqn0b73zvd69w0d",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/u7tf5k7Ro6AxbFe6kx4r",
+      "link": "https://git.io/sparkles",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Come build with us",
+    },
+    Object {
+      "description": "<p>Xebia seeks passionate, professionals who work to play, and play to win. We’re currently looking for an enthusiastic, experienced and dedicated Software Engineer.At Xebia, you’ll find like-minded colleagues who are front-runners in their fields. We help get organizations moving and have the courage to leave the beaten track. By sharing knowledge with our customers and communities, we continuously broaden our expertise and determine the next cool thing.</p>
+<p>If you’re passionate about what you do and can demonstrate your knowledge, we want to hear from you!</p>
+<p>Get in touch with us: <a href=\\"mailto:careers@xebia.com\\">careers@xebia.com</a>.</p>
+",
+      "id": "ck41oz3n04w1n0b73wmo3lbhm",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/Hco1zOw3RpKS85ifu6Rn",
+      "link": "https://pages.xebia.com/vacancy-software-engineer",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Software Engineer at Xebia",
+    },
+    Object {
+      "description": "<p>We’re always looking for new talent and are currently hiring.</p>
+<p>At Crystallize we are a bunch of diverse and international people and can offer varied but challenging work being part of a team launching the most innovative products supported by digital brilliance.</p>
+<p>Crystallize is a headless commerce service enabling developers to build tailor-made e-commerce experiences with subscriptions and virtual products. The core of Crystallize is our blazing fast GraphQL API. Developer experience and time to market are our main drivers since milliseconds matter.</p>
+<p>Our office is located in Skien, in the south of beautiful Norway. Have a look at our job offers following the link below and let us know if you think you’d be a good match. We can’t wait to hear from you.</p>
+",
+      "id": "ck41pxrmx4yfm0b73c1br6w4z",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/RrkToOdSO2FQ3J5i5Hkp",
+      "link": "https://crystallize.com/careers",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Want to move to beautiful Norway?",
+    },
+    Object {
+      "description": "<p>Skyscanner is a leading global travel search site and app, a place where people are inspired to plan and book direct from millions of travel options at the best prices.</p>
+<p>We are unbiased and free, which means that the 80 million people who use us every month can trust our comprehensive range of flight, hotel and car hire options.</p>
+<p>Our secret is in our unique proprietary technology that connects people directly to everything the travel industry has to offer. We also power travel search for over 1200 partners through our marketplace.</p>
+<p>We’re a high-growth business with a simple aim: to inspire travellers around the world and make travel search as easy as possible through our world-class technology.</p>
+",
+      "id": "ck41pzm20jwsw0b6602kk0u79",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/34lY8sZNT060AfqNWk31",
+      "link": "https://www.skyscanner.net/jobs",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Build without limits @ Skyscanner",
+    },
+    Object {
+      "description": "<p>A JavaScript Developer at LINKIT will develop, test and deploy applications that are built in next-gen JavaScript and TypeScript. The developer will focus on one or more of our tracks: React, Angular, and backend (Node.js). We love to experiment with new frameworks, libraries and tools to keep up with the rapidly evolving JavaScript ecosystem.</p>
+<p>Are you an engineer whose knowledge and experience contributes for the growth of colleagues and customers? Join the team!</p>
+",
+      "id": "ck41q2hz6jkq10b2046r5y0lk",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/Fqm11IgISuaX7FSENwvU",
+      "link": "http://careers.linkit.nl",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "JavaScript Developer @ LINKIT",
+    },
+    Object {
+      "description": "<p>Headquartered in Toronto, Canada, Rangle.io is changing how our clients innovate. We take great ideas and apply strategy, design, and technology to bring them to life. We’re anchored by Lean methodology and a DevOps mindset and backed by our world-class reputation in modern JavaScript including React, Angular, and Vue. When you join Rangle, you’re joining a multi-disciplinary Agile team filled with passionate experts across various fields.</p>
+<p>While focusing on doing the right thing, we embrace an atmosphere of creativity, belonging, and fun. Ranglers are curious, brave, kind, and innovative. Together we build experiences that make an impact on the world.</p>
+<p>Check out our openings for:</p>
+<p>-JavaScript Developer
+-Front End Architect
+-Enterprise Architect
+-Technical Director</p>
+",
+      "id": "ck41q669yjkv90b20uxm2mzqv",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/M6BQEhmYR2K7BryODiZA",
+      "link": "https://rangle.io/careers",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers @ Rangle.io",
+    },
+    Object {
+      "description": "<p>We’re an e-commerce company specialising in premium brands and have won the Website of the Year award ten years in a row. We’re currently embarking on a front-to-back rebuild of our technology systems from a clean slate.</p>
+<p>We have multiple greenfield projects, each selecting the tools they want to use and building new teams. Behind the React frontend, the backend is in functional Kotlin, so Java, Kotlin, Scala, C# devs are all welcome. We're using Python for our ERP system and data science and we're building the new stack on Google Cloud Platform, so looking for cloud engineers there.</p>
+<p>But we're more interested in exceptional people regardless of what their current skills are :)</p>
+",
+      "id": "ck41q8b7zjkq70b32qv555fs2",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/4wIVfqTzuqnx3kwmXdAp",
+      "link": "https://ijsberen.io/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "React and more @ IJsberen",
+    },
+    Object {
+      "description": "<p>Honeypot is Europe’s leading tech job platform, on a mission to build great engineering teams. On Honeypot, you state your job preferences upfront and companies apply to you. We believe you should choose a job you love: whether that’s based on a cutting-edge tech stack, an inspiring team or just good old-fashioned salary.</p>
+<p>In our world, that means no more spam and empty promises from headhunters, no more sending the same application to multiple companies - just one profile and a chance to receive offers related to your job preferences directly from companies.</p>
+",
+      "id": "ck41q9ybz4zbn0b73ic5kq5wi",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/8g3cl3pRRWqO7GefWCpe",
+      "link": "https://www.honeypot.io/?utm_source=reactamsterdam&utm_medium=referral",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Honeypot - tech job platform",
+    },
+    Object {
+      "description": "<p>Join the team that changes the way the world communicates.</p>
+<p>MessageBird is a Cloud Communications Platform as a Service (CPaaS) company for SMS, Voice and Chat communications that connects businesses to 7 billion phones worldwide. A graduate of Y Combinator in Silicon Valley and backed by Accel and Atomico, we’re one of the fastest growing software companies in the world and we’re looking for a well-versed React Engineer to join our team.</p>
+<p>Join a fun, open, and ambitious group of people working in a beautiful office overlooking the Amstel River in Amsterdam, where our team chefs serve delicious food all day long. We work hard, play hard and always look to raise the bar. We strive to be the kind of company that makes every team member excited to come to work every morning.</p>
+",
+      "id": "ck41qc94bjxbd0b66he0xb8v0",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/PJUSBSYQtIkWAGHD8wwA",
+      "link": "https://www.messagebird.com/en/careers/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers at MessageBird",
+    },
+    Object {
+      "description": "<p>EdCast AI-Powered Learning Experience Platform (LXP) creates a unified, relevant and engaging experience for knowledge workers. Our mission is to democratize learning. EdCast LXP is used internationally by Global 2000 companies and large government organizations, including NASSCOM and World Economic Forum, to solve the discovery and curation problems across all external and internal knowledge sources. We want to prepare the workforce of the future to meet the demands of a rapidly changing digital world in the 4th Industrial Revolution.</p>
+<p>To achieve our mission, we are looking for Front-End/Full-Stack Developers ready to be a part of our tight-knit and nimble team and willing to work in a true startup “Silicon Valley” environment in EdCast Europe based out of Rotterdam. If you are passionate about technology and innovation; and are hungry to grow and evolve in your career, this is your opportunity!</p>
+<p>Check out our career opportunities in Rotterdam! We promise you will not be disappointed.</p>
+",
+      "id": "ck41qfr8e4zqv0b731tz1j1r4",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/YAnHmHQ5Gnp6Id7CAjrQ",
+      "link": "https://www.edcast.com/corp/careers/",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "Careers@EdCast: Ready to make the leap and grow your career?",
+    },
+    Object {
+      "description": "<p>Picnic is looking for bright and energetic React Developers to work on our Runner App Stack. The stack consists of two applications: a mobile app that our runners use when delivering groceries and a web application to monitor the operation from our hubs. Do you love writing high-quality code that works under any and all circumstances and is easy to maintain? Then look no further!</p>
+",
+      "id": "ck41qiz3z4zyx0b73m4yjcjos",
+      "image": "https://media.graphcms.com/output=format:jpg/resize=width:700/VzkhPlAOSYWLVCHp1j0R",
+      "link": "https://join.picnic.app/jobs/1630660",
+      "slogan": "
+",
+      "subtitle": "
+",
+      "title": "React Developer @ Picnic",
+    },
+  ],
+  "lightningTalks": Array [],
+  "mcs": Array [],
+  "pages": Object {
+    "FAQ": Object {
+      "description": "April 17, 2020",
+      "key": "FAQ",
+      "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Back to conference website",
+          },
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "/coc",
+            "text": "Code Of Conduct",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Conference page",
+          },
+        ],
+      },
+      "pageSections": null,
+      "pageSlogan": null,
+      "pageStatistics": null,
+      "seoDescription": "React Summit Amsterdam is a full day two-track conference of all things React, gathering Front-end developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "FAQ",
+      "titleSeo": "FAQ",
+    },
+    "coc": Object {
+      "description": "April 17, 2020",
+      "key": "coc",
+      "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Back to conference website",
+          },
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Conference page",
+          },
+        ],
+      },
+      "pageSections": null,
+      "pageSlogan": null,
+      "pageStatistics": null,
+      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "Code of Conduct of React Amsterdam",
+      "titleSeo": "Code of Conduct of React Amsterdam",
+    },
+    "extended": Object {
+      "description": "React Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
+      "key": "extended",
+      "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Back to conference website",
+          },
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "/coc",
+            "text": "Code Of Conduct",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "#meetups",
+            "scroll": true,
+            "text": "Pre-party meeetups",
+          },
+          Object {
+            "href": "#party",
+            "scroll": true,
+            "text": "React Party",
+          },
+          Object {
+            "href": "#tour-day",
+            "scroll": true,
+            "text": "Tour Day",
+          },
+          Object {
+            "href": "/",
+            "text": "Conference page",
+          },
+        ],
+      },
+      "pageSections": Object {
+        "hero_subtitle": "ACTIVITIES AROUND REACT SUMMIT DATES",
+        "hero_title": "April 17, 2020, Amsterdam",
+      },
+      "pageSlogan": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior main conference day.",
+      "pageStatistics": Object {
+        "days": 4,
+      },
+      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "Activities Around React Amsterdam Dates",
+      "titleSeo": "Activities Around React Amsterdam Dates",
+    },
+    "jobs": Object {
+      "description": "You are a JavaScript developer and would love to work for a company supporting React community and getting technology stack serious?",
+      "key": "jobs",
+      "keywords": "ReactJS, React, React Native, JavaScript, jobs, careers, graphql, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Back to conference website",
+          },
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "/coc",
+            "text": "Code Of Conduct",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Conference page",
+          },
+        ],
+      },
+      "pageSections": null,
+      "pageSlogan": "",
+      "pageStatistics": Object {
+        "articles": Array [
+          Object {
+            "descr": "<p>Do you want to have an impact on a product that is used by millions of users across multiple devices on a daily basis?</p><p>DAZN streams over 40 different sports from more than 300 different leagues in 9 markets including Germany, Italy, Japan, Canada, USA, Spain and Brazil (with more to come). Since we launched 2 years ago we have streamed more than 300 million hours of content!</p><p>We are looking for experienced Front End Engineers and Software Engineering Managers who are passionate about building modern, scalable web applications.</p><p>We are using Micro-Frontends architecture and our current tech stack includes React, RxJS, MobX, Webpack and much more.</p>",
+            "img": "dazn2.png",
+            "link": "https://engineering.dazn.com/",
+            "title": "Careers at DAZN",
+          },
+          Object {
+            "descr": "<p>Evolution Gaming is looking to hire skilled and highly motivated engineers to work in Amsterdam, Riga and Tallinn offices.</p><p>Our engineers are passionate about innovation and develop the solutions that allow Evolution Gaming to provide its services to licensees.<br> Our teams are critical to the successful running of the company, with any code change having a potentially huge financial impact.</p><ul><span>Join us as a</span><li>JavaScript Developer</li><li>Scala Developer</li><li>QA Engineer</li><span>or choose another role that fits your skillset and aspirations best.</span></ul>",
+            "img": "eg.jpg",
+            "link": "https://www.evolutiongamingcareers.com/engineering-positions/",
+            "title": "Careers at Evolution Gaming",
+          },
+          Object {
+            "descr": "<p>GitHub employees live all over the world, and we love helping people work in the places they’re happiest.</p><p>At GitHub we build the tools that make collaborating and writing software easier for everyone. We’ve built a company we truly love working for, and we think you will too.</p><ul><li>A diverse and inclusive workplace</li><li><a href='https://github.com/about/careers/remote' target='_blank'>wherever you're happiest</a></li><li>Flexible work schedules and unlimited PTO</li><li>A yearly budget for your individual learning and development goals</li></ul>",
+            "img": "github.jpg",
+            "link": "https://git.io/sparkles",
+            "title": "Come build with us",
+          },
+          Object {
+            "descr": "<p>Xebia seeks passionate, professionals who work to play, and play to win. We’re currently looking for an enthusiastic, experienced and dedicated Software Engineer.At Xebia, you’ll find like-minded colleagues who are front-runners in their fields. We help get organizations moving and have the courage to leave the beaten track. By sharing knowledge with our customers and communities, we continuously broaden our expertise and determine the next cool thing.</p><p>If you’re passionate about what you do and can demonstrate your knowledge, we want to hear from you!</p><p>Get in touch with us: <a href=\\"mailto:careers@xebia.com\\">careers@xebia.com</a>.</p>",
+            "img": "xebia.png",
+            "link": "https://pages.xebia.com/vacancy-software-engineer",
+            "title": "Software Engineer at Xebia",
+          },
+          Object {
+            "descr": "<p>We’re always looking for new talent and are currently hiring.</p><p>At Crystallize we are a bunch of diverse and international people and can offer varied but challenging work being part of a team launching the most innovative products supported by digital brilliance.</p><p>Crystallize is a headless commerce service enabling developers to build tailor-made e-commerce experiences with subscriptions and virtual products. The core of Crystallize is our blazing fast GraphQL API. Developer experience and time to market are our main drivers since milliseconds matter.</p><p>Our office is located in Skien, in the south of beautiful Norway. Have a look at our job offers following the link below and let us know if you think you’d be a good match. We can’t wait to hear from you.</p>",
+            "img": "crystallize.png",
+            "link": "https://crystallize.com/careers",
+            "title": "Want to move to beautiful Norway?",
+          },
+          Object {
+            "descr": "<p>Skyscanner is a leading global travel search site and app, a place where people are inspired to plan and book direct from millions of travel options at the best prices.</p><p>We are unbiased and free, which means that the 80 million people who use us every month can trust our comprehensive range of flight, hotel and car hire options.</p><p>Our secret is in our unique proprietary technology that connects people directly to everything the travel industry has to offer. We also power travel search for over 1200 partners through our marketplace.</p><p>We’re a high-growth business with a simple aim: to inspire travellers around the world and make travel search as easy as possible through our world-class technology.</p>",
+            "img": "skyscanner.png",
+            "link": "https://www.skyscanner.net/jobs",
+            "title": "Build without limits @ Skyscanner",
+          },
+          Object {
+            "descr": "<p>A JavaScript Developer at LINKIT will develop, test and deploy applications that are built in next-gen JavaScript and TypeScript. The developer will focus on one or more of our tracks: React, Angular, and backend (Node.js). We love to experiment with new frameworks, libraries and tools to keep up with the rapidly evolving JavaScript ecosystem.</p><p>Are you an engineer whose knowledge and experience contributes for the growth of colleagues and customers? Join the team!</p>",
+            "img": "linkit.png",
+            "link": "http://careers.linkit.nl",
+            "title": "JavaScript Developer @ LINKIT",
+          },
+          Object {
+            "descr": "<p>Headquartered in Toronto, Canada, Rangle.io is changing how our clients innovate. We take great ideas and apply strategy, design, and technology to bring them to life. We’re anchored by Lean methodology and a DevOps mindset and backed by our world-class reputation in modern JavaScript including React, Angular, and Vue. When you join Rangle, you’re joining a multi-disciplinary Agile team filled with passionate experts across various fields.</p><p>While focusing on doing the right thing, we embrace an atmosphere of creativity, belonging, and fun. Ranglers are curious, brave, kind, and innovative. Together we build experiences that make an impact on the world.</p><p>Check out our openings for:</p><ul><li>JavaScript Developer</li><li>Front End Architect</li><li>Enterprise Architect</li><li>Technical Director</li></ul>",
+            "img": "rangle.png",
+            "link": "https://rangle.io/careers",
+            "title": "Careers @ Rangle.io",
+          },
+          Object {
+            "descr": "<p>We’re an e-commerce company specialising in premium brands and have won the Website of the Year award ten years in a row. We’re currently embarking on a front-to-back rebuild of our technology systems from a clean slate.</p><p>We have multiple greenfield projects, each selecting the tools they want to use and building new teams. Behind the React frontend, the backend is in functional Kotlin, so Java, Kotlin, Scala, C# devs are all welcome. We're using Python for our ERP system and data science and we're building the new stack on Google Cloud Platform, so looking for cloud engineers there.</p><p>But we're more interested in exceptional people regardless of what their current skills are :)</p>",
+            "img": "ijsberen.png",
+            "link": "https://ijsberen.io/",
+            "title": "React and more @ IJsberen",
+          },
+          Object {
+            "descr": "<p>Honeypot is Europe’s leading tech job platform, on a mission to build great engineering teams. On Honeypot, you state your job preferences upfront and companies apply to you. We believe you should choose a job you love: whether that’s based on a cutting-edge tech stack, an inspiring team or just good old-fashioned salary.</p><p>In our world, that means no more spam and empty promises from headhunters, no more sending the same application to multiple companies - just one profile and a chance to receive offers related to your job preferences directly from companies.</p>",
+            "img": "honeypot.jpg",
+            "link": "https://www.honeypot.io/?utm_source=reactamsterdam&utm_medium=referral",
+            "title": "Honeypot - tech job platform",
+          },
+          Object {
+            "descr": "<p>Join the team that changes the way the world communicates.</p><p>MessageBird is a Cloud Communications Platform as a Service (CPaaS) company for SMS, Voice and Chat communications that connects businesses to 7 billion phones worldwide. A graduate of Y Combinator in Silicon Valley and backed by Accel and Atomico, we’re one of the fastest growing software companies in the world and we’re looking for a well-versed React Engineer to join our team.</p><p>Join a fun, open, and ambitious group of people working in a beautiful office overlooking the Amstel River in Amsterdam, where our team chefs serve delicious food all day long. We work hard, play hard and always look to raise the bar. We strive to be the kind of company that makes every team member excited to come to work every morning.</p>",
+            "img": "messagebird.png",
+            "link": "https://www.messagebird.com/en/careers/",
+            "title": "Careers at MessageBird",
+          },
+          Object {
+            "descr": "<p>EdCast AI-Powered Learning Experience Platform (LXP) creates a unified, relevant and engaging experience for knowledge workers. Our mission is to democratize learning. EdCast LXP is used internationally by Global 2000 companies and large government organizations, including NASSCOM and World Economic Forum, to solve the discovery and curation problems across all external and internal knowledge sources. We want to prepare the workforce of the future to meet the demands of a rapidly changing digital world in the 4th Industrial Revolution.</p><p>To achieve our mission, we are looking for Front-End/Full-Stack Developers ready to be a part of our tight-knit and nimble team and willing to work in a true startup “Silicon Valley” environment in EdCast Europe based out of Rotterdam. If you are passionate about technology and innovation; and are hungry to grow and evolve in your career, this is your opportunity!</p><p>Check out our career opportunities in Rotterdam! We promise you will not be disappointed.</p>",
+            "img": "edcast.jpg",
+            "link": "https://www.edcast.com/corp/careers/",
+            "title": "Careers@EdCast: Ready to make the leap and grow your career?",
+          },
+          Object {
+            "descr": "<p>Picnic is looking for bright and energetic React Developers to work on our Runner App Stack. The stack consists of two applications: a mobile app that our runners use when delivering groceries and a web application to monitor the operation from our hubs. Do you love writing high-quality code that works under any and all circumstances and is easy to maintain? Then look no further!</p>",
+            "img": "picnic.png",
+            "link": "https://join.picnic.app/jobs/1630660",
+            "title": "React Developer @ Picnic",
+          },
+          Object {
+            "descr": "<p>Join more than 1000 IT collaborators around Europe.</p><p>From Warsaw to Barcelona, through Lyon, Nantes, Lausanne, Tel Aviv, Brussels, Amsterdam and Paris, all our projects are developed in a functional environment with a wide skills variety where you’ll be sure to find your place, no matter the technology you want to work with. If you love to try things why don’t you jump on this new adventure?</p>",
+            "img": "vptech.png",
+            "link": "https://careers.vente-privee.com/en/vptech/",
+            "title": "Careers @ <vpTech/>",
+          },
+        ],
+        "jobs": Object {
+          "offers": "25+",
+          "partners": "14",
+        },
+      },
+      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "Top React Jobs",
+      "titleSeo": "React Jobs from Most Notable React Community Supporters",
+    },
+    "main": Object {
+      "description": "April 17, 2020",
+      "key": "main",
+      "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "/coc",
+            "text": "Code Of Conduct",
+          },
+          Object {
+            "href": "/2019",
+            "text": "Last year's event (2019)",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "#event",
+            "scroll": true,
+            "text": "ABOUT",
+          },
+          Object {
+            "href": "#location",
+            "scroll": true,
+            "text": "LOCATION",
+          },
+          Object {
+            "href": "#speakers",
+            "scroll": true,
+            "text": "First speakers",
+          },
+          Object {
+            "href": "#awards",
+            "scroll": true,
+            "text": "OS AWARDS",
+          },
+          Object {
+            "href": "/workshops",
+            "scroll": true,
+            "text": "WORKSHOPS",
+          },
+          Object {
+            "href": "#sponsors",
+            "scroll": true,
+            "text": "SPONSORS",
+          },
+          Object {
+            "href": "/faq",
+            "text": "FAQ",
+          },
+          Object {
+            "href": "/2019",
+            "text": "2019",
+          },
+        ],
+      },
+      "pageSections": Object {
+        "MCs": false,
+        "advicers": true,
+        "advicers_": false,
+        "awards": true,
+        "back": true,
+        "back_": false,
+        "contact": true,
+        "evening": true,
+        "evening_": false,
+        "event": true,
+        "extended": true,
+        "fleet": true,
+        "location": true,
+        "media": true,
+        "schedule": false,
+        "speakers": true,
+        "speakersTitle": "First Speakers",
+        "speakers_": false,
+        "sponsors": true,
+        "talks": false,
+      },
+      "pageSlogan": null,
+      "pageStatistics": Object {
+        "events": Array [
+          Object {
+            "date": "15th/16th",
+            "day": "Thursday",
+            "text": "Workshops &<br> Meetups",
+          },
+          Object {
+            "date": "17th",
+            "day": "Friday",
+            "text": "Conference day",
+          },
+          Object {
+            "date": "18th",
+            "day": "Saturday",
+            "text": "Tour day",
+          },
+        ],
+        "speakers": "25+",
+        "speakersTitle": "Sharing newest insights",
+        "tracks": "2",
+        "tracksTitle": "General + React Native",
+        "visitors": "1500",
+        "visitorsTitle": "From all over the globe",
+      },
+      "seoDescription": "React Summit Amsterdam is a full day two-track conference of all things React, gathering Front-end developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "THE BIGGEST REACT CONFERENCE WORLDWIDE",
+      "titleSeo": "React Summit Amsterdam - The Biggest React Conference Worldwide",
+    },
+    "workshops": Object {
+      "description": "React Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
+      "key": "workshops",
+      "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
+      "pageNavigation": Object {
+        "footerNav": Array [
+          Object {
+            "href": "/",
+            "text": "Back to conference website",
+          },
+          Object {
+            "href": "/sponsors",
+            "text": "Sponsorship Opportunities",
+          },
+          Object {
+            "href": "/coc",
+            "text": "Code Of Conduct",
+          },
+          Object {
+            "href": "mailto:hi@react.amsterdam",
+            "text": "Email Us!",
+          },
+        ],
+        "headerNav": Array [
+          Object {
+            "href": "#programmes",
+            "scroll": true,
+            "text": "Programmes",
+          },
+          Object {
+            "href": "#speakers",
+            "scroll": true,
+            "text": "Trainers",
+          },
+          Object {
+            "href": "/",
+            "text": "Conference page",
+          },
+        ],
+      },
+      "pageSections": Object {
+        "speakersTitle": "Trainers",
+      },
+      "pageSlogan": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior main conference day.",
+      "pageStatistics": Object {
+        "attendees": 480,
+      },
+      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "themeColor": null,
+      "titlePage": "Activities Around React Amsterdam Dates",
+      "titleSeo": "Workshops at React Amsterdam",
+    },
+  },
+  "pagesPieceOfTexts": Object {
+    "activities__email": "<p>If you would like to organize some community activity like a small bike tour, brunch or do a walking tour of your own - <a href=\\"hi@react.amsterdam\\">email us </a> with details and we'll list it here.</p>
+",
+    "amusement__boattitle": "Speakers ship",
+    "amusement__deliverytext": "Conference venue is located right at the Ij river, and for attendee convenience we book few ferry ships for a direct commute from Central Station.",
+    "amusement__deliverytitle": "React ferry <br>from Central Station",
+    "amusement__speakers": "Speakers ship",
+    "amusement__speakersdelivery": "Our special React Amsterdam tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a speacial speakers dinner takes place.",
+    "amusement__speakerstext": "Our special React Summit tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a special speakers dinner takes place.",
+    "amusement__title": "Our fleet",
+    "boattours__date": "April 13, 12:00 and 14:00",
+    "boattours__title": "Boat Tours",
+    "contacts__socials": "Contact Us",
+    "event__subtitle": "React Summit Amsterdam is a celebration of good things coming together:",
+    "event__text": "<p>A full-day, two-track conference on all things React, gathering Front-end and Full-stack engineers across the globe in the tech heart of Europe. We're coming back with a new gig on April 17, 2020. Mark your calendars for the biggest React community event.</p>
+<p>Next to the main conference day, be prepared for a number of hands-on workshops, pre-party meetups, and mini conferences throughout the week of the event.</p>
+",
+    "event__title": "The event",
+    "event_boldtitle": "<p>REACT THAT ROCKS AND SPRING IN AMSTERDAM THAT BL<strong>O</strong>SSOMS</p>
+",
+    "extendedprogram__text": "React Summit is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
+    "location__address": "<p>Gedempt Hamerkanaal 231</p>
+<p>Amsterdam, 1021 KP</p>
+",
+    "location__map": "<p><a href=\\"https://www.google.nl/maps/place/the+Kromhouthal/@52.3832816,4.9183379,17z/data=!4m21!1m15!4m14!1m5!1m1!1s0x47c609abb3be496b:0x1a140c53c426f7c7!2m2!1d4.9205266!2d52.3832816!1m6!1m2!1s0x47c609abb3be496b:0x1a140c53c426f7c7!2sthe+Kromhouthal,+Gedempt+Hamerkanaal+231,+1021+KP+Amsterdam!2m2!1d4.9205266!2d52.3832816!3e3!3m4!1s0x47c609abb3be496b:0x1a140c53c426f7c7!8m2!3d52.3832816!4d4.9205266\\">VIEW ON MAP</a></p>
+",
+    "location__venue": "KROMHOUTHAL",
+    "meetup__address": "[Usabilla office, Floor 4,
+Rokin 16, 1012 KR Amsterdam](https://goo.gl/maps/A4MawXcdpwE2)",
+    "meetup__date": "April 10, 19:00",
+    "meetup__title": "Community GraphQL Meetup",
+    "nominations__title": "Nominations:",
+    "nominations__titlefive": "THE MOST EXCITING USE OF TECHNOLOGY",
+    "nominations__titlefour": "PRODUCTIVITY BOOSTER",
+    "nominations__titleone": "BREAKTHROUGH OF THE YEAR",
+    "nominations__titlethree": "MOST IMPACTFUL CONTRIBUTION<br />TO THE COMMUNITY",
+    "nominations__titletwo": "FUN SIDE PROJECT OF THE YEAR",
+    "party__text": "<p>After the main conference program is over we have a 1.5 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the React Party. The line-up of the evening is organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.</p>
+<p>We are not going to unveil much in advance but just a small bit - the party will run in two completely different tracks and you will definetly remember it as one of the most unique conference after-parties.</p>
+<p>After-party starts at 19:00, same location as the conference.</p>
+",
+    "preevents__comment": "Listed above meetups are free to attend, but require a pre-registration, follow conference newsletter and social channels for details.",
+    "preparties__text": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior main conference day.",
+    "preparty__addressfirst": "[WeWork, Weesperstraat 61,
+1018 VN Amsterdam](https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864#map-target)",
+    "preparty__datefirst": "April 9, 18:00",
+    "preparty__meetup": "Official pre-party meetup",
+    "preparty__meetupaddress": "[TQ, Singel 542,
+1017 AZ Amsterdam](https://goo.gl/maps/aDBHDoUBE5q)",
+    "preparty__meetupdate": "April 11, 19:00",
+    "preparty__titlefirst": "Building Realtime GraphQL & Serverless Apps",
+    "rosawards__text": "Repeating the tradition, we'll run React Open Source awards again in 2020 to highlight the most exciting and innovative projects of past year, highlighting lesser known projects form independent authors and maintainers",
+    "rosawards__title": "React Open Source Awards",
+    "route__details": "[Route information](https://guidedtoursamsterdam.com/classic-walking-tour-amsterdam/)",
+    "route__information": "[Route information](https://drive.google.com/file/d/1rePAF0uT0OiNIxMtqfHbbaV6yjyHDaXj/view?usp=sharing)",
+    "socials__slack": "<p>For more fun activities with networking with our community,
+join our official  <a href=\\"https://reactsummit.com/slack\\">Slack channel</a></p>
+",
+    "socials__youtube": "Check out our [YouTube channel](https://youtube.com/c/ReactConferences) for more talk recordings of previous editions and meetups.",
+    "sponsors__intro": "<p>We would not be here, if companies like Facebook would not invest into Open Source so heavily, as well as React would not grow that much without support of multiple great companies from across the globe.
+We're really grateful for all the trust and support our partners shared with us.</p>
+",
+    "sponsors__offer": "<p><strong>Would like to join the community and improve your tech brand?<br> Check <a href=\\"/sponsors\\">2020 sponsorship offers</a>.</strong></p>
+",
+    "sponsors__previoustitle": "Previous Edition Sponsors",
+    "tourday__plan": "<p>We have prepared special walking and boat tours on Saturday for our conference guests and local community members. These are free for conference attendees, but feel free to take your +1's with you to explore the city on weekend after the conference.</p>
+<p>For alternative activities and gathering, join our <a href=\\"https://staging.react.amsterdam/slack\\">React Amsterdam Slack</a> channel to connect with other visitors.
+Nobody knows when that Saturday ends.</p>
+",
+    "tourday__text": "Amsterdam is beautiful, picturesque, amazing. This is what we hear sometimes from guests coming to the city. Explore this beauty on your own or together with new friends met at the conference.",
+    "updates__text": "Subscribe for conference email updates to hear about the latest news and special deals:",
+    "updates__title": "Follow us for updates",
+    "video__content_unsafe": "<div class=\\"m-grid__item m-grid__1\\">
+        <iframe width=\\"100%\\" height=\\"100%\\" src=\\"https://www.youtube.com/embed/K_JIIF5xYS4\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+      </div>
+      <a href=\\"https://www.facebook.com/reactamsterdam/photos/a.616220308728067/616223898727708/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__2\\">
+        <img src=\\"img/media/2.jpg\\" alt=\\"Test\\">
+      </a>
+      <a href=\\"https://www.facebook.com/reactamsterdam/photos/a.616220308728067/616223018727796/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__3\\">
+        <img src=\\"img/media/3.jpg\\" alt=\\"Test\\">
+      </a>
+      <a href=\\"https://www.facebook.com/reactamsterdam/photos/a.616220308728067/616221435394621/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__4\\">
+        <img src=\\"img/media/4.jpg\\" alt=\\"Test\\">
+      </a>
+      <a href=\\"\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__5\\">
+        <iframe width=\\"100%\\" height=\\"100%\\" src=\\"https://www.youtube.com/embed/bLgrUrPJdKE\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen></iframe>
+      </a>
+      <a href=\\"https://www.facebook.com/reactamsterdam/photos/a.616220308728067/617227091960722/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__6\\">
+        <img src=\\"img/media/6.jpg\\" alt=\\"Test\\">
+      </a>
+      <a href=\\"https://www.facebook.com/reactamsterdam/photos/a.616220308728067/616221445394620/?type=3&theater\\" target=\\"_blank\\" class=\\"m-grid__item m-grid__7\\">
+        <img src=\\"img/media/7.jpg\\" alt=\\"Test\\">
+      </a>",
+    "video__title": "Feel The Vibes",
+    "walkingtours__date": "April 13, 12:00",
+    "walkingtours__title": "Walking Tours",
+    "workshops__text": "<p>On April 15 and 16th, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
+<p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual locations, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+",
+    "workshops__title": "Workshops at React Amsterdam Conference",
+  },
+  "scheduleList": Array [
+    Object {
+      "active": true,
+      "schedule": Array [
+        Object {
+          "author": "Vladimir Novick",
+          "company": "Independent Consultant, Engineer & Trainer, Israel",
+          "isLightning": null,
+          "name": "Vladimir Novick",
+          "place": "Independent Consultant, Engineer & Trainer, Israel",
+          "text": null,
+          "theme": "React Native – digging into the native side",
+          "time": null,
+          "title": "React Native – digging into the native side",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Sara Vieira",
+          "company": "CodeSandbox, Germany",
+          "isLightning": null,
+          "name": "Sara Vieira",
+          "place": "CodeSandbox, Germany",
+          "text": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
+          "theme": "Fake Title RESTful in a GraphQL world",
+          "time": "16:30",
+          "title": "Fake Title RESTful in a GraphQL world",
+          "track": "General Track",
+        },
+      ],
+      "title": "General Track",
+    },
+  ],
+  "speakers": Object {
+    "main": Array [
+      Object {
+        "activities": Object {},
+        "company": "Trainer, USA",
+        "country": "USA",
+        "desc": "<p>Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.</p>
+",
+        "github": "https://github.com/kentcdodds/",
+        "id": "ck1qiya01x8at0b71d6urlabj",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Kent C. Dodds",
+        "order": 30,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY",
+        "site": "https://kentcdodds.com/",
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/kentcdodds/",
+      },
+      Object {
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
+              "isLightning": null,
+              "timeString": "16:30",
+              "title": "Fake Title RESTful in a GraphQL world",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
+        "company": "CodeSandbox, Germany",
+        "country": "Germany",
+        "desc": "<p>Sara is a developer at CodeSandbox. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. She's also a fan of horror movies, has talents such as banging sticks into a drum kit and saying the wrong thing at the wrong time.</p>
+",
+        "github": "https://github.com/SaraVieira",
+        "id": "ck1qj13ikx9e50b71px42kktj",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Sara Vieira",
+        "order": 29,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/RcjDp3FuRHujJyQFbi2w",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/NikkitaFTW",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Facebook, USA",
+        "country": "USA",
+        "desc": "<p>Frontend engineer @facebook.
+Core contributor @reactjs.</p>
+",
+        "github": "https://github.com/aweary",
+        "id": "ck340pg9vqna00b20rua3z6ie",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Brandon Dail",
+        "order": 28,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xeuIl3btSeSmIz5XryAs",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/aweary",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Hive, UK",
+        "country": "UK",
+        "desc": "<p>Anna is a javascript developer who loves working with new technologies. Currently working at Hive, she does full-stack development to deliver a great end to end solution focused on user experience. Her main focus these days is React Native, performance, type systems, and code architecture. She's a frequent speaker, runs workshops, and likes contributing to the community.</p>
+",
+        "github": "https://github.com/lithin",
+        "id": "ck1qj3plqu8ng0b49soa9j6iz",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Anna Doubková",
+        "order": 27,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/9TVz88mnQWS3TL36fe4r",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/lithinn",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Mailchimp, USA",
+        "country": "USA",
+        "desc": "<p>Samantha is a Software Engineer who is passionate about user experiences on and offline. After transitioning careers from building sets for theaters to programming, she is a strong believer that anyone can learn how to code. Samantha promotes her experience of breaking into tech as well as how to navigate the tech space. When she is away from her job at Mailchimp, you can find Samantha with a new craft project or relaxing at home binging on TV.</p>
+",
+        "github": null,
+        "id": "ck34aywf6r9ck0b32ajsoipzn",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Samantha Bretous",
+        "order": 26,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Af1WSj6qSJO8XDU17V9W",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/samanthabretous",
+      },
+      Object {
+        "activities": Object {},
+        "company": "CodeSandbox, Netherlands",
+        "country": "Netherlands",
+        "desc": "<p>Talented engineer and entrepreneur, creator of beloved CodeSandbox.</p>
+",
+        "github": "https://github.com/CompuIves",
+        "id": "ck1qjarovxcxd0b71s6h5gefy",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Ives van Hoorne",
+        "order": 25,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/mMUN3LmpR7uaTgWKlKAS",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/CompuIves",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Netlify, USA",
+        "country": "USA",
+        "desc": "<p>Jason Lengstorf is a principal developer experience engineer at Netlify and the host of Learn With Jason, a live-streamed video show where he pairs with people in the community to learn something new. He’s passionate about building healthy, efficient teams and systems, and he’s done his best to positively influence the community, leadership, and technical health of open source and companies including Gatsby and IBM. He lives in Portland, Oregon and writes at <a href=\\"https://lengstorf.com/\\">lengstorf.com</a>.</p>
+",
+        "github": "https://github.com/jlengstorf",
+        "id": "ck1qj6si6xbgh0b71krzgncl2",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Jason Lengstorf",
+        "order": 24,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Vyg1gClQo2gXozJnZHXY",
+        "site": "https://lengstorf.com/",
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/jlengstorf",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Gremlin, USA",
+        "country": "USA",
+        "desc": "<p>Jen Luker is a Sr. Frontend Engineer, conference speaker, and BookBytes podcast co-host. She has spent the majority of her career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for frontend technologies. She is an advocate for both accessibility, and processes that make doing the right thing easy and the wrong thing hard. When she's not exploring solutions, learning new technologies, or reading, Jen's spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job.
+She is also fascinated by all things space, antique cars, and IoT.</p>
+",
+        "github": "https://github.com/knitcodemonkey",
+        "id": "ck2mzq82znrv10b71shrex74s",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Jen Luker ",
+        "order": 23,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/XUqQlycTXS46JG02Q2Fl",
+        "site": "https://www.jenluker.com/#/",
+        "status": "PUBLISHED",
+        "twitter": " https://twitter.com/knitcodemonkey",
+      },
+      Object {
+        "activities": Object {},
+        "company": "GitHub, Austria",
+        "country": "Austria",
+        "desc": "<p>Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.</p>
+",
+        "github": "https://github.com/mxstbr",
+        "id": "ck341e2ddqocp0b20ddzen1hs",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Max Stoiber",
+        "order": 22,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf",
+        "site": "https://mxstbr.com/",
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/mxstbr",
+      },
+      Object {
+        "activities": Object {},
+        "company": "React Academy, Poland",
+        "country": "Poland",
+        "desc": "<p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+",
+        "github": "https://github.com/kitze",
+        "id": "ck30cmxu0gsml0b201623sehp",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Kitze",
+        "order": 21,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/thekitze",
+      },
+      Object {
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": null,
+              "isLightning": null,
+              "timeString": null,
+              "title": "React Native – digging into the native side",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
+        "company": "Independent Consultant, Engineer & Trainer, Israel",
+        "country": "Israel",
+        "desc": "<p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
+",
+        "github": "https://github.com/vnovick",
+        "id": "ck30c4d9wgqba0b327b95v4mv",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Vladimir Novick",
+        "order": 20,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm",
+        "site": "http://vnovick.com/",
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/VladimirNovick",
+      },
+      Object {
+        "activities": Object {},
+        "company": "G2i, USA",
+        "country": "USA",
+        "desc": "<p>Creator of #BlackTechTwitter. Founder of <a href=\\"https://twitter.com/BTPipeline\\">@BTPipeline</a>. Hiring and Marketing Team member at G2i.</p>
+",
+        "github": null,
+        "id": "ck34b6ainr9tc0b32mhj39y7i",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Pariss Athena",
+        "order": 19,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xKLOnyetTjJm7IJx9l2a",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/ParissAthena",
+      },
+      Object {
+        "activities": Object {},
+        "company": "The Guild, Netherlands",
+        "country": "Netherlands",
+        "desc": "<p>Uri is the founder of The Guild, a group of open source developers working around the world to help create important open source libraries, mostly around GraphQL. They support large companies to go through successful technological transformations.</p>
+",
+        "github": "https://github.com/Urigo",
+        "id": "ck1qjdew0uc590b49t2gxoztz",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Uri Goldshtein",
+        "order": null,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Yn0HFrelTSW1YFG4DjYU",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/UriGoldshtein",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Facebook, UK",
+        "country": "UK",
+        "desc": "<p>Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.</p>
+",
+        "github": "https://github.com/mweststrate",
+        "id": "ck30csd2ph0wd0b6659fw0r1t",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Michel Weststrate",
+        "order": null,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/mweststrate",
+      },
+    ],
+    "workshops": Array [
+      Object {
+        "activities": Object {},
+        "company": "GitHub, Austria",
+        "country": "Austria",
+        "desc": "<p>Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.</p>
+",
+        "github": "https://github.com/mxstbr",
+        "id": "ck0zj6ytry8s20b71lgpuqves",
+        "medium": null,
+        "name": "Max Stoiber",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf",
+        "site": "https://mxstbr.com/",
+        "twitter": "https://twitter.com/mxstbr",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Independent Consultant, Engineer & Trainer, Israel",
+        "country": "Israel",
+        "desc": "<p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
+",
+        "github": "https://github.com/vnovick",
+        "id": "ck1256gqycb970b71ar9x1qwa",
+        "medium": null,
+        "name": "Vladimir Novick",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm",
+        "site": "http://vnovick.com/",
+        "twitter": "https://twitter.com/VladimirNovick",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Trainer, USA",
+        "country": "USA",
+        "desc": "<p>Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.</p>
+",
+        "github": "https://github.com/kentcdodds/",
+        "id": "ck1qix0arx7ve0b71dtvp0d32",
+        "medium": null,
+        "name": "Kent C. Dodds",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY",
+        "site": "https://kentcdodds.com/",
+        "twitter": "https://twitter.com/kentcdodds/",
+      },
+      Object {
+        "activities": Object {},
+        "company": "CodeSandbox, Netherlands",
+        "country": "Netherlands",
+        "desc": "<p>Sid builds tools for developers. In the past, he worked on Design Systems at Auth0 and as the frontend architect at Practo. He loves talking about design, performance and open source.</p>
+",
+        "github": "https://github.com/siddharthkp",
+        "id": "ck30bhsz8gvw80b669dzgs7sk",
+        "medium": null,
+        "name": "Siddharth Kshetrapal",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N",
+        "site": null,
+        "twitter": "https://twitter.com/siddharthkp",
+      },
+      Object {
+        "activities": Object {},
+        "company": "React Academy, Poland",
+        "country": "Poland",
+        "desc": "<p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+",
+        "github": "https://github.com/kitze",
+        "id": "ck10t71go59pg0b71iw2zrad5",
+        "medium": null,
+        "name": "Kitze",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+        "site": null,
+        "twitter": "https://twitter.com/thekitze",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Webflow, Germany",
+        "country": "Germany",
+        "desc": "<p>Oleg is an author of JSS and an architect with a focus on scalable web front-end applications. At React Day Berlin Oleg will share the insights on building complex applications with real-world examples.</p>
+",
+        "github": "https://github.com/kof",
+        "id": "ck30ceva0gz5h0b663i4uxm4n",
+        "medium": null,
+        "name": "Oleg Isonen",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jKuRmrHmSRmG4k8KSapq",
+        "site": null,
+        "twitter": "https://twitter.com/oleg008",
+      },
+      Object {
+        "activities": Object {},
+        "company": "React GraphQL Academy, UK",
+        "country": "UK",
+        "desc": "<p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>
+",
+        "github": "https://github.com/alexlbr",
+        "id": "ck10teywmv6940b541heiz22b",
+        "medium": null,
+        "name": "Alex Lobera",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS",
+        "site": null,
+        "twitter": "https://twitter.com/alex_lobera",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Facebook, UK",
+        "country": "UK",
+        "desc": "<p>Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.</p>
+",
+        "github": "https://github.com/mweststrate",
+        "id": "ck30crtskgtbl0b3239sszqt4",
+        "medium": null,
+        "name": "Michel Weststrate",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw",
+        "site": null,
+        "twitter": "https://twitter.com/mweststrate",
+      },
+    ],
+  },
+  "speakersBtn": "Submit a talk",
+  "sponsors": Array [
+    Object {
+      "list": Array [
+        Object {
+          "category": "Platinum",
+          "link": "https://nx.dev/react",
+          "logo": "https://media.graphcms.com/jlH7YpPGQAWkqpdMRUgw",
+          "name": "Nx.dev",
+          "order": null,
+          "width": 280,
+        },
+      ],
+      "mod": "sponsors-block_xl",
+      "title": "Platinum",
+    },
+    Object {
+      "list": Array [
+        Object {
+          "category": "ProductionPartner",
+          "link": "https://focusreactive.com",
+          "logo": "https://media.graphcms.com/b0JmL1dcSXqqc7fqSRwQ",
+          "name": "FocusReactive",
+          "order": null,
+          "width": 250,
+        },
+      ],
+      "mod": "sponsors-block_lg",
+      "title": "Production Partners",
+    },
+    Object {
+      "list": Array [
+        Object {
+          "category": "MediaPartner",
+          "link": "https://digitalagencynetwork.com/",
+          "logo": "https://media.graphcms.com/nJ62aquaRdqGxSLY1wIu",
+          "name": "digital-agency-network",
+          "order": null,
+          "width": 200,
+        },
+      ],
+      "mod": "sponsors-block_xs",
+      "title": "Media Partners",
+    },
+    Object {
+      "list": Array [
+        Object {
+          "category": "Partner",
+          "link": "https://rollingscopes.com/",
+          "logo": "https://media.graphcms.com/bCGQIOp7TTarTChhTEX6",
+          "name": "rollingscopes",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Boston-React-Native/",
+          "logo": "https://media.graphcms.com/UhEEpj4iTQaUbKwvoTsf",
+          "name": "BostonReactNative",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": undefined,
+          "logo": "https://media.graphcms.com/cA3rjQMlQzqh6251FlEV",
+          "name": undefined,
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://reactnorway.com",
+          "logo": "https://media.graphcms.com/Jj4k5ZF7RQeHz8RWBu7Z",
+          "name": "reactnorway",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://reactnewyork.com",
+          "logo": "https://media.graphcms.com/x7B0MLrqRkOqfFsUlXbv",
+          "name": "reactnewyork",
+          "order": null,
+          "width": 250,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/framsia/",
+          "logo": "https://media.graphcms.com/B0avSOhLTimtCCx4ZrQ1",
+          "name": "Framsia",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Oslo-Progressive-Web-Apps/",
+          "logo": "https://media.graphcms.com/5m34cFbsQfKrs1MvZoQT",
+          "name": "OsloPWA",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://mobileera.rocks",
+          "logo": "https://media.graphcms.com/Y3IDTyPSDGqWzYXkf4Kh",
+          "name": "mobileera",
+          "order": null,
+          "width": 200,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/london-progressive-web-apps/",
+          "logo": "https://media.graphcms.com/9LkzgvhTxeFV7v5fImi5",
+          "name": "LondonPWA",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://hackages.io/",
+          "logo": "https://media.graphcms.com/j69Oy8hQwmm49chRazLp",
+          "name": "Hackages",
+          "order": null,
+          "width": 120,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://workshop-summit.com/",
+          "logo": "https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw",
+          "name": "Workshop Summit",
+          "order": null,
+          "width": 130,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://leicesterjs.org",
+          "logo": "https://media.graphcms.com/qn5yHCYuTrGGHrP1tJyO",
+          "name": "leicesterjs",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://piterjs.dev",
+          "logo": "https://media.graphcms.com/csIAGp4IQuGiKEeoVK3p",
+          "name": "Piter JS",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://react-finland.fi/",
+          "logo": "https://media.graphcms.com/ytl42Q0NQGOtGR3yrlEn",
+          "name": "React Finland",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://leedsjs.com/",
+          "logo": "https://media.graphcms.com/s96i5NRXKpieSKr3f9nw",
+          "name": "leedsjs",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "http://jsbelgrade.org/",
+          "logo": "https://media.graphcms.com/JioPZAJLQSze5aXlale7",
+          "name": "jsbelgrade",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/milano-front-end/",
+          "logo": "https://media.graphcms.com/DyaAVE8PSwy1Q3OBHUlV",
+          "name": "milanofrontend",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.lereacteur.io/",
+          "logo": "https://media.graphcms.com/gDl4yhfTfGy7cN1t57mE",
+          "name": "lereacteur",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/NodeSchool-Paris/",
+          "logo": "https://media.graphcms.com/6vVn4q5TsP8VDXRqaNgg",
+          "name": "nodeschool",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://viennajs.org",
+          "logo": "https://media.graphcms.com/4P4F5rcgRRmGFaCTnypv",
+          "name": "viennajs",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/ReactVienna/",
+          "logo": "https://media.graphcms.com/nMIRNPJJQWeJ145F8kpE",
+          "name": "ReactVienna",
+          "order": null,
+          "width": 200,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/NottsJS/",
+          "logo": "https://media.graphcms.com/J0iLWuFFQwiKX323Luyb",
+          "name": "NottsJS",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/AdaBcnJS/",
+          "logo": "https://media.graphcms.com/kFXVG8ktSKDRtpDtJFWf",
+          "name": "AdaJS",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Glasgow-JavaScript/",
+          "logo": "https://media.graphcms.com/wotbcNGuTneStzw3fh3v",
+          "name": "GlasgowJS",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Ottawa-ReactJS-Meetup/",
+          "logo": "https://media.graphcms.com/tTmiAdDVS1aafUwYBjxN",
+          "name": "ottawareact",
+          "order": null,
+          "width": 132,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.g2i.co/",
+          "logo": "https://media.graphcms.com/ioWj9kBRFiFwWlYhtKmw",
+          "name": "G2i",
+          "order": null,
+          "width": 90,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/ReactJS-Vancouver-Meetup/",
+          "logo": "https://media.graphcms.com/MJKH8ZwGQgKjq8GfxWou",
+          "name": "ReactJSVancouver",
+          "order": null,
+          "width": 250,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Seattle-Node-js/",
+          "logo": "https://media.graphcms.com/3CN44zW4Qye5rgbnvkFu",
+          "name": "seattle-node",
+          "order": null,
+          "width": 80,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/madridjs/members/",
+          "logo": "https://media.graphcms.com/95sI0yk9SSwIJhUy1vuS",
+          "name": "madridjs",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "http://www.lvivjs.org.ua/",
+          "logo": "https://media.graphcms.com/llHevWEXSweR6TvRYK1Y",
+          "name": "lvivjs",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://kiprosh.com/",
+          "logo": "https://media.graphcms.com/oUf36c2yS5WrI7fM46hS",
+          "name": "kiprosh",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://javascript-kitchen.js.org/",
+          "logo": "https://media.graphcms.com/oFcJIuCETriVBVj9Fr1t",
+          "name": "jskitchen",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://lombiq.com",
+          "logo": "https://media.graphcms.com/JvxfOaKMQUeHfb4RuoI8",
+          "name": "lombiq",
+          "order": null,
+          "width": 150,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://react-barcamp.de/",
+          "logo": "https://media.graphcms.com/6v9GBqGQf6NTsrrQ8Mqw",
+          "name": "React Barcamp",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://workshop-summit.com/",
+          "logo": "https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw",
+          "name": "Workshop Summit",
+          "order": null,
+          "width": 130,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://hackages.io/",
+          "logo": "https://media.graphcms.com/j69Oy8hQwmm49chRazLp",
+          "name": "Hackages",
+          "order": null,
+          "width": 130,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/KrakowJS/",
+          "logo": "https://media.graphcms.com/qnwuCichSKKeM6Z37IkO",
+          "name": "Krakow JS",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "http://react-not-a-conf.com/",
+          "logo": "https://media.graphcms.com/WB25K24IQHSJida7w4z8",
+          "name": "react-sofia",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://timjs.ro/",
+          "logo": "https://media.graphcms.com/MrqkTXtbR2a7nJ2mp7wp",
+          "name": "TimJS",
+          "order": null,
+          "width": 170,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Warsaw-TypeScript/",
+          "logo": "https://media.graphcms.com/4cTE7yTRBCECAf4fHdqO",
+          "name": "Warsaw TypeScript",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/frontend-barcelona/",
+          "logo": "https://media.graphcms.com/Ndr0sL58TPi6cbQe2nrh",
+          "name": "erni-frontend-barcelona",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.unicornsintech.com/",
+          "logo": "https://media.graphcms.com/5e95NP9wT6OPsZfViHA8",
+          "name": "Unicorns In Tech",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://codebar.io/",
+          "logo": "https://media.graphcms.com/H5Wj9d61Q76Klnnltrhj",
+          "name": "codebar",
+          "order": null,
+          "width": 110,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.facebook.com/beerjsminsk/",
+          "logo": "https://media.graphcms.com/U2CphZdUQrGUJYwaATo8",
+          "name": "Beerjs Minsk",
+          "order": null,
+          "width": 90,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.facebook.com/groups/webnotbombs/",
+          "logo": "https://media.graphcms.com/tC8DmauQ1Kyz6KiCTVPK",
+          "name": "Web Not Bombs",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.youtube.com/channel/UCucNbfGSH2RN2SD_VhDi2Uw",
+          "logo": "https://media.graphcms.com/Ls1b8VxIRUOPWtoqQ8tx",
+          "name": "FrontSpot",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/Free-Code-Camp-Vienna/",
+          "logo": "https://media.graphcms.com/YC1Ib2bsQAWuD7NBE9IM",
+          "name": "Free-Code-Camp-Vienna",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/React-Warsaw/",
+          "logo": "https://media.graphcms.com/kQz3tf7eSLTRVdGYnoBs",
+          "name": "React-Warsaw",
+          "order": null,
+          "width": 250,
+        },
+      ],
+      "mod": "sponsors-block_xs",
+      "title": "Partners",
+    },
+  ],
+  "talks": Array [
+    Object {
+      "author": "Vladimir Novick",
+      "company": "Independent Consultant, Engineer & Trainer, Israel",
+      "isLightning": null,
+      "name": "Vladimir Novick",
+      "place": "Independent Consultant, Engineer & Trainer, Israel",
+      "text": null,
+      "theme": "React Native – digging into the native side",
+      "time": null,
+      "title": "React Native – digging into the native side",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Sara Vieira",
+      "company": "CodeSandbox, Germany",
+      "isLightning": null,
+      "name": "Sara Vieira",
+      "place": "CodeSandbox, Germany",
+      "text": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
+      "theme": "Fake Title RESTful in a GraphQL world",
+      "time": "16:30",
+      "title": "Fake Title RESTful in a GraphQL world",
+      "track": "General Track",
+    },
+  ],
+  "tracks": Array [
+    "General Track",
+  ],
+  "trainers": Array [
+    Object {
+      "activities": Object {},
+      "company": "GitHub, Austria",
+      "country": "Austria",
+      "desc": "<p>Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.</p>
+",
+      "github": "https://github.com/mxstbr",
+      "id": "ck0zj6ytry8s20b71lgpuqves",
+      "medium": null,
+      "name": "Max Stoiber",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf",
+      "site": "https://mxstbr.com/",
+      "twitter": "https://twitter.com/mxstbr",
+    },
+    Object {
+      "activities": Object {},
+      "company": "Independent Consultant, Engineer & Trainer, Israel",
+      "country": "Israel",
+      "desc": "<p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
+",
+      "github": "https://github.com/vnovick",
+      "id": "ck1256gqycb970b71ar9x1qwa",
+      "medium": null,
+      "name": "Vladimir Novick",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm",
+      "site": "http://vnovick.com/",
+      "twitter": "https://twitter.com/VladimirNovick",
+    },
+    Object {
+      "activities": Object {},
+      "company": "Trainer, USA",
+      "country": "USA",
+      "desc": "<p>Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.</p>
+",
+      "github": "https://github.com/kentcdodds/",
+      "id": "ck1qix0arx7ve0b71dtvp0d32",
+      "medium": null,
+      "name": "Kent C. Dodds",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY",
+      "site": "https://kentcdodds.com/",
+      "twitter": "https://twitter.com/kentcdodds/",
+    },
+    Object {
+      "activities": Object {},
+      "company": "CodeSandbox, Netherlands",
+      "country": "Netherlands",
+      "desc": "<p>Sid builds tools for developers. In the past, he worked on Design Systems at Auth0 and as the frontend architect at Practo. He loves talking about design, performance and open source.</p>
+",
+      "github": "https://github.com/siddharthkp",
+      "id": "ck30bhsz8gvw80b669dzgs7sk",
+      "medium": null,
+      "name": "Siddharth Kshetrapal",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N",
+      "site": null,
+      "twitter": "https://twitter.com/siddharthkp",
+    },
+    Object {
+      "activities": Object {},
+      "company": "React Academy, Poland",
+      "country": "Poland",
+      "desc": "<p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+",
+      "github": "https://github.com/kitze",
+      "id": "ck10t71go59pg0b71iw2zrad5",
+      "medium": null,
+      "name": "Kitze",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+      "site": null,
+      "twitter": "https://twitter.com/thekitze",
+    },
+    Object {
+      "activities": Object {},
+      "company": "Webflow, Germany",
+      "country": "Germany",
+      "desc": "<p>Oleg is an author of JSS and an architect with a focus on scalable web front-end applications. At React Day Berlin Oleg will share the insights on building complex applications with real-world examples.</p>
+",
+      "github": "https://github.com/kof",
+      "id": "ck30ceva0gz5h0b663i4uxm4n",
+      "medium": null,
+      "name": "Oleg Isonen",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jKuRmrHmSRmG4k8KSapq",
+      "site": null,
+      "twitter": "https://twitter.com/oleg008",
+    },
+    Object {
+      "activities": Object {},
+      "company": "React GraphQL Academy, UK",
+      "country": "UK",
+      "desc": "<p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>
+",
+      "github": "https://github.com/alexlbr",
+      "id": "ck10teywmv6940b541heiz22b",
+      "medium": null,
+      "name": "Alex Lobera",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS",
+      "site": null,
+      "twitter": "https://twitter.com/alex_lobera",
+    },
+    Object {
+      "activities": Object {},
+      "company": "Facebook, UK",
+      "country": "UK",
+      "desc": "<p>Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.</p>
+",
+      "github": "https://github.com/mweststrate",
+      "id": "ck30crtskgtbl0b3239sszqt4",
+      "medium": null,
+      "name": "Michel Weststrate",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw",
+      "site": null,
+      "twitter": "https://twitter.com/mweststrate",
+    },
+  ],
+  "workshopDays": 2,
+  "workshops": Array [
+    Object {
+      "additionalInfo": "<p>Learn more about the trainer, author of Styled Components <a href=\\"https://mxstbr.com/\\">on his website</a>.</p>
+",
+      "content": Array [
+        "Using React Hooks",
+        "Getting started Concurrent React (Suspense and Time Slicing, previously called \\"Async React\\")",
+        "Why do React.lazy and React.memo exist?",
+        "Utilising Compound Components",
+        "Render Props",
+        "Performance Profiling with the new React DevTools",
+        "and more...",
+      ],
+      "date": "April 15",
+      "description": "<p>One of the most popular workshops from React Amsterdam 2019.</p>
+<p>After some years of silence, React team had recently landed a number of new additions to it's library enabling application developers to optimize their code both for better performance and maintainability.
+Max will guide your through emerging patterns and show you by example how you can start applying the new best practices in your production apps.</p>
+",
+      "id": "ck122i0650avl0b54yfa8wb1a",
+      "level": "Intermediate/advanced JavaScript/React developers.",
+      "location": "<p>April 15, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>To attend this workshop you need to be familiar with the basics of React, as well as most of the new features in ES2015.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf",
+        },
+        "bio": "Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.",
+        "company": "GitHub",
+        "country": "Austria",
+        "githubUrl": "https://github.com/mxstbr",
+        "id": "ck0zj6ytry8s20b71lgpuqves",
+        "mediumUrl": null,
+        "name": "Max Stoiber",
+        "ownSite": "https://mxstbr.com/",
+        "twitterUrl": "https://twitter.com/mxstbr",
+      },
+      "status": "PUBLISHED",
+      "title": "Modern React",
+      "trainer": "Max Stoiber",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [],
+      "date": "April 15",
+      "description": "<p>In this full day workshop we will go through the process of creating Whatsapp app in React Native from scratch. We will talk about how to get started, structure our app and create proper navigation workflow, style our screens and create compelling animations. But we will not stop there. Not only React Native is changing mobile ecosystem nowadays, GraphQL is also an important part of how we connect to our backend.</p>
+<p>We will go through GraphQL basics and use it in our Whatsapp app to connect to GraphQL endpoint which we will also define and create during workshop by using free and open source Hasura GraphQL engine. Workshop will give you the ultimate experience of creating React Native app from scratch with GraphQL API.</p>
+",
+      "id": "ck124uokd0n5w0b85i1f9qufj",
+      "level": "Intermediate JavaScript/React developers, beginner React Native.",
+      "location": "<p>April 15, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Configured and running React Native Hello World application.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm",
+        },
+        "bio": "Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. ",
+        "company": "Independent Consultant, Engineer & Trainer",
+        "country": "Israel",
+        "githubUrl": "https://github.com/vnovick",
+        "id": "ck1256gqycb970b71ar9x1qwa",
+        "mediumUrl": null,
+        "name": "Vladimir Novick",
+        "ownSite": "http://vnovick.com/",
+        "twitterUrl": "https://twitter.com/VladimirNovick",
+      },
+      "status": "PUBLISHED",
+      "title": "Building WhatsApp in a Day with React Native",
+      "trainer": "Vladimir Novick",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "Install jest-dom and React Testing Library and configure them to work well with Jest",
+        "Test a simple component",
+        "Test function logic with jest-in-case",
+        "Test components that make HTTP requests",
+        "Test a form",
+        "Test driven development",
+        "Write a custom render function for testing components that rely on context providers (like @reach/router and redux)",
+      ],
+      "date": "April 15",
+      "description": "<p>Use jest, jest-dom, and React Testing Library to write unit and integration tests for React Components
+Writing React applications is pretty easy, but shipping those applications with confidence is an entirely different story. How do you know that your changes work? How do you know those changes aren’t going to break other parts of your application? Do you have to manually walk through your whole application to make certain everything’s still working? No thank you! The more your tests resemble the way your software is used, the more confidence they can give you. Let’s learn how to write tests that make us confident.</p>
+<p>In this hands-on workshop we’ll work on adding tests to existing components as well as use our tests to speed up our workflow building new components. We’ll work with everything from simple components and JavaScript functions to complex components with asynchronous logic.</p>
+",
+      "id": "ck30607syge270b66aldpeoa5",
+      "level": null,
+      "location": "<p>April 15, 8:30 till 17:00</p>
+",
+      "prerequisites": "<ul>
+<li>Attend my <a href=\\"https://kentcdodds.com/workshops/react-fundamentals\\">React Fundamentals Workshop</a> or have the equivalent fundamental experience with React and JavaScript.</li>
+<li>Attend my <a href=\\"https://kentcdodds.com/workshops/testing-fundamentals\\">Testing Fundamentals Workshop</a> or have the equivalent experience with the fundamentals of testing.</li>
+</ul>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY",
+        },
+        "bio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+        "company": "Trainer",
+        "country": "USA",
+        "githubUrl": "https://github.com/kentcdodds/",
+        "id": "ck1qix0arx7ve0b71dtvp0d32",
+        "mediumUrl": null,
+        "name": "Kent C. Dodds",
+        "ownSite": "https://kentcdodds.com/",
+        "twitterUrl": "https://twitter.com/kentcdodds/",
+      },
+      "status": "PUBLISHED",
+      "title": "Test React Applications",
+      "trainer": "Kent C. Dodds",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "What are the moving pieces of a design system",
+        "How to define a design system for your company",
+        "Balancing flexibility and consistency across your components",
+        "Design concepts",
+        "Design concepts",
+        "Collaboration",
+      ],
+      "date": "April 15",
+      "description": "<p>This is a hands-on workshop for React developers in which you will learn how to define a common language for collaboration and iterate on products faster.</p>
+<p>Learn the best practices of component driven design and how to standardize your design patterns. Leverage React to build design tokens and a component library that can be used in products and can evolve as teams use it. At the end of the day, you will have a small but complete Design system implementation that will cover the full product lifecycle.</p>
+",
+      "id": "ck30bp7ypgowc0b32ahqhfpnn",
+      "level": "Intermediate/Advanced JavaScript/React developers.",
+      "location": "<p>April 15, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Working knowledge of React would go a long way.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N",
+        },
+        "bio": "Sid builds tools for developers. In the past, he worked on Design Systems at Auth0 and as the frontend architect at Practo. He loves talking about design, performance and open source.",
+        "company": "CodeSandbox",
+        "country": "Netherlands",
+        "githubUrl": "https://github.com/siddharthkp",
+        "id": "ck30bhsz8gvw80b669dzgs7sk",
+        "mediumUrl": null,
+        "name": "Siddharth Kshetrapal",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/siddharthkp",
+      },
+      "status": "PUBLISHED",
+      "title": "Building your first Design System: from scratch to production",
+      "trainer": "Siddharth Kshetrapal",
+    },
+    Object {
+      "additionalInfo": "<p>Want to know more about the trainer? Check <a href=\\"https://www.reactacademy.io/workshop/reactday-berlin-2018/\\">React Academy website</a>.</p>
+",
+      "content": Array [
+        "Basics of GraphQL",
+        "Set up a GraphQL backend",
+        "Setup authentication and permissions layers to secure your GraphQL APIs",
+        "Using GraphiQL to explore and test your GraphQL API",
+        "Setting up a GraphQL client with Apollo",
+        "Fetching and rendering data in your react app with GraphQL queries (using HOCs, render props, hooks)",
+        "Inserting data with GraphQL mutations",
+        "Updating and deleting data with GraphQL mutations",
+        "Updating the store after a mutation",
+        "Optimistic updates",
+      ],
+      "date": "April 16",
+      "description": "<p>This one-day workshop will teach you everything you need to know to incorporate GraphQL into your application. During the first half of the workshop, we'll explain the basics of a GraphQL and we’re gonna build a GraphQL server, covering best practices for architecting your schema, error handling, authentication, and permission layers.
+In the second half of the workshop, we’ll connect our GraphQL server to a React application with Apollo Client. We’ll break down the modular architecture of the client and teach you how to set everything up and use queries and mutations. We’ll show a few different approaches for working with Apollo: Higher Order Components, Render Props, and hooks. Throughout the course of the workshop, you’ll learn practical tips for using GraphQL in production.</p>
+",
+      "id": "ck124dmyfc5l20b71jxrnhmim",
+      "level": null,
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>To attend this workshop you need to be familiar with the basics of React, as well as most of the new features in ES2015.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+        },
+        "bio": "Kitze founded [React Academy](https://reactacademy.io/) to teach React and GraphQL around the world. He's the maker of [Sizzy](https://sizzy.co/) - the browser for designers and developers. He's documenting his journey [on YouTube](https://youtube.com/kitze). He made products like [JSUI](https://github.com/kitze/JSUI), [Twizzy](https://twizzy.app/), [Lucky Retweet](https://luckyretweet.co/), [OK Google](https://ok-google.io/), etc.",
+        "company": "React Academy",
+        "country": "Poland",
+        "githubUrl": "https://github.com/kitze",
+        "id": "ck10t71go59pg0b71iw2zrad5",
+        "mediumUrl": null,
+        "name": "Kitze",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/thekitze",
+      },
+      "status": "PUBLISHED",
+      "title": "GraphQL Workshop",
+      "trainer": "Kitze",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "profile React components with the React DevTools profiler",
+        "profile JavaScript with the Chrome DevTools profiler",
+        "utilize built-in React features (like React.memo, useMemo, anduseCallback) to optimize React components",
+        "know how to apply better patterns for application state management to optimize components by default",
+      ],
+      "date": "April 16",
+      "description": "<p>React is fast, until it isn't</p>
+<p>In this workshop, you'll learn everything you need to diagnose, profile, and fix performance problems in your React application using the Browser Performance Profiler, React DevTools Profiler, and proven React optimization techniques.</p>
+<p>The tools we have for profiling React Applications are extremely powerful, but they can often be really difficult to grok. Sure, starting a profiling session is simple enough, but how do you go from all the information in the flamegraph to actionable steps to improve your application's performance? And once you know what parts of your app are causing performance issues, what then? How do you optimize your React components without making the whole application a complex mess?</p>
+<p>Oh, and don't forget that you should profile your app in production mode to make sure you get accurate measurements. Do you know how to do that?</p>
+<p>Hi, I'm Kent C. Dodds and in my latest workshop I'll teach you the ins and outs of optimizing React applications. I will take you on a deep dive browser profiling tools, and show you what you need to know to start using them to make your applications fast right away.</p>
+",
+      "id": "ck306bdz2g6nq0b20tdq8injf",
+      "level": null,
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Attend my <a href=\\"https://kentcdodds.com/workshops/advanced-react-hooks\\">Advanced React Hooks Workshop</a> or have the equivalent experience with advanced React concepts.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY",
+        },
+        "bio": "Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.",
+        "company": "Trainer",
+        "country": "USA",
+        "githubUrl": "https://github.com/kentcdodds/",
+        "id": "ck1qix0arx7ve0b71dtvp0d32",
+        "mediumUrl": null,
+        "name": "Kent C. Dodds",
+        "ownSite": "https://kentcdodds.com/",
+        "twitterUrl": "https://twitter.com/kentcdodds/",
+      },
+      "status": "PUBLISHED",
+      "title": "React Performance",
+      "trainer": "Kent C. Dodds",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [],
+      "date": "April 16",
+      "description": "<p>Everything in the world is animated and animating our apps is a key to make them look compelling, \\"telling a story\\" of your app as well as reducing cognitive load for your users. Animations can be as simple as bouncing buttons or complex like full screen transitions, gesture based animations and multi layered animations. Not only animations sometimes are not that straightforward to implement, they have to look \\"realistic\\" as well as to be performant.</p>
+<p>In this workshop we will get from the very basics of creating compelling animations in React Native to complex gesture animations, custom transitions, purely native animations and so on. We will discuss performance bottlenecks and work around them to get 60FPS animations. This workshop is targeted towards developers already familiar with the basics of React Native and want to level up their knowledge understanding all the intricacies of animating in React Native. </p>
+",
+      "id": "ck30bazbogv8n0b66na6688y6",
+      "level": "Intermediate.",
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Configured and running React Native Hello World application.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm",
+        },
+        "bio": "Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. ",
+        "company": "Independent Consultant, Engineer & Trainer",
+        "country": "Israel",
+        "githubUrl": "https://github.com/vnovick",
+        "id": "ck1256gqycb970b71ar9x1qwa",
+        "mediumUrl": null,
+        "name": "Vladimir Novick",
+        "ownSite": "http://vnovick.com/",
+        "twitterUrl": "https://twitter.com/VladimirNovick",
+      },
+      "status": "PUBLISHED",
+      "title": "React Native animations",
+      "trainer": "Vladimir Novick",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "Introduction",
+        "CSS rendering strategies ",
+        "Building own CSS-in-JS library",
+        "Separation of Concerns",
+        "Reusing CSS",
+        "Extracting Critical CSS",
+        "Advanced styling with Styled Components",
+        "Advanced styling with JSS",
+        "And more",
+      ],
+      "date": "April 16",
+      "description": "<p>CSS-in-JS is a largely misunderstood approach to styling web applications due to the history of the web and a variety of use cases. After it’s early adoption in 2014, the community is widely using it for real-world high scale projects today and is still exploring the impact and improving the tech.</p>
+<p>We are going to learn foundational ideas behind it by building our own CSS-in-JS library. We will explore the downsides and benefits of certain design decisions we will make on the way. Then we will dive into some advanced concepts and implementation details using popular libraries like Styled Components and JSS.</p>
+",
+      "id": "ck30cjl9tgsav0b32gxppjjjz",
+      "level": "Intermediate/Advanced JavaScript/React developers, beginner CSS developers.",
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Experience with modern JavaScript features and fundamental React concepts, basic CSS concepts.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jKuRmrHmSRmG4k8KSapq",
+        },
+        "bio": "Oleg is an author of JSS and an architect with a focus on scalable web front-end applications. At React Day Berlin Oleg will share the insights on building complex applications with real-world examples.",
+        "company": "Webflow",
+        "country": "Germany",
+        "githubUrl": "https://github.com/kof",
+        "id": "ck30ceva0gz5h0b663i4uxm4n",
+        "mediumUrl": null,
+        "name": "Oleg Isonen",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/oleg008",
+      },
+      "status": "PUBLISHED",
+      "title": "CSS-in-JS - from “why” to “how”",
+      "trainer": "Oleg Isonen",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "Functional Programming (FP) for React developers:",
+        "Closure",
+        "Memoization",
+        "Composition",
+        "React Hooks for advanced use cases:",
+        "Hooks Composition Model (custom Hooks)",
+        "useContext",
+        "useReducer",
+        "useMemo",
+        "Use cases: You will build a GraphQL client with cache for React (you don't need to know GraphQL) using all the Hooks and FP concepts from the workshop syllabus",
+        "and more...",
+      ],
+      "date": "April 16",
+      "description": "<p>React keeps innovating and bringing new and better features. Despite this constant change, the principles of React remain the same: composition, immutability, purity... in other words, functional programming principles. In this advanced workshop, you will learn how to implement advanced features in React applying functional programming in JavaScript without using any other libraries.</p>
+",
+      "id": "ck30cpib6h0j60b66bguzzy4t",
+      "level": "Intermediate JavaScript/React developers.",
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>To attend this workshop you need to be familiar with the basics of React and basic Hooks like useState and useEffect, as well as most of the new features in ES2015</p>
+<p>Want to know more about the trainer? Check <a href=\\"https://reactgraphql.academy/team/alex-lobera\\">reactgraphql.academy</a>.</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS",
+        },
+        "bio": "Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.",
+        "company": "React GraphQL Academy",
+        "country": "UK",
+        "githubUrl": "https://github.com/alexlbr",
+        "id": "ck10teywmv6940b541heiz22b",
+        "mediumUrl": null,
+        "name": "Alex Lobera",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/alex_lobera",
+      },
+      "status": "PUBLISHED",
+      "title": "Advanced React Workshop",
+      "trainer": "Alex Lobera",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "Project setup and migration strategies",
+        "The basics: Primitives, interfaces, classes, generics",
+        "Control flow and type inference",
+        "\\"any\\", \\"never\\", and \\"unknown\\". Your buddies for life!",
+        "\\"type\\", type operators and modifiers: \\"private\\", \\"readonly\\", \\"&\\", \\"|\\", \\"infer\\", \\"this\\", \\"typeof\\", \\"is\\", \\"?\\" and \\"!\\"",
+        "Typing complex functions and objects: Tuples, index signatures, mapped types, conditional types, variadic arguments, overloading, declaration merging",
+        "Namespaces and typing external packages",
+      ],
+      "date": "April 16",
+      "description": "<p>The JavaScript Eco System is moving to TypeScript. Fast. TypeScript has some unique, very powerful features that fit very well with the dynamic nature of the JavaScript language. This workshop will get you up and running with all the basics and the most important advanced patterns of TypeScript.</p>
+<p>But beyond that, this is a workshop for React devs! So we will discuss extensively how to combine TypeScript with a React code base. To practice the theory, during the hands-on parts of this workshop we will be migrating an application from plain JavaScript to TypeScript.</p>
+<p>Read more details on the agenda on Michels <a href=\\"https://michel.codes/workshops\\">website</a>.</p>
+",
+      "id": "ck30cx7qegtxa0b32uzdpdtlb",
+      "level": "All JavaScript/React developers.",
+      "location": "<p>April 16, 8:30 till 17:00</p>
+",
+      "prerequisites": "<p>Familiarity with React, JavaScript and modern syntax features (ES2015).</p>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw",
+        },
+        "bio": "Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.",
+        "company": "Facebook",
+        "country": "UK",
+        "githubUrl": "https://github.com/mweststrate",
+        "id": "ck30crtskgtbl0b3239sszqt4",
+        "mediumUrl": null,
+        "name": "Michel Weststrate",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/mweststrate",
+      },
+      "status": "PUBLISHED",
+      "title": "TypeScript for React Devs",
+      "trainer": "Michel Weststrate",
+    },
+  ],
+}
+`;
