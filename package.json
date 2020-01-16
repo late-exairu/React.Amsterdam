@@ -6,7 +6,13 @@
     "start": "gulp",
     "precommit": "lint-staged",
     "lint": "eslint --ignore-pattern 'src/js/lib/' --cache --format=node_modules/eslint-formatter-pretty src/js/",
-    "lint-fix": "npm run lint -- --fix"
+    "lint-fix": "npm run lint -- --fix",
+    "test:migration": "yarn jest --watch",
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook",
+    "deploy:storybook": "storybook-to-ghpages",
+    "prestart": "relative-deps",
+    "dev:content": "yarn prestart && yarn storybook"
   },
   "lint-staged": {
     "src/templates/**/*.html": [
@@ -87,5 +93,8 @@
     "svg4everybody": "^2.1.9",
     "swiper": "^4.4.6",
     "vinyl-ftp": "^0.6.1"
+  },
+  "relativeDependencies": {
+    "@focus-reactive/graphql-content-layer": "../graphql-content-layer/"
   }
 }
