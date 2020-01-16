@@ -1,8 +1,13 @@
-{
+module.exports = {
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jquery":  true,
+  },
+  "globals": {
+    "google": "readonly",
+    "YT": "readonly",
   },
   "rules": {
     "no-undef": 1,
@@ -27,6 +32,6 @@
     "space-before-blocks": 2,
     "space-before-function-paren": [2, "never"],
     "constructor-super": 2,
-    "arrow-spacing": 2
+    "arrow-spacing": 2,
   }
 }
