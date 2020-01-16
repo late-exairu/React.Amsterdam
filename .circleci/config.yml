@@ -8,11 +8,6 @@ jobs:
     docker:
       - image: circleci/node:10
 
-    branches:
-      only:
-        - master
-        - develop
-
     steps:
       - checkout
 
@@ -41,7 +36,7 @@ jobs:
             if [ $CIRCLE_BRANCH = "master" ]; then
               CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn build
             fi
-            if [ $CIRCLE_BRANCH = "develop" ]; then
+            if [ $CIRCLE_BRANCH != "master" ]; then
               CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN_DEV yarn build
             fi
 
