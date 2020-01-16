@@ -24,13 +24,13 @@ gulp.task('deploy', function() {
   gulp.src([
     './build/css/**/*.*'
   ])
-    .pipe(conn.dest(`${remotePath}/css`));
+    .pipe(conn.dest('/css'));
 
   // Always deploy JS
   gulp.src([
     './build/js/**/*.*'
   ])
-    .pipe(conn.dest(`${remotePath}/js`));
+    .pipe(conn.dest('/js'));
 
   // Compare size of other files before deploy
   gulp.src([
