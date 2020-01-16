@@ -12,27 +12,6 @@ const queryPages = /* GraphQL */ `
         openForTalks
         speakers: pieceOfSpeakerInfoes(orderBy: order_DESC) {
           ...speaker
-          activities: speaker {
-            talks(
-              where: {
-                daySchedule: {
-                  conferenceEvent: {
-                    year: $eventYear
-                    conferenceBrand: { title: $conferenceTitle }
-                  }
-                }
-              }
-            ) {
-              title
-              description
-              timeString
-              isLightning
-              track {
-                name
-                isPrimary
-              }
-            }
-          }
         }
       }
     }
@@ -41,14 +20,15 @@ const queryPages = /* GraphQL */ `
   ${speakerFragment}
 `;
 
+
 const fetchData = async (client, vars) => {
-  const data = await client.request(queryPages, vars).then(res => ({
-    speakers: res.conf.year[0].speakers,
-    openForTalks: res.conf.year[0].openForTalks,
-  }));
+  const data = await client
+    .request(queryPages, vars)
+    .then(res => ({ speakers: res.conf.year[0].speakers, openForTalks: res.conf.year[0].openForTalks }));
 
   const { openForTalks } = data;
   const speakers = await prepareSpeakers(data.speakers);
+
 
   const allSpeakers = await Promise.all(speakers);
 
