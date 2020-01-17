@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`JsNation should render content 1`] = `
+exports[`Content layer should matchSnapshot 1`] = `
 Object {
   "conference": Object {
     "city": "Amsterdam",
@@ -1140,18 +1140,6 @@ Nobody knows when that Saturday ends.</p>
       "active": true,
       "schedule": Array [
         Object {
-          "author": "Vladimir Novick",
-          "company": "Independent Consultant, Engineer & Trainer, Israel",
-          "isLightning": null,
-          "name": "Vladimir Novick",
-          "place": "Independent Consultant, Engineer & Trainer, Israel",
-          "text": null,
-          "theme": "React Native – digging into the native side",
-          "time": null,
-          "title": "React Native – digging into the native side",
-          "track": "General Track",
-        },
-        Object {
           "author": "Sara Vieira",
           "company": "CodeSandbox, Germany",
           "isLightning": null,
@@ -1365,20 +1353,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "twitter": "https://twitter.com/thekitze",
       },
       Object {
-        "activities": Object {
-          "talks": Array [
-            Object {
-              "description": null,
-              "isLightning": null,
-              "timeString": null,
-              "title": "React Native – digging into the native side",
-              "track": Object {
-                "isPrimary": true,
-                "name": "General Track",
-              },
-            },
-          ],
-        },
+        "activities": Object {},
         "company": "Independent Consultant, Engineer & Trainer, Israel",
         "country": "Israel",
         "desc": "<p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
@@ -1448,6 +1423,24 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "site": null,
         "status": "PUBLISHED",
         "twitter": "https://twitter.com/mweststrate",
+      },
+      Object {
+        "activities": Object {},
+        "company": "FormidableLabs, UK",
+        "country": "UK",
+        "desc": "<p>Lorenzo is a Software Engineer at Formidable UK — a few years ago he decided to use React Native for a project. He hasn’t stopped since: he became an Open Source maintainer for the core project, helping the Facebook team. He also cares a lot about mental health, so he decided to help his local OSS community with a dedicated meetup, ProvidedAsIs.</p>
+",
+        "github": "https://github.com/kelset",
+        "id": "ck5i0f04prcbo0b66uuu2bpsd",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Lorenzo Sciandra",
+        "order": null,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/ap6iz4WGQESW9AG0dQr2",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/Kelset",
       },
     ],
     "workshops": Array [
@@ -1594,6 +1587,28 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
       ],
       "mod": "sponsors-block_lg",
       "title": "Production Partners",
+    },
+    Object {
+      "list": Array [
+        Object {
+          "category": "Silver",
+          "link": "https://www.jetbrains.com/",
+          "logo": "https://media.graphcms.com/AQuaXIwRJuACty3wtfkT",
+          "name": "JetBrains",
+          "order": null,
+          "width": 100,
+        },
+        Object {
+          "category": "Silver",
+          "link": "http://join.picnic.app/",
+          "logo": "https://media.graphcms.com/LyulJktvSb6K6y5METOW",
+          "name": "Picnic",
+          "order": null,
+          "width": 100,
+        },
+      ],
+      "mod": "sponsors-block_lg",
+      "title": "Silver",
     },
     Object {
       "list": Array [
@@ -2001,18 +2016,6 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
     },
   ],
   "talks": Array [
-    Object {
-      "author": "Vladimir Novick",
-      "company": "Independent Consultant, Engineer & Trainer, Israel",
-      "isLightning": null,
-      "name": "Vladimir Novick",
-      "place": "Independent Consultant, Engineer & Trainer, Israel",
-      "text": null,
-      "theme": "React Native – digging into the native side",
-      "time": null,
-      "title": "React Native – digging into the native side",
-      "track": "General Track",
-    },
     Object {
       "author": "Sara Vieira",
       "company": "CodeSandbox, Germany",

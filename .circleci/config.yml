@@ -31,6 +31,10 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
+          name: smoke test
+          command: yarn test:smoke
+
+      - run:
           name: build website
           command: |
             if [ $CIRCLE_BRANCH = "master" ]; then
@@ -38,6 +42,13 @@ jobs:
             fi
             if [ $CIRCLE_BRANCH != "master" ]; then
               CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN_DEV yarn build
+            fi
+
+      - run:
+          name: test
+          command: |
+            if [ $CIRCLE_BRANCH != "master" ]; then
+              yarn test:build
             fi
 
       # Uncomment to build last year
