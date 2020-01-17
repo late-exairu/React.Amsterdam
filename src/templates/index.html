@@ -18,19 +18,7 @@ speakersBtn: true
 	{% if pages[pageKey].pageSections.event %}
 		{% include "partials/_event.html" %}
 	{% endif %}
-	{% if pages[pageKey].pageSections.media %}
-		{% include "partials/_media.html" %}
-	{% endif %}
-	{% if pages[pageKey].pageSections.contact %}
-		{% include "partials/_contact-form.html" %}
-	{% endif %}
-	{% if pages[pageKey].pageSections.location %}
-		{% include "partials/_location.html" %}
-	{% endif %}
-	{% if pages[pageKey].pageSections.fleet %}
-		{% include "partials/_fleet.html" %}
-	{% endif %}
-	{% if pages[pageKey].pageSections.speakers %}
+  {% if pages[pageKey].pageSections.speakers %}
 		{% include "partials/_speakers.html" %}
 	{% endif %}
 	{% if pages[pageKey].pageSections.advicers %}
@@ -50,6 +38,18 @@ speakersBtn: true
 	{% endif %}
 	{% if pages[pageKey].pageSections.extended %}
 		{% include "partials/_extended-program.html" %}
+	{% endif %}
+	{% if pages[pageKey].pageSections.media %}
+		{% include "partials/_media.html" %}
+	{% endif %}
+	{% if pages[pageKey].pageSections.contact %}
+		{% include "partials/_contact-form.html" %}
+	{% endif %}
+	{% if pages[pageKey].pageSections.location %}
+		{% include "partials/_location.html" %}
+	{% endif %}
+	{% if pages[pageKey].pageSections.fleet %}
+		{% include "partials/_fleet.html" %}
 	{% endif %}
 	{% if pages[pageKey].pageSections.awards %}
 		{% include "partials/_awards.html" %}
