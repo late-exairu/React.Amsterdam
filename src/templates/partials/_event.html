@@ -14,7 +14,19 @@
           <div class="e-item__header">{{ event.day }}</div>
           <div class="e-item__content">
             <div class="e-item__date">{{ event.date }}</div>
-            <div class="e-item__footer">{{ event.text | safe }}</div>
+            <div class="e-item__footer">{{ event.text | safe }}
+            {% if event.additionalLink %}
+              <button id="{{ event.additionalLink.id }}">{{event.additionalLink.text}}</button>
+              <script>
+                const button = document.querySelector('button#{{ event.additionalLink.id }}')
+                button.onclick = ev => {
+                  ev.preventDefault();
+                  ev.stopPropagation();
+                  location.href = location.origin + '{{ event.additionalLink.link }}';
+                }
+              </script>
+            {% endif %}
+            </div>
           </div>
         </a>
         {% else %}
