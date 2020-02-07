@@ -1,13 +1,10 @@
-var gulp   = require('gulp');
-var config = require('../config');
+var gulp = require('gulp');
 
-gulp.task('watch', 
-    ['copy:watch',
-    
-    'nunjucks:watch',
-    'sprite:svg:watch',
-    'svgo:watch',
-    'list-pages:watch',
-    'webpack:watch',
-    'sass:watch'
+gulp.task('watch', [
+  'copy:watch',
+  'nunjucks:watch',
+  'sprite:svg:watch',
+  'svgo:watch',
+  'webpack:watch',
+  'sass:watch',
 ]);

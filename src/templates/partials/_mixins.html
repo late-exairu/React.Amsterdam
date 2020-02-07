@@ -42,20 +42,22 @@
 {% macro extendedSection(list) %}
   {% for event in list %}
     <div class="extended__item">
-      <div class="party-item">
-        <div class="party-item__header">
-          <div class="party-item__img" style="background-image: url({{ event.image.url }})"></div>
-          <div class="party-item__header-inner">
-            <div class="party-item__title">{{ event.title | safe }}</div>
-            <div class="party-item__content">
-              <div class="party-item__subtitle">{{ event.subtitle | safe }}</div>
-              <div class="party-item__desc">
-                {{ event.description | safe }}
+      <a class="wrapper-link" href="{{ event.registerLink }}">
+        <div class="party-item">
+          <div class="party-item__header">
+            <div class="party-item__img" style="background-image: url({{ event.image.url }})"></div>
+            <div class="party-item__header-inner">
+              <div class="party-item__title">{{ event.title | safe }}</div>
+              <div class="party-item__content">
+                <div class="party-item__subtitle">{{ event.subtitle | safe }}</div>
+                <div class="party-item__desc">
+                  {{ event.description | safe }}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   {% endfor %}
 {% endmacro %}
@@ -75,9 +77,9 @@
               <span>{{activity.track.name}}</span>
             </div>
             <div class="s-item__title">{{activity.title}}</div>
-            <div class="s-item__text">
+            {# <div class="s-item__text">
               <p>{{activity.description}}</p>
-            </div>
+            </div> #}
           </div>
         </div>
       </div>

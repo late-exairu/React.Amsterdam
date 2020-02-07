@@ -56,7 +56,6 @@ gulp.task('build', function(cb) {
     'nunjucks',
     'webpack',
     'copy',
-    'list-pages',
     'hash',
     'update-references:css',
     'update-references:js',
@@ -75,7 +74,6 @@ gulp.task('build:dev', function(cb) {
     'nunjucks',
     'webpack',
     'copy',
-    'list-pages',
     cb
   );
 });

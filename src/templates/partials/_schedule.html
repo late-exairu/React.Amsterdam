@@ -1,4 +1,25 @@
 <section class="section schedule" id="schedule">
+  {% if(hideSchedule) %}
+    <div class="container talks-list">
+      <h3 class="section__title">First talks</h3>
+      {% for talk in talks %}
+      <div class="talk__item">
+          <div class="s-item">
+            <div class="s-item__row">
+              <div class="s-item__col">
+                <div class="s-item__title">{{talk.author}}</div>
+                <div class="s-item__company">{{talk.company}}</div>
+              </div>
+              <div class="s-item__col">
+                <div class="s-item__title">{{talk.theme}}</div>
+                <div class="s-item__text">{{talk.text | safe}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+  {% else %}
 	<div class="container">
 		<h3 class="section__title">Schedule</h3>
 	</div>
@@ -55,4 +76,5 @@
 			</div>
 		</div>
 	</div>
+  {% endif %}
 </section>
