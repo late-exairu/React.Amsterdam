@@ -2,6 +2,41 @@
 
 exports[`Content layer should matchSnapshot 1`] = `
 Object {
+  "advicers": Array [
+    Object {
+      "company": undefined,
+      "desc": undefined,
+      "expertise": "GraphQL, React1",
+      "github": undefined,
+      "medium": undefined,
+      "name": undefined,
+      "photo": undefined,
+      "site": undefined,
+      "twitter": undefined,
+    },
+    Object {
+      "company": undefined,
+      "desc": undefined,
+      "expertise": "GraphQL, React, AWS",
+      "github": undefined,
+      "medium": undefined,
+      "name": undefined,
+      "photo": undefined,
+      "site": undefined,
+      "twitter": undefined,
+    },
+    Object {
+      "company": "FutureLearn",
+      "desc": "Jessica is a React developer from the UK. She works for FutureLearn, a platform which makes university education accessible to all. She made a transition into development after taking part in Rails Girls Summer of Code and she has also built an open source project, ScienceMotions, which teaches high school-level science with animation.",
+      "expertise": "React Native",
+      "github": "https://github.com/JESSICAML",
+      "medium": null,
+      "name": "Jessica Leach",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/RdvMnKjSmefTt0R2w3Be",
+      "site": null,
+      "twitter": "https://twitter.com/JESSICALEACH6",
+    },
+  ],
   "conference": Object {
     "city": "Amsterdam",
     "codeOfConductIntro": "<p>All attendees, speakers, sponsors and volunteers at React Summit Conference and React Amsterdam Meetups are required to follow this Code of Conduct. Organisers will strictly enforce it throughout the events and community gatherings. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
@@ -33,6 +68,50 @@ Object {
   },
   "eveningSpeakers": Array [],
   "extendeds": Object {
+    "events_schedule": Array [
+      Object {
+        "description": "<p><a href=\\"/workshops\\">Workshops</a> &#x26; <a href=\\"\\">Meetups</a></p>
+",
+        "image": null,
+        "key": "events_schedule",
+        "location": null,
+        "locationLink": "",
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>15th/16th</p>
+",
+        "title": "<p>Wednesday/Thursday</p>
+",
+      },
+      Object {
+        "description": "<p>Conference day</p>
+",
+        "image": null,
+        "key": "events_schedule",
+        "location": null,
+        "locationLink": "#schedule",
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>17th</p>
+",
+        "title": "<p>Friday</p>
+",
+      },
+      Object {
+        "description": "<p>Tour day</p>
+",
+        "image": null,
+        "key": "events_schedule",
+        "location": null,
+        "locationLink": "",
+        "registerLink": null,
+        "slackChannelName": null,
+        "subtitle": "<p>18th</p>
+",
+        "title": "<p>Saturday</p>
+",
+      },
+    ],
     "main": Array [
       Object {
         "description": "<p>Visit our pre-party events around GraphQL, Reason, React Native and more!</p>
@@ -43,7 +122,7 @@ Object {
         "key": "main",
         "location": null,
         "locationLink": null,
-        "registerLink": null,
+        "registerLink": "",
         "slackChannelName": null,
         "subtitle": "<p>April 15-16</p>
 ",
@@ -60,7 +139,7 @@ Object {
         "location": "<p>Get ready for an immersive artistic experiences brought to you by local creative community and FIBER festival</p>
 ",
         "locationLink": null,
-        "registerLink": null,
+        "registerLink": "",
         "slackChannelName": null,
         "subtitle": "<p>React meets Friday</p>
 ",
@@ -78,7 +157,7 @@ Object {
         "key": "main",
         "location": null,
         "locationLink": null,
-        "registerLink": null,
+        "registerLink": "",
         "slackChannelName": null,
         "subtitle": "<p>By bike, by boat, by foot</p>
 ",
@@ -88,50 +167,55 @@ Object {
     ],
     "meetup": Array [
       Object {
-        "description": null,
-        "image": null,
-        "key": "meetup",
-        "location": "<p>WeWork, Weesperstraat 61,</p>
-<p>1018 VN Amsterdam</p>
+        "description": "<p>The registration will be open soon</p>
 ",
-        "locationLink": "https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864#map-target",
-        "registerLink": "https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864",
-        "slackChannelName": "ra19-april-9-gql",
-        "subtitle": "<p>April 9, 18:00</p>
-",
-        "title": "<p>Building Realtime GraphQL &#x26; Serverless Apps</p>
-",
-      },
-      Object {
-        "description": null,
         "image": Object {
-          "url": "https://media.graphcms.com/yxJ6ZvOShCUMk54F8xbA",
-        },
-        "key": "meetup",
-        "location": "<p>Usabilla office, Floor 4,</p>
-<p>Rokin 16, KR Amsterdam</p>
-",
-        "locationLink": "https://goo.gl/maps/A4MawXcdpwE2",
-        "registerLink": "https://www.meetup.com/JavaScript-Amsterdam/events/259670769/",
-        "slackChannelName": "ra19-april-10-gql",
-        "subtitle": "<p>April 10, 19:00</p>
-",
-        "title": "<p>Community GraphQL Meetup</p>
-",
-      },
-      Object {
-        "description": null,
-        "image": Object {
-          "url": "https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M",
+          "url": "https://media.graphcms.com/0UFgcBQYQSmyi9KpqP9g",
         },
         "key": "meetup",
         "location": "<p>TQ, Singel 542,</p>
 <p>AZ Amsterdam</p>
 ",
-        "locationLink": "https://goo.gl/maps/aDBHDoUBE5q",
-        "registerLink": "https://www.meetup.com/React-Amsterdam/events/259645795/",
-        "slackChannelName": "ra19-apr-11-pre-party",
-        "subtitle": "<p>April 11, 19:00</p>
+        "locationLink": "https://goo.gl/maps/3s2WzzGhxQmjCfYb9",
+        "registerLink": "",
+        "slackChannelName": "rs20-apr-15-gql",
+        "subtitle": "<p>April 15, 18:00</p>
+",
+        "title": "<p>GraphQL mini-conference in cooperation with React GraphQL Academy</p>
+",
+      },
+      Object {
+        "description": "<p>The registration will be open soon</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/P9RUR4T72vYWUemPnxIg",
+        },
+        "key": "meetup",
+        "location": "<p>TQ, Singel 542,</p>
+<p>AZ Amsterdam</p>
+",
+        "locationLink": "https://goo.gl/maps/3s2WzzGhxQmjCfYb9",
+        "registerLink": "",
+        "slackChannelName": "rs20-apr-16-jam",
+        "subtitle": "<p>April 16, 18:00</p>
+",
+        "title": "<p>JAM stack mini-conference in cooperation with Gatsby</p>
+",
+      },
+      Object {
+        "description": "<p>The registration will be open soon</p>
+",
+        "image": Object {
+          "url": "https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M",
+        },
+        "key": "meetup",
+        "location": "<p>CREA, Nieuwe Achtergracht 170,</p>
+<p>WV Amsterdam</p>
+",
+        "locationLink": "https://goo.gl/maps/SbpjUQdhissXxPDY9",
+        "registerLink": "",
+        "slackChannelName": "rs20-apr-16-pre-party",
+        "subtitle": "<p>April 16, 19:00</p>
 ",
         "title": "<p>Official pre-party meetup</p>
 ",
@@ -149,8 +233,8 @@ Object {
 ",
         "locationLink": "https://guidedtoursamsterdam.com/classic-walking-tour-amsterdam/",
         "registerLink": null,
-        "slackChannelName": "ra19-tour-day",
-        "subtitle": "<p>April 13, 12:00</p>
+        "slackChannelName": "rs20-tour-day",
+        "subtitle": "<p>April 18, 12:00</p>
 ",
         "title": "<p>Walking Tours</p>
 ",
@@ -166,8 +250,8 @@ Object {
 ",
         "locationLink": "https://drive.google.com/file/d/1rePAF0uT0OiNIxMtqfHbbaV6yjyHDaXj/view?usp=sharing",
         "registerLink": null,
-        "slackChannelName": "ra19-tour-day",
-        "subtitle": "<p>April 13, 12:00 and 14:00</p>
+        "slackChannelName": "rs20-tour-day",
+        "subtitle": "<p>April 18, 12:00 and 14:00</p>
 ",
         "title": "<p>Boat Tours</p>
 ",
@@ -178,7 +262,7 @@ Object {
     Object {
       "items": Array [
         Object {
-          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@react.amsterdam\\">hi@react.amsterdam</a> and we will issue it for you:</p>
+          "answer": "<p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> and we will issue it for you:</p>
 <ul>
 <li>company name</li>
 <li>company address</li>
@@ -201,7 +285,7 @@ Object {
           "answer": "<p>Please, be attentive with the dates!</p>
 <p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (April 15)”. </p>
 <p>The ticket will also state the main date of the conference – April 17, although you might not have bought a ticket to the conference itself – this is how Eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>
-<p>If you have doubts – consult the website or email us <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a>.</p>
+<p>If you have doubts – consult the website or email us <a href=\\"hi@reactsummit.com\\">hi@reactsummit.com</a>.</p>
 ",
           "category": "Tickets, invoices, refunds",
           "question": "<p>I bought a ticket to workshop, but have another date in my ticket. What is the correct date?</p>
@@ -288,7 +372,7 @@ Object {
     Object {
       "items": Array [
         Object {
-          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> the following details according to your travel document, as well as your ticket to the conference:</p>
+          "answer": "<p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>
 <ul>
 <li>First name:</li>
 <li>Last name:</li>
@@ -376,7 +460,7 @@ Object {
 ",
         },
         Object {
-          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> and we’ll get back to you with all the information.</p>
+          "answer": "<p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> and we’ll get back to you with all the information.</p>
 ",
           "category": "Other questions",
           "question": "<p>We are a community/also a tech conference. Could we collaborate with your conference?</p>
@@ -603,7 +687,21 @@ Object {
     },
   ],
   "lightningTalks": Array [],
-  "mcs": Array [],
+  "mcs": Array [
+    Object {
+      "avatar": Object {
+        "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dVk76RUqrRdTGRSbGgsp",
+      },
+      "bio": "React focused developer, working on a Design System at Albert Heijn (Dutch supermarket). Started out writing ActionScript, did jQuery and thus has all sorts of knowledge on deprecated stuff. Part of a frontend development couple that produced a kid.",
+      "company": "Passionate People",
+      "companySite": null,
+      "country": "Netherlands",
+      "githubUrl": "https://github.com/mettin",
+      "id": "ck5wesgy8f6dv0b756k2gg126",
+      "name": "Mettin Parzinski",
+      "twitterUrl": "https://twitter.com/mettinparzinski",
+    },
+  ],
   "pages": Object {
     "FAQ": Object {
       "description": "April 17, 2020",
@@ -624,7 +722,7 @@ Object {
             "text": "Code Of Conduct",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -658,7 +756,7 @@ Object {
             "text": "Sponsorship Opportunities",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -678,7 +776,7 @@ Object {
       "titleSeo": "Code of Conduct of React Amsterdam",
     },
     "extended": Object {
-      "description": "React Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
+      "description": "React Summit is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
       "key": "extended",
       "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
       "pageNavigation": Object {
@@ -696,7 +794,7 @@ Object {
             "text": "Code Of Conduct",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -724,16 +822,16 @@ Object {
       },
       "pageSections": Object {
         "hero_subtitle": "ACTIVITIES AROUND REACT SUMMIT DATES",
-        "hero_title": "April 17, 2020, Amsterdam",
+        "hero_title": "April 15-18, 2020, Amsterdam",
       },
       "pageSlogan": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior main conference day.",
       "pageStatistics": Object {
         "days": 4,
       },
-      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "seoDescription": "React Summit is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
       "themeColor": null,
-      "titlePage": "Activities Around React Amsterdam Dates",
-      "titleSeo": "Activities Around React Amsterdam Dates",
+      "titlePage": "Activities Around React Summit Dates",
+      "titleSeo": "Activities Around React Summit Dates",
     },
     "jobs": Object {
       "description": "You are a JavaScript developer and would love to work for a company supporting React community and getting technology stack serious?",
@@ -754,7 +852,7 @@ Object {
             "text": "Code Of Conduct",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -883,7 +981,7 @@ Object {
             "text": "Last year's event (2019)",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -894,14 +992,14 @@ Object {
             "text": "ABOUT",
           },
           Object {
-            "href": "#location",
-            "scroll": true,
-            "text": "LOCATION",
-          },
-          Object {
             "href": "#speakers",
             "scroll": true,
             "text": "First speakers",
+          },
+          Object {
+            "href": "#location",
+            "scroll": true,
+            "text": "LOCATION",
           },
           Object {
             "href": "#awards",
@@ -943,7 +1041,7 @@ Object {
         "fleet": true,
         "location": true,
         "media": true,
-        "schedule": false,
+        "schedule": true,
         "speakers": true,
         "speakersTitle": "First Speakers",
         "speakers_": false,
@@ -954,16 +1052,24 @@ Object {
       "pageStatistics": Object {
         "events": Array [
           Object {
+            "additionalLink": Object {
+              "_link": "/extended#meetups",
+              "id": "meetups-link",
+              "text": "Meetups",
+            },
             "date": "15th/16th",
-            "day": "Thursday",
-            "text": "Workshops &<br> Meetups",
+            "day": "Wednesday/Thursday",
+            "link": "/workshops",
+            "text": "Workshops &<br>",
           },
           Object {
             "date": "17th",
             "day": "Friday",
+            "link": "#schedule",
             "text": "Conference day",
           },
           Object {
+            "_link": "/extended#tour-day",
             "date": "18th",
             "day": "Saturday",
             "text": "Tour day",
@@ -982,7 +1088,7 @@ Object {
       "titleSeo": "React Summit Amsterdam - The Biggest React Conference Worldwide",
     },
     "workshops": Object {
-      "description": "React Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
+      "description": "React Summit Amsterdam is not just a big conference. It is a social and cultural environment designed to fit React crowd in the way engineers like with an extra addition to you regular conference experience.",
       "key": "workshops",
       "keywords": "ReactJS, React, React Native, Reason, GraphQL framework,, JavaScript, development, Facebook, workshops, conference",
       "pageNavigation": Object {
@@ -1000,7 +1106,7 @@ Object {
             "text": "Code Of Conduct",
           },
           Object {
-            "href": "mailto:hi@react.amsterdam",
+            "href": "mailto:hi@reactsummit.com",
             "text": "Email Us!",
           },
         ],
@@ -1028,23 +1134,23 @@ Object {
       "pageStatistics": Object {
         "attendees": 480,
       },
-      "seoDescription": "React Amsterdam is a full day two-track conference of all things React, gathering Front End developers across the globe in the tech heart of Europe.",
+      "seoDescription": "React Summit Amsterdam is a full day two-track conference of all things React, gathering Front-end developers across the globe in the tech heart of Europe.",
       "themeColor": null,
-      "titlePage": "Activities Around React Amsterdam Dates",
-      "titleSeo": "Workshops at React Amsterdam",
+      "titlePage": "Activities Around React Summit Amsterdam Dates",
+      "titleSeo": "Workshops at React Summit Amsterdam",
     },
   },
   "pagesPieceOfTexts": Object {
-    "activities__email": "<p>If you would like to organize some community activity like a small bike tour, brunch or do a walking tour of your own - <a href=\\"hi@react.amsterdam\\">email us </a> with details and we'll list it here.</p>
+    "activities__email": "<p>If you would like to organize some community activity like a small bike tour, brunch or do a walking tour of your own – <a href=\\"mailto:hi@reactsummit.com\\">email us </a> with details and we'll list it here.</p>
 ",
     "amusement__boattitle": "Speakers ship",
     "amusement__deliverytext": "Conference venue is located right at the Ij river, and for attendee convenience we book few ferry ships for a direct commute from Central Station.",
     "amusement__deliverytitle": "React ferry <br>from Central Station",
     "amusement__speakers": "Speakers ship",
-    "amusement__speakersdelivery": "Our special React Amsterdam tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a speacial speakers dinner takes place.",
+    "amusement__speakersdelivery": "Our special React Summit tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a speacial speakers dinner takes place.",
     "amusement__speakerstext": "Our special React Summit tradition is to rent a whole boat-hotel, where most of speakers stay during the event and a special speakers dinner takes place.",
     "amusement__title": "Our fleet",
-    "boattours__date": "April 13, 12:00 and 14:00",
+    "boattours__date": "April 18, 12:00 and 14:00",
     "boattours__title": "Boat Tours",
     "contacts__socials": "Contact Us",
     "event__subtitle": "React Summit Amsterdam is a celebration of good things coming together:",
@@ -1071,12 +1177,12 @@ Rokin 16, 1012 KR Amsterdam](https://goo.gl/maps/A4MawXcdpwE2)",
     "nominations__titleone": "BREAKTHROUGH OF THE YEAR",
     "nominations__titlethree": "MOST IMPACTFUL CONTRIBUTION<br />TO THE COMMUNITY",
     "nominations__titletwo": "FUN SIDE PROJECT OF THE YEAR",
-    "party__text": "<p>After the main conference program is over we have a 1.5 hours break. Use it wisely to recharge or have a meal at food trucks area or one of the restaurants nearby to get prepared for the React Party. The line-up of the evening is organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.</p>
-<p>We are not going to unveil much in advance but just a small bit - the party will run in two completely different tracks and you will definetly remember it as one of the most unique conference after-parties.</p>
-<p>After-party starts at 19:00, same location as the conference.</p>
+    "party__text": "<p>After the main conference program is over we have the React Party. You can recharge and have a meal at food trucks area. The line-up of the evening is organized in collaboration with some of Amsterdam Dance Event crew and other cultural foundations.</p>
+<p>We are not going to unveil much in advance but just a small bit – the party will run in two completely different tracks and you will definitely remember it as one of the most unique conference after-parties.</p>
+<p>After-party starts at 18:00, the same location as the conference.</p>
 ",
-    "preevents__comment": "Listed above meetups are free to attend, but require a pre-registration, follow conference newsletter and social channels for details.",
-    "preparties__text": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 2 confirmed pre-party events prior main conference day.",
+    "preevents__comment": "To attend one of the listed above meetups, please buy a ticket. Then follow conference newsletter and social channels for details.",
+    "preparties__text": "Coming to town early? Have time to meet new people to hang around during the conference? We got you covered with 3 confirmed pre-party events prior main conference day.",
     "preparty__addressfirst": "[WeWork, Weesperstraat 61,
 1018 VN Amsterdam](https://www.eventbrite.com/e/building-realtime-graphql-serverless-applications-a-workshop-by-hasura-tickets-59369864864#map-target)",
     "preparty__datefirst": "April 9, 18:00",
@@ -1100,7 +1206,7 @@ We're really grateful for all the trust and support our partners shared with us.
 ",
     "sponsors__previoustitle": "Previous Edition Sponsors",
     "tourday__plan": "<p>We have prepared special walking and boat tours on Saturday for our conference guests and local community members. These are free for conference attendees, but feel free to take your +1's with you to explore the city on weekend after the conference.</p>
-<p>For alternative activities and gathering, join our <a href=\\"https://staging.react.amsterdam/slack\\">React Amsterdam Slack</a> channel to connect with other visitors.
+<p>For alternative activities and gathering, join our <a href=\\"https://staging.react.amsterdam/slack\\">React Summit Slack</a> channel to connect with other visitors.
 Nobody knows when that Saturday ends.</p>
 ",
     "tourday__text": "Amsterdam is beautiful, picturesque, amazing. This is what we hear sometimes from guests coming to the city. Explore this beauty on your own or together with new friends met at the conference.",
@@ -1133,7 +1239,7 @@ Nobody knows when that Saturday ends.</p>
     "workshops__text": "<p>On April 15 and 16th, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
 <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual locations, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
 ",
-    "workshops__title": "Workshops at React Amsterdam Conference",
+    "workshops__title": "Workshops at React Summit Amsterdam",
   },
   "scheduleList": Array [
     Object {
@@ -1145,10 +1251,86 @@ Nobody knows when that Saturday ends.</p>
           "isLightning": null,
           "name": "Sara Vieira",
           "place": "CodeSandbox, Germany",
-          "text": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
-          "theme": "Fake Title RESTful in a GraphQL world",
-          "time": "16:30",
-          "title": "Fake Title RESTful in a GraphQL world",
+          "text": "We have been using hooks for a while and with that we have also been using \`useEffect\` in particular and in this today I wanna take a look at the trickier parts of \`useEffect\` and why they work that way so you can leave with a super understanding of how this magic all works",
+          "theme": "The Psycological Effects of useEffect",
+          "time": "",
+          "title": "The Psycological Effects of useEffect",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Vincent Riemer",
+          "company": "Facebook, USA",
+          "isLightning": null,
+          "name": "Vincent Riemer",
+          "place": "Facebook, USA",
+          "text": "Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.",
+          "theme": "Code Splitting: A Deep Dive",
+          "time": null,
+          "title": "Code Splitting: A Deep Dive",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Samantha Bretous",
+          "company": "Mailchimp, USA",
+          "isLightning": null,
+          "name": "Samantha Bretous",
+          "place": "Mailchimp, USA",
+          "text": "D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.",
+          "theme": "A D3js React Renderer. Is It Possible!?",
+          "time": null,
+          "title": "A D3js React Renderer. Is It Possible!?",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Lorenzo Sciandra",
+          "company": "FormidableLabs, UK",
+          "isLightning": null,
+          "name": "Lorenzo Sciandra",
+          "place": "FormidableLabs, UK",
+          "text": "Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not!
+During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems.
+I hope you're ready, it's going to be wild!",
+          "theme": "The 1.0 is a Lie",
+          "time": null,
+          "title": "The 1.0 is a Lie",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Pariss Athena",
+          "company": "G2i, USA",
+          "isLightning": null,
+          "name": "Pariss Athena",
+          "place": "G2i, USA",
+          "text": "There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.",
+          "theme": "Theming Gatsby Apps with Theme UI",
+          "time": null,
+          "title": "Theming Gatsby Apps with Theme UI",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Brandon Dail",
+          "company": "Facebook, USA",
+          "isLightning": null,
+          "name": "Brandon Dail",
+          "place": "Facebook, USA",
+          "text": "Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?",
+          "theme": "Adopting Concurrent Mode",
+          "time": null,
+          "title": "Adopting Concurrent Mode",
+          "track": "General Track",
+        },
+        Object {
+          "author": "Uri Goldshtein",
+          "company": "The Guild, Netherlands",
+          "isLightning": null,
+          "name": "Uri Goldshtein",
+          "place": "The Guild, Netherlands",
+          "text": "We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions.
+Should you use Federation, Stitching or not use GraphQL at all?
+In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.",
+          "theme": "GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!",
+          "time": null,
+          "title": "GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!",
           "track": "General Track",
         },
       ],
@@ -1179,10 +1361,10 @@ Nobody knows when that Saturday ends.</p>
         "activities": Object {
           "talks": Array [
             Object {
-              "description": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
+              "description": "We have been using hooks for a while and with that we have also been using \`useEffect\` in particular and in this today I wanna take a look at the trickier parts of \`useEffect\` and why they work that way so you can leave with a super understanding of how this magic all works",
               "isLightning": null,
-              "timeString": "16:30",
-              "title": "Fake Title RESTful in a GraphQL world",
+              "timeString": "",
+              "title": "The Psycological Effects of useEffect",
               "track": Object {
                 "isPrimary": true,
                 "name": "General Track",
@@ -1207,7 +1389,20 @@ Nobody knows when that Saturday ends.</p>
         "twitter": "https://twitter.com/NikkitaFTW",
       },
       Object {
-        "activities": Object {},
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?",
+              "isLightning": null,
+              "timeString": null,
+              "title": "Adopting Concurrent Mode",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
         "company": "Facebook, USA",
         "country": "USA",
         "desc": "<p>Frontend engineer @facebook.
@@ -1244,7 +1439,20 @@ Core contributor @reactjs.</p>
         "twitter": "https://twitter.com/lithinn",
       },
       Object {
-        "activities": Object {},
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.",
+              "isLightning": null,
+              "timeString": null,
+              "title": "A D3js React Renderer. Is It Possible!?",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
         "company": "Mailchimp, USA",
         "country": "USA",
         "desc": "<p>Samantha is a Software Engineer who is passionate about user experiences on and offline. After transitioning careers from building sets for theaters to programming, she is a strong believer that anyone can learn how to code. Samantha promotes her experience of breaking into tech as well as how to navigate the tech space. When she is away from her job at Mailchimp, you can find Samantha with a new craft project or relaxing at home binging on TV.</p>
@@ -1371,10 +1579,23 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "twitter": "https://twitter.com/VladimirNovick",
       },
       Object {
-        "activities": Object {},
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.",
+              "isLightning": null,
+              "timeString": null,
+              "title": "Theming Gatsby Apps with Theme UI",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
         "company": "G2i, USA",
         "country": "USA",
-        "desc": "<p>Creator of #BlackTechTwitter. Founder of <a href=\\"https://twitter.com/BTPipeline\\">@BTPipeline</a>. Hiring and Marketing Team member at G2i.</p>
+        "desc": "<p>Pariss is a front-end developer who works for G2i as a Hiring Team Member, vetting React and React Native engineers for remote contract roles. She is also creator of #BlackTechTwitter and Founder of Black Tech Pipeline.</p>
 ",
         "github": null,
         "id": "ck34b6ainr9tc0b32mhj39y7i",
@@ -1389,7 +1610,22 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "twitter": "https://twitter.com/ParissAthena",
       },
       Object {
-        "activities": Object {},
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions.
+Should you use Federation, Stitching or not use GraphQL at all?
+In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.",
+              "isLightning": null,
+              "timeString": null,
+              "title": "GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
         "company": "The Guild, Netherlands",
         "country": "Netherlands",
         "desc": "<p>Uri is the founder of The Guild, a group of open source developers working around the world to help create important open source libraries, mostly around GraphQL. They support large companies to go through successful technological transformations.</p>
@@ -1425,7 +1661,22 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "twitter": "https://twitter.com/mweststrate",
       },
       Object {
-        "activities": Object {},
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not!
+During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems.
+I hope you're ready, it's going to be wild!",
+              "isLightning": null,
+              "timeString": null,
+              "title": "The 1.0 is a Lie",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
         "company": "FormidableLabs, UK",
         "country": "UK",
         "desc": "<p>Lorenzo is a Software Engineer at Formidable UK — a few years ago he decided to use React Native for a project. He hasn’t stopped since: he became an Open Source maintainer for the core project, helping the Facebook team. He also cares a lot about mental health, so he decided to help his local OSS community with a dedicated meetup, ProvidedAsIs.</p>
@@ -1441,6 +1692,37 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "site": null,
         "status": "PUBLISHED",
         "twitter": "https://twitter.com/Kelset",
+      },
+      Object {
+        "activities": Object {
+          "talks": Array [
+            Object {
+              "description": "Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.",
+              "isLightning": null,
+              "timeString": null,
+              "title": "Code Splitting: A Deep Dive",
+              "track": Object {
+                "isPrimary": true,
+                "name": "General Track",
+              },
+            },
+          ],
+        },
+        "company": "Facebook, USA",
+        "country": "USA",
+        "desc": "<p>Web Core at Facebook and creator of ambitious side projects such has <a href=\\"https://github.com/vincentriemer/react-native-dom\\">React Native DOM</a> and the <a href=\\"https://github.com/vincentriemer/io-808\\">iO-808</a>. When he isn't programming, you can find him producing music and tinkering with synthesizers.</p>
+",
+        "github": "https://github.com/vincentriemer",
+        "id": "ck60sugigm2mw0b20tvlzyrao",
+        "isNightSpeaker": null,
+        "label": null,
+        "medium": null,
+        "name": "Vincent Riemer",
+        "order": null,
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/FTcgjX5LRGGRiHQNhVnA",
+        "site": null,
+        "status": "PUBLISHED",
+        "twitter": "https://twitter.com/vincentriemer",
       },
     ],
     "workshops": Array [
@@ -1499,6 +1781,21 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N",
         "site": null,
         "twitter": "https://twitter.com/siddharthkp",
+      },
+      Object {
+        "activities": Object {},
+        "company": "Gatsby, USA",
+        "country": "USA",
+        "desc": "<p>Aisha Blake is a Senior Software Engineer at Gatsby, currently building &#x3C; title of conf >, a musical tech conference. She also supports community by co-organizing self.conference and Detroit Speakers in Tech.
+A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs. Aisha is a champion of feedback, fierce accessibility advocate, and a steward of strong teams.</p>
+",
+        "github": null,
+        "id": "ck5w6pkhkefft0b75d6p1estt",
+        "medium": null,
+        "name": "Aisha Blake",
+        "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xWUiPHwdTuuIfwqHtvm9",
+        "site": null,
+        "twitter": "https://twitter.com/aishablake",
       },
       Object {
         "activities": Object {},
@@ -1591,6 +1888,20 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
     Object {
       "list": Array [
         Object {
+          "category": "Gold",
+          "link": "http://chromatic.com/",
+          "logo": "https://media.graphcms.com/KlzcAD3pQsqQfKJu74Qo",
+          "name": "Chromatic",
+          "order": null,
+          "width": 280,
+        },
+      ],
+      "mod": "sponsors-block_lg",
+      "title": "Gold",
+    },
+    Object {
+      "list": Array [
+        Object {
           "category": "Silver",
           "link": "https://www.jetbrains.com/",
           "logo": "https://media.graphcms.com/AQuaXIwRJuACty3wtfkT",
@@ -1604,7 +1915,15 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/LyulJktvSb6K6y5METOW",
           "name": "Picnic",
           "order": null,
-          "width": 100,
+          "width": 80,
+        },
+        Object {
+          "category": "Silver",
+          "link": "https://reactgraphql.academy/",
+          "logo": "https://media.graphcms.com/MyEEEHyUTtOqhUUXQK8w",
+          "name": "React GraphQL Academy",
+          "order": null,
+          "width": 110,
         },
       ],
       "mod": "sponsors-block_lg",
@@ -1620,6 +1939,14 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "order": null,
           "width": 200,
         },
+        Object {
+          "category": "MediaPartner",
+          "link": "http://t3n.de/",
+          "logo": "https://media.graphcms.com/A5a4V3ISAaLL4OxlU8lw",
+          "name": "t3n",
+          "order": null,
+          "width": 85,
+        },
       ],
       "mod": "sponsors-block_xs",
       "title": "Media Partners",
@@ -1628,11 +1955,11 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
       "list": Array [
         Object {
           "category": "Partner",
-          "link": "https://rollingscopes.com/",
-          "logo": "https://media.graphcms.com/bCGQIOp7TTarTChhTEX6",
-          "name": "rollingscopes",
+          "link": "https://www.meetup.com/madridjs/members/",
+          "logo": "https://media.graphcms.com/95sI0yk9SSwIJhUy1vuS",
+          "name": "madridjs",
           "order": null,
-          "width": 150,
+          "width": 120,
         },
         Object {
           "category": "Partner",
@@ -1640,7 +1967,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/UhEEpj4iTQaUbKwvoTsf",
           "name": "BostonReactNative",
           "order": null,
-          "width": 100,
+          "width": 80,
         },
         Object {
           "category": "Partner",
@@ -1652,7 +1979,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         },
         Object {
           "category": "Partner",
-          "link": "https://reactnorway.com",
+          "link": "https://reactnorway.com/",
           "logo": "https://media.graphcms.com/Jj4k5ZF7RQeHz8RWBu7Z",
           "name": "reactnorway",
           "order": null,
@@ -1660,7 +1987,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         },
         Object {
           "category": "Partner",
-          "link": "https://reactnewyork.com",
+          "link": "https://reactnewyork.com/",
           "logo": "https://media.graphcms.com/x7B0MLrqRkOqfFsUlXbv",
           "name": "reactnewyork",
           "order": null,
@@ -1672,7 +1999,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/B0avSOhLTimtCCx4ZrQ1",
           "name": "Framsia",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1680,7 +2007,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/5m34cFbsQfKrs1MvZoQT",
           "name": "OsloPWA",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1696,7 +2023,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/9LkzgvhTxeFV7v5fImi5",
           "name": "LondonPWA",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1708,15 +2035,15 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         },
         Object {
           "category": "Partner",
-          "link": "https://workshop-summit.com/",
+          "link": undefined,
           "logo": "https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw",
-          "name": "Workshop Summit",
+          "name": undefined,
           "order": null,
-          "width": 130,
+          "width": 100,
         },
         Object {
           "category": "Partner",
-          "link": "https://leicesterjs.org",
+          "link": "https://leicesterjs.org/",
           "logo": "https://media.graphcms.com/qn5yHCYuTrGGHrP1tJyO",
           "name": "leicesterjs",
           "order": null,
@@ -1744,7 +2071,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/s96i5NRXKpieSKr3f9nw",
           "name": "leedsjs",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1752,7 +2079,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/JioPZAJLQSze5aXlale7",
           "name": "jsbelgrade",
           "order": null,
-          "width": 150,
+          "width": 100,
         },
         Object {
           "category": "Partner",
@@ -1776,15 +2103,15 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/6vVn4q5TsP8VDXRqaNgg",
           "name": "nodeschool",
           "order": null,
-          "width": 150,
+          "width": 90,
         },
         Object {
           "category": "Partner",
-          "link": "https://viennajs.org",
+          "link": "https://viennajs.org/",
           "logo": "https://media.graphcms.com/4P4F5rcgRRmGFaCTnypv",
           "name": "viennajs",
           "order": null,
-          "width": 150,
+          "width": 110,
         },
         Object {
           "category": "Partner",
@@ -1792,7 +2119,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/nMIRNPJJQWeJ145F8kpE",
           "name": "ReactVienna",
           "order": null,
-          "width": 200,
+          "width": 180,
         },
         Object {
           "category": "Partner",
@@ -1800,7 +2127,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/J0iLWuFFQwiKX323Luyb",
           "name": "NottsJS",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1808,7 +2135,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/kFXVG8ktSKDRtpDtJFWf",
           "name": "AdaJS",
           "order": null,
-          "width": 150,
+          "width": 110,
         },
         Object {
           "category": "Partner",
@@ -1816,15 +2143,15 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/wotbcNGuTneStzw3fh3v",
           "name": "GlasgowJS",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
-          "link": "https://www.meetup.com/Ottawa-ReactJS-Meetup/",
-          "logo": "https://media.graphcms.com/tTmiAdDVS1aafUwYBjxN",
-          "name": "ottawareact",
+          "link": "https://rollingscopes.com/",
+          "logo": "https://media.graphcms.com/bCGQIOp7TTarTChhTEX6",
+          "name": "rollingscopes",
           "order": null,
-          "width": 132,
+          "width": 120,
         },
         Object {
           "category": "Partner",
@@ -1832,7 +2159,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/ioWj9kBRFiFwWlYhtKmw",
           "name": "G2i",
           "order": null,
-          "width": 90,
+          "width": 80,
         },
         Object {
           "category": "Partner",
@@ -1852,11 +2179,11 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
         },
         Object {
           "category": "Partner",
-          "link": "https://www.meetup.com/madridjs/members/",
-          "logo": "https://media.graphcms.com/95sI0yk9SSwIJhUy1vuS",
-          "name": "madridjs",
+          "link": "https://www.meetup.com/Ottawa-ReactJS-Meetup/",
+          "logo": "https://media.graphcms.com/tTmiAdDVS1aafUwYBjxN",
+          "name": "ottawareact",
           "order": null,
-          "width": 150,
+          "width": 90,
         },
         Object {
           "category": "Partner",
@@ -1864,7 +2191,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/llHevWEXSweR6TvRYK1Y",
           "name": "lvivjs",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1872,7 +2199,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/oUf36c2yS5WrI7fM46hS",
           "name": "kiprosh",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1880,15 +2207,15 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/oFcJIuCETriVBVj9Fr1t",
           "name": "jskitchen",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
-          "link": "https://lombiq.com",
+          "link": "https://lombiq.com/",
           "logo": "https://media.graphcms.com/JvxfOaKMQUeHfb4RuoI8",
           "name": "lombiq",
           "order": null,
-          "width": 150,
+          "width": 120,
         },
         Object {
           "category": "Partner",
@@ -1896,7 +2223,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/6v9GBqGQf6NTsrrQ8Mqw",
           "name": "React Barcamp",
           "order": null,
-          "width": 100,
+          "width": 80,
         },
         Object {
           "category": "Partner",
@@ -1904,7 +2231,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw",
           "name": "Workshop Summit",
           "order": null,
-          "width": 130,
+          "width": 100,
         },
         Object {
           "category": "Partner",
@@ -1920,7 +2247,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/qnwuCichSKKeM6Z37IkO",
           "name": "Krakow JS",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1928,7 +2255,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/WB25K24IQHSJida7w4z8",
           "name": "react-sofia",
           "order": null,
-          "width": 100,
+          "width": 90,
         },
         Object {
           "category": "Partner",
@@ -1936,7 +2263,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/MrqkTXtbR2a7nJ2mp7wp",
           "name": "TimJS",
           "order": null,
-          "width": 170,
+          "width": 120,
         },
         Object {
           "category": "Partner",
@@ -1944,7 +2271,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/4cTE7yTRBCECAf4fHdqO",
           "name": "Warsaw TypeScript",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1976,7 +2303,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/U2CphZdUQrGUJYwaATo8",
           "name": "Beerjs Minsk",
           "order": null,
-          "width": 90,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1984,7 +2311,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/tC8DmauQ1Kyz6KiCTVPK",
           "name": "Web Not Bombs",
           "order": null,
-          "width": 100,
+          "width": 70,
         },
         Object {
           "category": "Partner",
@@ -1992,7 +2319,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/Ls1b8VxIRUOPWtoqQ8tx",
           "name": "FrontSpot",
           "order": null,
-          "width": 100,
+          "width": 80,
         },
         Object {
           "category": "Partner",
@@ -2000,7 +2327,7 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "logo": "https://media.graphcms.com/YC1Ib2bsQAWuD7NBE9IM",
           "name": "Free-Code-Camp-Vienna",
           "order": null,
-          "width": 100,
+          "width": 80,
         },
         Object {
           "category": "Partner",
@@ -2009,6 +2336,78 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
           "name": "React-Warsaw",
           "order": null,
           "width": 250,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/devday-salerno/",
+          "logo": "https://media.graphcms.com/XDgqQcntSwWnI3B56gRu",
+          "name": "DevdaySalerno",
+          "order": null,
+          "width": 70,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/reactnsk/",
+          "logo": "https://media.graphcms.com/PruwmZdQEuCziZeCXZki",
+          "name": "ReactNSK",
+          "order": null,
+          "width": 70,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/CODING-BERLIN/",
+          "logo": "https://media.graphcms.com/ub1VeKK4RQGFuG26LRSw",
+          "name": "Coding Berlin",
+          "order": null,
+          "width": 70,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/RheinNeckarJS/",
+          "logo": "https://media.graphcms.com/J3EsCO7OSfCGFVhCe8K0",
+          "name": "RheinNeckarJS",
+          "order": null,
+          "width": 80,
+        },
+        Object {
+          "category": "Partner",
+          "link": "http://summit.meetjs.pl/",
+          "logo": "https://media.graphcms.com/zIf5ZXpLSLifkYt6f1OL",
+          "name": "meet.js",
+          "order": null,
+          "width": 80,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.meetup.com/React-JS-Milano/",
+          "logo": "https://media.graphcms.com/DWPAMvcRyKjQeASUnVF0",
+          "name": "React JS Milano",
+          "order": null,
+          "width": 120,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://www.redi-school.org/",
+          "logo": "https://media.graphcms.com/M5DgVlJRgu5h475HCzZ6",
+          "name": "redi-school",
+          "order": null,
+          "width": 120,
+        },
+        Object {
+          "category": "Partner",
+          "link": "https://technologieplauscherl.at/",
+          "logo": "https://media.graphcms.com/JUDY1t5bQEyL5ut6UsQw",
+          "name": "technologieplauscherl",
+          "order": null,
+          "width": 70,
+        },
+        Object {
+          "category": "Partner",
+          "link": undefined,
+          "logo": "https://media.graphcms.com/SVNa55YSTWGRBFs7sFYV",
+          "name": undefined,
+          "order": null,
+          "width": 80,
         },
       ],
       "mod": "sponsors-block_xs",
@@ -2022,10 +2421,86 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
       "isLightning": null,
       "name": "Sara Vieira",
       "place": "CodeSandbox, Germany",
-      "text": "Lorem Ipsum GraphQL is an incredible technology. It provides developers with concrete, solid guarantees at the API layer, preventing surprises when interacting with client-server applications. REST has been often criticized as weaker in this regard, since it is not a formal specification. This talk explores working with similar (if not better) contractually-sound REST APIs in a React application using powerful new tooling.",
-      "theme": "Fake Title RESTful in a GraphQL world",
-      "time": "16:30",
-      "title": "Fake Title RESTful in a GraphQL world",
+      "text": "We have been using hooks for a while and with that we have also been using \`useEffect\` in particular and in this today I wanna take a look at the trickier parts of \`useEffect\` and why they work that way so you can leave with a super understanding of how this magic all works",
+      "theme": "The Psycological Effects of useEffect",
+      "time": "",
+      "title": "The Psycological Effects of useEffect",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Vincent Riemer",
+      "company": "Facebook, USA",
+      "isLightning": null,
+      "name": "Vincent Riemer",
+      "place": "Facebook, USA",
+      "text": "Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.",
+      "theme": "Code Splitting: A Deep Dive",
+      "time": null,
+      "title": "Code Splitting: A Deep Dive",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Samantha Bretous",
+      "company": "Mailchimp, USA",
+      "isLightning": null,
+      "name": "Samantha Bretous",
+      "place": "Mailchimp, USA",
+      "text": "D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.",
+      "theme": "A D3js React Renderer. Is It Possible!?",
+      "time": null,
+      "title": "A D3js React Renderer. Is It Possible!?",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Lorenzo Sciandra",
+      "company": "FormidableLabs, UK",
+      "isLightning": null,
+      "name": "Lorenzo Sciandra",
+      "place": "FormidableLabs, UK",
+      "text": "Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not!
+During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems.
+I hope you're ready, it's going to be wild!",
+      "theme": "The 1.0 is a Lie",
+      "time": null,
+      "title": "The 1.0 is a Lie",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Pariss Athena",
+      "company": "G2i, USA",
+      "isLightning": null,
+      "name": "Pariss Athena",
+      "place": "G2i, USA",
+      "text": "There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.",
+      "theme": "Theming Gatsby Apps with Theme UI",
+      "time": null,
+      "title": "Theming Gatsby Apps with Theme UI",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Brandon Dail",
+      "company": "Facebook, USA",
+      "isLightning": null,
+      "name": "Brandon Dail",
+      "place": "Facebook, USA",
+      "text": "Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?",
+      "theme": "Adopting Concurrent Mode",
+      "time": null,
+      "title": "Adopting Concurrent Mode",
+      "track": "General Track",
+    },
+    Object {
+      "author": "Uri Goldshtein",
+      "company": "The Guild, Netherlands",
+      "isLightning": null,
+      "name": "Uri Goldshtein",
+      "place": "The Guild, Netherlands",
+      "text": "We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions.
+Should you use Federation, Stitching or not use GraphQL at all?
+In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.",
+      "theme": "GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!",
+      "time": null,
+      "title": "GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!",
       "track": "General Track",
     },
   ],
@@ -2088,6 +2563,21 @@ She is also fascinated by all things space, antique cars, and IoT.</p>
       "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N",
       "site": null,
       "twitter": "https://twitter.com/siddharthkp",
+    },
+    Object {
+      "activities": Object {},
+      "company": "Gatsby, USA",
+      "country": "USA",
+      "desc": "<p>Aisha Blake is a Senior Software Engineer at Gatsby, currently building &#x3C; title of conf >, a musical tech conference. She also supports community by co-organizing self.conference and Detroit Speakers in Tech.
+A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs. Aisha is a champion of feedback, fierce accessibility advocate, and a steward of strong teams.</p>
+",
+      "github": null,
+      "id": "ck5w6pkhkefft0b75d6p1estt",
+      "medium": null,
+      "name": "Aisha Blake",
+      "photo": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xWUiPHwdTuuIfwqHtvm9",
+      "site": null,
+      "twitter": "https://twitter.com/aishablake",
     },
     Object {
       "activities": Object {},
@@ -2237,7 +2727,7 @@ Writing React applications is pretty easy, but shipping those applications with 
 <p>In this hands-on workshop we’ll work on adding tests to existing components as well as use our tests to speed up our workflow building new components. We’ll work with everything from simple components and JavaScript functions to complex components with asynchronous logic.</p>
 ",
       "id": "ck30607syge270b66aldpeoa5",
-      "level": null,
+      "level": "Intermediate JavaScript/React developers.",
       "location": "<p>April 15, 8:30 till 17:00</p>
 ",
       "prerequisites": "<ul>
@@ -2260,7 +2750,7 @@ Writing React applications is pretty easy, but shipping those applications with 
         "twitterUrl": "https://twitter.com/kentcdodds/",
       },
       "status": "PUBLISHED",
-      "title": "Test React Applications",
+      "title": "Testing React Applications",
       "trainer": "Kent C. Dodds",
     },
     Object {
@@ -2300,6 +2790,49 @@ Writing React applications is pretty easy, but shipping those applications with 
       "status": "PUBLISHED",
       "title": "Building your first Design System: from scratch to production",
       "trainer": "Siddharth Kshetrapal",
+    },
+    Object {
+      "additionalInfo": null,
+      "content": Array [
+        "Setting up a basic Gatsby site",
+        "Tour of important Gatsby files",
+        "Gatsby server-side rendering APIs",
+        "Building accessible single-page applications",
+        "Stripe Payments API",
+        "Processing recurring payments",
+        "Managing customers",
+      ],
+      "date": "April 15",
+      "description": "<p>You’ve probably seen hundreds of beautiful blogs made with Gatsby but have you considered it as a tool for building robust web applications? Specifically, Gatsby can be an excellent choice for e-commerce sites. In this hands-on workshop, you’ll learn to use it to build fast, secure, and delightful experiences for your customers (or your clients’ customers)! We’ll break the process of building an accessible, highly customizable e-commerce site into digestible steps. Throughout, we’ll follow two case studies, migrating a Shopify store selling physical goods and integrating ticket sales into a conference website. You may even walk away with a brand new side hustle.</p>
+",
+      "id": "ck5w6vnjgefs40b758ss0i81e",
+      "level": "Intermediate JavaScript/React developers, beginner Gatsby developers",
+      "location": "<p>April 15, 8:30 till 17:00</p>
+",
+      "prerequisites": "<ul>
+<li>Familiarity with React/JavaScript and ES2015 features</li>
+<li>A Stripe account</li>
+<li>Ideally, attendees will have a shop they’d like to migrate to Gatsby or products they would like to sell on a new site. A Gatsby starter and product data will be available for attendees who don’t have a project in mind!</li>
+</ul>
+",
+      "speaker": Object {
+        "avatar": Object {
+          "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xWUiPHwdTuuIfwqHtvm9",
+        },
+        "bio": "Aisha Blake is a Senior Software Engineer at Gatsby, currently building < title of conf >, a musical tech conference. She also supports community by co-organizing self.conference and Detroit Speakers in Tech. 
+A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs. Aisha is a champion of feedback, fierce accessibility advocate, and a steward of strong teams.",
+        "company": "Gatsby",
+        "country": "USA",
+        "githubUrl": null,
+        "id": "ck5w6pkhkefft0b75d6p1estt",
+        "mediumUrl": null,
+        "name": "Aisha Blake",
+        "ownSite": null,
+        "twitterUrl": "https://twitter.com/aishablake",
+      },
+      "status": "PUBLISHED",
+      "title": "Building E-commerce Sites with Gatsby",
+      "trainer": "Aisha Blake",
     },
     Object {
       "additionalInfo": "<p>Want to know more about the trainer? Check <a href=\\"https://www.reactacademy.io/workshop/reactday-berlin-2018/\\">React Academy website</a>.</p>
@@ -2360,7 +2893,7 @@ In the second half of the workshop, we’ll connect our GraphQL server to a Reac
 <p>Hi, I'm Kent C. Dodds and in my latest workshop I'll teach you the ins and outs of optimizing React applications. I will take you on a deep dive browser profiling tools, and show you what you need to know to start using them to make your applications fast right away.</p>
 ",
       "id": "ck306bdz2g6nq0b20tdq8injf",
-      "level": null,
+      "level": "Advanced JavaScript/React developers.",
       "location": "<p>April 16, 8:30 till 17:00</p>
 ",
       "prerequisites": "<p>Attend my <a href=\\"https://kentcdodds.com/workshops/advanced-react-hooks\\">Advanced React Hooks Workshop</a> or have the equivalent experience with advanced React concepts.</p>
