@@ -16,6 +16,7 @@ const path = require('path');
 let cmsContent;
 
 console.log(`
+
 /**
  * TODO:
  *
@@ -29,9 +30,11 @@ console.log(`
  *
  *
  *
- *
+ * [] Remove this TODO
  *
  */
+
+
 `)
 
 const fetchContent = async () => {

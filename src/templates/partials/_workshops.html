@@ -12,7 +12,7 @@
           <div class="workshop-item__content">
             <h3>{{ workshop.title }}
             {% if workshop.date %}
-            ({{ workshop.date | safe }})
+            ({{ workshop.dateString | safe }})
             {% endif %}
             </h3>
             {% if workshop.description %}
