@@ -14,7 +14,7 @@
 						{% if (person.socials.length) %}
 							<div class="speaker__socials">
 								{% for item in person.socials %}
-                  <a class="speaker__social-link" target="_blank" href="{{item.link}}">
+                  <a href="{{item.link}}" target="_blank" class="speaker__social-link">
                       {{mixins.icon(item.icon)}}
                   </a>
                 {% endfor %}

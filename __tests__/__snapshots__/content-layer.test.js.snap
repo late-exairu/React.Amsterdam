@@ -477,6 +477,7 @@ Object {
       "sectionTitle": "Other questions",
     },
   ],
+  "hideSchedule": true,
   "jobs": Array [
     Object {
       "description": "<p>Join more than 1000 IT collaborators around Europe.</p><p>From Warsaw to Barcelona, through Lyon, Nantes, Lausanne, Tel Aviv, Brussels, Amsterdam and Paris, all our projects are developed in a functional environment with a wide skills variety where you’ll be sure to find your place, no matter the technology you want to work with. If you love to try things why don’t you jump on this new adventure?</p>
