@@ -15,6 +15,25 @@ const path = require('path');
 
 let cmsContent;
 
+console.log(`
+/**
+ * TODO:
+ *
+ * [] Fix issue with double Max Stoiber in speakers list
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+`)
+
 const fetchContent = async () => {
   const getAndLogContent = async () => {
     const content = await getContent(conferenceSettings);
