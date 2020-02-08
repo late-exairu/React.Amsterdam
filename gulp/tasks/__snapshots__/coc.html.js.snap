@@ -16,7 +16,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
     <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
     <meta name=\\"twitter:site\\" content=\\"@reactamsterdam\\">
     <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
-    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/appc39a3f.css\\">
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\">
     <link rel=\\"stylesheet\\" href=\\"https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900\\">
     <link rel=\\"shortcut icon\\" href=\\"img/favicon.png\\" />
   </head>
@@ -141,7 +141,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
                 <ul class=\\"f-nav\\">
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>
-                  <li class=\\"f-nav__item\\"><a href=\\"mailto:hi@react.amsterdam\\" class=\\"f-nav__link\\">Email Us!</a></li>
+                  <li class=\\"f-nav__item\\"><a href=\\"mailto:hi@reactsummit.com\\" class=\\"f-nav__link\\">Email Us!</a></li>
                 </ul>
               </div>
             </div>
@@ -162,7 +162,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
-    <script type=\\"text/javascript\\" src=\\"js/app036fa6.js\\"></script>
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
     <!-- END scripts -->
     <div style=\\"display: none;\\">
       <!--LiveInternet counter-->

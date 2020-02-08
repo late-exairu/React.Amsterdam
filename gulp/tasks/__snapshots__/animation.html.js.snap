@@ -16,7 +16,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/animation.html
     <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
     <meta name=\\"twitter:site\\" content=\\"@reactamsterdam\\">
     <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
-    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/appc39a3f.css\\">
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\">
     <link rel=\\"stylesheet\\" href=\\"https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900\\">
     <link rel=\\"shortcut icon\\" href=\\"img/favicon.png\\" />
   </head>
@@ -115,7 +115,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/animation.html
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
-    <script type=\\"text/javascript\\" src=\\"js/app036fa6.js\\"></script>
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
     <!-- END scripts -->
     <div style=\\"display: none;\\">
       <!--LiveInternet counter-->

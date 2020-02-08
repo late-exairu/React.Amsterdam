@@ -16,7 +16,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
     <meta name=\\"twitter:card\\" content=\\"summary_large_image\\">
     <meta name=\\"twitter:site\\" content=\\"@reactamsterdam\\">
     <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
-    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/appc39a3f.css\\">
+    <link rel=\\"stylesheet\\" media=\\"all\\" href=\\"css/app.css\\">
     <link rel=\\"stylesheet\\" href=\\"https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900\\">
     <link rel=\\"shortcut icon\\" href=\\"img/favicon.png\\" />
   </head>
@@ -100,7 +100,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Can you issue an invoice for my order?</p>
                   </div>
                   <div class=\\"faq__ansver\\">
-                    <p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@react.amsterdam\\">hi@react.amsterdam</a> and we will issue it for you:</p>
+                    <p>Yes, it is possible to pay via invoice. Please, send your company details to <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> and we will issue it for you:</p>
                     <ul>
                       <li>company name</li>
                       <li>company address</li>
@@ -135,7 +135,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Please, be attentive with the dates!</p>
                     <p>The correct date is indicated in the name of the ticket – example: “Advanced React Workshop (April 15)”. </p>
                     <p>The ticket will also state the main date of the conference – April 17, although you might not have bought a ticket to the conference itself – this is how Eventbrite works, and we cannot change it, unfortunately. Pay attention to what the name of the workshop says. </p>
-                    <p>If you have doubts – consult the website or email us <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a>.</p>
+                    <p>If you have doubts – consult the website or email us <a href=\\"hi@reactsummit.com\\">hi@reactsummit.com</a>.</p>
                   </div>
                 </li>
                 <li class=\\"faq__item\\">
@@ -284,7 +284,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Can you issue an invitation letter to apply for a visa?</p>
                   </div>
                   <div class=\\"faq__ansver\\">
-                    <p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> the following details according to your travel document, as well as your ticket to the conference:</p>
+                    <p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send to <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> the following details according to your travel document, as well as your ticket to the conference:</p>
                     <ul>
                       <li>First name:</li>
                       <li>Last name:</li>
@@ -420,7 +420,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>We are a community/also a tech conference. Could we collaborate with your conference?</p>
                   </div>
                   <div class=\\"faq__ansver\\">
-                    <p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"hi@react.amsterdam\\">hi@react.amsterdam</a> and we’ll get back to you with all the information.</p>
+                    <p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> and we’ll get back to you with all the information.</p>
                   </div>
                 </li>
                 <li class=\\"faq__item\\">
@@ -478,7 +478,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/coc\\" class=\\"f-nav__link\\">Code Of Conduct</a></li>
-                  <li class=\\"f-nav__item\\"><a href=\\"mailto:hi@react.amsterdam\\" class=\\"f-nav__link\\">Email Us!</a></li>
+                  <li class=\\"f-nav__item\\"><a href=\\"mailto:hi@reactsummit.com\\" class=\\"f-nav__link\\">Email Us!</a></li>
                 </ul>
               </div>
             </div>
@@ -499,7 +499,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
     </div>
     <!-- END content -->
     <!-- BEGIN scripts -->
-    <script type=\\"text/javascript\\" src=\\"js/app036fa6.js\\"></script>
+    <script type=\\"text/javascript\\" src=\\"js/app.js\\"></script>
     <!-- END scripts -->
     <div style=\\"display: none;\\">
       <!--LiveInternet counter-->
