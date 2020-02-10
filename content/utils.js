@@ -28,7 +28,7 @@ const prepareSpeakers = async speakers => {
         twitter: twitterUrl,
         medium: mediumUrl,
         site: ownSite,
-        activities: Object.entries(activities).reduce(
+        activities: Object.entries((activities || {})).reduce(
           (all, [key, value]) => ({
             ...all,
             ...(value && value.length ? { [key]: value } : undefined),
