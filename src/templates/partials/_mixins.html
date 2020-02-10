@@ -42,7 +42,9 @@
 {% macro extendedSection(list) %}
   {% for event in list %}
     <div class="extended__item">
-      <a class="wrapper-link" href="{{ event.registerLink }}">
+      {% if (event.registerLink) %}
+        <a class="wrapper-link" href="{{ event.registerLink }}">
+      {% endif %}
         <div class="party-item">
           <div class="party-item__header">
             <div class="party-item__img" style="background-image: url({{ event.image.url }})"></div>
@@ -57,7 +59,9 @@
             </div>
           </div>
         </div>
-      </a>
+      {% if (event.registerLink) %}
+        </a>
+      {% endif %}
     </div>
   {% endfor %}
 {% endmacro %}
