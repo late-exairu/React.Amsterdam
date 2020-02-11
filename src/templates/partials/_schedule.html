@@ -1,17 +1,17 @@
 <section class="section schedule" id="schedule">
-  {% if(hideSchedule) %}
+  {% if(schedule.length == 1) %}
     <div class="container talks-list">
-      <h3 class="section__title">First talks</h3>
-      {% for talk in talks %}
+      <h3 class="section__title">{{ scheduleTitle }}</h3>
+      {% for talk in schedule[0].list %}
       <div class="talk__item">
           <div class="s-item">
             <div class="s-item__row">
               <div class="s-item__col">
-                <div class="s-item__title">{{talk.author}}</div>
-                <div class="s-item__company">{{talk.company}}</div>
+                <div class="s-item__title">{{talk.speaker}}</div>
+                <div class="s-item__company">{{talk.from}}</div>
               </div>
               <div class="s-item__col">
-                <div class="s-item__title">{{talk.theme}}</div>
+                <div class="s-item__title">{{talk.title}}</div>
                 <div class="s-item__text">{{talk.text | safe}}</div>
               </div>
             </div>
@@ -21,42 +21,42 @@
   </div>
   {% else %}
 	<div class="container">
-		<h3 class="section__title">Schedule</h3>
+		<h3 class="section__title">{{ scheduleTitle }}</h3>
 	</div>
 	<div class="container">
 		<div class="schedule__content js-tabs-container">
 			<div class="schedule__tab-links">
-				{% for item in scheduleList %}
+				{% for item in schedule %}
 					<a href="#" class="schedule__tab-link js-tab-link {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">{{item.title}}</a>
 				{% endfor %}
 			</div>
 			<div class="schedule__tabs">
-				{% for item in scheduleList %}
+				{% for item in schedule %}
 					<div class="schedule__tab js-tab {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">
-						{% for schedule in item.schedule %}
+						{% for talk in item.list %}
 							<div class="schedule__item">
 								<div class="s-item">
 									<div class="s-item__row">
 										<div class="s-item__col">
-											<div class="s-item__time">{{schedule.time}}</div>
+											<div class="s-item__time">{{talk.time}}</div>
 										</div>
 										<div class="s-item__col">
-											<div class="s-item__title">{{schedule.author | safe}}</div>
-											{% if schedule.company %}
-												<div class="s-item__company">{{schedule.company}}</div>
+											<div class="s-item__title">{{talk.speaker | safe}}</div>
+											{% if talk.from %}
+												<div class="s-item__company">{{talk.from}}</div>
 											{% endif %}
 										</div>
-										<div class="s-item__col {{schedule.lastColMod}}">
-											{% if schedule.theme %}
-												<div class="s-item__title">{{schedule.theme}}</div>
+										<div class="s-item__col {{talk.lastColMod}}">
+											{% if talk.title %}
+												<div class="s-item__title">{{talk.title}}</div>
 											{% endif %}
-											{% if schedule.text %}
-												<div class="s-item__text">{{schedule.text | safe}}</div>
+											{% if talk.text %}
+												<div class="s-item__text">{{talk.text | safe}}</div>
 											{% endif %}
 										</div>
 									</div>
-									{% if schedule.stories %}
-										{% for story in schedule.stories %}
+									{% if talk.stories %}
+										{% for story in talk.stories %}
 											<div class="s-item__row">
 												<div class="s-item__col"></div>
 												<div class="s-item__col">

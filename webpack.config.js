@@ -15,6 +15,7 @@ function createConfig(env) {
   isProduction = env === 'production';
 
   webpackConfig = {
+    mode: isProduction?'production':'development',
     context: path.join(__dirname, config.src.js),
     entry: {
       // vendor: ['jquery'],
@@ -66,6 +67,9 @@ function createConfig(env) {
         'debug.addIndicators': path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js'),
       },
     },
+    optimization :{
+      minimize: isProduction
+    },
     module: {
       rules: [
         {
@@ -78,16 +82,24 @@ function createConfig(env) {
           options: {
             fix: true,
             cache: true,
-            ignorePattern: __dirname + '/src/js/lib/'
+            configFile: path.resolve(__dirname, '.eslintrc.js')
           }
         }, {
           test: /\.js$/,
           loader: 'babel-loader',
-          include: [
-            path.resolve(__dirname, 'node_modules/dom7'),
-            path.resolve(__dirname, 'node_modules/swiper'),
-            path.resolve(__dirname, 'src'),
-          ]
+          exclude: [
+            path.resolve(__dirname, 'node_modules'),
+          ],
+        },
+        {
+          test: /\.js$/,
+          loader: 'babel-loader',
+          exclude: [/node_modules\/(?!(swiper|dom7)\/).*/, /\.test\.jsx?$/],
+
+        },
+        {
+            test: /\.glsl$/,
+            loader: 'webpack-glsl-loader'
         }],
     },
   };
@@ -96,11 +108,6 @@ function createConfig(env) {
     webpackConfig.plugins.push(
       new webpack.LoaderOptionsPlugin({
         minimize: true,
-      }),
-      new webpack.optimize.UglifyJsPlugin({
-        compress: {
-          warnings: false,
-        },
       })
     );
   }
