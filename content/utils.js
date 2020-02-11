@@ -3,7 +3,7 @@ const { markdownToHtml } = require('./markdown');
 const prepareSpeakers = async speakers => {
   const allSpeakersAsync = speakers
     .filter(Boolean)
-    .filter(({ speaker }) => !!speaker)
+    // .filter(({ speaker }) => !!speaker)
     .map(item => ({
       ...item.speaker,
       ...item,
