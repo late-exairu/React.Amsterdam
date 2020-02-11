@@ -4,6 +4,8 @@
   "scripts": {
     "build": "gulp build --production",
     "start": "gulp",
+    "test:build": "gulp test",
+    "test:build-update": "gulp test -u",
     "precommit": "lint-staged",
     "lint": "eslint --ignore-pattern 'src/js/lib/' --cache --format=node_modules/eslint-formatter-pretty src/js/",
     "lint-fix": "npm run lint -- --fix"
@@ -55,6 +57,8 @@
     "gulp-util": "^3.0.7",
     "htmlhint": "^0.9.13",
     "husky": "^0.13.2",
+    "jest": "^24.9.0",
+    "jest-snapshot": "^24.9.0",
     "jquery": "^3.1.1",
     "lint-staged": "^4.0.2",
     "lodash": "^4.3.0",
