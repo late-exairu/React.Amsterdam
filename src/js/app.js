@@ -3,7 +3,7 @@ import './components/header';
 import svg4everybody from 'svg4everybody';
 import msieversion from './components/detectIE';
 import slider from './components/_slider';
-import faq from './components/_faq';
+import './components/_faq';
 import noTouch from './components/noTouch';
 
 noTouch();
@@ -20,7 +20,6 @@ if (!touch()) {
   $('body').addClass('no-touch');
 }
 svg4everybody();
-
 
 // detect IE
 let isIE = msieversion();

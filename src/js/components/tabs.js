@@ -20,14 +20,11 @@ tabLink.on('click', function(e) {
       }, 2000);
     }
     parent.find(`.js-tab[data-tab="${tabIndex}"]`).addClass('is-active');
-
   }
 });
 
-tabClose.on('click', function(e) {
+tabClose.on('click', function() {
   const parent = $(this).parents('.js-tabs-container');
   parent.find('.js-tab-link').removeClass('is-active');
   parent.find('.js-tab').removeClass('is-active');
-}
-);
-
+});
