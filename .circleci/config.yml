@@ -44,12 +44,12 @@ jobs:
               CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN_DEV yarn build
             fi
 
-      - run:
-          name: test
-          command: |
-            if [ $CIRCLE_BRANCH != "master" ]; then
-              yarn test:build
-            fi
+      # - run:
+      #     name: test
+      #     command: |
+      #       if [ $CIRCLE_BRANCH != "master" ]; then
+      #         yarn test:build
+      #       fi
 
       # Uncomment to build last year
       # - run: cd 2018 && yarn install && yarn build && cd ..
