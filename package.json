@@ -14,7 +14,7 @@
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
     "deploy:storybook": "storybook-to-ghpages",
-    "-prestart": "relative-deps",
+    "prestart": "relative-deps",
     "dev:content": "yarn prestart && yarn storybook"
   },
   "lint-staged": {
