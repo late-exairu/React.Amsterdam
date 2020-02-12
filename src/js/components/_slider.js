@@ -1,6 +1,6 @@
 import Swiper from 'swiper';
 export default function slider() {
-  const slider = new Swiper('.js-slider', {
+  return new Swiper('.js-slider', {
     speed: 600,
     spaceBetween: 0,
     navigation: {

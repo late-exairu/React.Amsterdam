@@ -10,14 +10,18 @@ burger.on('click', function() {
   content.toggleClass('blur');
 });
 
-
-scrollLink.on('click', function(e) {
+scrollLink.on('click', function() {
   burger.removeClass('is-active');
   menu.removeClass('is-open');
   content.removeClass('blur');
-  $('html, body').stop().animate({
-    scrollTop: $($(this).attr('href')).offset().top
-  }, 600);
+  $('html, body')
+    .stop()
+    .animate(
+      {
+        scrollTop: $($(this).attr('href')).offset().top,
+      },
+      600
+    );
 });
 
 wind.resize(() => {
