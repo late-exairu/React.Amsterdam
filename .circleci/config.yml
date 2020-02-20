@@ -64,3 +64,13 @@ jobs:
             if [ $CIRCLE_BRANCH = "develop" ]; then
               ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
             fi
+
+
+      - run:
+          name: deploy Storybook
+          command: |
+            if [ $CIRCLE_BRANCH = "master" ]; then
+              CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn deploy:storybook
+              curl -X POST -H 'Content-type: application/json' --data '{"text":"Storybook for ReactSummit is (not) deployed to https://gitnation.github.io/ReactSummit.com"}' $SLACK_CMS_UPDATE
+            fi
+
