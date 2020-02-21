@@ -4,7 +4,7 @@
 
 {% macro extended(list) %}
   {% for event in list %}
-  <div class="program-map-item">
+  <div class="program-map-item graphcms-container" {{ cmsdata(event) }}>
     <div class="program-map-item__content">
       <div class="program-map-item__title">
         {{ event.title | safe }}
@@ -38,10 +38,18 @@
   {% endfor %}
 {% endmacro %}
 
+{% macro cmsdata(entry) %}
+  data-id="{{ entry.id }}"
+  data-content-type="{{ entry.contentType }}"
+  data-id-alt="{{ entry.idAlt }}"
+  data-content-type-alt="{{ entry.contentTypeAlt }}"
+{% endmacro %}
 
 {% macro extendedSection(list) %}
   {% for event in list %}
-    <div class="extended__item">
+    <div class="extended__item graphcms-container"
+      {{ cmsdata(event) }}
+    >
       {% if (event.registerLink) %}
         <a class="wrapper-link" href="{{ event.registerLink }}">
       {% endif %}
@@ -93,7 +101,9 @@
 
 {% macro text(pieceOfTexts, key) %}
 {# class="graphcms-container" #}
-  <span class="graphcms-container" data-id="{{ pieceOfTexts[key].id }}" data-content-type="{{ pieceOfTexts[key].contentType }}">
+  <span class="graphcms-container" {{ cmsdata(pieceOfTexts[key]) }}>
   {{ pieceOfTexts[key].html | safe }}
   </span>
 {% endmacro %}
+
+
