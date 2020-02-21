@@ -56,14 +56,13 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
           </div>
           <div class=\\"header__nav\\">
             <ul class=\\"nav\\">
-              <li class=\\"nav__item\\"><a href=\\"#event\\" class=\\"nav__link js-scroll-link\\">ABOUT</a></li>
               <li class=\\"nav__item\\"><a href=\\"#speakers\\" class=\\"nav__link js-scroll-link\\">First speakers</a></li>
               <li class=\\"nav__item\\"><a href=\\"#location\\" class=\\"nav__link js-scroll-link\\">LOCATION</a></li>
               <li class=\\"nav__item\\"><a href=\\"#awards\\" class=\\"nav__link js-scroll-link\\">OS AWARDS</a></li>
               <li class=\\"nav__item\\"><a href=\\"/workshops\\" class=\\"nav__link js-scroll-link\\">WORKSHOPS</a></li>
+              <li class=\\"nav__item\\"><a href=\\"/extended\\" class=\\"nav__link js-scroll-link\\">Side Events</a></li>
               <li class=\\"nav__item\\"><a href=\\"#sponsors\\" class=\\"nav__link js-scroll-link\\">SPONSORS</a></li>
               <li class=\\"nav__item\\"><a href=\\"/faq\\" class=\\"nav__link \\">FAQ</a></li>
-              <li class=\\"nav__item\\"><a href=\\"/2019\\" class=\\"nav__link \\">2019</a></li>
             </ul>
           </div>
           <div class=\\"header__btn\\">
@@ -138,14 +137,14 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <div class=\\"event__item\\">
                 <div class=\\"e-item\\">
                   <div class=\\"e-item__header\\">
-                    <p>Wednesday/Thursday</p>
+                    <p>Tuesday/Thursday</p>
                   </div>
                   <div class=\\"e-item__content\\">
                     <div class=\\"e-item__date\\">
-                      <p>15th/16th</p>
+                      <p>14th-16th</p>
                     </div>
                     <div class=\\"e-item__footer\\">
-                      <p><a href=\\"/workshops\\">Workshops</a> &#x26; <a href=\\"\\">Meetups</a></p>
+                      <p><a href=\\"/workshops\\">Workshops</a> &#x26; <a href=\\"/extended#meetups\\">Meetups</a></p>
                     </div>
                   </div>
                 </div>
@@ -166,7 +165,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                 </a>
               </div>
               <div class=\\"event__item\\">
-                <div class=\\"e-item\\">
+                <a class=\\"e-item\\" href=\\"/extended#tour-day\\">
                   <div class=\\"e-item__header\\">
                     <p>Saturday</p>
                   </div>
@@ -178,7 +177,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                       <p>Tour day</p>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <div class=\\"event__text section__text\\">
@@ -197,7 +196,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Kent C. Dodds\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY\\" alt=\\"Kent C. Dodds\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -212,13 +211,32 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Kent C. Dodds</div>
                   <div class=\\"speaker__company\\">Trainer, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kentcdodds/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/kentcdodds/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://kentcdodds.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Sara Vieira\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/RcjDp3FuRHujJyQFbi2w\\" alt=\\"Sara Vieira\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -233,13 +251,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Sara Vieira</div>
                   <div class=\\"speaker__company\\">CodeSandbox, Germany</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Sara is a developer at CodeSandbox. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. She's also a fan of horror movies, has talents such as banging sticks into a drum kit and saying the wrong thing at the wrong time.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/SaraVieira\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/NikkitaFTW\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Brandon Dail\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xeuIl3btSeSmIz5XryAs\\" alt=\\"Brandon Dail\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -254,13 +286,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Brandon Dail</div>
                   <div class=\\"speaker__company\\">Facebook, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Frontend engineer @facebook. Core contributor @reactjs.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/aweary\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/aweary\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Anna Doubková\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/9TVz88mnQWS3TL36fe4r\\" alt=\\"Anna Doubková\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -275,13 +321,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Anna Doubková</div>
                   <div class=\\"speaker__company\\">Hive, UK</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Anna is a javascript developer who loves working with new technologies. Currently working at Hive, she does full-stack development to deliver a great end to end solution focused on user experience. Her main focus these days is React Native, performance, type systems, and code architecture. She's a frequent speaker, runs workshops, and likes contributing to the community.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/lithin\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/lithinn\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Samantha Bretous\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Af1WSj6qSJO8XDU17V9W\\" alt=\\"Samantha Bretous\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -296,23 +356,46 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Samantha Bretous</div>
                   <div class=\\"speaker__company\\">Mailchimp, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Samantha is a Software Engineer who is passionate about user experiences on and offline. After transitioning careers from building sets for theaters to programming, she is a strong believer that anyone can learn how to code. Samantha promotes her experience of breaking into tech as well as how to navigate the tech space. When she is away from her job at Mailchimp, you can find Samantha with a new craft project or relaxing at home binging on TV.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://twitter.com/samanthabretous\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Ives van Hoorne\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/mMUN3LmpR7uaTgWKlKAS\\" alt=\\"Ives van Hoorne\\">
                   </div>
                   <div class=\\"speaker__name\\">Ives van Hoorne</div>
                   <div class=\\"speaker__company\\">CodeSandbox, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Talented engineer and entrepreneur, creator of beloved CodeSandbox.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/CompuIves\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/CompuIves\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Jason Lengstorf\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Vyg1gClQo2gXozJnZHXY\\" alt=\\"Jason Lengstorf\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -327,13 +410,32 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Jason Lengstorf</div>
                   <div class=\\"speaker__company\\">Netlify, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Jason Lengstorf is a principal developer experience engineer at Netlify and the host of Learn With Jason, a live-streamed video show where he pairs with people in the community to learn something new. He’s passionate about building healthy, efficient teams and systems, and he’s done his best to positively influence the community, leadership, and technical health of open source and companies including Gatsby and IBM. He lives in Portland, Oregon and writes at <a href=\\"https://lengstorf.com/\\">lengstorf.com</a>.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/jlengstorf\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/jlengstorf\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://lengstorf.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Jen Luker \\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/XUqQlycTXS46JG02Q2Fl\\" alt=\\"Jen Luker \\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -348,43 +450,114 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Jen Luker </div>
                   <div class=\\"speaker__company\\">Gremlin, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Jen Luker is a Sr. Frontend Engineer, conference speaker, and BookBytes podcast co-host. She has spent the majority of her career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for frontend technologies. She is an advocate for both accessibility, and processes that make doing the right thing easy and the wrong thing hard. When she's not exploring solutions, learning new technologies, or reading, Jen's spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. She is also fascinated by all things space, antique cars, and IoT.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/knitcodemonkey\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\" https://twitter.com/knitcodemonkey\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://www.jenluker.com/#/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Max Stoiber\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf\\" alt=\\"Max Stoiber\\">
                   </div>
                   <div class=\\"speaker__name\\">Max Stoiber</div>
                   <div class=\\"speaker__company\\">GitHub, Austria</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/mxstbr\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/mxstbr\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://mxstbr.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Kitze\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp\\" alt=\\"Kitze\\">
                   </div>
                   <div class=\\"speaker__name\\">Kitze</div>
                   <div class=\\"speaker__company\\">React Academy, Poland</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kitze\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/thekitze\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Vladimir Novick\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm\\" alt=\\"Vladimir Novick\\">
                   </div>
                   <div class=\\"speaker__name\\">Vladimir Novick</div>
                   <div class=\\"speaker__company\\">Independent Consultant, Engineer &amp; Trainer, Israel</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/vnovick\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/VladimirNovick\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"http://vnovick.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Pariss Athena\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xKLOnyetTjJm7IJx9l2a\\" alt=\\"Pariss Athena\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -399,13 +572,22 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Pariss Athena</div>
                   <div class=\\"speaker__company\\">G2i, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Pariss is a front-end developer who works for G2i as a Hiring Team Member, vetting React and React Native engineers for remote contract roles. She is also creator of #BlackTechTwitter and Founder of Black Tech Pipeline.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://twitter.com/ParissAthena\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Uri Goldshtein\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Yn0HFrelTSW1YFG4DjYU\\" alt=\\"Uri Goldshtein\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -420,23 +602,51 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Uri Goldshtein</div>
                   <div class=\\"speaker__company\\">The Guild, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Uri is the founder of The Guild, a group of open source developers working around the world to help create important open source libraries, mostly around GraphQL. They support large companies to go through successful technological transformations.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/Urigo\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/UriGoldshtein\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Michel Weststrate\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw\\" alt=\\"Michel Weststrate\\">
                   </div>
                   <div class=\\"speaker__name\\">Michel Weststrate</div>
                   <div class=\\"speaker__company\\">Facebook, UK</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/mweststrate\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/mweststrate\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Lorenzo Sciandra\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/ap6iz4WGQESW9AG0dQr2\\" alt=\\"Lorenzo Sciandra\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -451,13 +661,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Lorenzo Sciandra</div>
                   <div class=\\"speaker__company\\">FormidableLabs, UK</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Lorenzo is a Software Engineer at Formidable UK — a few years ago he decided to use React Native for a project. He hasn’t stopped since: he became an Open Source maintainer for the core project, helping the Facebook team. He also cares a lot about mental health, so he decided to help his local OSS community with a dedicated meetup, ProvidedAsIs.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kelset\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/Kelset\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Vincent Riemer\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/FTcgjX5LRGGRiHQNhVnA\\" alt=\\"Vincent Riemer\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -472,13 +696,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Vincent Riemer</div>
                   <div class=\\"speaker__company\\">Facebook, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Web Core at Facebook and creator of ambitious side projects such has <a href=\\"https://github.com/vincentriemer/react-native-dom\\">React Native DOM</a> and the <a href=\\"https://github.com/vincentriemer/io-808\\">iO-808</a>. When he isn't programming, you can find him producing music and tinkering with synthesizers.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/vincentriemer\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/vincentriemer\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Vojtech Miksu\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/KwHIa3buQmOfWcY9zTNB\\" alt=\\"Vojtech Miksu\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -493,13 +731,73 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Vojtech Miksu</div>
                   <div class=\\"speaker__company\\">Uber, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Currently on the UI Platform team at Uber. Focused on design systems (baseweb.design), open source (multiple popular react libraries as react-movable or react-portal), CSS in JS and great user/developer experiences. Previously building product at Cloudflare.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/tajo\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/vmiksu\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://miksu.cz/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Norbert de Langen\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/LGt48uPlSB6wuuRa8fIl\\" alt=\\"Joshua Nelson\\">
+                    <div class=\\"activity-holder\\">
+                      <div class=\\"slider\\">
+                        <div class=\\"s-item__col \\">
+                          <div class=\\"slider__title s-item__text\\">
+                            <span></span>
+                            <span>General Track</span>
+                          </div>
+                          <div class=\\"s-item__title\\">A React Service Worker Framework</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=\\"speaker__name\\">Joshua Nelson</div>
+                  <div class=\\"speaker__company\\">Airbnb, USA</div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Joshua is a developer at Airbnb, working on improving the front end performance of the most visited pages on the site! Joshua cares deeply about ensuring fast experiences for <em>everyone</em>, and has worked on performance optimization and instrumentation to achieve this.</p>
+                    <p>With experience building both UI platforms, design systems, and product UI, Joshua has learnt what really works when it comes to performance (and what doesn't!) and is looking forward to sharing these lessons with you.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/jpnelson\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"http://twitter.com/jpnelson\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://joshnelson.io/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"speakers-list__item\\">
+                <div class=\\"speaker\\">
+                  <div class=\\"speaker__photo\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/P48zjkSQnybylfZMTJzw\\" alt=\\"Norbert de Langen\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -514,13 +812,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Norbert de Langen</div>
                   <div class=\\"speaker__company\\">Chroma Software, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Hey I’m Norbert de Langen, I’m specialised in web technology and front-end software architecture. I maintain the open-source project Storybook as a developer but also as lead to keep the project going strong by connecting people and onboarding new contributors. My passion is in front-end development, learning new things and sharing knowledge.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/ndelangen\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/norbertdelangen\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Wouter van den Broek\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/GhKbZHmwRyefCQsWgR25\\" alt=\\"Wouter van den Broek\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -535,13 +847,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Wouter van den Broek</div>
                   <div class=\\"speaker__company\\">Independent Consultant and Engineer, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Wouter van den Broek is a independent consultant and engineer. He has build more than 200 apps, from Symbian to BlackBerry to iOS and Android and now on the endeavor with React Native. With all these years of experience in the mobile world with building mobile apps there is a lot of knowledge to be shared. Also loves new technology, software processes; how to figure those out and traveling and reading.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/wbroek\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/wbroek\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Pavel Jacko\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/i3r5HaYCS9ieqlwcwrvy\\" alt=\\"Pavel Jacko\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -556,13 +882,32 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Pavel Jacko</div>
                   <div class=\\"speaker__company\\">24i, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>CTO at 24i. Passionate about pushing the boundaries of technology innovation. Open source advocate. Creator of ReNative. Works with Web, Mobile, TV, Desktop, VR, AR, IoT and serverless technologies. </p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/pavjacko\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/pavjacko\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"http://pavjacko.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
                 <div class=\\"speaker\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Joel Arvidsson\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/Nd78sQtQ5aFj4f1uispg\\" alt=\\"Joel Arvidsson\\">
                     <div class=\\"activity-holder\\">
                       <div class=\\"slider\\">
                         <div class=\\"s-item__col \\">
@@ -577,21 +922,270 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"speaker__name\\">Joel Arvidsson</div>
                   <div class=\\"speaker__company\\">Klarna, Sweden/Germany</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Joel is an engineer at Klarna and open source author. Excited about React Native, glitch art and lacto-fermentation.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/oblador\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/trastknast\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://oblador.se\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <section class=\\"section schedule\\" id=\\"schedule\\">
-          <div class=\\"container\\">
-            <h3 class=\\"section__title\\">Schedule</h3>
-          </div>
-          <div class=\\"container\\">
-            <div class=\\"schedule__content js-tabs-container\\">
-              <div class=\\"schedule__tab-links\\">
+          <div class=\\"container talks-list\\">
+            <h3 class=\\"section__title\\">First Talks</h3>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Kent C. Dodds</div>
+                    <div class=\\"s-item__company\\">Trainer, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Consume =&gt; Build =&gt; Teach</div>
+                    <div class=\\"s-item__text\\">How do you level up? How do you jumpstart your learning when getting into something new? Nobody has more than 24 hours a day, so how do you maximize the impact of your limited time? In this keynote, I'm going to tell you a bit of my own story, and some tips and tricks that I've learned so you can be as productive as you can be at learning new things and solidifying that knowledge so it's there when you need it.</div>
+                  </div>
+                </div>
               </div>
-              <div class=\\"schedule__tabs\\">
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Sara Vieira</div>
+                    <div class=\\"s-item__company\\">CodeSandbox, Germany</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">The Psycological Effects of useEffect</div>
+                    <div class=\\"s-item__text\\">We have been using hooks for a while and with that we have also been using \`useEffect\` in particular and in this today I wanna take a look at the trickier parts of \`useEffect\` and why they work that way so you can leave with a super understanding of how this magic all works</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Vincent Riemer</div>
+                    <div class=\\"s-item__company\\">Facebook, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Code Splitting: A Deep Dive</div>
+                    <div class=\\"s-item__text\\">Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Samantha Bretous</div>
+                    <div class=\\"s-item__company\\">Mailchimp, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">A D3js React Renderer. Is It Possible!?</div>
+                    <div class=\\"s-item__text\\">D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Lorenzo Sciandra</div>
+                    <div class=\\"s-item__company\\">FormidableLabs, UK</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">The 1.0 is a Lie</div>
+                    <div class=\\"s-item__text\\">Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not! During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems. I hope you're ready, it's going to be wild!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Pariss Athena</div>
+                    <div class=\\"s-item__company\\">G2i, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Theming Gatsby Apps with Theme UI</div>
+                    <div class=\\"s-item__text\\">There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Brandon Dail</div>
+                    <div class=\\"s-item__company\\">Facebook, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Adopting Concurrent Mode</div>
+                    <div class=\\"s-item__text\\">Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Uri Goldshtein</div>
+                    <div class=\\"s-item__company\\">The Guild, Netherlands</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!</div>
+                    <div class=\\"s-item__text\\">We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions. Should you use Federation, Stitching or not use GraphQL at all? In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Vojtech Miksu</div>
+                    <div class=\\"s-item__company\\">Uber, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Introducing React View: A Set of Tools that Closes the Gap between Users, Developers and Designers of Component Libraries</div>
+                    <div class=\\"s-item__text\\">So you built a component library. Congrats! I am sure it is awesome but did you put the same effort into its documentation? Component libraries tend to have giant APIs, dozens of components, hundreds of props and thousands of permutations. That is a lot of information to unpack. We could make the documentation very long or... super interactive. We combined component previews, API documentation, props editing and code editing into a single seamless experience. You can quickly explore various settings of each component while watching the code write itself. This talk will show you how to leverage common tools and concepts such as Prettier, babel and AST transformations to build the documentation that can literally work for you.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Joshua Nelson</div>
+                    <div class=\\"s-item__company\\">Airbnb, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">A React Service Worker Framework</div>
+                    <div class=\\"s-item__text\\">Service workers can give users a huge boost in performance and user experience. If you read the API docs about how to create one, it all sounds relatively straightforward. You register a file, do some work in the worker, you're done! In the real world though, there's a bit more to it. At Airbnb, we created a service worker system in React that lets us deliver service workers safely and efficiently, measuring the right things, and allowing experimentation and scope-sharing between different types of devices and parts of our site. Ranging from app shells to precaching to prefetching, I will share with you some of the lessons we have learned from running service worker A/B tests on the most visited page at Airbnb, and what we learned from it! No matter what size or stage of service worker adoption you are at, I will share ideas and lessons that will help you create a similar system for your project – one that ensures delivering service workers is fast, measurable, painless, and better for your users.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Norbert de Langen</div>
+                    <div class=\\"s-item__company\\">Chroma Software, Netherlands</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Storybook 6.0.0 – Storybook for Teams</div>
+                    <div class=\\"s-item__text\\">The next major version of Storybook helps you scale UI components and design systems across your company. You’ll see how key features like auto-generated documentation and story sharing enable your team to reuse existing components everywhere.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Jason Lengstorf</div>
+                    <div class=\\"s-item__company\\">Netlify, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Professional Playtime: Finding Joy in a Stressful Industry</div>
+                    <div class=\\"s-item__text\\">Working in tech can sometimes feel like a thankless grind. In this keynote, we’re not going to figure out how to fix tech — but maybe we can find some coping mechanisms to make our careers a bit more joyful. In this talk, Jason Lengstorf will share his own story and those of other developers who seek out playful, fun outlets in their careers. You’ll learn the foundational skills that make it possible, the strategies that turn silliness into career growth, and ideas for how you can adopt these strategies and find more joy in your own career.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Jen Luker </div>
+                    <div class=\\"s-item__company\\">Gremlin, USA</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">React Accessibility: Beyond the Basics</div>
+                    <div class=\\"s-item__text\\">Accessibility in React has been a hot topic in the last few years, but in this talk, we'll be going beyond the basics. We'll discuss what disability means beyond what you've heard before, and then use code examples to learn why semantic HTML is helpful, and when it's just not enough. We'll then look into tooling, and talk about how you can introduce accessibility testing into your teams and existing code. You'll leave with the tools and knowledge to make a difference starting today.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Anna Doubková</div>
+                    <div class=\\"s-item__company\\">Hive, UK</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Beyond Code: Dev Principles</div>
+                    <div class=\\"s-item__text\\">We all strive to write the best React code we can but somehow nobody can agree on what it is or how to achieve it. What's worse, over time we change our minds on our goals and dev principles so it becomes even harder to keep our codebases clean. In this talk you'll hear some ideas on how we can determine what the difference is between good and bad, and how to write the best React we can.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Wouter van den Broek</div>
+                    <div class=\\"s-item__company\\">Independent Consultant and Engineer, Netherlands</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Infiltrate Your Own React Native App</div>
+                    <div class=\\"s-item__text\\">Ever wondered how hackers can compromise your app and your app data? In this talk you will see how to infiltrate your own app with different techniques like decompiling, sniffing, etc.. By the end of the talk, you'll walk away a little bit scared but more prepared with some great practices to infiltrate your own app and the knowledge to battle them.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Pavel Jacko</div>
+                    <div class=\\"s-item__company\\">24i, Netherlands</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">React Native on 20 Platforms</div>
+                    <div class=\\"s-item__text\\">Building truly cross platform apps has been a turbulent landscape for the last couple of years. The arrival of React Native created the foundation for new way of thinking about cross-platform future, driven by open source and community. In this talk I will dive into some of the concepts and challenges behind building React Native apps for Mobile, Desktops, Browsers, TVs, Consoles, VR and Wearables.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=\\"talk__item\\">
+              <div class=\\"s-item\\">
+                <div class=\\"s-item__row\\">
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">Joel Arvidsson</div>
+                    <div class=\\"s-item__company\\">Klarna, Sweden/Germany</div>
+                  </div>
+                  <div class=\\"s-item__col\\">
+                    <div class=\\"s-item__title\\">React Native Performance beyond React.memo()</div>
+                    <div class=\\"s-item__text\\">So you know all about how to avoid redundant renders and make your components fast, but what about your app? This talk aims to widen the perspective and explores: - Important performance metrics; how to measure, monitor and debug them. - Architecture and product considerations of a fast and scalable app. - Compile time optimizations. - JavaScript runtimes.</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -601,66 +1195,72 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
             <h3 class=\\"section__title\\">Extended program</h3>
             <div class=\\"extended__items\\">
               <div class=\\"extended__item\\">
-                <div class=\\"party-item\\">
-                  <div class=\\"party-item__header\\">
-                    <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M)\\"></div>
-                    <div class=\\"party-item__header-inner\\">
-                      <div class=\\"party-item__title\\">
-                        <p>COMMUNITY PREPARTIES</p>
-                      </div>
-                      <div class=\\"party-item__content\\">
-                        <div class=\\"party-item__subtitle\\">
-                          <p>April 15-16</p>
+                <a class=\\"wrapper-link\\" href=\\"https://reactsummit.com/extended#meetups\\">
+                  <div class=\\"party-item\\">
+                    <div class=\\"party-item__header\\">
+                      <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/cuTTsHaNQPufSnR7TR7M)\\"></div>
+                      <div class=\\"party-item__header-inner\\">
+                        <div class=\\"party-item__title\\">
+                          <p>COMMUNITY PREPARTIES</p>
                         </div>
-                        <div class=\\"party-item__desc\\">
-                          <p>Visit our pre-party events around GraphQL, Reason, React Native and more!</p>
+                        <div class=\\"party-item__content\\">
+                          <div class=\\"party-item__subtitle\\">
+                            <p>April 15-16</p>
+                          </div>
+                          <div class=\\"party-item__desc\\">
+                            <p>Visit our pre-party events around GraphQL, Reason, React Native and more!</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class=\\"extended__item\\">
-                <div class=\\"party-item\\">
-                  <div class=\\"party-item__header\\">
-                    <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/drJjONHQRsmkt7yBsdIB)\\"></div>
-                    <div class=\\"party-item__header-inner\\">
-                      <div class=\\"party-item__title\\">
-                        <p>THE BIGGEST REACT PARTY WORLDWIDE</p>
-                      </div>
-                      <div class=\\"party-item__content\\">
-                        <div class=\\"party-item__subtitle\\">
-                          <p>React meets Friday</p>
+                <a class=\\"wrapper-link\\" href=\\"https://reactsummit.com/extended#party\\">
+                  <div class=\\"party-item\\">
+                    <div class=\\"party-item__header\\">
+                      <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/drJjONHQRsmkt7yBsdIB)\\"></div>
+                      <div class=\\"party-item__header-inner\\">
+                        <div class=\\"party-item__title\\">
+                          <p>THE BIGGEST REACT PARTY WORLDWIDE</p>
                         </div>
-                        <div class=\\"party-item__desc\\">
-                          <p>Get ready for an immersive artistic experiences brought to you by local creative community and FIBER festival</p>
+                        <div class=\\"party-item__content\\">
+                          <div class=\\"party-item__subtitle\\">
+                            <p>React meets Friday</p>
+                          </div>
+                          <div class=\\"party-item__desc\\">
+                            <p>Get ready for an immersive artistic experiences brought to you by local creative community and FIBER festival</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class=\\"extended__item\\">
-                <div class=\\"party-item\\">
-                  <div class=\\"party-item__header\\">
-                    <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/K4yFh1akTDKOfVgrhJ3J)\\"></div>
-                    <div class=\\"party-item__header-inner\\">
-                      <div class=\\"party-item__title\\">
-                        <p>AMSTERDAM EXPLORATION DAY</p>
-                      </div>
-                      <div class=\\"party-item__content\\">
-                        <div class=\\"party-item__subtitle\\">
-                          <p>By bike, by boat, by foot</p>
+                <a class=\\"wrapper-link\\" href=\\"https://reactsummit.com/extended#tour-day\\">
+                  <div class=\\"party-item\\">
+                    <div class=\\"party-item__header\\">
+                      <div class=\\"party-item__img\\" style=\\"background-image: url(https://media.graphcms.com/K4yFh1akTDKOfVgrhJ3J)\\"></div>
+                      <div class=\\"party-item__header-inner\\">
+                        <div class=\\"party-item__title\\">
+                          <p>AMSTERDAM EXPLORATION DAY</p>
                         </div>
-                        <div class=\\"party-item__desc\\">
-                          <p>Boat tours</p>
-                          <p>Walking tours</p>
-                          <p>Community brunch &#x26; board games</p>
+                        <div class=\\"party-item__content\\">
+                          <div class=\\"party-item__subtitle\\">
+                            <p>By bike, by boat, by foot</p>
+                          </div>
+                          <div class=\\"party-item__desc\\">
+                            <p>Boat tours</p>
+                            <p>Walking tours</p>
+                            <p>Community brunch &#x26; board games</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <!--		<div class=\\"extended__btn\\">-->
@@ -1331,8 +1931,13 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <div class=\\"sponsors-block__title\\">Platinum</div>
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://www.ag-grid.com/\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/aaAx0IajRKKNAjUpC4gF\\" alt=\\"ag-Grid\\" width=\\"300\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://nx.dev/react\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"280\\">
+                    <img src=\\"https://media.graphcms.com/jlH7YpPGQAWkqpdMRUgw\\" alt=\\"Nx.dev\\" width=\\"300\\">
                   </a>
                 </li>
               </ul>
@@ -1342,7 +1947,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://focusreactive.com\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"250\\">
+                    <img src=\\"https://media.graphcms.com/b0JmL1dcSXqqc7fqSRwQ\\" alt=\\"FocusReactive\\" width=\\"250\\">
                   </a>
                 </li>
               </ul>
@@ -1351,8 +1956,23 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <div class=\\"sponsors-block__title\\">Gold</div>
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://rangle.io\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/wc6AY6YTPCyvZU9LG5PX\\" alt=\\"Rangle\\" width=\\"280\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://chromatic.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"280\\">
+                    <img src=\\"https://media.graphcms.com/KlzcAD3pQsqQfKJu74Qo\\" alt=\\"Chromatic\\" width=\\"500\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://aws-amplify.github.io/\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/I9ltQ0oGTGaZTLS80b1h\\" alt=\\"AWS Amplify\\" width=\\"200\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://zeit.co/\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/LASe6AAfRMeW7GejKNed\\" alt=\\"Zeit\\" width=\\"300\\">
                   </a>
                 </li>
               </ul>
@@ -1362,17 +1982,27 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.jetbrains.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/AQuaXIwRJuACty3wtfkT\\" alt=\\"JetBrains\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://join.picnic.app/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/LyulJktvSb6K6y5METOW\\" alt=\\"Picnic\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://reactgraphql.academy/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"110\\">
+                    <img src=\\"https://media.graphcms.com/MyEEEHyUTtOqhUUXQK8w\\" alt=\\"React GraphQL Academy\\" width=\\"110\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://yoast.com/\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/daIDqyFRVcKpkGYq8YhA\\" alt=\\"Yoast\\" width=\\"100\\">
+                  </a>
+                </li>
+                <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://botonic.io/\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/vgC5BtuSqeDNXzF6G77A\\" alt=\\"Hubtype_botonic\\" width=\\"160\\">
                   </a>
                 </li>
               </ul>
@@ -1382,12 +2012,12 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://digitalagencynetwork.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"200\\">
+                    <img src=\\"https://media.graphcms.com/nJ62aquaRdqGxSLY1wIu\\" alt=\\"digital-agency-network\\" width=\\"200\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://t3n.de/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"85\\">
+                    <img src=\\"https://media.graphcms.com/A5a4V3ISAaLL4OxlU8lw\\" alt=\\"t3n\\" width=\\"85\\">
                   </a>
                 </li>
               </ul>
@@ -1397,292 +2027,292 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
               <ul class=\\"sponsors-block__list\\">
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://stickermule.com/supports/gitnation20-sponsorship\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/RSwlizc6SMmgCAadvUsV\\" alt=\\"StickerMule\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Boston-React-Native/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/UhEEpj4iTQaUbKwvoTsf\\" alt=\\"BostonReactNative\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"150\\">
+                    <img src=\\"https://media.graphcms.com/cA3rjQMlQzqh6251FlEV\\" alt=\\"\\" width=\\"150\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://reactnorway.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"150\\">
+                    <img src=\\"https://media.graphcms.com/Jj4k5ZF7RQeHz8RWBu7Z\\" alt=\\"reactnorway\\" width=\\"150\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://reactnewyork.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"250\\">
+                    <img src=\\"https://media.graphcms.com/x7B0MLrqRkOqfFsUlXbv\\" alt=\\"reactnewyork\\" width=\\"250\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/framsia/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/B0avSOhLTimtCCx4ZrQ1\\" alt=\\"Framsia\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Oslo-Progressive-Web-Apps/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/5m34cFbsQfKrs1MvZoQT\\" alt=\\"OsloPWA\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://mobileera.rocks\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"200\\">
+                    <img src=\\"https://media.graphcms.com/Y3IDTyPSDGqWzYXkf4Kh\\" alt=\\"mobileera\\" width=\\"200\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/london-progressive-web-apps/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/9LkzgvhTxeFV7v5fImi5\\" alt=\\"LondonPWA\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://hackages.io/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/j69Oy8hQwmm49chRazLp\\" alt=\\"Hackages\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw\\" alt=\\"\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://leicesterjs.org/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/qn5yHCYuTrGGHrP1tJyO\\" alt=\\"leicesterjs\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://piterjs.dev\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/csIAGp4IQuGiKEeoVK3p\\" alt=\\"Piter JS\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://react-finland.fi/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/ytl42Q0NQGOtGR3yrlEn\\" alt=\\"React Finland\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://leedsjs.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/s96i5NRXKpieSKr3f9nw\\" alt=\\"leedsjs\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://jsbelgrade.org/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/JioPZAJLQSze5aXlale7\\" alt=\\"jsbelgrade\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/milano-front-end/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/DyaAVE8PSwy1Q3OBHUlV\\" alt=\\"milanofrontend\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.lereacteur.io/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"150\\">
+                    <img src=\\"https://media.graphcms.com/gDl4yhfTfGy7cN1t57mE\\" alt=\\"lereacteur\\" width=\\"150\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/NodeSchool-Paris/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"90\\">
+                    <img src=\\"https://media.graphcms.com/6vVn4q5TsP8VDXRqaNgg\\" alt=\\"nodeschool\\" width=\\"90\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://viennajs.org/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"110\\">
+                    <img src=\\"https://media.graphcms.com/4P4F5rcgRRmGFaCTnypv\\" alt=\\"viennajs\\" width=\\"110\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/ReactVienna/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"180\\">
+                    <img src=\\"https://media.graphcms.com/nMIRNPJJQWeJ145F8kpE\\" alt=\\"ReactVienna\\" width=\\"180\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/NottsJS/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/J0iLWuFFQwiKX323Luyb\\" alt=\\"NottsJS\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/AdaBcnJS/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"110\\">
+                    <img src=\\"https://media.graphcms.com/kFXVG8ktSKDRtpDtJFWf\\" alt=\\"AdaJS\\" width=\\"110\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Glasgow-JavaScript/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/wotbcNGuTneStzw3fh3v\\" alt=\\"GlasgowJS\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://rollingscopes.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/bCGQIOp7TTarTChhTEX6\\" alt=\\"rollingscopes\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.g2i.co/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/ioWj9kBRFiFwWlYhtKmw\\" alt=\\"G2i\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/ReactJS-Vancouver-Meetup/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"250\\">
+                    <img src=\\"https://media.graphcms.com/MJKH8ZwGQgKjq8GfxWou\\" alt=\\"ReactJSVancouver\\" width=\\"250\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Seattle-Node-js/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/3CN44zW4Qye5rgbnvkFu\\" alt=\\"seattle-node\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/madridjs/members/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/95sI0yk9SSwIJhUy1vuS\\" alt=\\"madridjs\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Ottawa-ReactJS-Meetup/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"90\\">
+                    <img src=\\"https://media.graphcms.com/tTmiAdDVS1aafUwYBjxN\\" alt=\\"ottawareact\\" width=\\"90\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://kiprosh.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/oUf36c2yS5WrI7fM46hS\\" alt=\\"kiprosh\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://javascript-kitchen.js.org/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/oFcJIuCETriVBVj9Fr1t\\" alt=\\"jskitchen\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://lombiq.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/JvxfOaKMQUeHfb4RuoI8\\" alt=\\"lombiq\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://react-barcamp.de/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/6v9GBqGQf6NTsrrQ8Mqw\\" alt=\\"React Barcamp\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://workshop-summit.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/oNXMsdDVSdWJQTy6pIgw\\" alt=\\"Workshop Summit\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://hackages.io/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"130\\">
+                    <img src=\\"https://media.graphcms.com/j69Oy8hQwmm49chRazLp\\" alt=\\"Hackages\\" width=\\"130\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/KrakowJS/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/qnwuCichSKKeM6Z37IkO\\" alt=\\"Krakow JS\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://react-not-a-conf.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"90\\">
+                    <img src=\\"https://media.graphcms.com/WB25K24IQHSJida7w4z8\\" alt=\\"react-sofia\\" width=\\"90\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://timjs.ro/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/MrqkTXtbR2a7nJ2mp7wp\\" alt=\\"TimJS\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Warsaw-TypeScript/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/4cTE7yTRBCECAf4fHdqO\\" alt=\\"Warsaw TypeScript\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/frontend-barcelona/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/Ndr0sL58TPi6cbQe2nrh\\" alt=\\"erni-frontend-barcelona\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.unicornsintech.com/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"100\\">
+                    <img src=\\"https://media.graphcms.com/5e95NP9wT6OPsZfViHA8\\" alt=\\"Unicorns In Tech\\" width=\\"100\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://codebar.io/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"110\\">
+                    <img src=\\"https://media.graphcms.com/H5Wj9d61Q76Klnnltrhj\\" alt=\\"codebar\\" width=\\"110\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.facebook.com/beerjsminsk/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/U2CphZdUQrGUJYwaATo8\\" alt=\\"Beerjs Minsk\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.facebook.com/groups/webnotbombs/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/tC8DmauQ1Kyz6KiCTVPK\\" alt=\\"Web Not Bombs\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.youtube.com/channel/UCucNbfGSH2RN2SD_VhDi2Uw\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/Ls1b8VxIRUOPWtoqQ8tx\\" alt=\\"FrontSpot\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/Free-Code-Camp-Vienna/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/YC1Ib2bsQAWuD7NBE9IM\\" alt=\\"Free-Code-Camp-Vienna\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/React-Warsaw/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"250\\">
+                    <img src=\\"https://media.graphcms.com/kQz3tf7eSLTRVdGYnoBs\\" alt=\\"React-Warsaw\\" width=\\"250\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/devday-salerno/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/XDgqQcntSwWnI3B56gRu\\" alt=\\"DevdaySalerno\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/reactnsk/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/PruwmZdQEuCziZeCXZki\\" alt=\\"ReactNSK\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/CODING-BERLIN/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/ub1VeKK4RQGFuG26LRSw\\" alt=\\"Coding Berlin\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/RheinNeckarJS/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/J3EsCO7OSfCGFVhCe8K0\\" alt=\\"RheinNeckarJS\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://summit.meetjs.pl/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/zIf5ZXpLSLifkYt6f1OL\\" alt=\\"meet.js\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.meetup.com/React-JS-Milano/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/DWPAMvcRyKjQeASUnVF0\\" alt=\\"React JS Milano\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://www.redi-school.org/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"120\\">
+                    <img src=\\"https://media.graphcms.com/M5DgVlJRgu5h475HCzZ6\\" alt=\\"redi-school\\" width=\\"120\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://technologieplauscherl.at/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/JUDY1t5bQEyL5ut6UsQw\\" alt=\\"technologieplauscherl\\" width=\\"70\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"80\\">
+                    <img src=\\"https://media.graphcms.com/SVNa55YSTWGRBFs7sFYV\\" alt=\\"\\" width=\\"80\\">
                   </a>
                 </li>
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"http://www.lvivjs.org.ua/\\" target=\\"_blank\\">
-                    <img src=\\"\\" alt=\\"\\" width=\\"70\\">
+                    <img src=\\"https://media.graphcms.com/llHevWEXSweR6TvRYK1Y\\" alt=\\"lvivjs\\" width=\\"70\\">
                   </a>
                 </li>
               </ul>
