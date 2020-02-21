@@ -11,7 +11,8 @@
 
 		<ul class="faq__list">
 			{% for itemFaq in item.items %}
-			<li class="faq__item">
+			<li class="faq__item graphcms-container" {{ mixins.cmsdata(itemFaq) }}
+      >
 				<svg class="faq__arrow">
 					{{mixins.icon('arrow-r2')}}
 				</svg>

@@ -5,7 +5,7 @@
   </div>
   <div class="articles__content">
     {% for item in pages[pageKey].pageStatistics.articles %}
-    <div class="article">
+    <div class="article graphcms-container" {{ mixins.cmsdata(item) }}>
       <div class="article__inner">
         <div class="article__img"><a href="{{item.link}}"><img src="img/jobs/{{item.img}}" alt="{{item.title}}" /></a></div>
         <div class="article__content">
@@ -17,7 +17,7 @@
     </div>
     {% endfor %}
     {% for item in jobs %}
-    <div class="article">
+    <div class="article graphcms-container" {{ mixins.cmsdata(item) }}>
       <div class="article__inner">
         <div class="article__img"><a href="{{item.link}}"><img src="{{item.image}}" alt="{{item.title}}" /></a></div>
         <div class="article__content">

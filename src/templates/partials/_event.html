@@ -10,7 +10,9 @@
     </div>
     <div class="event__items">
       {% for event in extendeds.events_schedule %}
-      <div class="event__item">
+      <div class="event__item graphcms-container"
+        {{ mixins.cmsdata(event) }}
+      >
        {% if event.locationLink %}
         <a class="e-item" href="{{event.locationLink}}">
           <div class="e-item__header">{{ event.title | safe }}</div>

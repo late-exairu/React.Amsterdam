@@ -11,7 +11,9 @@
         <div class="sponsors-block__title">{{item.title}}</div>
         <ul class="sponsors-block__list">
           {% for sponsor in item.list %}
-            <li class="sponsors-block__item">
+            <li class="sponsors-block__item graphcms-container"
+              {{ mixins.cmsdata(sponsor) }}
+            >
               <a href="{{sponsor.link}}" target="_blank">
                 <img src="{{sponsor.img}}" alt="{{sponsor.alt}}" width="{{sponsor.width}}">
               </a>
