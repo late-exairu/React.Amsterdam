@@ -21,22 +21,41 @@ const addHook = element => {
   return hook;
 };
 
-const addLink = (element, id, contentTypeId, typeName) => {
+const addLink = ({
+  element,
+  id,
+  contentTypeId,
+  typeName,
+  altClassName = '',
+}) => {
   const link = document.createElement('a');
   link.classList.add('graphcms-container__edit-button');
+  if (altClassName) {
+    link.classList.add(altClassName);
+  }
   link.href = createEntryURL({ id, contentTypeId });
-  link.innerText = `edit ${typeName}`;
+  link.innerHTML = `<div class="edit-icon"></div><div class="edit-text">${typeName}</div>`;
   link.target = '_blank';
+  link.title = `id: ${id}`;
   element.appendChild(link);
   return link;
 };
 
 const addButtonTo = getTypeName => element => {
-  const { id, contentType } = element.dataset;
+  const { id, contentType, idAlt, contentTypeAlt } = element.dataset;
   const hook = addHook(element);
   const typeName = getTypeName(contentType);
-  const link = addLink(hook, id, contentType, typeName);
-  return link;
+  addLink({ element: hook, id, contentTypeId: contentType, typeName });
+  if (contentTypeAlt) {
+    const typeNameAlt = getTypeName(contentTypeAlt);
+    addLink({
+      element: hook,
+      id: idAlt,
+      contentTypeId: contentTypeAlt,
+      typeName: typeNameAlt,
+      altClassName: 'alt',
+    });
+  }
 };
 
 export const injectButtons = contentTypeMap => {

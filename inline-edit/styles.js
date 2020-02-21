@@ -18,15 +18,39 @@ const globalStyles = styled.global`
     top: 0;
     background: #2da500;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: none;
-    padding: 5px;
+    text-decoration: none;
+    padding: 2px !important;
+    width: max-content;
     z-index: 9999;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+  }
+  .graphcms-container__edit-button:hover {
+    opacity: 1;
+  }
+
+  .graphcms-container__edit-button.alt {
+    top: 30px;
+    background: #be57ff;
   }
 
   span.graphcms-container .graphcms-container__edit-button {
     transform: translate(0, -100%);
+  }
+
+  div.edit-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(/icons/edit.svg);
+    background-size: contain;
+    display: inline-block;
+  }
+  div.edit-text {
+    margin: 4px;
   }
 `;
 
