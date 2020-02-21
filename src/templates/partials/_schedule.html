@@ -4,7 +4,9 @@
       <h3 class="section__title">{{ scheduleTitle }}</h3>
       {% for talk in schedule[0].list %}
       <div class="talk__item">
-          <div class="s-item">
+          <div class="s-item graphcms-container">
+            <div data-id="{{ talk.id }}" data-content-type="{{ talk.contentType }}" class="graphcms-container__hook"></div>
+            <a href="https://app.graphcms.com/8be1ceff148c4b749e78b34007f9cc34/master/content/{{ talk.contentType }}/table/{{ talk.id }}" class="graphcms-container__edit-button">EDIT</a>
             <div class="s-item__row">
               <div class="s-item__col">
                 <div class="s-item__title">{{talk.speaker}}</div>
