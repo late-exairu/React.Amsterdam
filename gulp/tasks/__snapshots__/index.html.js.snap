@@ -959,7 +959,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Consume =&gt; Build =&gt; Teach</div>
-                    <div class=\\"s-item__text\\">How do you level up? How do you jumpstart your learning when getting into something new? Nobody has more than 24 hours a day, so how do you maximize the impact of your limited time? In this keynote, I'm going to tell you a bit of my own story, and some tips and tricks that I've learned so you can be as productive as you can be at learning new things and solidifying that knowledge so it's there when you need it.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>How do you level up? How do you jumpstart your learning when getting into something new? Nobody has more than 24 hours a day, so how do you maximize the impact of your limited time?</p>
+                      <p>In this keynote, I'm going to tell you a bit of my own story, and some tips and tricks that I've learned so you can be as productive as you can be at learning new things and solidifying that knowledge so it's there when you need it.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -973,7 +976,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">The Psycological Effects of useEffect</div>
-                    <div class=\\"s-item__text\\">We have been using hooks for a while and with that we have also been using \`useEffect\` in particular and in this today I wanna take a look at the trickier parts of \`useEffect\` and why they work that way so you can leave with a super understanding of how this magic all works</div>
+                    <div class=\\"s-item__text\\">
+                      <p>We have been using hooks for a while and with that we have also been using <code>useEffect</code> in particular and in this today I wanna take a look at the trickier parts of <code>useEffect</code> and why they work that way so you can leave with a super understanding of how this magic all works</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -987,7 +992,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Code Splitting: A Deep Dive</div>
-                    <div class=\\"s-item__text\\">Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Single page applications pose a lot of technical challenges, largest of which is keeping your JavaScript payloads down in a growing application that requires JavaScript to be rendered. In this talk we'll take a deep dive into how code splitting works, how to write your code to best take advantage of code splitting, and take a peek at the implementation details of some of your favorite bundlers to better inform your code splitting strategies.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1001,7 +1008,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">A D3js React Renderer. Is It Possible!?</div>
-                    <div class=\\"s-item__text\\">D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>D3 and React have a hard time playing well with each other. Both vie for control of the DOM which can be stressful to manage. Fortunately, there’s a npm package for that! Meet react-reconciler, a package for building custom react renderers. Merging these two disparate technologies has been a journey of much learning. Join me as I take you on that exploration.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1015,7 +1024,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">The 1.0 is a Lie</div>
-                    <div class=\\"s-item__text\\">Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not! During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems. I hope you're ready, it's going to be wild!</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Whenever there's a conversation about working on React Native, versioning and release cycle usually arise as one of the pain points. But why is that the case? How complicated is it to create a new release of React Native? Surely it looks similar to the release process you are using... or not! During this talk I'll walk you through the many steps and complexities involved in publishing a new version or React Native, and I'll challenge one fundamental idea – that 1.0 is the solution to all problems. I hope you're ready, it's going to be wild!</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1029,7 +1040,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Theming Gatsby Apps with Theme UI</div>
-                    <div class=\\"s-item__text\\">There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>There are many CSS-in-JS libraries for us to choose from. Imagine being able to take your favorite parts of those libraries and using them in one. Learn about the power of Theme UI.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1043,7 +1056,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Adopting Concurrent Mode</div>
-                    <div class=\\"s-item__text\\">Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Concurrent Mode is still experimental, but it's right around the corner. It not only brings new and exciting functionality to React, but it also introduces new nuances for how to think about components. In this talk we'll answer the basics in detail: what does Concurrent Mode actually give us, how can we approach adoption, why do we want it, and how can we adjust both our code and our mental model to set us up for success?</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1057,7 +1072,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">GraphQL Mesh – Why GraphQL between services is the worst idea and the best idea at the same time!</div>
-                    <div class=\\"s-item__text\\">We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions. Should you use Federation, Stitching or not use GraphQL at all? In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>We all heard about the benefits of using GraphQL between the client and server, but when it comes to communication between services on the backend there is still a lot of discussions about different philosophies and solutions. Should you use Federation, Stitching or not use GraphQL at all? In this talk I'm going to demonstrate each approach, show the downsides of each of them and reveal a new, radical approach that brings the best of all worlds.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1071,7 +1088,11 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Introducing React View: A Set of Tools that Closes the Gap between Users, Developers and Designers of Component Libraries</div>
-                    <div class=\\"s-item__text\\">So you built a component library. Congrats! I am sure it is awesome but did you put the same effort into its documentation? Component libraries tend to have giant APIs, dozens of components, hundreds of props and thousands of permutations. That is a lot of information to unpack. We could make the documentation very long or... super interactive. We combined component previews, API documentation, props editing and code editing into a single seamless experience. You can quickly explore various settings of each component while watching the code write itself. This talk will show you how to leverage common tools and concepts such as Prettier, babel and AST transformations to build the documentation that can literally work for you.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>So you built a component library. Congrats! I am sure it is awesome but did you put the same effort into its documentation? Component libraries tend to have giant APIs, dozens of components, hundreds of props and thousands of permutations. That is a lot of information to unpack.</p>
+                      <p>We could make the documentation very long or... super interactive. We combined component previews, API documentation, props editing and code editing into a single seamless experience. You can quickly explore various settings of each component while watching the code write itself.</p>
+                      <p>This talk will show you how to leverage common tools and concepts such as Prettier, babel and AST transformations to build the documentation that can literally work for you.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1085,7 +1106,12 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">A React Service Worker Framework</div>
-                    <div class=\\"s-item__text\\">Service workers can give users a huge boost in performance and user experience. If you read the API docs about how to create one, it all sounds relatively straightforward. You register a file, do some work in the worker, you're done! In the real world though, there's a bit more to it. At Airbnb, we created a service worker system in React that lets us deliver service workers safely and efficiently, measuring the right things, and allowing experimentation and scope-sharing between different types of devices and parts of our site. Ranging from app shells to precaching to prefetching, I will share with you some of the lessons we have learned from running service worker A/B tests on the most visited page at Airbnb, and what we learned from it! No matter what size or stage of service worker adoption you are at, I will share ideas and lessons that will help you create a similar system for your project – one that ensures delivering service workers is fast, measurable, painless, and better for your users.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Service workers can give users a huge boost in performance and user experience. If you read the API docs about how to create one, it all sounds relatively straightforward. You register a file, do some work in the worker, you're done! In the real world though, there's a bit more to it.</p>
+                      <p>At Airbnb, we created a service worker system in React that lets us deliver service workers safely and efficiently, measuring the right things, and allowing experimentation and scope-sharing between different types of devices and parts of our site.</p>
+                      <p>Ranging from app shells to precaching to prefetching, I will share with you some of the lessons we have learned from running service worker A/B tests on the most visited page at Airbnb, and what we learned from it!</p>
+                      <p>No matter what size or stage of service worker adoption you are at, I will share ideas and lessons that will help you create a similar system for your project – one that ensures delivering service workers is fast, measurable, painless, and better for your users.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1099,7 +1125,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Storybook 6.0.0 – Storybook for Teams</div>
-                    <div class=\\"s-item__text\\">The next major version of Storybook helps you scale UI components and design systems across your company. You’ll see how key features like auto-generated documentation and story sharing enable your team to reuse existing components everywhere.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>The next major version of Storybook helps you scale UI components and design systems across your company. You’ll see how key features like auto-generated documentation and story sharing enable your team to reuse existing components everywhere.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1113,7 +1141,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Professional Playtime: Finding Joy in a Stressful Industry</div>
-                    <div class=\\"s-item__text\\">Working in tech can sometimes feel like a thankless grind. In this keynote, we’re not going to figure out how to fix tech — but maybe we can find some coping mechanisms to make our careers a bit more joyful. In this talk, Jason Lengstorf will share his own story and those of other developers who seek out playful, fun outlets in their careers. You’ll learn the foundational skills that make it possible, the strategies that turn silliness into career growth, and ideas for how you can adopt these strategies and find more joy in your own career.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Working in tech can sometimes feel like a thankless grind. In this keynote, we’re not going to figure out how to fix tech — but maybe we can find some coping mechanisms to make our careers a bit more joyful.</p>
+                      <p>In this talk, Jason Lengstorf will share his own story and those of other developers who seek out playful, fun outlets in their careers. You’ll learn the foundational skills that make it possible, the strategies that turn silliness into career growth, and ideas for how you can adopt these strategies and find more joy in your own career.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1127,7 +1158,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">React Accessibility: Beyond the Basics</div>
-                    <div class=\\"s-item__text\\">Accessibility in React has been a hot topic in the last few years, but in this talk, we'll be going beyond the basics. We'll discuss what disability means beyond what you've heard before, and then use code examples to learn why semantic HTML is helpful, and when it's just not enough. We'll then look into tooling, and talk about how you can introduce accessibility testing into your teams and existing code. You'll leave with the tools and knowledge to make a difference starting today.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Accessibility in React has been a hot topic in the last few years, but in this talk, we'll be going beyond the basics. We'll discuss what disability means beyond what you've heard before, and then use code examples to learn why semantic HTML is helpful, and when it's just not enough. We'll then look into tooling, and talk about how you can introduce accessibility testing into your teams and existing code. You'll leave with the tools and knowledge to make a difference starting today.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1141,7 +1174,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Beyond Code: Dev Principles</div>
-                    <div class=\\"s-item__text\\">We all strive to write the best React code we can but somehow nobody can agree on what it is or how to achieve it. What's worse, over time we change our minds on our goals and dev principles so it becomes even harder to keep our codebases clean. In this talk you'll hear some ideas on how we can determine what the difference is between good and bad, and how to write the best React we can.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>We all strive to write the best React code we can but somehow nobody can agree on what it is or how to achieve it. What's worse, over time we change our minds on our goals and dev principles so it becomes even harder to keep our codebases clean. In this talk you'll hear some ideas on how we can determine what the difference is between good and bad, and how to write the best React we can.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1155,7 +1190,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">Infiltrate Your Own React Native App</div>
-                    <div class=\\"s-item__text\\">Ever wondered how hackers can compromise your app and your app data? In this talk you will see how to infiltrate your own app with different techniques like decompiling, sniffing, etc.. By the end of the talk, you'll walk away a little bit scared but more prepared with some great practices to infiltrate your own app and the knowledge to battle them.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Ever wondered how hackers can compromise your app and your app data? In this talk you will see how to infiltrate your own app with different techniques like decompiling, sniffing, etc.. By the end of the talk, you'll walk away a little bit scared but more prepared with some great practices to infiltrate your own app and the knowledge to battle them.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1169,7 +1206,9 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">React Native on 20 Platforms</div>
-                    <div class=\\"s-item__text\\">Building truly cross platform apps has been a turbulent landscape for the last couple of years. The arrival of React Native created the foundation for new way of thinking about cross-platform future, driven by open source and community. In this talk I will dive into some of the concepts and challenges behind building React Native apps for Mobile, Desktops, Browsers, TVs, Consoles, VR and Wearables.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>Building truly cross platform apps has been a turbulent landscape for the last couple of years. The arrival of React Native created the foundation for new way of thinking about cross-platform future, driven by open source and community. In this talk I will dive into some of the concepts and challenges behind building React Native apps for Mobile, Desktops, Browsers, TVs, Consoles, VR and Wearables.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1183,7 +1222,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                   </div>
                   <div class=\\"s-item__col\\">
                     <div class=\\"s-item__title\\">React Native Performance beyond React.memo()</div>
-                    <div class=\\"s-item__text\\">So you know all about how to avoid redundant renders and make your components fast, but what about your app? This talk aims to widen the perspective and explores: - Important performance metrics; how to measure, monitor and debug them. - Architecture and product considerations of a fast and scalable app. - Compile time optimizations. - JavaScript runtimes.</div>
+                    <div class=\\"s-item__text\\">
+                      <p>So you know all about how to avoid redundant renders and make your components fast, but what about your app? This talk aims to widen the perspective and explores:</p>
+                      <ul>
+                        <li>Important performance metrics; how to measure, monitor and debug them. </li>
+                        <li>Architecture and product considerations of a fast and scalable app.</li>
+                        <li>Compile time optimizations. </li>
+                        <li>JavaScript runtimes.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1942,16 +1989,6 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                 </li>
               </ul>
             </div>
-            <div class=\\"sponsors-block logos_sm sponsors-block_lg\\">
-              <div class=\\"sponsors-block__title\\">Production Partners</div>
-              <ul class=\\"sponsors-block__list\\">
-                <li class=\\"sponsors-block__item\\">
-                  <a href=\\"https://focusreactive.com\\" target=\\"_blank\\">
-                    <img src=\\"https://media.graphcms.com/b0JmL1dcSXqqc7fqSRwQ\\" alt=\\"FocusReactive\\" width=\\"250\\">
-                  </a>
-                </li>
-              </ul>
-            </div>
             <div class=\\"sponsors-block logos_md sponsors-block_lg\\">
               <div class=\\"sponsors-block__title\\">Gold</div>
               <ul class=\\"sponsors-block__list\\">
@@ -2003,6 +2040,16 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/index.html 1`]
                 <li class=\\"sponsors-block__item\\">
                   <a href=\\"https://botonic.io/\\" target=\\"_blank\\">
                     <img src=\\"https://media.graphcms.com/vgC5BtuSqeDNXzF6G77A\\" alt=\\"Hubtype_botonic\\" width=\\"160\\">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class=\\"sponsors-block logos_sm sponsors-block_lg\\">
+              <div class=\\"sponsors-block__title\\">Production Partners</div>
+              <ul class=\\"sponsors-block__list\\">
+                <li class=\\"sponsors-block__item\\">
+                  <a href=\\"https://focusreactive.com\\" target=\\"_blank\\">
+                    <img src=\\"https://media.graphcms.com/b0JmL1dcSXqqc7fqSRwQ\\" alt=\\"FocusReactive\\" width=\\"250\\">
                   </a>
                 </li>
               </ul>
