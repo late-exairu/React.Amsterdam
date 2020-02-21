@@ -1,3 +1,5 @@
+import highlightContent from '@focus-reactive/inline-edit';
+import { contentTypeMap } from '@focus-reactive/graphql-content-layer/dist/content-type-map';
 import './components/tabs';
 import './components/header';
 import svg4everybody from 'svg4everybody';
@@ -30,3 +32,5 @@ if (isIE !== 'otherbrowser') {
 if ($('.js-slider')) {
   slider();
 }
+
+highlightContent({ contentTypeMap });
