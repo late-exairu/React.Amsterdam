@@ -25,7 +25,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
     <div class=\\"out\\">
       <header class=\\"header \\">
         <div class=\\"header__inner js-menu\\">
-          <div class=\\"header__socials\\">
+          <div class=\\"header__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"social\\">
               <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                   <svg class=\\"icon icon-tw\\">
@@ -54,7 +54,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
                 </a></li>
             </ul>
           </div>
-          <div class=\\"header__nav\\">
+          <div class=\\"header__nav graphcms-container\\" data-id=\\"ck1821481qob90b49rwasqgcn\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"nav\\">
               <li class=\\"nav__item\\"><a href=\\"/\\" class=\\"nav__link \\">Conference page</a></li>
             </ul>
@@ -73,7 +73,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
       </header>
       <div class=\\"main js-main\\">
         <div class=\\"hero\\" style=\\"background-image:url(img/jobs-bg.jpg);\\">
-          <div class=\\"hero__inner\\">
+          <div class=\\"hero__inner graphcms-container\\" data-id=\\"ck1821481qob90b49rwasqgcn\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <div class=\\"hero__logo\\">
               <a href=\\"/\\" class=\\"logo\\"><img src=\\"img/logo-summit.svg\\" alt=\\"React Summit Amsterdam\\"></a>
             </div>
@@ -83,11 +83,11 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
         </div>
         <div class=\\"section coc\\">
           <div class=\\"container\\">
-            <div class=\\"coc__description\\">
+            <div class=\\"coc__description graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
               <p>All attendees, speakers, sponsors and volunteers at React Summit Conference and React Amsterdam Meetups are required to follow this Code of Conduct. Organisers will strictly enforce it throughout the events and community gatherings. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
               <p>In case you have identified a breach of our CoC, please approach our crew (organizers and volunteers in branded t-shirts) immediately or contact our CoC enforcement team - <a href=\\"mailto:coc@gitnation.org\\">coc@gitnation.org</a>, +44 7376 237 299.</p>
             </div>
-            <div class=\\"coc__content\\">
+            <div class=\\"coc__content graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
               <h2>The Short Version</h2>
               <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
               <h2>The Long Version</h2>
@@ -107,8 +107,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
         <footer class=\\"footer section\\">
           <div class=\\"container\\">
             <div class=\\"footer__main\\">
-              <h3 class=\\"footer__title section__title\\"> Contact Us </h3>
-              <div class=\\"footer__socials\\">
+              <h3 class=\\"footer__title section__title\\">
+                <span class=\\"graphcms-container\\" data-id=\\"ck1940qcxui7p0b854wsncbjv\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Contact Us </span>
+              </h3>
+              <div class=\\"footer__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"social social--theme\\">
                   <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                       <svg class=\\"icon icon-tw\\">
@@ -137,7 +139,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/coc.html 1`] =
                     </a></li>
                 </ul>
               </div>
-              <div class=\\"footer__nav\\">
+              <div class=\\"footer__nav graphcms-container\\" data-id=\\"ck1821481qob90b49rwasqgcn\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"f-nav\\">
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>

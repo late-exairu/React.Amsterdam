@@ -25,7 +25,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
     <div class=\\"out\\">
       <header class=\\"header \\">
         <div class=\\"header__inner js-menu\\">
-          <div class=\\"header__socials\\">
+          <div class=\\"header__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"social\\">
               <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                   <svg class=\\"icon icon-tw\\">
@@ -54,7 +54,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                 </a></li>
             </ul>
           </div>
-          <div class=\\"header__nav\\">
+          <div class=\\"header__nav graphcms-container\\" data-id=\\"ck3okkfzitf3q0b662wyy68k9\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"nav\\">
               <li class=\\"nav__item\\"><a href=\\"/\\" class=\\"nav__link \\">Conference page</a></li>
             </ul>
@@ -73,7 +73,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
       </header>
       <div class=\\"main js-main\\">
         <div class=\\"hero\\" style=\\"background-image:url(img/jobs-bg.jpg);\\">
-          <div class=\\"hero__inner\\">
+          <div class=\\"hero__inner graphcms-container\\" data-id=\\"ck3okkfzitf3q0b662wyy68k9\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <div class=\\"hero__logo\\">
               <a href=\\"/\\" class=\\"logo\\"><img src=\\"img/logo-summit.svg\\" alt=\\"React Summit Amsterdam\\"></a>
             </div>
@@ -90,7 +90,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
             <div class=\\"faq__content\\">
               <h3 class=\\"faq__section-title\\">Tickets, invoices, refunds</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2p2nneeb2g10b73makporca\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -109,7 +109,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2p2ond6944k0b66okeh44x4\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -122,7 +122,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>If your ticket states “Early Bird ticket”/”Regular ticket”/”Late Bird ticket”, it only includes a conference day pass. If your ticket states “Combo: Workshop + Conference Day”, it includes both conference day pass and a workshop.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qaplkyfgsy0b66pkntlkcn\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -138,7 +138,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>If you have doubts – consult the website or email us <a href=\\"hi@reactsummit.com\\">hi@reactsummit.com</a>.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qaqxeified0b20kevodfpy\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -151,7 +151,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>You can easily change the name in the ticket in your Eventbrite account. Just log in and edit the attendee information. Pay attention that only the ticket buyer can re-assign tickets.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qarw7gfinx0b20c17xfxfn\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -164,7 +164,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, you can. Simply log in to your Eventbrite account and re-assign the ticket to this person. Pay attention that only a ticket buyer can re-assign tickets.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qasw4ofivj0b20780oliot\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -177,7 +177,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Go to your Eventbrite account, click “edit”, add the VAT number in the corresponding box, resend the confirmation email. </p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qatmk0ficm0b32h4xrnc89\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -190,7 +190,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, we can make a refund if your visa for travel was not approved. Please send us the declining letter from the embassy or any other confirming documents.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qauhaqfiin0b32mwjr4730\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -206,7 +206,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
               </ul>
               <h3 class=\\"faq__section-title\\">Discounts, diversity scholarship, etc.</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qavexffiqm0b32u17dmr5y\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -219,7 +219,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, we can provide a student discount. Student ticket price is 150 EUR (excluding VAT). Pease, send us a scan or a photo of your relevant students ID and we’ll issue a promocode for you.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qaw7q8fivq0b32qeizc794\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -232,7 +232,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, to get a group discount please choose “Team Ticket” on Eventbrite. And some extra discounts are possible when buying more than 10 tickets.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qaxmoxiv7g0b73fvnug38j\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -245,7 +245,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, we do run a diversity scholarship program. Free diversity tickets are distributed via community channels and also via the application form. Follow our <a href=\\"https://medium.com/@ReactAmsterdam\\">medium blog</a> for details.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qayg6hfl370b66ci8uhpdg\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -258,7 +258,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>It includes the conference day (not workshops), food at the conference and afterparty. </p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qazgi3flbz0b66aah4bvht\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -274,7 +274,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
               </ul>
               <h3 class=\\"faq__section-title\\">Visa</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb0lnhfjsi0b32oaiaszcn\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -299,7 +299,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
               </ul>
               <h3 class=\\"faq__section-title\\">Organisational questions</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb1qxpfkob0b20mv4zu5en\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -312,7 +312,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>You will get an email with all the information you’ll need at the conference about a week before the event. We will also add a link to a page with all organisational details to the website.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb3do1fkzj0b20m66ycs9q\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -326,7 +326,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Please, note that the boat might leave a bit earlier if it fills up with passengers before the time of departure. You can either wait for the next one (about 10 minutes) or take a public ferry to the other side of the river and walk 5 minutes to the Kromhouthal. </p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb464qfl580b2021nrk37s\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -339,7 +339,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>The Kromhouthal has parking area right in front of the door. In addition, there’s ample public parking in the vicinity. There is paid parking in the area. </p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb4te9fklw0b3288r87qj7\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -352,7 +352,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Unfortunately, we won't have facilities for kids this time.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb5nsfix4k0b73omegif8g\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -368,7 +368,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
               </ul>
               <h3 class=\\"faq__section-title\\">Food for conference attendees</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb6gakflml0b209fatcpgh\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -381,7 +381,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, we serve hot lunch and coffee/pastries/snacks both at the conference and the workshops.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb77ueflv10b2032h4zqlm\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -397,7 +397,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
               </ul>
               <h3 class=\\"faq__section-title\\">Other questions</h3>
               <ul class=\\"faq__list\\">
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb83xmfm340b200nwkwzo9\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -410,7 +410,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, you can. Please, send us brief information about yourself: your experience in volunteering (optional) at conferences or any event organizing. Also please be sure that you’re going to be available on the day of the event and the day before it.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb93zlfni50b669752ijz6\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -423,7 +423,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     <p>Yes, of course! We’d be happy if you become our info-partner. Please, drop us a line at <a href=\\"mailto:hi@reactsummit.com\\">hi@reactsummit.com</a> and we’ll get back to you with all the information.</p>
                   </div>
                 </li>
-                <li class=\\"faq__item\\">
+                <li class=\\"faq__item graphcms-container\\" data-id=\\"ck2qb9qyrflpc0b32fbvgiy0m\\" data-content-type=\\"4f4e1bf4ce884d6e99735af934488515\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                   <svg class=\\"faq__arrow\\">
                     <svg class=\\"icon icon-arrow-r2\\">
                       <use xlink:href=\\"img/sprite.svg#icon-arrow-r2\\"></use>
@@ -443,8 +443,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
         <footer class=\\"footer section\\">
           <div class=\\"container\\">
             <div class=\\"footer__main\\">
-              <h3 class=\\"footer__title section__title\\"> Contact Us </h3>
-              <div class=\\"footer__socials\\">
+              <h3 class=\\"footer__title section__title\\">
+                <span class=\\"graphcms-container\\" data-id=\\"ck1940qcxui7p0b854wsncbjv\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Contact Us </span>
+              </h3>
+              <div class=\\"footer__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"social social--theme\\">
                   <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                       <svg class=\\"icon icon-tw\\">
@@ -473,7 +475,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/faq.html 1`] =
                     </a></li>
                 </ul>
               </div>
-              <div class=\\"footer__nav\\">
+              <div class=\\"footer__nav graphcms-container\\" data-id=\\"ck3okkfzitf3q0b662wyy68k9\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"f-nav\\">
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>

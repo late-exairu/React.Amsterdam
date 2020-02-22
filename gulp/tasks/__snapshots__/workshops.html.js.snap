@@ -25,7 +25,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
     <div class=\\"out\\">
       <header class=\\"header \\">
         <div class=\\"header__inner js-menu\\">
-          <div class=\\"header__socials\\">
+          <div class=\\"header__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"social\\">
               <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                   <svg class=\\"icon icon-tw\\">
@@ -54,7 +54,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </a></li>
             </ul>
           </div>
-          <div class=\\"header__nav\\">
+          <div class=\\"header__nav graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"nav\\">
               <li class=\\"nav__item\\"><a href=\\"#programmes\\" class=\\"nav__link js-scroll-link\\">Programmes</a></li>
               <li class=\\"nav__item\\"><a href=\\"#speakers\\" class=\\"nav__link js-scroll-link\\">Trainers</a></li>
@@ -75,7 +75,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
       </header>
       <div class=\\"main js-main\\">
         <div class=\\"hero\\" style=\\"background-image:url(img/workshops-bg.jpg);\\">
-          <div class=\\"hero__inner\\">
+          <div class=\\"hero__inner graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <div class=\\"hero__logo\\">
               <a href=\\"/\\" class=\\"logo\\"><img src=\\"img/logo-summit.svg\\" alt=\\"React Summit Amsterdam\\"></a>
             </div>
@@ -101,13 +101,17 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
         </div>
         <section class=\\"section workshops\\">
           <div class=\\"container\\">
-            <div class=\\"workshops__title title-gradient\\">Workshops at React Summit Amsterdam</div>
+            <div class=\\"workshops__title title-gradient\\">
+              <span class=\\"graphcms-container\\" data-id=\\"ck19bc3mpvne30b54vrvzen2s\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Workshops at React Summit Amsterdam </span>
+            </div>
             <div class=\\"workshops__description text\\">
-              <p>On April 14-16, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
-              <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual location, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+              <span class=\\"graphcms-container\\" data-id=\\"ck19bdjnyvmon0b8575v22ca9\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
+                <p>On April 14-16, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
+                <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual location, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+              </span>
             </div>
             <div class=\\"workshops__content\\" id=\\"programmes\\">
-              <div class=\\"workshop\\" id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\" data-id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
@@ -138,7 +142,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
@@ -182,7 +186,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124uokd0n5w0b85i1f9qufj\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124uokd0n5w0b85i1f9qufj\\" data-id=\\"ck124uokd0n5w0b85i1f9qufj\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Vladimir Novick</div>
                   <div class=\\"workshop-item__content\\">
@@ -212,7 +216,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30607syge270b66aldpeoa5\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30607syge270b66aldpeoa5\\" data-id=\\"ck30607syge270b66aldpeoa5\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
@@ -259,7 +263,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30bp7ypgowc0b32ahqhfpnn\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30bp7ypgowc0b32ahqhfpnn\\" data-id=\\"ck30bp7ypgowc0b32ahqhfpnn\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Siddharth Kshetrapal</div>
                   <div class=\\"workshop-item__content\\">
@@ -302,7 +306,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck5w6vnjgefs40b758ss0i81e\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck5w6vnjgefs40b758ss0i81e\\" data-id=\\"ck5w6vnjgefs40b758ss0i81e\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Sid Chatterjee, Aisha Black</div>
                   <div class=\\"workshop-item__content\\">
@@ -349,7 +353,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck122i0650avl0b54yfa8wb1a\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck122i0650avl0b54yfa8wb1a\\" data-id=\\"ck122i0650avl0b54yfa8wb1a\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Max Stoiber</div>
                   <div class=\\"workshop-item__content\\">
@@ -393,7 +397,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
@@ -433,7 +437,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30bazbogv8n0b66na6688y6\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30bazbogv8n0b66na6688y6\\" data-id=\\"ck30bazbogv8n0b66na6688y6\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Vladimir Novick</div>
                   <div class=\\"workshop-item__content\\">
@@ -463,7 +467,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cjl9tgsav0b32gxppjjjz\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cjl9tgsav0b32gxppjjjz\\" data-id=\\"ck30cjl9tgsav0b32gxppjjjz\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Oleg Isonen</div>
                   <div class=\\"workshop-item__content\\">
@@ -509,7 +513,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cpib6h0j60b66bguzzy4t\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cpib6h0j60b66bguzzy4t\\" data-id=\\"ck30cpib6h0j60b66bguzzy4t\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Alex Lobera</div>
                   <div class=\\"workshop-item__content\\">
@@ -557,7 +561,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cx7qegtxa0b32uzdpdtlb\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cx7qegtxa0b32uzdpdtlb\\" data-id=\\"ck30cx7qegtxa0b32uzdpdtlb\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Michel Weststrate</div>
                   <div class=\\"workshop-item__content\\">
@@ -602,7 +606,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck6j9oyftvif90b20r4xdhrnv\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck6j9oyftvif90b20r4xdhrnv\\" data-id=\\"ck6j9oyftvif90b20r4xdhrnv\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\"></div>
                   <div class=\\"workshop-item__content\\">
@@ -616,7 +620,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
@@ -656,7 +660,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
@@ -711,7 +715,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
             <h3 class=\\"section__title\\">Trainers</h3>
             <div class=\\"speakers-list\\">
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck10t71go59pg0b71iw2zrad5\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30cmxu0gsml0b201623sehp\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp\\" alt=\\"Kitze\\">
                   </div>
@@ -735,7 +739,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck1qix0arx7ve0b71dtvp0d32\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck1qiya01x8at0b71d6urlabj\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY\\" alt=\\"Kent C. Dodds\\">
                   </div>
@@ -764,7 +768,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck1256gqycb970b71ar9x1qwa\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30c4d9wgqba0b327b95v4mv\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm\\" alt=\\"Vladimir Novick\\">
                   </div>
@@ -793,7 +797,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30bhsz8gvw80b669dzgs7sk\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N\\" alt=\\"Siddharth Kshetrapal\\">
                   </div>
@@ -817,7 +821,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck5w6pkhkefft0b75d6p1estt\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xWUiPHwdTuuIfwqHtvm9\\" alt=\\"Aisha Blake\\">
                   </div>
@@ -836,7 +840,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck6uq7xe9ieil0b20scus6mdi\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/ILkkYFxKR2KGDqGLq3Sg\\" alt=\\"Sid Chatterjee\\">
                   </div>
@@ -855,7 +859,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck0zj6ytry8s20b71lgpuqves\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck341e2ddqocp0b20ddzen1hs\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf\\" alt=\\"Max Stoiber\\">
                   </div>
@@ -884,7 +888,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30ceva0gz5h0b663i4uxm4n\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jKuRmrHmSRmG4k8KSapq\\" alt=\\"Oleg Isonen\\">
                   </div>
@@ -908,7 +912,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck10teywmv6940b541heiz22b\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS\\" alt=\\"Alex Lobera\\">
                   </div>
@@ -932,7 +936,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30crtskgtbl0b3239sszqt4\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30csd2ph0wd0b6659fw0r1t\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
                     <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw\\" alt=\\"Michel Weststrate\\">
                   </div>
@@ -986,8 +990,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
         <footer class=\\"footer section\\">
           <div class=\\"container\\">
             <div class=\\"footer__main\\">
-              <h3 class=\\"footer__title section__title\\"> Contact Us </h3>
-              <div class=\\"footer__socials\\">
+              <h3 class=\\"footer__title section__title\\">
+                <span class=\\"graphcms-container\\" data-id=\\"ck1940qcxui7p0b854wsncbjv\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Contact Us </span>
+              </h3>
+              <div class=\\"footer__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"social social--theme\\">
                   <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                       <svg class=\\"icon icon-tw\\">
@@ -1016,7 +1022,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                     </a></li>
                 </ul>
               </div>
-              <div class=\\"footer__nav\\">
+              <div class=\\"footer__nav graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"f-nav\\">
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>
