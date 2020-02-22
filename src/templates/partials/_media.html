@@ -1,11 +1,10 @@
 <section class="section media-box">
   <div class="container">
-    <h3 class="section__title">{{ pagesPieceOfTexts.video__title }}</h3>
+    <h3 class="section__title">{{ mixins.text(pieceOfTexts, 'video__title') }}</h3>
   </div>
   <div class="media-box__grid">
-    <div class="m-grid">
-      {{ pagesPieceOfTexts.video__content_unsafe | safe }}
-
+    <div class="m-grid graphcms-container" data-id="{{ pieceOfTexts.video__content_unsafe.id }}" data-content-type="{{ pieceOfTexts.video__content_unsafe.contentType }}">
+      {{ pieceOfTexts.video__content_unsafe.html | safe }}
     </div>
   </div>
   <div class="media-box__text section__text text">

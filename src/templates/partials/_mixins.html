@@ -90,3 +90,10 @@
     {% endif %}
   </div>
 {% endmacro %}
+
+{% macro text(pieceOfTexts, key) %}
+{# class="graphcms-container" #}
+  <span class="graphcms-container" data-id="{{ pieceOfTexts[key].id }}" data-content-type="{{ pieceOfTexts[key].contentType }}">
+  {{ pieceOfTexts[key].html | safe }}
+  </span>
+{% endmacro %}

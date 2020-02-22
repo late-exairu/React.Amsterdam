@@ -1,9 +1,3 @@
-/*
-
-  <a href="https://app.graphcms.com/8be1ceff148c4b749e78b34007f9cc34/master/content/{{ pages.main.contentType }}/table/{{ pages.main.id }}" class="graphcms-container__edit-button">EDIT</a>
-
-  */
-
 const projectId = '8be1ceff148c4b749e78b34007f9cc34';
 const projectStage = 'master';
 
@@ -32,6 +26,7 @@ const addLink = (element, id, contentTypeId, typeName) => {
   link.classList.add('graphcms-container__edit-button');
   link.href = createEntryURL({ id, contentTypeId });
   link.innerText = `edit ${typeName}`;
+  link.target = '_blank';
   element.appendChild(link);
   return link;
 };

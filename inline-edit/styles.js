@@ -16,11 +16,17 @@ const globalStyles = styled.global`
     position: absolute;
     left: 0;
     top: 0;
-    background: lime;
+    background: #2da500;
     color: white;
+    font-size: 16px;
     font-weight: bold;
+    text-transform: none;
     padding: 5px;
     z-index: 9999;
+  }
+
+  span.graphcms-container .graphcms-container__edit-button {
+    transform: translate(0, -100%);
   }
 `;
 

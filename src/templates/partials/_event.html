@@ -1,16 +1,12 @@
 <section class="section event" id="event">
   <div class="container">
-    <h3 class="section__title event__heading">
-      <span class="graphcms-container">
-        <div data-id="{{ pagesPieceOfTextsMap.event__title.id }}" data-content-type="{{ pagesPieceOfTextsMap.event__title.contentType }}" class="graphcms-container__hook"></div>
-        <a href="https://app.graphcms.com/8be1ceff148c4b749e78b34007f9cc34/master/content/{{ pagesPieceOfTextsMap.event__title.contentType }}/table/{{ pagesPieceOfTextsMap.event__title.id }}" class="graphcms-container__edit-button">EDIT</a>
-        {{ pagesPieceOfTexts.event__title }}
-      </span>
+    <h3 class="section__title event__heading graphcms-container">
+        {{ mixins.text(pieceOfTexts, 'event__title') }}
     </h3>
-    <div class="event__tip">{{ pagesPieceOfTexts.event__subtitle }}</div>
-    <div class="event__title title-gradient">{{ pagesPieceOfTexts.event_boldtitle | safe }}</div>
+    <div class="event__tip">{{ mixins.text(pieceOfTexts, 'event__subtitle') }}</div>
+    <div class="event__title title-gradient">{{ mixins.text(pieceOfTexts, 'event_boldtitle') }}</div>
     <div class="event__text section__text">
-      {{ pagesPieceOfTexts.event__text | safe }}
+      {{ mixins.text(pieceOfTexts, 'event__text') }}
     </div>
     <div class="event__items">
       {% for event in extendeds.events_schedule %}
@@ -41,7 +37,7 @@
     </div>
     <div class="event__text section__text">
       <p style="margin-top: 10px;">
-      {# {{ pagesPieceOfTexts.socials__slack | safe }} TODO: insert slack icon #}
+      {# {{ mixins.text(pieceOfTexts, 'socials__slack') }} TODO: insert slack icon #}
         For more fun activities with networking with our community, join our official <a class="icon-link" href="https://reactsummit.com/slack" target="_blank">{{mixins.icon('sl')}}Slack channel</a>
       </p>
     </div>
