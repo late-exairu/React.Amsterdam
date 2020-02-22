@@ -45,7 +45,7 @@ const globalStyles = styled.global`
   div.edit-icon {
     width: 16px;
     height: 16px;
-    background-image: url(/icons/edit.svg);
+    background-image: url(/img/edit.svg);
     background-size: contain;
     display: inline-block;
   }
