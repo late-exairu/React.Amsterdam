@@ -1,9 +1,9 @@
-<div class="hero ">
+<div class="hero">
   <video class="hero__video" preload="auto" muted="" autoplay="" loop="" poster="img/dummy_bg.jpg">
     <source src="img/video/video.webm" type="video/webm">
     <source src="img/video/video.mp4" type="video/mp4">
   </video>
-  <div class="hero__inner">
+  <div class="hero__inner graphcms-container" {{ mixins.cmsdata(pages[pageKey]) }}>
     <div class="hero__logo">
       <a href="/" class="logo"><img src="img/logo-summit.svg" alt="React Summit Amsterdam"></a>
     </div>
