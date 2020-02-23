@@ -8,13 +8,11 @@ const store = {
 
 const inlineMode = () => {
   store.enabled = true;
-  console.log('inline-edit', store.contentTypeMap);
   injectStyles();
   injectButtons(store.contentTypeMap);
 };
 
 const onHotKey = ev => {
-  console.log('TCL: ev', ev);
   const { key, ctrlKey } = ev;
   if (key === 'i' && ctrlKey) {
     if (store.enabled) {

@@ -4,7 +4,7 @@
       <h3 class="section__title">{{ scheduleTitle }}</h3>
       {% for talk in schedule[0].list %}
       <div class="talk__item">
-          <div class="s-item graphcms-container" {{ mixins.cmsdata(talk) }}>
+          <div class="s-item graphcms-container" {{ mixins.cmsData(talk) }}>
             <div class="s-item__row">
               <div class="s-item__col">
                 <div class="s-item__title">{{talk.speaker}}</div>

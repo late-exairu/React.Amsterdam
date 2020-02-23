@@ -7,7 +7,7 @@
     <div class="workshops__content" id="programmes">
       {% for workshop in workshops %}
         <div class="workshop graphcms-container" id="{{ workshop.id }}"
-          {{ mixins.cmsdata(workshop) }}
+          {{ mixins.cmsData(workshop) }}
         >
         <div class="workshop-item workshop-item_lg">
           <div class="workshop-item__title">{{ workshop.trainer }}</div>

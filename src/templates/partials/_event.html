@@ -11,7 +11,7 @@
     <div class="event__items">
       {% for event in extendeds.events_schedule %}
       <div class="event__item graphcms-container"
-        {{ mixins.cmsdata(event) }}
+        {{ mixins.cmsData(event) }}
       >
        {% if event.locationLink %}
         <a class="e-item" href="{{event.locationLink}}">
