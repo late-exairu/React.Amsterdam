@@ -4,7 +4,9 @@
 		<div class="speakers-list">
 			{% for person in speakers[pageKey] %}
 				<div class="speakers-list__item">
-					<div class="speaker">
+					<div class="speaker graphcms-container"
+            {{ mixins.cmsData(person) }}
+          >
 
             {{mixins.avatarWithDetails(person.activities.talks[0], person)}}
 

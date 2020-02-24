@@ -1,6 +1,6 @@
 <section class="section fleet">
 	<div class="container">
-		<h3 class="section__title">{{ pagesPieceOfTexts.amusement__title }}</h3>
+		<h3 class="section__title">{{ mixins.text(pieceOfTexts, 'amusement__title') }}</h3>
 
 		<div class="fleet__tabs-container js-tabs-container">
 			<div class="fleet__link">
@@ -11,8 +11,8 @@
 							{{mixins.icon('vertical-scroll')}}
 						</div>
 						<div class="fleet-link__content">
-							<span class="fleet-link__title">{{ pagesPieceOfTexts.amusement__speakers }}</span>
-							<!-- <span class="fleet-link__desc">{{ pagesPieceOfTexts.amusement__speakerstext }}</span> -->
+							<span class="fleet-link__title">{{ mixins.text(pieceOfTexts, 'amusement__speakers') }}</span>
+							<!-- <span class="fleet-link__desc">{{ mixins.text(pieceOfTexts, 'amusement__speakerstext') }}</span> -->
 						</div>
 					</div>
 				</div>
@@ -43,8 +43,8 @@
 						</ul>
 					</div>
 					<div class="fleet-tab__info">
-						<div class="fleet-tab__title">{{ pagesPieceOfTexts.amusement__boattitle }}</div>
-						<div class="fleet-tab__desc">{{ pagesPieceOfTexts.amusement__speakersdelivery }}</div>
+						<div class="fleet-tab__title">{{ mixins.text(pieceOfTexts, 'amusement__boattitle') }}</div>
+						<div class="fleet-tab__desc">{{ mixins.text(pieceOfTexts, 'amusement__speakersdelivery') }}</div>
 						<!--<div class="fleet-tab__props">-->
 							<!--<div class="prop">-->
 								<!--<span class="prop__option">Weight</span>-->
@@ -70,8 +70,8 @@
 							{{mixins.icon('vertical-scroll')}}
 						</div>
 						<div class="fleet-link__content">
-							<span class="fleet-link__title">{{ pagesPieceOfTexts.amusement__deliverytitle | safe }}</span>
-							<!-- <span class="fleet-link__desc">{{ pagesPieceOfTexts.amusement__deliverytext }}</span> -->
+							<span class="fleet-link__title">{{ mixins.text(pieceOfTexts, 'amusement__deliverytitle') }}</span>
+							<!-- <span class="fleet-link__desc">{{ mixins.text(pieceOfTexts, 'amusement__deliverytext') }}</span> -->
 						</div>
 					</div>
 				</div>
@@ -177,5 +177,5 @@
 			</div>
 		</div>
 	</div>
-	
+
 </section>

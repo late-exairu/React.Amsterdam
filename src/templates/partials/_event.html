@@ -1,14 +1,18 @@
 <section class="section event" id="event">
   <div class="container">
-    <h3 class="section__title event__heading">{{ pagesPieceOfTexts.event__title }}</h3>
-    <div class="event__tip">{{ pagesPieceOfTexts.event__subtitle }}</div>
-    <div class="event__title title-gradient">{{ pagesPieceOfTexts.event_boldtitle | safe }}</div>
+    <h3 class="section__title event__heading graphcms-container">
+        {{ mixins.text(pieceOfTexts, 'event__title') }}
+    </h3>
+    <div class="event__tip">{{ mixins.text(pieceOfTexts, 'event__subtitle') }}</div>
+    <div class="event__title title-gradient">{{ mixins.text(pieceOfTexts, 'event_boldtitle') }}</div>
     <div class="event__text section__text">
-      {{ pagesPieceOfTexts.event__text | safe }}
+      {{ mixins.text(pieceOfTexts, 'event__text') }}
     </div>
     <div class="event__items">
       {% for event in extendeds.events_schedule %}
-      <div class="event__item">
+      <div class="event__item graphcms-container"
+        {{ mixins.cmsData(event) }}
+      >
        {% if event.locationLink %}
         <a class="e-item" href="{{event.locationLink}}">
           <div class="e-item__header">{{ event.title | safe }}</div>
@@ -35,7 +39,7 @@
     </div>
     <div class="event__text section__text">
       <p style="margin-top: 10px;">
-      {# {{ pagesPieceOfTexts.socials__slack | safe }} TODO: insert slack icon #}
+      {# {{ mixins.text(pieceOfTexts, 'socials__slack') }} TODO: insert slack icon #}
         For more fun activities with networking with our community, join our official <a class="icon-link" href="https://reactsummit.com/slack" target="_blank">{{mixins.icon('sl')}}Slack channel</a>
       </p>
     </div>

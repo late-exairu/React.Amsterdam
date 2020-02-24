@@ -25,7 +25,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
     <div class=\\"out\\">
       <header class=\\"header \\">
         <div class=\\"header__inner js-menu\\">
-          <div class=\\"header__socials\\">
+          <div class=\\"header__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"social\\">
               <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                   <svg class=\\"icon icon-tw\\">
@@ -54,7 +54,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 </a></li>
             </ul>
           </div>
-          <div class=\\"header__nav\\">
+          <div class=\\"header__nav graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <ul class=\\"nav\\">
               <li class=\\"nav__item\\"><a href=\\"#programmes\\" class=\\"nav__link js-scroll-link\\">Programmes</a></li>
               <li class=\\"nav__item\\"><a href=\\"#speakers\\" class=\\"nav__link js-scroll-link\\">Trainers</a></li>
@@ -75,7 +75,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
       </header>
       <div class=\\"main js-main\\">
         <div class=\\"hero\\" style=\\"background-image:url(img/workshops-bg.jpg);\\">
-          <div class=\\"hero__inner\\">
+          <div class=\\"hero__inner graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
             <div class=\\"hero__logo\\">
               <a href=\\"/\\" class=\\"logo\\"><img src=\\"img/logo-summit.svg\\" alt=\\"React Summit Amsterdam\\"></a>
             </div>
@@ -88,7 +88,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                   <div class=\\"h-list__text\\">Days</div>
                 </li>
                 <li class=\\"h-list__item\\">
-                  <div class=\\"h-list__value\\">9</div>
+                  <div class=\\"h-list__value\\">10</div>
                   <div class=\\"h-list__text\\">Trainers</div>
                 </li>
                 <li class=\\"h-list__item\\">
@@ -101,17 +101,21 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
         </div>
         <section class=\\"section workshops\\">
           <div class=\\"container\\">
-            <div class=\\"workshops__title title-gradient\\">Workshops at React Summit Amsterdam</div>
+            <div class=\\"workshops__title title-gradient\\">
+              <span class=\\"graphcms-container\\" data-id=\\"ck19bc3mpvne30b54vrvzen2s\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Workshops at React Summit Amsterdam </span>
+            </div>
             <div class=\\"workshops__description text\\">
-              <p>On April 15 and 16th, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
-              <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual locations, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+              <span class=\\"graphcms-container\\" data-id=\\"ck19bdjnyvmon0b8575v22ca9\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
+                <p>On April 14-16, 2020, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
+                <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual location, different from the conference venue.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+              </span>
             </div>
             <div class=\\"workshops__content\\" id=\\"programmes\\">
-              <div class=\\"workshop\\" id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\" data-id=\\"ck6i1yfk7t3ny0b20uo9rdrgg\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>React Advanced (2020-04-14T00:00:00.000Z) </h3>
+                    <h3>React Advanced (April 14) </h3>
                     <p>Full-day, hands-on coding workshop to explore advanced patterns and new features in React. React may be just a simple UI library, but it involves a pretty big ecosystem around it. Explaining the basics and internals is not enough, so in this module we're going to explain the best practices, we're going to learn to \\"think in React\\", and apply solutions to real problems that you might encounter in the process of building an app.</p>
                     <p>We'll explore all the advanced techniques for making flexible and maintainable React components. We'll see how using popular patterns like Higher Order Components, Compound Components, Render Props etc. can help us in simplifying things, making our components more reusable and our apps more declarative.</p>
                     <p>React 16 comes with some major changes and an update to the core algorithm. In this module, we'll explore some practical use-cases for Hooks, Portals, Fragments, Error Boundaries etc. We'll see how the new Context API can simplify state-management and we'll play with a new feature called react-call-return.</p>
@@ -131,12 +135,18 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                     <p>Intermediate/Advanced JavaScript/React Developers.</p>
                   </div>
                 </div>
+                <div class=\\"workshop-item\\">
+                  <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
+                  <div class=\\"workshop-item__content\\">
+                    <p>April 14, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                  </div>
+                </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>React Performance (2020-04-14T00:00:00.000Z) </h3>
+                    <h3>React Performance (April 14) </h3>
                     <p>React is fast, until it isn't</p>
                     <p>In this workshop, you'll learn everything you need to diagnose, profile, and fix performance problems in your React application using the Browser Performance Profiler, React DevTools Profiler, and proven React optimization techniques.</p>
                     <p>The tools we have for profiling React Applications are extremely powerful, but they can often be really difficult to grok. Sure, starting a profiling session is simple enough, but how do you go from all the information in the flamegraph to actionable steps to improve your application's performance? And once you know what parts of your app are causing performance issues, what then? How do you optimize your React components without making the whole application a complex mess?</p>
@@ -172,15 +182,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 14, 8:30 till 17:00</p>
+                    <p>April 14, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124uokd0n5w0b85i1f9qufj\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124uokd0n5w0b85i1f9qufj\\" data-id=\\"ck124uokd0n5w0b85i1f9qufj\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Vladimir Novick</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Building WhatsApp in a Day with React Native (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>Building WhatsApp in a Day with React Native (April 15) </h3>
                     <p>In this full day workshop we will go through the process of creating Whatsapp app in React Native from scratch. We will talk about how to get started, structure our app and create proper navigation workflow, style our screens and create compelling animations. But we will not stop there. Not only React Native is changing mobile ecosystem nowadays, GraphQL is also an important part of how we connect to our backend.</p>
                     <p>We will go through GraphQL basics and use it in our Whatsapp app to connect to GraphQL endpoint which we will also define and create during workshop by using free and open source Hasura GraphQL engine. Workshop will give you the ultimate experience of creating React Native app from scratch with GraphQL API.</p>
                   </div>
@@ -202,15 +212,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30607syge270b66aldpeoa5\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30607syge270b66aldpeoa5\\" data-id=\\"ck30607syge270b66aldpeoa5\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Testing React Applications (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>Testing React Applications (April 15) </h3>
                     <p>Use jest, jest-dom, and React Testing Library to write unit and integration tests for React Components Writing React applications is pretty easy, but shipping those applications with confidence is an entirely different story. How do you know that your changes work? How do you know those changes aren’t going to break other parts of your application? Do you have to manually walk through your whole application to make certain everything’s still working? No thank you! The more your tests resemble the way your software is used, the more confidence they can give you. Let’s learn how to write tests that make us confident.</p>
                     <p>In this hands-on workshop we’ll work on adding tests to existing components as well as use our tests to speed up our workflow building new components. We’ll work with everything from simple components and JavaScript functions to complex components with asynchronous logic.</p>
                   </div>
@@ -249,15 +259,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30bp7ypgowc0b32ahqhfpnn\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30bp7ypgowc0b32ahqhfpnn\\" data-id=\\"ck30bp7ypgowc0b32ahqhfpnn\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Siddharth Kshetrapal</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Building your first Design System: from scratch to production (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>Building your first Design System: from scratch to production (April 15) </h3>
                     <p>This is a hands-on workshop for React developers in which you will learn how to define a common language for collaboration and iterate on products faster.</p>
                     <p>Learn the best practices of component driven design and how to standardize your design patterns. Leverage React to build design tokens and a component library that can be used in products and can evolve as teams use it. At the end of the day, you will have a small but complete Design system implementation that will cover the full product lifecycle.</p>
                   </div>
@@ -292,15 +302,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck5w6vnjgefs40b758ss0i81e\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck5w6vnjgefs40b758ss0i81e\\" data-id=\\"ck5w6vnjgefs40b758ss0i81e\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
-                  <div class=\\"workshop-item__title\\">Aisha Blake</div>
+                  <div class=\\"workshop-item__title\\">Sid Chatterjee, Aisha Black</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Building E-commerce Sites with Gatsby (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>Building Commercial Gatsby Websites with Gatsby Engineers (April 15) </h3>
                     <p>You’ve probably seen hundreds of beautiful blogs made with Gatsby but have you considered it as a tool for building robust web applications? Specifically, Gatsby can be an excellent choice for e-commerce sites. In this hands-on workshop, you’ll learn to use it to build fast, secure, and delightful experiences for your customers (or your clients’ customers)! We’ll break the process of building an accessible, highly customizable e-commerce site into digestible steps. Throughout, we’ll follow two case studies, migrating a Shopify store selling physical goods and integrating ticket sales into a conference website. You may even walk away with a brand new side hustle.</p>
                   </div>
                 </div>
@@ -339,15 +349,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck122i0650avl0b54yfa8wb1a\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck122i0650avl0b54yfa8wb1a\\" data-id=\\"ck122i0650avl0b54yfa8wb1a\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Max Stoiber</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Modern React (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>Modern React (April 15) </h3>
                     <p>One of the most popular workshops from React Amsterdam 2019.</p>
                     <p>After some years of silence, React team had recently landed a number of new additions to it's library enabling application developers to optimize their code both for better performance and maintainability. Max will guide your through emerging patterns and show you by example how you can start applying the new best practices in your production apps.</p>
                   </div>
@@ -383,15 +393,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>GraphQL Workshop (2020-04-15T00:00:00.000Z) </h3>
+                    <h3>GraphQL Workshop (April 15) </h3>
                     <p>This one-day workshop will teach you everything you need to know to incorporate GraphQL into your application. During the first half of the workshop, we'll explain the basics of a GraphQL and we’re gonna build a GraphQL server, covering best practices for architecting your schema, error handling, authentication, and permission layers. In the second half of the workshop, we’ll connect our GraphQL server to a React application with Apollo Client. We’ll break down the modular architecture of the client and teach you how to set everything up and use queries and mutations. We’ll show a few different approaches for working with Apollo: Higher Order Components, Render Props, and hooks. Throughout the course of the workshop, you’ll learn practical tips for using GraphQL in production.</p>
                   </div>
                 </div>
@@ -423,15 +433,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 15, 8:30 till 17:00</p>
+                    <p>April 15, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30bazbogv8n0b66na6688y6\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30bazbogv8n0b66na6688y6\\" data-id=\\"ck30bazbogv8n0b66na6688y6\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Vladimir Novick</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>React Native animations (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>React Native Animations (April 16) </h3>
                     <p>Everything in the world is animated and animating our apps is a key to make them look compelling, \\"telling a story\\" of your app as well as reducing cognitive load for your users. Animations can be as simple as bouncing buttons or complex like full screen transitions, gesture based animations and multi layered animations. Not only animations sometimes are not that straightforward to implement, they have to look \\"realistic\\" as well as to be performant.</p>
                     <p>In this workshop we will get from the very basics of creating compelling animations in React Native to complex gesture animations, custom transitions, purely native animations and so on. We will discuss performance bottlenecks and work around them to get 60FPS animations. This workshop is targeted towards developers already familiar with the basics of React Native and want to level up their knowledge understanding all the intricacies of animating in React Native. </p>
                   </div>
@@ -453,15 +463,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cjl9tgsav0b32gxppjjjz\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cjl9tgsav0b32gxppjjjz\\" data-id=\\"ck30cjl9tgsav0b32gxppjjjz\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Oleg Isonen</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>CSS-in-JS - from “why” to “how” (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>CSS-in-JS - from “why” to “how” (April 16) </h3>
                     <p>CSS-in-JS is a largely misunderstood approach to styling web applications due to the history of the web and a variety of use cases. After it’s early adoption in 2014, the community is widely using it for real-world high scale projects today and is still exploring the impact and improving the tech.</p>
                     <p>We are going to learn foundational ideas behind it by building our own CSS-in-JS library. We will explore the downsides and benefits of certain design decisions we will make on the way. Then we will dive into some advanced concepts and implementation details using popular libraries like Styled Components and JSS.</p>
                   </div>
@@ -499,15 +509,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cpib6h0j60b66bguzzy4t\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cpib6h0j60b66bguzzy4t\\" data-id=\\"ck30cpib6h0j60b66bguzzy4t\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Alex Lobera</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>Advanced React Workshop (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>Advanced React Workshop (April 16) </h3>
                     <p>React keeps innovating and bringing new and better features. Despite this constant change, the principles of React remain the same: composition, immutability, purity... in other words, functional programming principles. In this advanced workshop, you will learn how to implement advanced features in React applying functional programming in JavaScript without using any other libraries.</p>
                   </div>
                 </div>
@@ -547,15 +557,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck30cx7qegtxa0b32uzdpdtlb\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck30cx7qegtxa0b32uzdpdtlb\\" data-id=\\"ck30cx7qegtxa0b32uzdpdtlb\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Michel Weststrate</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>TypeScript for React Devs (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>TypeScript for React Devs (April 16) </h3>
                     <p>The JavaScript Eco System is moving to TypeScript. Fast. TypeScript has some unique, very powerful features that fit very well with the dynamic nature of the JavaScript language. This workshop will get you up and running with all the basics and the most important advanced patterns of TypeScript.</p>
                     <p>But beyond that, this is a workshop for React devs! So we will discuss extensively how to combine TypeScript with a React code base. To practice the theory, during the hands-on parts of this workshop we will be migrating an application from plain JavaScript to TypeScript.</p>
                     <p>Read more details on the agenda on Michels <a href=\\"https://michel.codes/workshops\\">website</a>.</p>
@@ -592,15 +602,29 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck6j9oyftvif90b20r4xdhrnv\\" data-id=\\"ck6j9oyftvif90b20r4xdhrnv\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
+                <div class=\\"workshop-item workshop-item_lg\\">
+                  <div class=\\"workshop-item__title\\"></div>
+                  <div class=\\"workshop-item__content\\">
+                    <h3>Advanced Next.js with Core Members (April 16) </h3>
+                  </div>
+                </div>
+                <div class=\\"workshop-item\\">
+                  <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
+                  <div class=\\"workshop-item__content\\">
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"workshop graphcms-container\\" id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-id=\\"ck124dmyfc5l20b71jxrnhmim\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kitze</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>GraphQL Workshop (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>GraphQL Workshop (April 16) </h3>
                     <p>This one-day workshop will teach you everything you need to know to incorporate GraphQL into your application. During the first half of the workshop, we'll explain the basics of a GraphQL and we’re gonna build a GraphQL server, covering best practices for architecting your schema, error handling, authentication, and permission layers. In the second half of the workshop, we’ll connect our GraphQL server to a React application with Apollo Client. We’ll break down the modular architecture of the client and teach you how to set everything up and use queries and mutations. We’ll show a few different approaches for working with Apollo: Higher Order Components, Render Props, and hooks. Throughout the course of the workshop, you’ll learn practical tips for using GraphQL in production.</p>
                   </div>
                 </div>
@@ -632,15 +656,15 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
-              <div class=\\"workshop\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\">
+              <div class=\\"workshop graphcms-container\\" id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-id=\\"ck306bdz2g6nq0b20tdq8injf\\" data-content-type=\\"2ce17eb4016e4be5ae72bb0db484f3f0\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <div class=\\"workshop-item workshop-item_lg\\">
                   <div class=\\"workshop-item__title\\">Kent C. Dodds</div>
                   <div class=\\"workshop-item__content\\">
-                    <h3>React Performance (2020-04-16T00:00:00.000Z) </h3>
+                    <h3>React Performance (April 16) </h3>
                     <p>React is fast, until it isn't</p>
                     <p>In this workshop, you'll learn everything you need to diagnose, profile, and fix performance problems in your React application using the Browser Performance Profiler, React DevTools Profiler, and proven React optimization techniques.</p>
                     <p>The tools we have for profiling React Applications are extremely powerful, but they can often be really difficult to grok. Sure, starting a profiling session is simple enough, but how do you go from all the information in the flamegraph to actionable steps to improve your application's performance? And once you know what parts of your app are causing performance issues, what then? How do you optimize your React components without making the whole application a complex mess?</p>
@@ -676,7 +700,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                 <div class=\\"workshop-item\\">
                   <div class=\\"workshop-item__title\\">Workshop schedule & location</div>
                   <div class=\\"workshop-item__content\\">
-                    <p>April 16, 8:30 till 17:00</p>
+                    <p>April 16, 8:30 till 17:00. <a href=\\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\\">RAI</a></p>
                   </div>
                 </div>
               </div>
@@ -691,93 +715,248 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
             <h3 class=\\"section__title\\">Trainers</h3>
             <div class=\\"speakers-list\\">
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck10t71go59pg0b71iw2zrad5\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30cmxu0gsml0b201623sehp\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Kitze\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp\\" alt=\\"Kitze\\">
                   </div>
                   <div class=\\"speaker__name\\">Kitze</div>
                   <div class=\\"speaker__company\\">React Academy, Poland</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Kitze founded <a href=\\"https://reactacademy.io/\\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\\"https://sizzy.co/\\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\\"https://youtube.com/kitze\\">on YouTube</a>. He made products like <a href=\\"https://github.com/kitze/JSUI\\">JSUI</a>, <a href=\\"https://twizzy.app/\\">Twizzy</a>, <a href=\\"https://luckyretweet.co/\\">Lucky Retweet</a>, <a href=\\"https://ok-google.io/\\">OK Google</a>, etc.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kitze\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/thekitze\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck1qix0arx7ve0b71dtvp0d32\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck1qiya01x8at0b71d6urlabj\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Kent C. Dodds\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/8HarhhMS6OPV6qWV9VIY\\" alt=\\"Kent C. Dodds\\">
                   </div>
                   <div class=\\"speaker__name\\">Kent C. Dodds</div>
                   <div class=\\"speaker__company\\">Trainer, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Kent C. Dodds is a world renowned speaker, teacher, and trainer and he's actively involved in the open source community as a maintainer and contributor of hundreds of popular npm packages. Kent is the creator of TestingJavaScript.com and he's an instructor on egghead.io and Frontend Masters. He's also a Google Developer Expert. Kent is happily married and the father of four kids. He likes his family, code, JavaScript, and React.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kentcdodds/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/kentcdodds/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://kentcdodds.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck1256gqycb970b71ar9x1qwa\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30c4d9wgqba0b327b95v4mv\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Vladimir Novick\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/4QZV07aFSq6KDPQOeOpm\\" alt=\\"Vladimir Novick\\">
                   </div>
                   <div class=\\"speaker__name\\">Vladimir Novick</div>
                   <div class=\\"speaker__company\\">Independent Consultant, Engineer &amp; Trainer, Israel</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Independent Consultant, engineer and trainer, Google Developer Expert, worldwide speaker and published author. Vladimir works mostly in Web and Mobile fields advocating usage of React, React Native, GraphQL as well serverless architectures and functional languages such as ReasonML. </p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/vnovick\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/VladimirNovick\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"http://vnovick.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30bhsz8gvw80b669dzgs7sk\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Siddharth Kshetrapal\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/wMXZaraBQ2yZbNjZec9N\\" alt=\\"Siddharth Kshetrapal\\">
                   </div>
                   <div class=\\"speaker__name\\">Siddharth Kshetrapal</div>
                   <div class=\\"speaker__company\\">CodeSandbox, Netherlands</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Sid builds tools for developers. In the past, he worked on Design Systems at Auth0 and as the frontend architect at Practo. He loves talking about design, performance and open source.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/siddharthkp\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/siddharthkp\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck5w6pkhkefft0b75d6p1estt\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Aisha Blake\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/xWUiPHwdTuuIfwqHtvm9\\" alt=\\"Aisha Blake\\">
                   </div>
                   <div class=\\"speaker__name\\">Aisha Blake</div>
                   <div class=\\"speaker__company\\">Gatsby, USA</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Aisha Blake is a Senior Software Engineer at Gatsby, currently building &#x3C; title of conf >, a musical tech conference. She also supports community by co-organizing self.conference and Detroit Speakers in Tech. A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs. Aisha is a champion of feedback, fierce accessibility advocate, and a steward of strong teams.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://twitter.com/aishablake\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck6uq7xe9ieil0b20scus6mdi\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Max Stoiber\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/ILkkYFxKR2KGDqGLq3Sg\\" alt=\\"Sid Chatterjee\\">
+                  </div>
+                  <div class=\\"speaker__name\\">Sid Chatterjee</div>
+                  <div class=\\"speaker__company\\">Gatsby, India</div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Core team at Gatsby. When he isn't writing code, Sid enjoys scuba diving, reading and lazing with his dogs. He lives in Mumbai, India and writes at <a href=\\"http://sidhartha.dev/\\">sidhartha.dev</a>.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://twitter.com/chatsidhartha\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class=\\"speakers-list__item\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck0zj6ytry8s20b71lgpuqves\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck341e2ddqocp0b20ddzen1hs\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
+                  <div class=\\"speaker__photo\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/dmOdGDFUReKKjErJbvaf\\" alt=\\"Max Stoiber\\">
                   </div>
                   <div class=\\"speaker__name\\">Max Stoiber</div>
                   <div class=\\"speaker__company\\">GitHub, Austria</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Max is the technical cofounder of Spectrum.chat, the community platform of the future. He also makes styled-components, react-boilerplate, micro-analytics and a bunch of other open source projects and he co-organises the ReactVienna meetup. He loves to travel, to brew rad coffee and to ski beautiful mountains.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/mxstbr\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/mxstbr\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://mxstbr.com/\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-site\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-site\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30ceva0gz5h0b663i4uxm4n\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Oleg Isonen\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jKuRmrHmSRmG4k8KSapq\\" alt=\\"Oleg Isonen\\">
                   </div>
                   <div class=\\"speaker__name\\">Oleg Isonen</div>
                   <div class=\\"speaker__company\\">Webflow, Germany</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Oleg is an author of JSS and an architect with a focus on scalable web front-end applications. At React Day Berlin Oleg will share the insights on building complex applications with real-world examples.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/kof\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/oleg008\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck10teywmv6940b541heiz22b\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Alex Lobera\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS\\" alt=\\"Alex Lobera\\">
                   </div>
                   <div class=\\"speaker__name\\">Alex Lobera</div>
                   <div class=\\"speaker__company\\">React GraphQL Academy, UK</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/alexlbr\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/alex_lobera\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class=\\"speakers-list__item\\">
-                <div class=\\"speaker\\">
+                <div class=\\"speaker graphcms-container\\" data-id=\\"ck30crtskgtbl0b3239sszqt4\\" data-content-type=\\"e981e312fd6c48a39230de9193be4db9\\" data-id-alt=\\"ck30csd2ph0wd0b6659fw0r1t\\" data-content-type-alt=\\"d31070ab4611456a83fa837a6ccea527\\">
                   <div class=\\"speaker__photo\\">
-                    <img src=\\"\\" alt=\\"Michel Weststrate\\">
+                    <img src=\\"https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/QlY3D49T5iDadzDF7ZXw\\" alt=\\"Michel Weststrate\\">
                   </div>
                   <div class=\\"speaker__name\\">Michel Weststrate</div>
                   <div class=\\"speaker__company\\">Facebook, UK</div>
-                  <div class=\\"speaker__desc\\"></div>
+                  <div class=\\"speaker__desc\\">
+                    <p>Open source fanatic, speaker and trainer. Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a continuous quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on dev tooling for mobile developers.</p>
+                  </div>
+                  <div class=\\"speaker__socials\\">
+                    <a href=\\"https://github.com/mweststrate\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-gh\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-gh\\"></use>
+                      </svg>
+                    </a>
+                    <a href=\\"https://twitter.com/mweststrate\\" target=\\"_blank\\" class=\\"speaker__social-link\\">
+                      <svg class=\\"icon icon-tw\\">
+                        <use xlink:href=\\"img/sprite.svg#icon-tw\\"></use>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -811,8 +990,10 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
         <footer class=\\"footer section\\">
           <div class=\\"container\\">
             <div class=\\"footer__main\\">
-              <h3 class=\\"footer__title section__title\\"> Contact Us </h3>
-              <div class=\\"footer__socials\\">
+              <h3 class=\\"footer__title section__title\\">
+                <span class=\\"graphcms-container\\" data-id=\\"ck1940qcxui7p0b854wsncbjv\\" data-content-type=\\"c04bfcdd2eed47b880588f5506ed4f5a\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\"> Contact Us </span>
+              </h3>
+              <div class=\\"footer__socials graphcms-container\\" data-id=\\"ck0zi93n8phx10b853erl9psf\\" data-content-type=\\"2d89f139f3d042ab98d212062527eb82\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"social social--theme\\">
                   <li class=\\"social__item\\"><a href=\\"https://twitter.com/reactamsterdam\\" class=\\"social__link\\" target=\\"_blank\\">
                       <svg class=\\"icon icon-tw\\">
@@ -841,7 +1022,7 @@ exports[`/home/usul/FocusReactive/GitNation/React.Amsterdam/build/workshops.html
                     </a></li>
                 </ul>
               </div>
-              <div class=\\"footer__nav\\">
+              <div class=\\"footer__nav graphcms-container\\" data-id=\\"ck183tplbqvzb0b85upjvy1fe\\" data-content-type=\\"371641c28b044b00bf532b2dd6e1516d\\" data-id-alt=\\"\\" data-content-type-alt=\\"\\">
                 <ul class=\\"f-nav\\">
                   <li class=\\"f-nav__item\\"><a href=\\"/\\" class=\\"f-nav__link\\">Back to conference website</a></li>
                   <li class=\\"f-nav__item\\"><a href=\\"/sponsors\\" class=\\"f-nav__link\\">Sponsorship Opportunities</a></li>
