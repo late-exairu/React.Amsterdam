@@ -83,15 +83,15 @@
           <div class="s-item__col ">
             <div class="slider__title s-item__text">
               {% if (activity.isLightning) %}
-                <span title="Lightning Talk">&#128498</span>
+              	<svg class="icon icon-lightning"><title>Lightning Talk</title><use xlink:href="img/sprite.svg#icon-lightning"></use></svg>
               {% endif %}
               <span>{{activity.timeString}}</span>
               <span>{{activity.track.name}}</span>
             </div>
             <div class="s-item__title">{{activity.title}}</div>
-            {# <div class="s-item__text">
-              <p>{{activity.description}}</p>
-            </div> #}
+            <a class="anchor-item" href="#talk-{{ activity.slug }}" onclick="{{ 'selectGeneralTrack()' if activity.track.isPrimary else 'selectNativeTrack()' }}">
+              see more...
+            </a>
           </div>
         </div>
       </div>

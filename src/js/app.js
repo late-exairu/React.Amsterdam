@@ -34,3 +34,6 @@ if ($('.js-slider')) {
 }
 
 highlightContent({ contentTypeMap });
+
+window.selectGeneralTrack = () => document.querySelector('a.schedule__tab-link[data-tab="1"]').click();
+window.selectNativeTrack = () => document.querySelector('a.schedule__tab-link[data-tab="2"]').click();

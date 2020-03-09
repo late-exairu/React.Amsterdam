@@ -3,11 +3,13 @@
     <div class="container talks-list">
       <h3 class="section__title">{{ scheduleTitle }}</h3>
       {% for talk in schedule[0].list %}
-      <div class="talk__item">
+      <div class="talk__item" id="talk-{{talk.slug}}">
           <div class="s-item graphcms-container" {{ mixins.cmsData(talk) }}>
             <div class="s-item__row">
               <div class="s-item__col">
-                <div class="s-item__title">{{talk.speaker}}</div>
+                <div class="s-item__title">
+                	<a class="anchor-item" href="#person-{{ talk.speakerSlug }}">{{talk.speaker}}</a>
+               </div>
                 <div class="s-item__company">{{talk.from}}</div>
               </div>
               <div class="s-item__col">
@@ -35,13 +37,15 @@
 					<div class="schedule__tab js-tab {% if item.active %}is-active{% endif %}" data-tab="{{loop.index}}">
 						{% for talk in item.list %}
 							<div class="schedule__item">
-								<div class="s-item">
+								<div class="s-item" id="talk-{{talk.slug}}">
 									<div class="s-item__row">
 										<div class="s-item__col">
 											<div class="s-item__time">{{talk.time}}</div>
 										</div>
 										<div class="s-item__col">
-											<div class="s-item__title">{{talk.speaker | safe}}</div>
+											<div class="s-item__title">
+												<a class="anchor-item" href="#person-{{ talk.speakerSlug }}">{{talk.speaker}}</a>
+											</div>
 											{% if talk.from %}
 												<div class="s-item__company">{{talk.from}}</div>
 											{% endif %}
