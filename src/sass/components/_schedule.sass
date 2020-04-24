@@ -34,6 +34,8 @@
 		position: relative
 		text-transform: uppercase
 		margin: 0 0 0 56px
+		cursor: pointer
+		transition: all ease 0.2s
 		+first
 			margin: 0
 		+md
@@ -129,6 +131,21 @@
 			margin-top: 8px
 			+sm
 				margin-top: 5px
+		&_sm
+			font-size: 16px
+			margin: 18px 0 0
+
+			+md
+				font-size: 16px
+
+			+sm
+				font-size: 14px
+				margin: 12px 0 0
+
+		&:first-child
+			margin-top: 0
+
+
 	&__text
 		letter-spacing: 0.3px
 		color: #888
